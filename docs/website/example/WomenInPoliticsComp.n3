@@ -1,0 +1,818 @@
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ckan:    <http://ckan.net/ns#> .
+@prefix sdx:     <http://epimorphics.com/vocab/sdx#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix scv:     <http://purl.org/NET/scovo#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://open.data.al/Bulgaria_2010>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Bulgaria> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/politicswomencomp#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliamentByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2010> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "20.8"^^xsd:double .
+
+<http://open.data.al/Bulgaria_2009>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Bulgaria> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/politicswomencomp#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliamentByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "20.8"^^xsd:double .
+
+<http://open.data.al/World_2008>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/politicswomencomp#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliamentByCountry> ;
+      <http://open.data.al/ODA#region>
+              <http://dbpedia.org/resource/World> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "18.462972114366394"^^xsd:double .
+
+<http://open.data.al/Turkey_2010>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Turkey> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/politicswomencomp#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliamentByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2010> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "9.1"^^xsd:double .
+
+<http://open.data.al/Serbia_2008>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Serbia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/politicswomencomp#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliamentByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "21.6"^^xsd:double .
+
+<http://open.data.al/Turkey_2009>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Turkey> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/politicswomencomp#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliamentByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "9.4"^^xsd:double .
+
+<http://open.data.al/Macedonia, FYR_2009>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Macedonia, FYR> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/politicswomencomp#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliamentByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "28.3"^^xsd:double .
+
+<http://open.data.al/European Union_2009>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/politicswomencomp#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliamentByCountry> ;
+      <http://open.data.al/ODA#region>
+              <http://dbpedia.org/resource/European Union> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "23.67662940920308"^^xsd:double .
+
+<http://open.data.al/Albania_2010>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/politicswomencomp#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliamentByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2010> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "16.400000000000002"^^xsd:double .
+
+<http://open.data.al/Kosovo_2008>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Kosovo> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/politicswomencomp#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliamentByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "33.3"^^xsd:double .
+
+<http://open.data.al/Montenegro_2008>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Montenegro> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/politicswomencomp#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliamentByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "11.1"^^xsd:double .
+
+<http://open.data.al/Bosnia and Herz._2008>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Bosnia and Herz.> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/politicswomencomp#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliamentByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "11.9"^^xsd:double .
+
+<http://open.data.al/Romania_2007>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Romania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/politicswomencomp#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliamentByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "11.2"^^xsd:double .
+
+<http://open.data.al/Slovak Republic_2008>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Slovak Republic> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/politicswomencomp#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliamentByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "19.3"^^xsd:double .
+
+<http://open.data.al/Albania_2008>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/politicswomencomp#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliamentByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "7.1"^^xsd:double .
+
+<http://open.data.al/Slovenia_2007>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Slovenia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/politicswomencomp#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliamentByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "12.2"^^xsd:double .
+
+[]    rdfs:label "Year" ;
+      rdfs:subClassOf <http://open.data.al/ODA#Dimension> .
+
+<http://open.data.al/Greece_2009>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Greece> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/politicswomencomp#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliamentByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "14.7"^^xsd:double .
+
+<http://open.data.al/ODA#WomenPercentParliamentByCountry>
+      a       <http://open.data.al/ODA#Indicator> ;
+      rdfs:label "Percent of women in parliament by countries" .
+
+<http://open.data.al/World_2007>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/politicswomencomp#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliamentByCountry> ;
+      <http://open.data.al/ODA#region>
+              <http://dbpedia.org/resource/World> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "17.507380083801504"^^xsd:double .
+
+<http://open.data.al/Serbia_2007>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Serbia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/politicswomencomp#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliamentByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "20.4"^^xsd:double .
+
+<http://open.data.al/Kosovo_2009>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Kosovo> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/politicswomencomp#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliamentByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "33.3"^^xsd:double .
+
+<http://open.data.al/Hungary_2007>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Hungary> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/politicswomencomp#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliamentByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "10.4"^^xsd:double .
+
+<http://open.data.al/Romania_2008>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Romania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/politicswomencomp#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliamentByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "9.4"^^xsd:double .
+
+<http://open.data.al/Montenegro_2007>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Montenegro> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/politicswomencomp#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliamentByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "8.6"^^xsd:double .
+
+<http://open.data.al/Bosnia and Herz._2009>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Bosnia and Herz.> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/politicswomencomp#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliamentByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "11.9"^^xsd:double .
+
+<http://open.data.al/Romania_2010>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Romania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/politicswomencomp#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliamentByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2010> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "11.4"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#Indicator> ;
+      rdfs:label "Indicator" .
+
+<file:mappings/WomenInPoliticsComp.trig>
+      owl:import <http://open.data.al/ODA#> .
+
+<http://open.data.al/politicswomencomp#dataset>
+      a       <http://open.data.al/ODA#Dataset> ;
+      dc:creator "Open Data Albania" ;
+      dc:date "Mon Jun 13 23:11:55 CEST 2011" ;
+      dc:publisher "World Bank" ;
+      dc:title "Percent of women in Parliament by year and country" .
+
+<http://open.data.al/Albania_2009>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/politicswomencomp#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliamentByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "16.4"^^xsd:double .
+
+<http://open.data.al/Slovak Republic_2009>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Slovak Republic> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/politicswomencomp#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliamentByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "19.3"^^xsd:double .
+
+<http://open.data.al/Hungary_2010>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Hungary> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/politicswomencomp#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliamentByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2010> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "9.1"^^xsd:double .
+
+<http://open.data.al/Kosovo_2010>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Kosovo> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/politicswomencomp#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliamentByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2010> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "33.3"^^xsd:double .
+
+<http://open.data.al/Greece_2010>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Greece> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/politicswomencomp#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliamentByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2010> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "17.299999999999997"^^xsd:double .
+
+<http://open.data.al/World_2010>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/politicswomencomp#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliamentByCountry> ;
+      <http://open.data.al/ODA#region>
+              <http://dbpedia.org/resource/World> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2010> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "19.26803940568475"^^xsd:double .
+
+[]    rdfs:domain <http://open.data.al/ODA#DataEntry> ;
+      rdfs:label "Data Entry Value" .
+
+<http://open.data.al/Turkey_2007>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Turkey> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/politicswomencomp#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliamentByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "9.1"^^xsd:double .
+
+<http://open.data.al/Macedonia, FYR_2007>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Macedonia, FYR> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/politicswomencomp#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliamentByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "28.3"^^xsd:double .
+
+<http://open.data.al/European Union_2007>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/politicswomencomp#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliamentByCountry> ;
+      <http://open.data.al/ODA#region>
+              <http://dbpedia.org/resource/European Union> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "23.398409346846854"^^xsd:double .
+
+<http://open.data.al/Montenegro_2009>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Montenegro> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/politicswomencomp#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliamentByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "6.2"^^xsd:double .
+
+<http://open.data.al/Hungary_2008>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Hungary> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/politicswomencomp#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliamentByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "11.1"^^xsd:double .
+
+<http://open.data.al/Romania_2009>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Romania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/politicswomencomp#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliamentByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "11.4"^^xsd:double .
+
+<http://open.data.al/Slovak Republic_2010>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Slovak Republic> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/politicswomencomp#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliamentByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2010> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "15.299999999999999"^^xsd:double .
+
+<http://open.data.al/Greece_2007>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Greece> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/politicswomencomp#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliamentByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "16"^^xsd:byte .
+
+<http://open.data.al/Bulgaria_2007>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Bulgaria> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/politicswomencomp#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliamentByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "22.1"^^xsd:double .
+
+[]    rdfs:label "Country" ;
+      rdfs:subClassOf <http://open.data.al/ODA#Dimension> .
+
+<http://open.data.al/Slovenia_2009>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Slovenia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/politicswomencomp#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliamentByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "13.3"^^xsd:double .
+
+<http://open.data.al/Turkey_2008>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Turkey> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/politicswomencomp#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliamentByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "9.1"^^xsd:double .
+
+<http://open.data.al/Serbia_2009>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Serbia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/politicswomencomp#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliamentByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "21.6"^^xsd:double .
+
+<http://open.data.al/European Union_2010>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/politicswomencomp#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliamentByCountry> ;
+      <http://open.data.al/ODA#region>
+              <http://dbpedia.org/resource/European Union> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2010> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "24.21138725077226"^^xsd:double .
+
+<http://open.data.al/Macedonia, FYR_2010>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Macedonia, FYR> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/politicswomencomp#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliamentByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2010> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "32.5"^^xsd:float .
+
+<http://open.data.al/World_2009>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/politicswomencomp#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliamentByCountry> ;
+      <http://open.data.al/ODA#region>
+              <http://dbpedia.org/resource/World> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "18.81801134235728"^^xsd:double .
+
+<http://open.data.al/Kosovo_2007>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Kosovo> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/politicswomencomp#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliamentByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "30.8"^^xsd:double .
+
+<http://open.data.al/Serbia_2010>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Serbia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/politicswomencomp#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliamentByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2010> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "21.6"^^xsd:double .
+
+<http://open.data.al/Macedonia, FYR_2008>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Macedonia, FYR> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/politicswomencomp#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliamentByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "31.7"^^xsd:double .
+
+<http://open.data.al/European Union_2008>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/politicswomencomp#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliamentByCountry> ;
+      <http://open.data.al/ODA#region>
+              <http://dbpedia.org/resource/European Union> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "23.630535894843277"^^xsd:double .
+
+<http://open.data.al/Hungary_2009>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Hungary> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/politicswomencomp#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliamentByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "11.1"^^xsd:double .
+
+<http://open.data.al/Bosnia and Herz._2010>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Bosnia and Herz.> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/politicswomencomp#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliamentByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2010> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "19"^^xsd:byte .
+
+<http://open.data.al/Montenegro_2010>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Montenegro> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/politicswomencomp#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliamentByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2010> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "11.1"^^xsd:double .
+
+<http://open.data.al/Slovak Republic_2007>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Slovak Republic> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/politicswomencomp#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliamentByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "19.3"^^xsd:double .
+
+<http://open.data.al/Slovenia_2010>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Slovenia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/politicswomencomp#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliamentByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2010> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "14.399999999999999"^^xsd:double .
+
+<http://open.data.al/Bosnia and Herz._2007>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Bosnia and Herz.> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/politicswomencomp#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliamentByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "14.3"^^xsd:double .
+
+[]    rdfs:label "Region" ;
+      rdfs:subClassOf <http://open.data.al/ODA#Dimension> .
+
+<http://open.data.al/Greece_2008>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Greece> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/politicswomencomp#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliamentByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "14.7"^^xsd:double .
+
+<http://open.data.al/Bulgaria_2008>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Bulgaria> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/politicswomencomp#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliamentByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "21.7"^^xsd:double .
+
+<http://open.data.al/Slovenia_2008>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Slovenia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/politicswomencomp#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliamentByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "13.3"^^xsd:double .
+
+<http://open.data.al/Albania_2007>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/politicswomencomp#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliamentByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "7.1"^^xsd:double .

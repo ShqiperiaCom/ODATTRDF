@@ -1,0 +1,199 @@
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ckan:    <http://ckan.net/ns#> .
+@prefix sdx:     <http://epimorphics.com/vocab/sdx#> .
+@prefix sdmx-measure:  <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix scv:     <http://purl.org/NET/scovo#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix oda:     <http://open.data.al/oda.owl#> .
+
+<http://open.data.al/HivInfected_Albania_1993>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/hiv+infected#dataset> ;
+      oda:indicator oda:HivInfected ;
+      oda:year <http://dbpedia.org/resource/1993> ;
+      sdmx-measure:obsValue
+              "2"^^xsd:byte .
+
+[]    a       oda:Dataset ;
+      rdfs:label "Dataset" .
+
+<http://open.data.al/HivInfected_Albania_1995>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/hiv+infected#dataset> ;
+      oda:indicator oda:HivInfected ;
+      oda:year <http://dbpedia.org/resource/1995> ;
+      sdmx-measure:obsValue
+              "12"^^xsd:byte .
+
+<http://open.data.al/HivInfected_Albania_2000>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/hiv+infected#dataset> ;
+      oda:indicator oda:HivInfected ;
+      oda:year <http://dbpedia.org/resource/2000> ;
+      sdmx-measure:obsValue
+              "10"^^xsd:byte .
+
+<http://open.data.al/HivInfected_Albania_2002>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/hiv+infected#dataset> ;
+      oda:indicator oda:HivInfected ;
+      oda:year <http://dbpedia.org/resource/2002> ;
+      sdmx-measure:obsValue
+              "26"^^xsd:byte .
+
+<http://open.data.al/HivInfected_Albania_2008>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/hiv+infected#dataset> ;
+      oda:indicator oda:HivInfected ;
+      oda:year <http://dbpedia.org/resource/2008> ;
+      sdmx-measure:obsValue
+              "49"^^xsd:byte .
+
+[]    rdfs:label "Year" ;
+      rdfs:subClassOf oda:Dimension .
+
+<http://open.data.al/HivInfected_Albania_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/hiv+infected#dataset> ;
+      oda:indicator oda:HivInfected ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "32"^^xsd:byte .
+
+<http://open.data.al/HivInfected_Albania_1999>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/hiv+infected#dataset> ;
+      oda:indicator oda:HivInfected ;
+      oda:year <http://dbpedia.org/resource/1999> ;
+      sdmx-measure:obsValue
+              "4"^^xsd:byte .
+
+<http://open.data.al/HivInfected_Albania_1997>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/hiv+infected#dataset> ;
+      oda:indicator oda:HivInfected ;
+      oda:year <http://dbpedia.org/resource/1997> ;
+      sdmx-measure:obsValue
+              "3"^^xsd:byte .
+
+[]    rdfs:domain oda:DataEntry ;
+      rdfs:label "Data Entry Value" .
+
+<http://open.data.al/HivInfected_Albania_2004>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/hiv+infected#dataset> ;
+      oda:indicator oda:HivInfected ;
+      oda:year <http://dbpedia.org/resource/2004> ;
+      sdmx-measure:obsValue
+              "29"^^xsd:byte .
+
+<http://open.data.al/hiv+infected#dataset>
+      a       oda:Dataset ;
+      dc:creator "Open Data Albania (ODA)" ;
+      dc:date "Wed Sep 07 23:53:45 CEST 2011" ;
+      dc:publisher "Instituti i Shëndetit Publik (ISHP)" ;
+      dc:title "Number of people infected with HIV+ in Albania" .
+
+<http://open.data.al/HivInfected_Albania_1994>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/hiv+infected#dataset> ;
+      oda:indicator oda:HivInfected ;
+      oda:year <http://dbpedia.org/resource/1994> ;
+      sdmx-measure:obsValue
+              "9"^^xsd:byte .
+
+<http://open.data.al/HivInfected_Albania_1996>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/hiv+infected#dataset> ;
+      oda:indicator oda:HivInfected ;
+      oda:year <http://dbpedia.org/resource/1996> ;
+      sdmx-measure:obsValue
+              "7"^^xsd:byte .
+
+<http://open.data.al/HivInfected_Albania_2010>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/hiv+infected#dataset> ;
+      oda:indicator oda:HivInfected ;
+      oda:year <http://dbpedia.org/resource/2010> ;
+      sdmx-measure:obsValue
+              "41"^^xsd:byte .
+
+<http://open.data.al/HivInfected_Albania_2001>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/hiv+infected#dataset> ;
+      oda:indicator oda:HivInfected ;
+      oda:year <http://dbpedia.org/resource/2001> ;
+      sdmx-measure:obsValue
+              "20"^^xsd:byte .
+
+[]    rdfs:label "Country" ;
+      rdfs:subClassOf oda:Dimension .
+
+<http://open.data.al/HivInfected_Albania_2003>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/hiv+infected#dataset> ;
+      oda:indicator oda:HivInfected ;
+      oda:year <http://dbpedia.org/resource/2003> ;
+      sdmx-measure:obsValue
+              "21"^^xsd:byte .
+
+oda:HivInfected
+      a       oda:Indicator ;
+      rdfs:label "HivInfected" .
+
+<http://open.data.al/HivInfected_Albania_2007>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/hiv+infected#dataset> ;
+      oda:indicator oda:HivInfected ;
+      oda:year <http://dbpedia.org/resource/2007> ;
+      sdmx-measure:obsValue
+              "44"^^xsd:byte .
+
+<http://open.data.al/HivInfected_Albania_2009>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/hiv+infected#dataset> ;
+      oda:indicator oda:HivInfected ;
+      oda:year <http://dbpedia.org/resource/2009> ;
+      sdmx-measure:obsValue
+              "61"^^xsd:byte .
+
+<http://open.data.al/HivInfected_Albania_2005>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/hiv+infected#dataset> ;
+      oda:indicator oda:HivInfected ;
+      oda:year <http://dbpedia.org/resource/2005> ;
+      sdmx-measure:obsValue
+              "31"^^xsd:byte .
+
+<http://open.data.al/HivInfected_Albania_1998>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/hiv+infected#dataset> ;
+      oda:indicator oda:HivInfected ;
+      oda:year <http://dbpedia.org/resource/1998> ;
+      sdmx-measure:obsValue
+              "5"^^xsd:byte .
+
+[]    a       oda:Indicator ;
+      rdfs:label "Indicator" .

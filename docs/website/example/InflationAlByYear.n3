@@ -1,0 +1,296 @@
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ckan:    <http://ckan.net/ns#> .
+@prefix sdx:     <http://epimorphics.com/vocab/sdx#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix scv:     <http://purl.org/NET/scovo#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://open.data.al/Albania_Inflacioni ne perqindje_2008>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/inflationalbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflation> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "2.15845441549314"^^xsd:double .
+
+[]    rdfs:label "Year" ;
+      rdfs:subClassOf <http://open.data.al/ODA#Dimension> .
+
+<http://open.data.al/Albania_Inflacioni ne perqindje_1989>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/inflationalbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflation> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1989> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0"^^xsd:byte .
+
+<http://open.data.al/Albania_Inflacioni ne perqindje_1992>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/inflationalbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflation> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1992> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "236.6"^^xsd:double .
+
+<http://open.data.al/Albania_Inflacioni ne perqindje_1990>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/inflationalbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflation> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1990> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0"^^xsd:byte .
+
+<http://open.data.al/parliamentwomenperc#dataset>
+      a       <http://open.data.al/ODA#Dataset> ;
+      dc:creator "Open Data Albania" ;
+      dc:date "Mon Jun 13 23:50:48 CEST 2011" ;
+      dc:publisher "INSTAT,Bank of Albania" ;
+      dc:title "Inflation in Albania by year" .
+
+<http://open.data.al/Albania_Inflacioni ne perqindje_1994>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/inflationalbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflation> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1994> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "15.8"^^xsd:double .
+
+<http://open.data.al/ODA#YearlyInflation>
+      a       <http://open.data.al/ODA#Indicator> ;
+      rdfs:label "Yearly Inflation" .
+
+<http://open.data.al/Albania_Inflacioni ne perqindje_2007>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/inflationalbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflation> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "3.05716986084017"^^xsd:double .
+
+<http://open.data.al/Albania_Inflacioni ne perqindje_1998>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/inflationalbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflation> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1998> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "8.68603579964364"^^xsd:double .
+
+<http://open.data.al/Albania_Inflacioni ne perqindje_2001>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/inflationalbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflation> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2001> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "3.52722254901565"^^xsd:double .
+
+<http://open.data.al/Albania_Inflacioni ne perqindje_2003>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/inflationalbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflation> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2003> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "3.29816877716236"^^xsd:double .
+
+<http://open.data.al/Albania_Inflacioni ne perqindje_2005>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/inflationalbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflation> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "2.03776783517255"^^xsd:double .
+
+<http://open.data.al/Albania_Inflacioni ne perqindje_1996>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/inflationalbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflation> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1996> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "17.4023630532852"^^xsd:double .
+
+<file:mappings/InflationAlByYear.trig>
+      owl:import <http://open.data.al/ODA#> .
+
+<http://open.data.al/Albania_Inflacioni ne perqindje_1986>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/inflationalbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflation> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1986> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0"^^xsd:byte .
+
+[]    rdfs:domain <http://open.data.al/ODA#DataEntry> ;
+      rdfs:label "Data Entry Value" .
+
+<http://open.data.al/Albania_Inflacioni ne perqindje_1988>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/inflationalbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflation> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1988> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0"^^xsd:byte .
+
+[]    a       <http://open.data.al/ODA#Indicator> ;
+      rdfs:label "Indicator" .
+
+<http://open.data.al/Albania_Inflacioni ne perqindje_2009>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/inflationalbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflation> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "3.73439112855631"^^xsd:double .
+
+<http://open.data.al/Albania_Inflacioni ne perqindje_1991>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/inflationalbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflation> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1991> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "104.1"^^xsd:double .
+
+<http://open.data.al/Albania_Inflacioni ne perqindje_2006>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/inflationalbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflation> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2006> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "2.51253762731418"^^xsd:double .
+
+<http://open.data.al/Albania_Inflacioni ne perqindje_1993>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/inflationalbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflation> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1993> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "30.9"^^xsd:double .
+
+<http://open.data.al/Albania_Inflacioni ne perqindje_1999>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/inflationalbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflation> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1999> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "-1.02933518103612"^^xsd:double .
+
+<http://open.data.al/Albania_Inflacioni ne perqindje_2002>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/inflationalbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflation> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2002> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "1.68125927943934"^^xsd:double .
+
+<http://open.data.al/Albania_Inflacioni ne perqindje_1997>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/inflationalbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflation> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1997> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "42.0730813589485"^^xsd:double .
+
+<http://open.data.al/Albania_Inflacioni ne perqindje_2000>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/inflationalbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflation> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2000> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "4.2054073037374"^^xsd:double .
+
+<http://open.data.al/Albania_Inflacioni ne perqindje_1995>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/inflationalbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflation> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1995> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "6.01495286135925"^^xsd:double .
+
+<http://open.data.al/Albania_Inflacioni ne perqindje_1987>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/inflationalbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflation> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1987> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0"^^xsd:byte .
+
+<http://open.data.al/Albania_Inflacioni ne perqindje_2004>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/inflationalbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflation> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2004> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "2.20366604701123"^^xsd:double .

@@ -1,0 +1,527 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://purl.org/linked-data/sdmx/2009/measure#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:scv="http://purl.org/NET/scovo#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:sdx="http://epimorphics.com/vocab/sdx#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:j.1="http://open.data.al/ODA#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:ckan="http://ckan.net/ns#" > 
+  <rdf:Description rdf:about="http://open.data.al/Bulgaria_2010">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20.8</j.0:obsValue>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2010"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Bulgaria"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#WomenPercentParliamentByCountry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/politicswomencomp#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/Bulgaria_2009">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20.8</j.0:obsValue>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/politicswomencomp#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#WomenPercentParliamentByCountry"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Bulgaria"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2009"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/World_2008">
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/politicswomencomp#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#WomenPercentParliamentByCountry"/>
+    <j.1:region rdf:resource="http://dbpedia.org/resource/World"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2008"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">18.462972114366394</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/Turkey_2010">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9.1</j.0:obsValue>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2010"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Turkey"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#WomenPercentParliamentByCountry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/politicswomencomp#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/Serbia_2008">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Serbia"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/politicswomencomp#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#WomenPercentParliamentByCountry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2008"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">21.6</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/Turkey_2009">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9.4</j.0:obsValue>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/politicswomencomp#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#WomenPercentParliamentByCountry"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Turkey"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2009"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/Macedonia, FYR_2009">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">28.3</j.0:obsValue>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/politicswomencomp#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#WomenPercentParliamentByCountry"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Macedonia, FYR"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2009"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/European Union_2009">
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2009"/>
+    <j.1:region rdf:resource="http://dbpedia.org/resource/European Union"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#WomenPercentParliamentByCountry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/politicswomencomp#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">23.67662940920308</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/Albania_2010">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/politicswomencomp#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#WomenPercentParliamentByCountry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2010"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">16.400000000000002</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/Kosovo_2008">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Kosovo"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/politicswomencomp#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#WomenPercentParliamentByCountry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2008"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">33.3</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/Montenegro_2008">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Montenegro"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/politicswomencomp#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#WomenPercentParliamentByCountry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2008"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.1</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/Bosnia and Herz._2008">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Bosnia and Herz."/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/politicswomencomp#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#WomenPercentParliamentByCountry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2008"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.9</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/Romania_2007">
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/politicswomencomp#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#WomenPercentParliamentByCountry"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Romania"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2007"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.2</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/Slovak Republic_2008">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">19.3</j.0:obsValue>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2008"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Slovak Republic"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#WomenPercentParliamentByCountry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/politicswomencomp#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/Albania_2008">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/politicswomencomp#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#WomenPercentParliamentByCountry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2008"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7.1</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/Slovenia_2007">
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2007"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Slovenia"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#WomenPercentParliamentByCountry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/politicswomencomp#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">12.2</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <rdfs:subClassOf rdf:resource="http://open.data.al/ODA#Dimension"/>
+    <rdfs:label>Year</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/Greece_2009">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">14.7</j.0:obsValue>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/politicswomencomp#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#WomenPercentParliamentByCountry"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Greece"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2009"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ODA#WomenPercentParliamentByCountry">
+    <rdf:type rdf:resource="http://open.data.al/ODA#Indicator"/>
+    <rdfs:label>Percent of women in parliament by countries</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/World_2007">
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2007"/>
+    <j.1:region rdf:resource="http://dbpedia.org/resource/World"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#WomenPercentParliamentByCountry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/politicswomencomp#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">17.507380083801504</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/Serbia_2007">
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2007"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Serbia"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#WomenPercentParliamentByCountry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/politicswomencomp#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20.4</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/Kosovo_2009">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Kosovo"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">33.3</j.0:obsValue>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#WomenPercentParliamentByCountry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/politicswomencomp#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2009"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/Hungary_2007">
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2007"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Hungary"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#WomenPercentParliamentByCountry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/politicswomencomp#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.4</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/Romania_2008">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9.4</j.0:obsValue>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2008"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Romania"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#WomenPercentParliamentByCountry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/politicswomencomp#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/Montenegro_2007">
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2007"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Montenegro"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#WomenPercentParliamentByCountry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/politicswomencomp#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.6</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/Bosnia and Herz._2009">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Bosnia and Herz."/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.9</j.0:obsValue>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#WomenPercentParliamentByCountry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/politicswomencomp#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2009"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/Romania_2010">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.4</j.0:obsValue>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2010"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Romania"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#WomenPercentParliamentByCountry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/politicswomencomp#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <rdf:type rdf:resource="http://open.data.al/ODA#Indicator"/>
+    <rdfs:label>Indicator</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="file:mappings/WomenInPoliticsComp.trig">
+    <owl:import rdf:resource="http://open.data.al/ODA#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/politicswomencomp#dataset">
+    <dc:date>Mon Jun 13 23:11:55 CEST 2011</dc:date>
+    <dc:publisher>World Bank</dc:publisher>
+    <dc:creator>Open Data Albania</dc:creator>
+    <dc:title>Percent of women in Parliament by year and country</dc:title>
+    <rdf:type rdf:resource="http://open.data.al/ODA#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/Albania_2009">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">16.4</j.0:obsValue>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#WomenPercentParliamentByCountry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/politicswomencomp#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2009"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/Slovak Republic_2009">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">19.3</j.0:obsValue>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/politicswomencomp#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#WomenPercentParliamentByCountry"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Slovak Republic"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2009"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/Hungary_2010">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Hungary"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/politicswomencomp#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#WomenPercentParliamentByCountry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2010"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9.1</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/Kosovo_2010">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Kosovo"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/politicswomencomp#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#WomenPercentParliamentByCountry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2010"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">33.3</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/Greece_2010">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">17.299999999999997</j.0:obsValue>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2010"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Greece"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#WomenPercentParliamentByCountry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/politicswomencomp#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/World_2010">
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/politicswomencomp#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#WomenPercentParliamentByCountry"/>
+    <j.1:region rdf:resource="http://dbpedia.org/resource/World"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2010"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">19.26803940568475</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A2">
+    <rdfs:domain rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <rdfs:label>Data Entry Value</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/Turkey_2007">
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/politicswomencomp#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#WomenPercentParliamentByCountry"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Turkey"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2007"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9.1</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/Macedonia, FYR_2007">
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/politicswomencomp#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#WomenPercentParliamentByCountry"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Macedonia, FYR"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2007"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">28.3</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/European Union_2007">
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2007"/>
+    <j.1:region rdf:resource="http://dbpedia.org/resource/European Union"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#WomenPercentParliamentByCountry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/politicswomencomp#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">23.398409346846854</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/Montenegro_2009">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Montenegro"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.2</j.0:obsValue>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#WomenPercentParliamentByCountry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/politicswomencomp#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2009"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/Hungary_2008">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Hungary"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/politicswomencomp#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#WomenPercentParliamentByCountry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2008"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.1</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/Romania_2009">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.4</j.0:obsValue>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/politicswomencomp#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#WomenPercentParliamentByCountry"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Romania"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2009"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/Slovak Republic_2010">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">15.299999999999999</j.0:obsValue>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2010"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Slovak Republic"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#WomenPercentParliamentByCountry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/politicswomencomp#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/Greece_2007">
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/politicswomencomp#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#WomenPercentParliamentByCountry"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Greece"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2007"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#byte">16</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/Bulgaria_2007">
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/politicswomencomp#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#WomenPercentParliamentByCountry"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Bulgaria"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2007"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">22.1</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A3">
+    <rdfs:subClassOf rdf:resource="http://open.data.al/ODA#Dimension"/>
+    <rdfs:label>Country</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/Slovenia_2009">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Slovenia"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">13.3</j.0:obsValue>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#WomenPercentParliamentByCountry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/politicswomencomp#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2009"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/Turkey_2008">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9.1</j.0:obsValue>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2008"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Turkey"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#WomenPercentParliamentByCountry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/politicswomencomp#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/Serbia_2009">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Serbia"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">21.6</j.0:obsValue>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#WomenPercentParliamentByCountry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/politicswomencomp#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2009"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/European Union_2010">
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/politicswomencomp#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#WomenPercentParliamentByCountry"/>
+    <j.1:region rdf:resource="http://dbpedia.org/resource/European Union"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2010"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">24.21138725077226</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/Macedonia, FYR_2010">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">32.5</j.0:obsValue>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2010"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Macedonia, FYR"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#WomenPercentParliamentByCountry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/politicswomencomp#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/World_2009">
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2009"/>
+    <j.1:region rdf:resource="http://dbpedia.org/resource/World"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#WomenPercentParliamentByCountry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/politicswomencomp#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">18.81801134235728</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/Kosovo_2007">
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2007"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Kosovo"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#WomenPercentParliamentByCountry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/politicswomencomp#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">30.8</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/Serbia_2010">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Serbia"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/politicswomencomp#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#WomenPercentParliamentByCountry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2010"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">21.6</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/Macedonia, FYR_2008">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">31.7</j.0:obsValue>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2008"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Macedonia, FYR"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#WomenPercentParliamentByCountry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/politicswomencomp#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/European Union_2008">
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/politicswomencomp#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#WomenPercentParliamentByCountry"/>
+    <j.1:region rdf:resource="http://dbpedia.org/resource/European Union"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2008"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">23.630535894843277</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/Hungary_2009">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Hungary"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.1</j.0:obsValue>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#WomenPercentParliamentByCountry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/politicswomencomp#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2009"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/Bosnia and Herz._2010">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Bosnia and Herz."/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/politicswomencomp#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#WomenPercentParliamentByCountry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2010"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#byte">19</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/Montenegro_2010">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Montenegro"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/politicswomencomp#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#WomenPercentParliamentByCountry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2010"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.1</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/Slovak Republic_2007">
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/politicswomencomp#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#WomenPercentParliamentByCountry"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Slovak Republic"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2007"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">19.3</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/Slovenia_2010">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Slovenia"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/politicswomencomp#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#WomenPercentParliamentByCountry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2010"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">14.399999999999999</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/Bosnia and Herz._2007">
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2007"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Bosnia and Herz."/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#WomenPercentParliamentByCountry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/politicswomencomp#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">14.3</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A4">
+    <rdfs:subClassOf rdf:resource="http://open.data.al/ODA#Dimension"/>
+    <rdfs:label>Region</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/Greece_2008">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">14.7</j.0:obsValue>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2008"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Greece"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#WomenPercentParliamentByCountry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/politicswomencomp#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/Bulgaria_2008">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">21.7</j.0:obsValue>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2008"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Bulgaria"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#WomenPercentParliamentByCountry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/politicswomencomp#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/Slovenia_2008">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Slovenia"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/politicswomencomp#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#WomenPercentParliamentByCountry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2008"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">13.3</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/Albania_2007">
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2007"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#WomenPercentParliamentByCountry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/politicswomencomp#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7.1</j.0:obsValue>
+  </rdf:Description>
+</rdf:RDF>

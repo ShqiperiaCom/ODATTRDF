@@ -1,0 +1,124 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:sdmx-measure="http://purl.org/linked-data/sdmx/2009/measure#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:scv="http://purl.org/NET/scovo#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:sdx="http://epimorphics.com/vocab/sdx#"
+    xmlns:oda="http://open.data.al/oda.owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:ckan="http://ckan.net/ns#" > 
+  <rdf:Description rdf:about="http://open.data.al/GDPxCapitaAlConst_Albania_2009">
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:dataset rdf:resource="http://open.data.al/albgdpxcapitaconst#dataset"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#GDPxCapitaAlConst"/>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2009"/>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1863.138860620278</sdmx-measure:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <rdfs:domain rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <rdfs:label>Data Entry Value</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/oda.owl#GDPxCapitaAlConst">
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#Indicator"/>
+    <rdfs:label>GDPxCapitaAlConst</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/GDPxCapitaAlConst_Albania_2008">
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1824.6242214129927</sdmx-measure:obsValue>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#GDPxCapitaAlConst"/>
+    <oda:dataset rdf:resource="http://open.data.al/albgdpxcapitaconst#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2008"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/albgdpxcapitaconst#dataset">
+    <dc:date>Sat Sep 03 20:22:01 CEST 2011</dc:date>
+    <dc:publisher>IMF (International Monetary Fund)</dc:publisher>
+    <dc:creator>Open Data Albania (ODA)</dc:creator>
+    <dc:title>GDP per Capita ne USD (kursi konstant) per year in Albania</dc:title>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#Dataset"/>
+    <rdfs:label>Dataset</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A2">
+    <rdfs:subClassOf rdf:resource="http://open.data.al/oda.owl#Dimension"/>
+    <rdfs:label>Country</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/GDPxCapitaAlConst_Albania_2004">
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1466.309431246242</sdmx-measure:obsValue>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#GDPxCapitaAlConst"/>
+    <oda:dataset rdf:resource="http://open.data.al/albgdpxcapitaconst#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2004"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/GDPxCapitaAlConst_Albania_2005">
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:dataset rdf:resource="http://open.data.al/albgdpxcapitaconst#dataset"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#GDPxCapitaAlConst"/>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2005"/>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1541.0373346915553</sdmx-measure:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/GDPxCapitaAlConst_Albania_2003">
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:dataset rdf:resource="http://open.data.al/albgdpxcapitaconst#dataset"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#GDPxCapitaAlConst"/>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2003"/>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1389.9734004976935</sdmx-measure:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/GDPxCapitaAlConst_Albania_2000">
+    <oda:year rdf:resource="http://dbpedia.org/resource/2000"/>
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#GDPxCapitaAlConst"/>
+    <oda:dataset rdf:resource="http://open.data.al/albgdpxcapitaconst#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1201.8197506529802</sdmx-measure:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/GDPxCapitaAlConst_Albania_2001">
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:dataset rdf:resource="http://open.data.al/albgdpxcapitaconst#dataset"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#GDPxCapitaAlConst"/>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2001"/>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1285.1816942123005</sdmx-measure:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/GDPxCapitaAlConst_Albania_2002">
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1319.4861766918968</sdmx-measure:obsValue>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#GDPxCapitaAlConst"/>
+    <oda:dataset rdf:resource="http://open.data.al/albgdpxcapitaconst#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2002"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A3">
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#Indicator"/>
+    <rdfs:label>Indicator</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/GDPxCapitaAlConst_Albania_2007">
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:dataset rdf:resource="http://open.data.al/albgdpxcapitaconst#dataset"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#GDPxCapitaAlConst"/>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2007"/>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1703.1947267889552</sdmx-measure:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A4">
+    <rdfs:subClassOf rdf:resource="http://open.data.al/oda.owl#Dimension"/>
+    <rdfs:label>Year</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/GDPxCapitaAlConst_Albania_2006">
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1612.298447276193</sdmx-measure:obsValue>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#GDPxCapitaAlConst"/>
+    <oda:dataset rdf:resource="http://open.data.al/albgdpxcapitaconst#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2006"/>
+  </rdf:Description>
+</rdf:RDF>

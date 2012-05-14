@@ -1,0 +1,1087 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://purl.org/linked-data/sdmx/2009/measure#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:scv="http://purl.org/NET/scovo#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:sdx="http://epimorphics.com/vocab/sdx#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:j.1="http://open.data.al/ODA#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:ckan="http://ckan.net/ns#" > 
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2010_Romania">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Romania"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7.205</j.0:obsValue>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesiabycountry#dataset">
+    <dc:date>Tue Jun 14 00:23:57 CEST 2011</dc:date>
+    <dc:publisher>International Monetary Fund (IMF)</dc:publisher>
+    <dc:creator>Open Data Albania. Source  International Monetary Fund (IMF)</dc:creator>
+    <dc:title>Uneployment Rate by year and country</dc:title>
+    <rdf:type rdf:resource="http://open.data.al/ODA#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2004_Albania">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#byte">15</j.0:obsValue>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2004"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2010_Croatia">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Croatia"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.5</j.0:obsValue>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2000_Romania">
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2000"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Romania"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.884</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <rdfs:subClassOf rdf:resource="http://open.data.al/ODA#Dimension"/>
+    <rdfs:label>Year</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2008_Serbia">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">14.7</j.0:obsValue>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Serbia"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2008"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2007_Bosnia_and_Herzegovina">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">29.013</j.0:obsValue>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2007"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Bosnia_and_Herzegovina"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2001_Serbia">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">12.2</j.0:obsValue>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2001"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Serbia"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2000_Kosova">
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2000"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Kosova"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2001_Kosova">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Kosova"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2011_Turkey">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Turkey"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2011"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.658</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2011_Greece">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">14.622</j.0:obsValue>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2011"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Greece"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2005_Romania">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Romania"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2005"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.767</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ODA#UnemploymentRate">
+    <rdf:type rdf:resource="http://open.data.al/ODA#Indicator"/>
+    <rdfs:label>UnemploymentRate</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2002_Serbia">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">13.28</j.0:obsValue>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Serbia"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2002"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2003_Poland">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">19.643</j.0:obsValue>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2003"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Poland"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2009_Poland">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.166</j.0:obsValue>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2009"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Poland"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <rdf:type rdf:resource="http://open.data.al/ODA#Indicator"/>
+    <rdfs:label>Indicator</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2008_Turkey">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Turkey"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.945</j.0:obsValue>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2008"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2011_Bosnia_and_Herzegovina">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#byte">23</j.0:obsValue>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2011"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Bosnia_and_Herzegovina"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2004_Montenegro">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Montenegro"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">22.3</j.0:obsValue>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2004"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2005_Bosnia_and_Herzegovina">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">31.096</j.0:obsValue>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2005"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Bosnia_and_Herzegovina"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2004_Kosova">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Kosova"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2004"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2005_Albania">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2005"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">14.5</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2001_Croatia">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Croatia"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2001"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">15.841</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2008_Greece">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7.683</j.0:obsValue>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Greece"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2008"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2005_Kosova">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Kosova"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2005"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2006_Greece">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.892</j.0:obsValue>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Greece"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2006"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2006_Romania">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Romania"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.425</j.0:obsValue>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2006"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2000_Albania">
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2000"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">16.8</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2001_Albania">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2001"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">14.5</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2009_Croatia">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Croatia"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2009"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9.2</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A2">
+    <rdfs:domain rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <rdfs:label>Data Entry Value</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2004_Serbia">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">19.5</j.0:obsValue>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Serbia"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2004"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2004_Bosnia_and_Herzegovina">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">31.096</j.0:obsValue>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Bosnia_and_Herzegovina"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2004"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2006_Macedonia">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">36.025</j.0:obsValue>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Macedonia"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2006"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2001_Poland">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">18.264</j.0:obsValue>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2001"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Poland"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2008_Croatia">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Croatia"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.7</j.0:obsValue>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2008"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2004_Greece">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.492</j.0:obsValue>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Greece"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2004"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2000_Serbia">
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Serbia"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2000"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">12.1</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2008_Kosova">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Kosova"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2008"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2002_Romania">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Romania"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9.467</j.0:obsValue>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2002"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2006_Croatia">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Croatia"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.129</j.0:obsValue>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2006"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2011_Romania">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Romania"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2011"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7.105</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2009_Bosnia_and_Herzegovina">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">24.068</j.0:obsValue>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2009"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Bosnia_and_Herzegovina"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2009_Serbia">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">17.4</j.0:obsValue>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2009"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Serbia"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2002_Albania">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#byte">16</j.0:obsValue>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2002"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2001_Greece">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.75</j.0:obsValue>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2001"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Greece"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2005_Turkey">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Turkey"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2005"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.203</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2001_Montenegro">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Montenegro"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2001"/>
+    <j.0:obsValue>n/a</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2009_Albania">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2009"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">13.1</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2003_Montenegro">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Montenegro"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2003"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">22.9</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2008_Bosnia_and_Herzegovina">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">23.408</j.0:obsValue>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Bosnia_and_Herzegovina"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2008"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2010_Greece">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.756</j.0:obsValue>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Greece"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2006_Turkey">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Turkey"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9.856</j.0:obsValue>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2006"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2006_Serbia">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">21.6</j.0:obsValue>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Serbia"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2006"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2004_Macedonia">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">37.161</j.0:obsValue>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Macedonia"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2004"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2000_Turkey">
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2000"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Turkey"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.497</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2000_Poland">
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Poland"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2000"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">16.098</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2000_Bosnia_and_Herzegovina">
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Bosnia_and_Herzegovina"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2000"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">31.096</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2011_Kosova">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Kosova"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2011"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2010_Macedonia">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#byte">32</j.0:obsValue>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Macedonia"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2002_Bosnia_and_Herzegovina">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">31.096</j.0:obsValue>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Bosnia_and_Herzegovina"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2002"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2007_Albania">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2007"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">13.5</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2007_Kosova">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Kosova"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2007"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2002_Poland">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">19.942</j.0:obsValue>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Poland"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2002"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2011_Montenegro">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Montenegro"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2011"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.5</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2003_Kosova">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Kosova"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2003_Croatia">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Croatia"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2003"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">14.282</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2007_Turkey">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Turkey"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2007"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.244</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2007_Romania">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Romania"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2007"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.308</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2005_Serbia">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">21.8</j.0:obsValue>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2005"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Serbia"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2004_Turkey">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Turkey"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.25</j.0:obsValue>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2004"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2005_Greece">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9.9</j.0:obsValue>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2005"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Greece"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2002_Turkey">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Turkey"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.333</j.0:obsValue>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2002"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2003_Romania">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Romania"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2003"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7.592</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2005_Croatia">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Croatia"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2005"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">12.708</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2009_Romania">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Romania"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2009"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.275</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2007_Macedonia">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">34.741</j.0:obsValue>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2007"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Macedonia"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2009_Kosova">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Kosova"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2009"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2007_Croatia">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Croatia"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2007"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9.583</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2003_Serbia">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">14.63</j.0:obsValue>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2003"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Serbia"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2004_Croatia">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Croatia"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">13.769</j.0:obsValue>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2004"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2007_Montenegro">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Montenegro"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2007"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.9</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2010_Turkey">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Turkey"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#byte">11</j.0:obsValue>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2000_Croatia">
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2000"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Croatia"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">16.077</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2011_Poland">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9.167</j.0:obsValue>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2011"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Poland"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2005_Poland">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">17.745</j.0:obsValue>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2005"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Poland"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2002_Croatia">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Croatia"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">14.831</j.0:obsValue>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2002"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2010_Serbia">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">18.208</j.0:obsValue>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Serbia"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2005_Montenegro">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Montenegro"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2005"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">19.7</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2006_Poland">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">13.84</j.0:obsValue>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Poland"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2006"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2002_Macedonia">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">31.944</j.0:obsValue>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Macedonia"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2002"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2008_Poland">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7.118</j.0:obsValue>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Poland"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2008"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2001_Macedonia">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">30.515</j.0:obsValue>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2001"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Macedonia"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2009_Turkey">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Turkey"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2009"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">14.028</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2000_Montenegro">
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2000"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Montenegro"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.0:obsValue>n/a</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2000_Macedonia">
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Macedonia"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2000"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">31.727</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2010_Montenegro">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Montenegro"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">12.2</j.0:obsValue>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2003_Turkey">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Turkey"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2003"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.495</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2003_Macedonia">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">36.687</j.0:obsValue>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2003"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Macedonia"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2008_Macedonia">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">33.46</j.0:obsValue>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Macedonia"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2008"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2002_Greece">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.325</j.0:obsValue>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Greece"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2002"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2011_Croatia">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Croatia"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2011"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#byte">9</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2002_Kosova">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Kosova"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2002"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2003_Albania">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2003"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.5</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2010_Bosnia_and_Herzegovina">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">27.202</j.0:obsValue>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Bosnia_and_Herzegovina"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2006_Montenegro">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Montenegro"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">14.7</j.0:obsValue>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2006"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2007_Serbia">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">18.8</j.0:obsValue>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2007"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Serbia"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2008_Albania">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.5</j.0:obsValue>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2008"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2009_Greece">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.375</j.0:obsValue>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2009"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Greece"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2001_Turkey">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Turkey"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2001"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.335</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A3">
+    <rdfs:subClassOf rdf:resource="http://open.data.al/ODA#Dimension"/>
+    <rdfs:label>Country</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2005_Macedonia">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">37.3</j.0:obsValue>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2005"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Macedonia"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2003_Bosnia_and_Herzegovina">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">31.096</j.0:obsValue>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2003"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Bosnia_and_Herzegovina"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="file:mappings/PapunesiaByCountry.trig">
+    <owl:import rdf:resource="http://open.data.al/ODA#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2006_Kosova">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Kosova"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2006"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2000_Greece">
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Greece"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2000"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.35</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2001_Bosnia_and_Herzegovina">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">31.096</j.0:obsValue>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2001"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Bosnia_and_Herzegovina"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2004_Romania">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Romania"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.7</j.0:obsValue>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2004"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2010_Poland">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9.836</j.0:obsValue>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Poland"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2010_Kosova">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Kosova"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2002_Montenegro">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Montenegro"/>
+    <j.0:obsValue>n/a</j.0:obsValue>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2002"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2011_Albania">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2011"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.5</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2009_Macedonia">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#byte">33</j.0:obsValue>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2009"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Macedonia"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2003_Greece">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9.725</j.0:obsValue>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2003"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Greece"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2011_Serbia">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">18.407</j.0:obsValue>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2011"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Serbia"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2001_Romania">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Romania"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2001"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9.362</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2004_Poland">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">18.974</j.0:obsValue>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Poland"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2004"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2007_Greece">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.292</j.0:obsValue>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2007"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Greece"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2006_Albania">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">13.78</j.0:obsValue>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2006"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2009_Montenegro">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Montenegro"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2009"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.2</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2011_Macedonia">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#byte">31</j.0:obsValue>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2011"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Macedonia"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2010_Albania">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.5</j.0:obsValue>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2007_Poland">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9.603</j.0:obsValue>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2007"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Poland"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2006_Bosnia_and_Herzegovina">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">31.096</j.0:obsValue>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Bosnia_and_Herzegovina"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2006"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2008_Romania">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Romania"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.975</j.0:obsValue>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2008"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/papunesi_2008_Montenegro">
+    <j.1:country rdf:resource="http://dbpedia.org/resource/Montenegro"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.7</j.0:obsValue>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#UnemploymentRate"/>
+    <j.1:dataset rdf:resource="http://open.data.al/papunesiabycountry"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2008"/>
+  </rdf:Description>
+</rdf:RDF>

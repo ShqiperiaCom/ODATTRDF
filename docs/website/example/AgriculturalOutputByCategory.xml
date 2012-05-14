@@ -1,0 +1,183 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:sdmx-measure="http://purl.org/linked-data/sdmx/2009/measure#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:scv="http://purl.org/NET/scovo#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:sdx="http://epimorphics.com/vocab/sdx#"
+    xmlns:oda="http://open.data.al/oda.owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:ckan="http://ckan.net/ns#" > 
+  <rdf:Description rdf:nodeID="A0">
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#Indicator"/>
+    <rdfs:label>Indicator</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/agricultureoutputbycategory#dataset">
+    <dc:date>Sat Sep 10 13:07:23 CEST 2011</dc:date>
+    <dc:publisher>Ministria e Bujqësisë, Ushqimit, dhe Mbrojtjes së Konsumatorit</dc:publisher>
+    <dc:creator>Open Data Albania (ODA)</dc:creator>
+    <dc:title>Agricultural Output By Categories in Albania (million LEK)</dc:title>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/AgriculturalOutputByCategory_Bimet e arave_2008">
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">45741</sdmx-measure:obsValue>
+    <oda:product>Bimet e arave</oda:product>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2008"/>
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#AgriculturalOutputByCategory"/>
+    <oda:dataset rdf:resource="http://open.data.al/agricultureoutputbycategory#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/AgriculturalOutputByCategory_Bimet e arave_2007">
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40482</sdmx-measure:obsValue>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:dataset rdf:resource="http://open.data.al/agricultureoutputbycategory#dataset"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#AgriculturalOutputByCategory"/>
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2007"/>
+    <oda:product>Bimet e arave</oda:product>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/AgriculturalOutputByCategory_Bimet e arave_2006">
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">42226</sdmx-measure:obsValue>
+    <oda:product>Bimet e arave</oda:product>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2006"/>
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#AgriculturalOutputByCategory"/>
+    <oda:dataset rdf:resource="http://open.data.al/agricultureoutputbycategory#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/AgriculturalOutputByCategory_Bimet e arave_2009">
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">47352</sdmx-measure:obsValue>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:dataset rdf:resource="http://open.data.al/agricultureoutputbycategory#dataset"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#AgriculturalOutputByCategory"/>
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2009"/>
+    <oda:product>Bimet e arave</oda:product>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/AgriculturalOutputByCategory_Blegtoria_2008">
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:dataset rdf:resource="http://open.data.al/agricultureoutputbycategory#dataset"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#AgriculturalOutputByCategory"/>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2008"/>
+    <oda:product>Blegtoria</oda:product>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">86882</sdmx-measure:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <rdfs:domain rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <rdfs:label>Data Entry Value</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/AgriculturalOutputByCategory_Blegtoria_2009">
+    <oda:year rdf:resource="http://dbpedia.org/resource/2009"/>
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">87727</sdmx-measure:obsValue>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#AgriculturalOutputByCategory"/>
+    <oda:dataset rdf:resource="http://open.data.al/agricultureoutputbycategory#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:product>Blegtoria</oda:product>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/oda.owl#AgriculturalOutputByCategory">
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#Indicator"/>
+    <rdfs:label>AgriculturalOutputByCategory</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/AgriculturalOutputByCategory_Blegtoria_2007">
+    <oda:year rdf:resource="http://dbpedia.org/resource/2007"/>
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">90101</sdmx-measure:obsValue>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#AgriculturalOutputByCategory"/>
+    <oda:dataset rdf:resource="http://open.data.al/agricultureoutputbycategory#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:product>Blegtoria</oda:product>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/AgriculturalOutputByCategory_Pemetaria_2007">
+    <oda:year rdf:resource="http://dbpedia.org/resource/2007"/>
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">19219</sdmx-measure:obsValue>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#AgriculturalOutputByCategory"/>
+    <oda:dataset rdf:resource="http://open.data.al/agricultureoutputbycategory#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:product>Pemetaria</oda:product>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/AgriculturalOutputByCategory_Pemetaria_2008">
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:dataset rdf:resource="http://open.data.al/agricultureoutputbycategory#dataset"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#AgriculturalOutputByCategory"/>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2008"/>
+    <oda:product>Pemetaria</oda:product>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">23046</sdmx-measure:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/AgriculturalOutputByCategory_Pemetaria_2009">
+    <oda:year rdf:resource="http://dbpedia.org/resource/2009"/>
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">24001</sdmx-measure:obsValue>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#AgriculturalOutputByCategory"/>
+    <oda:dataset rdf:resource="http://open.data.al/agricultureoutputbycategory#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:product>Pemetaria</oda:product>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/AgriculturalOutputByCategory_Pemetaria_2006">
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:dataset rdf:resource="http://open.data.al/agricultureoutputbycategory#dataset"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#AgriculturalOutputByCategory"/>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2006"/>
+    <oda:product>Pemetaria</oda:product>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">18446</sdmx-measure:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A2">
+    <rdfs:subClassOf rdf:resource="http://open.data.al/oda.owl#Dimension"/>
+    <rdfs:label>Country</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/AgriculturalOutputByCategory_Blegtoria_2005">
+    <oda:product>Blegtoria</oda:product>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2005"/>
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#AgriculturalOutputByCategory"/>
+    <oda:dataset rdf:resource="http://open.data.al/agricultureoutputbycategory#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">84276</sdmx-measure:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/AgriculturalOutputByCategory_Bimet e arave_2005">
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:dataset rdf:resource="http://open.data.al/agricultureoutputbycategory#dataset"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#AgriculturalOutputByCategory"/>
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2005"/>
+    <oda:product>Bimet e arave</oda:product>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">42392</sdmx-measure:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/AgriculturalOutputByCategory_Pemetaria_2005">
+    <oda:product>Pemetaria</oda:product>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2005"/>
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#AgriculturalOutputByCategory"/>
+    <oda:dataset rdf:resource="http://open.data.al/agricultureoutputbycategory#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">15552</sdmx-measure:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A3">
+    <rdfs:subClassOf rdf:resource="http://open.data.al/oda.owl#Dimension"/>
+    <rdfs:label>Year</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A4">
+    <rdfs:subClassOf rdf:resource="http://open.data.al/oda.owl#Dimension"/>
+    <rdfs:label>Product</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/AgriculturalOutputByCategory_Blegtoria_2006">
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:dataset rdf:resource="http://open.data.al/agricultureoutputbycategory#dataset"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#AgriculturalOutputByCategory"/>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2006"/>
+    <oda:product>Blegtoria</oda:product>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">86633</sdmx-measure:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A5">
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#Dataset"/>
+    <rdfs:label>Dataset</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

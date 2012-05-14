@@ -1,0 +1,127 @@
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ckan:    <http://ckan.net/ns#> .
+@prefix sdx:     <http://epimorphics.com/vocab/sdx#> .
+@prefix sdmx-measure:  <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix scv:     <http://purl.org/NET/scovo#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix oda:     <http://open.data.al/oda.owl#> .
+
+[]    a       oda:Dataset ;
+      rdfs:label "Dataset" .
+
+[]    rdfs:label "Country" ;
+      rdfs:subClassOf oda:Dimension .
+
+[]    a       oda:Indicator ;
+      rdfs:label "Indicator" .
+
+[]    rdfs:label "Year" ;
+      rdfs:subClassOf oda:Dimension .
+
+<http://open.data.al/GDPxCapitaAl_Albania_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/albgdpxcapita#dataset> ;
+      oda:indicator oda:GDPxCapitaAl ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "2925.4614901797877"^^xsd:double .
+
+<http://open.data.al/GDPxCapitaAl_Albania_2005>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/albgdpxcapita#dataset> ;
+      oda:indicator oda:GDPxCapitaAl ;
+      oda:year <http://dbpedia.org/resource/2005> ;
+      sdmx-measure:obsValue
+              "2692.9017846783163"^^xsd:double .
+
+<http://open.data.al/GDPxCapitaAl_Albania_2003>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/albgdpxcapita#dataset> ;
+      oda:indicator oda:GDPxCapitaAl ;
+      oda:year <http://dbpedia.org/resource/2003> ;
+      sdmx-measure:obsValue
+              "1831.1656978762132"^^xsd:double .
+
+<http://open.data.al/albgdpxcapita#dataset>
+      a       oda:Dataset ;
+      dc:creator "Open Data Albania (ODA)" ;
+      dc:date "Sat Sep 03 20:17:34 CEST 2011" ;
+      dc:publisher "IMF (International Monetary Fund)" ;
+      dc:title "GDP per Capita ne USD per year in Albania" .
+
+oda:GDPxCapitaAl
+      a       oda:Indicator ;
+      rdfs:label "GDPxCapitaAl" .
+
+<http://open.data.al/GDPxCapitaAl_Albania_2004>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/albgdpxcapita#dataset> ;
+      oda:indicator oda:GDPxCapitaAl ;
+      oda:year <http://dbpedia.org/resource/2004> ;
+      sdmx-measure:obsValue
+              "2408.9141753159797"^^xsd:double .
+
+<http://open.data.al/GDPxCapitaAl_Albania_2000>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/albgdpxcapita#dataset> ;
+      oda:indicator oda:GDPxCapitaAl ;
+      oda:year <http://dbpedia.org/resource/2000> ;
+      sdmx-measure:obsValue
+              "1201.8197506529802"^^xsd:double .
+
+<http://open.data.al/GDPxCapitaAl_Albania_2001>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/albgdpxcapita#dataset> ;
+      oda:indicator oda:GDPxCapitaAl ;
+      oda:year <http://dbpedia.org/resource/2001> ;
+      sdmx-measure:obsValue
+              "1332.8477577958045"^^xsd:double .
+
+<http://open.data.al/GDPxCapitaAl_Albania_2002>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/albgdpxcapita#dataset> ;
+      oda:indicator oda:GDPxCapitaAl ;
+      oda:year <http://dbpedia.org/resource/2002> ;
+      sdmx-measure:obsValue
+              "1446.3477196064325"^^xsd:double .
+
+<http://open.data.al/GDPxCapitaAl_Albania_2007>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/albgdpxcapita#dataset> ;
+      oda:indicator oda:GDPxCapitaAl ;
+      oda:year <http://dbpedia.org/resource/2007> ;
+      sdmx-measure:obsValue
+              "3458.640367158015"^^xsd:double .
+
+<http://open.data.al/GDPxCapitaAl_Albania_2009>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/albgdpxcapita#dataset> ;
+      oda:indicator oda:GDPxCapitaAl ;
+      oda:year <http://dbpedia.org/resource/2009> ;
+      sdmx-measure:obsValue
+              "3808.067522899536"^^xsd:double .
+
+<http://open.data.al/GDPxCapitaAl_Albania_2008>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/albgdpxcapita#dataset> ;
+      oda:indicator oda:GDPxCapitaAl ;
+      oda:year <http://dbpedia.org/resource/2008> ;
+      sdmx-measure:obsValue
+              "4125.820207158644"^^xsd:double .
+
+[]    rdfs:domain oda:DataEntry ;
+      rdfs:label "Data Entry Value" .

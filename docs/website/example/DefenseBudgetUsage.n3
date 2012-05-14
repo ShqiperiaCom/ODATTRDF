@@ -1,0 +1,948 @@
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ckan:    <http://ckan.net/ns#> .
+@prefix sdx:     <http://epimorphics.com/vocab/sdx#> .
+@prefix sdmx-measure:  <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix scv:     <http://purl.org/NET/scovo#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix oda:     <http://open.data.al/oda.owl#> .
+
+<http://open.data.al/DefenseBudgetUsage_Arsimi Ushtarak_2009>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Arsimi Ushtarak" ;
+      oda:year <http://dbpedia.org/resource/2009> ;
+      sdmx-measure:obsValue
+              "1610973"^^xsd:int .
+
+<http://open.data.al/DefenseBudgetUsage_Mbeshtetja e Luftimit_2010>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Mbeshtetja e Luftimit" ;
+      oda:year <http://dbpedia.org/resource/2010> ;
+      sdmx-measure:obsValue
+              "4140231"^^xsd:int .
+
+<http://open.data.al/DefenseBudgetUsage_Bashkepunimi Civilo - Ushtarak (AL-CIMIC)_2004>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Bashkepunimi Civilo - Ushtarak (AL-CIMIC)" ;
+      oda:year <http://dbpedia.org/resource/2004> .
+
+<http://open.data.al/DefenseBudgetUsage_Mbeshtetje Shendetesore_2003>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Mbeshtetje Shendetesore" ;
+      oda:year <http://dbpedia.org/resource/2003> .
+
+<http://open.data.al/DefenseBudgetUsage_Sigurimi i Mbrojtjes_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Sigurimi i Mbrojtjes" ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "10101176"^^xsd:int .
+
+[]    rdfs:label "Year" ;
+      rdfs:subClassOf oda:Dimension .
+
+<http://open.data.al/DefenseBudgetUsage_Kulture e Sport_2007>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Kulture e Sport" ;
+      oda:year <http://dbpedia.org/resource/2007> .
+
+<http://open.data.al/DefenseBudgetUsage_Mbeshtetja e Luftimit_2003>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Mbeshtetja e Luftimit" ;
+      oda:year <http://dbpedia.org/resource/2003> .
+
+<http://open.data.al/DefenseBudgetUsage_Sigurimi i Mbrojtjes_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Sigurimi i Mbrojtjes" ;
+      oda:year <http://dbpedia.org/resource/2011> .
+
+<http://open.data.al/DefenseBudgetUsage_Mbesht.teknike e pune shkencore_2009>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Mbesht.teknike e pune shkencore" ;
+      oda:year <http://dbpedia.org/resource/2009> .
+
+<http://open.data.al/DefenseBudgetUsage_Mbeshtetja e Luftimit_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Mbeshtetja e Luftimit" ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "4654806"^^xsd:int .
+
+<http://open.data.al/DefenseBudgetUsage_Bashkepunimi Civilo - Ushtarak (AL-CIMIC)_2005>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Bashkepunimi Civilo - Ushtarak (AL-CIMIC)" ;
+      oda:year <http://dbpedia.org/resource/2005> .
+
+<http://open.data.al/DefenseBudgetUsage_Mbeshtetje e Perqendruar_2003>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Mbeshtetje e Perqendruar" ;
+      oda:year <http://dbpedia.org/resource/2003> .
+
+<http://open.data.al/DefenseBudgetUsage_Mbeshtetje Sociale per Ushtaraket_2003>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Mbeshtetje Sociale per Ushtaraket" ;
+      oda:year <http://dbpedia.org/resource/2003> .
+
+<http://open.data.al/DefenseBudgetUsage_Sigurimi i Mbrojtjes_2007>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Sigurimi i Mbrojtjes" ;
+      oda:year <http://dbpedia.org/resource/2007> .
+
+<http://open.data.al/DefenseBudgetUsage_Administrimi dhe Menaxhimi_2003>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Administrimi dhe Menaxhimi" ;
+      oda:year <http://dbpedia.org/resource/2003> .
+
+<http://open.data.al/DefenseBudgetUsage_Kulture e Sport_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Kulture e Sport" ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "176900"^^xsd:int .
+
+[]    rdfs:label "Country" ;
+      rdfs:subClassOf oda:Dimension .
+
+oda:DefenseBudgetUsage
+      a       oda:Indicator ;
+      rdfs:label "DefenseBudgetUsage" .
+
+<http://open.data.al/DefenseBudgetUsage_Sigurimi i Mbrojtjes_2010>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Sigurimi i Mbrojtjes" ;
+      oda:year <http://dbpedia.org/resource/2010> .
+
+<http://open.data.al/DefenseBudgetUsage_Mbeshtetje Sociale per Ushtaraket_2008>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Mbeshtetje Sociale per Ushtaraket" ;
+      oda:year <http://dbpedia.org/resource/2008> ;
+      sdmx-measure:obsValue
+              "1923000"^^xsd:int .
+
+<http://open.data.al/DefenseBudgetUsage_Mbeshtetje Shendetesore_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Mbeshtetje Shendetesore" ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "996000"^^xsd:int .
+
+[]    a       oda:Dataset ;
+      rdfs:label "Dataset" .
+
+<http://open.data.al/DefenseBudgetUsage_Arsimi Ushtarak_2007>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Arsimi Ushtarak" ;
+      oda:year <http://dbpedia.org/resource/2007> ;
+      sdmx-measure:obsValue
+              "1226960"^^xsd:int .
+
+<http://open.data.al/DefenseBudgetUsage_Mbeshtetja e Luftimit_2009>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Mbeshtetja e Luftimit" ;
+      oda:year <http://dbpedia.org/resource/2009> ;
+      sdmx-measure:obsValue
+              "4513377"^^xsd:int .
+
+<http://open.data.al/DefenseBudgetUsage_Forcat e Luftimit_2008>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Forcat e Luftimit" ;
+      oda:year <http://dbpedia.org/resource/2008> ;
+      sdmx-measure:obsValue
+              "5164400"^^xsd:int .
+
+<http://open.data.al/DefenseBudgetUsage_Administrimi dhe Menaxhimi_2009>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Administrimi dhe Menaxhimi" ;
+      oda:year <http://dbpedia.org/resource/2009> ;
+      sdmx-measure:obsValue
+              "1124000"^^xsd:int .
+
+<http://open.data.al/DefenseBudgetUsage_Mbeshtetje Shendetesore_2005>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Mbeshtetje Shendetesore" ;
+      oda:year <http://dbpedia.org/resource/2005> ;
+      sdmx-measure:obsValue
+              "523747"^^xsd:int .
+
+<http://open.data.al/DefenseBudgetUsage_Mbesht.teknike e pune shkencore_2003>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Mbesht.teknike e pune shkencore" ;
+      oda:year <http://dbpedia.org/resource/2003> .
+
+<http://open.data.al/DefenseBudgetUsage_Sigurimi i Mbrojtjes_2008>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Sigurimi i Mbrojtjes" ;
+      oda:year <http://dbpedia.org/resource/2008> .
+
+<http://open.data.al/DefenseBudgetUsage_Mbeshtetje e Perqendruar_2008>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Mbeshtetje e Perqendruar" ;
+      oda:year <http://dbpedia.org/resource/2008> ;
+      sdmx-measure:obsValue
+              "5118350"^^xsd:int .
+
+<http://open.data.al/DefenseBudgetUsage_Kulture e Sport_2010>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Kulture e Sport" ;
+      oda:year <http://dbpedia.org/resource/2010> .
+
+<http://open.data.al/DefenseBudgetUsage_Kulture e Sport_2005>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Kulture e Sport" ;
+      oda:year <http://dbpedia.org/resource/2005> ;
+      sdmx-measure:obsValue
+              "205445"^^xsd:int .
+
+<http://open.data.al/DefenseBudgetUsage_Mbeshtetje Shendetesore_2010>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Mbeshtetje Shendetesore" ;
+      oda:year <http://dbpedia.org/resource/2010> ;
+      sdmx-measure:obsValue
+              "601028"^^xsd:int .
+
+<http://open.data.al/DefenseBudgetUsage_Forcat e Luftimit_2009>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Forcat e Luftimit" ;
+      oda:year <http://dbpedia.org/resource/2009> ;
+      sdmx-measure:obsValue
+              "8838390"^^xsd:int .
+
+<http://open.data.al/DefenseBudgetUsage_Arsimi Ushtarak_2008>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Arsimi Ushtarak" ;
+      oda:year <http://dbpedia.org/resource/2008> ;
+      sdmx-measure:obsValue
+              "1242300"^^xsd:int .
+
+<http://open.data.al/DefenseBudgetUsage_Mbeshtetja e Luftimit_2008>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Mbeshtetja e Luftimit" ;
+      oda:year <http://dbpedia.org/resource/2008> ;
+      sdmx-measure:obsValue
+              "1948750"^^xsd:int .
+
+<http://open.data.al/DefenseBudgetUsage_Mbeshtetje Shendetesore_2004>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Mbeshtetje Shendetesore" ;
+      oda:year <http://dbpedia.org/resource/2004> ;
+      sdmx-measure:obsValue
+              "491863"^^xsd:int .
+
+<http://open.data.al/DefenseBudgetUsage_Administrimi dhe Menaxhimi_2008>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Administrimi dhe Menaxhimi" ;
+      oda:year <http://dbpedia.org/resource/2008> ;
+      sdmx-measure:obsValue
+              "1502700"^^xsd:int .
+
+<http://open.data.al/DefenseBudgetUsage_Mbesht.teknike e pune shkencore_2004>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Mbesht.teknike e pune shkencore" ;
+      oda:year <http://dbpedia.org/resource/2004> ;
+      sdmx-measure:obsValue
+              "98372"^^xsd:int .
+
+<http://open.data.al/DefenseBudgetUsage_Bashkepunimi Civilo - Ushtarak (AL-CIMIC)_2003>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Bashkepunimi Civilo - Ushtarak (AL-CIMIC)" ;
+      oda:year <http://dbpedia.org/resource/2003> .
+
+<http://open.data.al/defensebudgetuse#dataset>
+      a       oda:Dataset ;
+      dc:creator "Open Data Albania (ODA)" ;
+      dc:date "Wed Sep 07 23:45:04 CEST 2011" ;
+      dc:publisher "Ministry of Finance, Albania" ;
+      dc:title "Shperndarja e buxhetit te ministrise se mbrojtjes ne vite ne Shqiperi" .
+
+<http://open.data.al/DefenseBudgetUsage_Mbeshtetje e Perqendruar_2009>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Mbeshtetje e Perqendruar" ;
+      oda:year <http://dbpedia.org/resource/2009> ;
+      sdmx-measure:obsValue
+              "659000"^^xsd:int .
+
+<http://open.data.al/DefenseBudgetUsage_Forcat e Luftimit_2010>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Forcat e Luftimit" ;
+      oda:year <http://dbpedia.org/resource/2010> ;
+      sdmx-measure:obsValue
+              "8271895"^^xsd:int .
+
+<http://open.data.al/DefenseBudgetUsage_Kulture e Sport_2004>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Kulture e Sport" ;
+      oda:year <http://dbpedia.org/resource/2004> ;
+      sdmx-measure:obsValue
+              "243954"^^xsd:int .
+
+<http://open.data.al/DefenseBudgetUsage_Sigurimi i Mbrojtjes_2009>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Sigurimi i Mbrojtjes" ;
+      oda:year <http://dbpedia.org/resource/2009> .
+
+<http://open.data.al/DefenseBudgetUsage_Mbeshtetje Sociale per Ushtaraket_2009>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Mbeshtetje Sociale per Ushtaraket" ;
+      oda:year <http://dbpedia.org/resource/2009> ;
+      sdmx-measure:obsValue
+              "2671000"^^xsd:int .
+
+<http://open.data.al/DefenseBudgetUsage_Arsimi Ushtarak_2010>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Arsimi Ushtarak" ;
+      oda:year <http://dbpedia.org/resource/2010> ;
+      sdmx-measure:obsValue
+              "1205952"^^xsd:int .
+
+<http://open.data.al/DefenseBudgetUsage_Mbeshtetje Shendetesore_2007>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Mbeshtetje Shendetesore" ;
+      oda:year <http://dbpedia.org/resource/2007> ;
+      sdmx-measure:obsValue
+              "1154466"^^xsd:int .
+
+<http://open.data.al/DefenseBudgetUsage_Kulture e Sport_2003>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Kulture e Sport" ;
+      oda:year <http://dbpedia.org/resource/2003> .
+
+<http://open.data.al/DefenseBudgetUsage_Administrimi dhe Menaxhimi_2007>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Administrimi dhe Menaxhimi" ;
+      oda:year <http://dbpedia.org/resource/2007> ;
+      sdmx-measure:obsValue
+              "1538356"^^xsd:int .
+
+<http://open.data.al/DefenseBudgetUsage_Mbeshtetja e Luftimit_2007>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Mbeshtetja e Luftimit" ;
+      oda:year <http://dbpedia.org/resource/2007> ;
+      sdmx-measure:obsValue
+              "4026784"^^xsd:int .
+
+<http://open.data.al/DefenseBudgetUsage_Arsimi Ushtarak_2005>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Arsimi Ushtarak" ;
+      oda:year <http://dbpedia.org/resource/2005> ;
+      sdmx-measure:obsValue
+              "845949"^^xsd:int .
+
+<http://open.data.al/DefenseBudgetUsage_Mbeshtetje e Perqendruar_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Mbeshtetje e Perqendruar" ;
+      oda:year <http://dbpedia.org/resource/2006> .
+
+<http://open.data.al/DefenseBudgetUsage_Bashkepunimi Civilo - Ushtarak (AL-CIMIC)_2010>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Bashkepunimi Civilo - Ushtarak (AL-CIMIC)" ;
+      oda:year <http://dbpedia.org/resource/2010> ;
+      sdmx-measure:obsValue
+              "809902"^^xsd:int .
+
+<http://open.data.al/DefenseBudgetUsage_Mbesht.teknike e pune shkencore_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Mbesht.teknike e pune shkencore" ;
+      oda:year <http://dbpedia.org/resource/2011> .
+
+<http://open.data.al/DefenseBudgetUsage_Mbeshtetje Sociale per Ushtaraket_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Mbeshtetje Sociale per Ushtaraket" ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "2039000"^^xsd:int .
+
+<http://open.data.al/DefenseBudgetUsage_Arsimi Ushtarak_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Arsimi Ushtarak" ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "1099274"^^xsd:int .
+
+<http://open.data.al/DefenseBudgetUsage_Mbesht.teknike e pune shkencore_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Mbesht.teknike e pune shkencore" ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "74280"^^xsd:int .
+
+<http://open.data.al/DefenseBudgetUsage_Mbeshtetje e Perqendruar_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Mbeshtetje e Perqendruar" ;
+      oda:year <http://dbpedia.org/resource/2011> .
+
+<http://open.data.al/DefenseBudgetUsage_Forcat e Luftimit_2005>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Forcat e Luftimit" ;
+      oda:year <http://dbpedia.org/resource/2005> .
+
+<http://open.data.al/DefenseBudgetUsage_Forcat e Luftimit_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Forcat e Luftimit" ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "8138620"^^xsd:int .
+
+<http://open.data.al/DefenseBudgetUsage_Bashkepunimi Civilo - Ushtarak (AL-CIMIC)_2008>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Bashkepunimi Civilo - Ushtarak (AL-CIMIC)" ;
+      oda:year <http://dbpedia.org/resource/2008> ;
+      sdmx-measure:obsValue
+              "673600"^^xsd:int .
+
+<http://open.data.al/DefenseBudgetUsage_Mbeshtetje Shendetesore_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Mbeshtetje Shendetesore" ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "457800"^^xsd:int .
+
+<http://open.data.al/DefenseBudgetUsage_Mbeshtetja e Luftimit_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Mbeshtetja e Luftimit" ;
+      oda:year <http://dbpedia.org/resource/2006> .
+
+<http://open.data.al/DefenseBudgetUsage_Administrimi dhe Menaxhimi_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Administrimi dhe Menaxhimi" ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "550050"^^xsd:int .
+
+[]    rdfs:domain oda:DataEntry ;
+      rdfs:label "Data Entry Value" .
+
+<http://open.data.al/DefenseBudgetUsage_Bashkepunimi Civilo - Ushtarak (AL-CIMIC)_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Bashkepunimi Civilo - Ushtarak (AL-CIMIC)" ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "1036300"^^xsd:int .
+
+<http://open.data.al/DefenseBudgetUsage_Arsimi Ushtarak_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Arsimi Ushtarak" ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "769794"^^xsd:int .
+
+<http://open.data.al/DefenseBudgetUsage_Mbeshtetje e Perqendruar_2007>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Mbeshtetje e Perqendruar" ;
+      oda:year <http://dbpedia.org/resource/2007> ;
+      sdmx-measure:obsValue
+              "1614951"^^xsd:int .
+
+<http://open.data.al/DefenseBudgetUsage_Forcat e Luftimit_2007>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Forcat e Luftimit" ;
+      oda:year <http://dbpedia.org/resource/2007> ;
+      sdmx-measure:obsValue
+              "5481772"^^xsd:int .
+
+<http://open.data.al/DefenseBudgetUsage_Mbeshtetje Sociale per Ushtaraket_2007>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Mbeshtetje Sociale per Ushtaraket" ;
+      oda:year <http://dbpedia.org/resource/2007> ;
+      sdmx-measure:obsValue
+              "2161000"^^xsd:int .
+
+<http://open.data.al/DefenseBudgetUsage_Mbesht.teknike e pune shkencore_2005>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Mbesht.teknike e pune shkencore" ;
+      oda:year <http://dbpedia.org/resource/2005> ;
+      sdmx-measure:obsValue
+              "91414"^^xsd:int .
+
+<http://open.data.al/DefenseBudgetUsage_Kulture e Sport_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Kulture e Sport" ;
+      oda:year <http://dbpedia.org/resource/2011> .
+
+<http://open.data.al/DefenseBudgetUsage_Mbeshtetje e Perqendruar_2010>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Mbeshtetje e Perqendruar" ;
+      oda:year <http://dbpedia.org/resource/2010> ;
+      sdmx-measure:obsValue
+              "623861"^^xsd:int .
+
+<http://open.data.al/DefenseBudgetUsage_Forcat e Luftimit_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Forcat e Luftimit" ;
+      oda:year <http://dbpedia.org/resource/2006> .
+
+<http://open.data.al/DefenseBudgetUsage_Sigurimi i Mbrojtjes_2003>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Sigurimi i Mbrojtjes" ;
+      oda:year <http://dbpedia.org/resource/2003> .
+
+<http://open.data.al/DefenseBudgetUsage_Bashkepunimi Civilo - Ushtarak (AL-CIMIC)_2009>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Bashkepunimi Civilo - Ushtarak (AL-CIMIC)" ;
+      oda:year <http://dbpedia.org/resource/2009> ;
+      sdmx-measure:obsValue
+              "664124"^^xsd:int .
+
+<http://open.data.al/DefenseBudgetUsage_Mbeshtetje e Perqendruar_2004>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Mbeshtetje e Perqendruar" ;
+      oda:year <http://dbpedia.org/resource/2004> .
+
+<http://open.data.al/DefenseBudgetUsage_Mbeshtetja e Luftimit_2005>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Mbeshtetja e Luftimit" ;
+      oda:year <http://dbpedia.org/resource/2005> .
+
+[]    a       oda:Indicator ;
+      rdfs:label "Indicator" .
+
+<http://open.data.al/DefenseBudgetUsage_Mbesht.teknike e pune shkencore_2008>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Mbesht.teknike e pune shkencore" ;
+      oda:year <http://dbpedia.org/resource/2008> .
+
+<http://open.data.al/DefenseBudgetUsage_Administrimi dhe Menaxhimi_2005>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Administrimi dhe Menaxhimi" ;
+      oda:year <http://dbpedia.org/resource/2005> ;
+      sdmx-measure:obsValue
+              "588381"^^xsd:int .
+
+<http://open.data.al/DefenseBudgetUsage_Mbeshtetje Sociale per Ushtaraket_2004>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Mbeshtetje Sociale per Ushtaraket" ;
+      oda:year <http://dbpedia.org/resource/2004> .
+
+<http://open.data.al/DefenseBudgetUsage_Arsimi Ushtarak_2003>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Arsimi Ushtarak" ;
+      oda:year <http://dbpedia.org/resource/2003> .
+
+<http://open.data.al/DefenseBudgetUsage_Forcat e Luftimit_2003>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Forcat e Luftimit" ;
+      oda:year <http://dbpedia.org/resource/2003> .
+
+<http://open.data.al/DefenseBudgetUsage_Administrimi dhe Menaxhimi_2010>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Administrimi dhe Menaxhimi" ;
+      oda:year <http://dbpedia.org/resource/2010> ;
+      sdmx-measure:obsValue
+              "1176479"^^xsd:int .
+
+<http://open.data.al/DefenseBudgetUsage_Kulture e Sport_2009>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Kulture e Sport" ;
+      oda:year <http://dbpedia.org/resource/2009> .
+
+<http://open.data.al/DefenseBudgetUsage_Bashkepunimi Civilo - Ushtarak (AL-CIMIC)_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Bashkepunimi Civilo - Ushtarak (AL-CIMIC)" ;
+      oda:year <http://dbpedia.org/resource/2006> .
+
+<http://open.data.al/DefenseBudgetUsage_Mbeshtetje Shendetesore_2009>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Mbeshtetje Shendetesore" ;
+      oda:year <http://dbpedia.org/resource/2009> ;
+      sdmx-measure:obsValue
+              "1200000"^^xsd:int .
+
+<http://open.data.al/DefenseBudgetUsage_Sigurimi i Mbrojtjes_2004>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Sigurimi i Mbrojtjes" ;
+      oda:year <http://dbpedia.org/resource/2004> ;
+      sdmx-measure:obsValue
+              "8493708"^^xsd:int .
+
+<http://open.data.al/DefenseBudgetUsage_Mbeshtetje Sociale per Ushtaraket_2010>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Mbeshtetje Sociale per Ushtaraket" ;
+      oda:year <http://dbpedia.org/resource/2010> ;
+      sdmx-measure:obsValue
+              "2920000"^^xsd:int .
+
+<http://open.data.al/DefenseBudgetUsage_Mbeshtetja e Luftimit_2004>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Mbeshtetja e Luftimit" ;
+      oda:year <http://dbpedia.org/resource/2004> .
+
+<http://open.data.al/DefenseBudgetUsage_Mbeshtetje e Perqendruar_2005>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Mbeshtetje e Perqendruar" ;
+      oda:year <http://dbpedia.org/resource/2005> .
+
+<http://open.data.al/DefenseBudgetUsage_Mbesht.teknike e pune shkencore_2010>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Mbesht.teknike e pune shkencore" ;
+      oda:year <http://dbpedia.org/resource/2010> .
+
+<http://open.data.al/DefenseBudgetUsage_Mbeshtetje Shendetesore_2008>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Mbeshtetje Shendetesore" ;
+      oda:year <http://dbpedia.org/resource/2008> ;
+      sdmx-measure:obsValue
+              "540100"^^xsd:int .
+
+[]    rdfs:label "Product" ;
+      rdfs:subClassOf oda:Dimension .
+
+<http://open.data.al/DefenseBudgetUsage_Mbeshtetje Sociale per Ushtaraket_2005>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Mbeshtetje Sociale per Ushtaraket" ;
+      oda:year <http://dbpedia.org/resource/2005> .
+
+<http://open.data.al/DefenseBudgetUsage_Administrimi dhe Menaxhimi_2004>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Administrimi dhe Menaxhimi" ;
+      oda:year <http://dbpedia.org/resource/2004> ;
+      sdmx-measure:obsValue
+              "565444"^^xsd:int .
+
+<http://open.data.al/DefenseBudgetUsage_Forcat e Luftimit_2004>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Forcat e Luftimit" ;
+      oda:year <http://dbpedia.org/resource/2004> .
+
+<http://open.data.al/DefenseBudgetUsage_Arsimi Ushtarak_2004>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Arsimi Ushtarak" ;
+      oda:year <http://dbpedia.org/resource/2004> ;
+      sdmx-measure:obsValue
+              "856159"^^xsd:int .
+
+<http://open.data.al/DefenseBudgetUsage_Administrimi dhe Menaxhimi_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Administrimi dhe Menaxhimi" ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "1239500"^^xsd:int .
+
+<http://open.data.al/DefenseBudgetUsage_Mbesht.teknike e pune shkencore_2007>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Mbesht.teknike e pune shkencore" ;
+      oda:year <http://dbpedia.org/resource/2007> .
+
+<http://open.data.al/DefenseBudgetUsage_Kulture e Sport_2008>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Kulture e Sport" ;
+      oda:year <http://dbpedia.org/resource/2008> .
+
+<http://open.data.al/DefenseBudgetUsage_Bashkepunimi Civilo - Ushtarak (AL-CIMIC)_2007>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Bashkepunimi Civilo - Ushtarak (AL-CIMIC)" ;
+      oda:year <http://dbpedia.org/resource/2007> ;
+      sdmx-measure:obsValue
+              "914711"^^xsd:int .
+
+<http://open.data.al/DefenseBudgetUsage_Mbeshtetje Sociale per Ushtaraket_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Mbeshtetje Sociale per Ushtaraket" ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "4440000"^^xsd:int .
+
+<http://open.data.al/DefenseBudgetUsage_Sigurimi i Mbrojtjes_2005>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetuse#dataset> ;
+      oda:indicator oda:DefenseBudgetUsage ;
+      oda:product "Sigurimi i Mbrojtjes" ;
+      oda:year <http://dbpedia.org/resource/2005> ;
+      sdmx-measure:obsValue
+              "9285064"^^xsd:int .

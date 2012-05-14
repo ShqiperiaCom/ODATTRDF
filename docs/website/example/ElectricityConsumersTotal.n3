@@ -1,0 +1,262 @@
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ckan:    <http://ckan.net/ns#> .
+@prefix sdx:     <http://epimorphics.com/vocab/sdx#> .
+@prefix sdmx-measure:  <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix scv:     <http://purl.org/NET/scovo#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix oda:     <http://open.data.al/oda.owl#> .
+
+<http://open.data.al/ElectricityConsumersTotal_Albania_1993>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/Albania#dataset> ;
+      oda:indicator oda:ElectricityConsumersTotal ;
+      oda:year <http://dbpedia.org/resource/1993> ;
+      sdmx-measure:obsValue
+              "3316"^^xsd:short .
+
+<http://open.data.al/ElectricityConsumersTotal_Albania_1989>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/Albania#dataset> ;
+      oda:indicator oda:ElectricityConsumersTotal ;
+      oda:year <http://dbpedia.org/resource/1989> ;
+      sdmx-measure:obsValue
+              "3475"^^xsd:short .
+
+<http://open.data.al/ElectricityConsumersTotal_Albania_1987>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/Albania#dataset> ;
+      oda:indicator oda:ElectricityConsumersTotal ;
+      oda:year <http://dbpedia.org/resource/1987> ;
+      sdmx-measure:obsValue
+              "3072"^^xsd:short .
+
+<http://open.data.al/ElectricityConsumersTotal_Albania_1995>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/Albania#dataset> ;
+      oda:indicator oda:ElectricityConsumersTotal ;
+      oda:year <http://dbpedia.org/resource/1995> ;
+      sdmx-measure:obsValue
+              "4317"^^xsd:short .
+
+<http://open.data.al/ElectricityConsumersTotal_Albania_2007>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/Albania#dataset> ;
+      oda:indicator oda:ElectricityConsumersTotal ;
+      oda:year <http://dbpedia.org/resource/2007> ;
+      sdmx-measure:obsValue
+              "5719"^^xsd:short .
+
+<http://open.data.al/Albania#dataset>
+      a       oda:Dataset ;
+      dc:creator "Open Data Albania (ODA)" ;
+      dc:date "Thu Sep 08 22:53:47 CEST 2011" ;
+      dc:publisher " ERE" ;
+      dc:title "Total electricity consumed 1985-2009 Albania" .
+
+<http://open.data.al/ElectricityConsumersTotal_Albania_1985>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/Albania#dataset> ;
+      oda:indicator oda:ElectricityConsumersTotal ;
+      oda:year <http://dbpedia.org/resource/1985> ;
+      sdmx-measure:obsValue
+              "2575"^^xsd:short .
+
+[]    a       oda:Dataset ;
+      rdfs:label "Dataset" .
+
+[]    rdfs:label "Year" ;
+      rdfs:subClassOf oda:Dimension .
+
+<http://open.data.al/ElectricityConsumersTotal_Albania_2000>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/Albania#dataset> ;
+      oda:indicator oda:ElectricityConsumersTotal ;
+      oda:year <http://dbpedia.org/resource/2000> ;
+      sdmx-measure:obsValue
+              "5739"^^xsd:short .
+
+<http://open.data.al/ElectricityConsumersTotal_Albania_2002>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/Albania#dataset> ;
+      oda:indicator oda:ElectricityConsumersTotal ;
+      oda:year <http://dbpedia.org/resource/2002> ;
+      sdmx-measure:obsValue
+              "5430"^^xsd:short .
+
+[]    a       oda:Indicator ;
+      rdfs:label "Indicator" .
+
+<http://open.data.al/ElectricityConsumersTotal_Albania_1998>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/Albania#dataset> ;
+      oda:indicator oda:ElectricityConsumersTotal ;
+      oda:year <http://dbpedia.org/resource/1998> ;
+      sdmx-measure:obsValue
+              "5067"^^xsd:short .
+
+<http://open.data.al/ElectricityConsumersTotal_Albania_1992>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/Albania#dataset> ;
+      oda:indicator oda:ElectricityConsumersTotal ;
+      oda:year <http://dbpedia.org/resource/1992> ;
+      sdmx-measure:obsValue
+              "2790"^^xsd:short .
+
+<http://open.data.al/ElectricityConsumersTotal_Albania_1996>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/Albania#dataset> ;
+      oda:indicator oda:ElectricityConsumersTotal ;
+      oda:year <http://dbpedia.org/resource/1996> ;
+      sdmx-measure:obsValue
+              "4812"^^xsd:short .
+
+<http://open.data.al/ElectricityConsumersTotal_Albania_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/Albania#dataset> ;
+      oda:indicator oda:ElectricityConsumersTotal ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "6121"^^xsd:short .
+
+<http://open.data.al/ElectricityConsumersTotal_Albania_1990>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/Albania#dataset> ;
+      oda:indicator oda:ElectricityConsumersTotal ;
+      oda:year <http://dbpedia.org/resource/1990> ;
+      sdmx-measure:obsValue
+              "3377"^^xsd:short .
+
+<http://open.data.al/ElectricityConsumersTotal_Albania_2009>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/Albania#dataset> ;
+      oda:indicator oda:ElectricityConsumersTotal ;
+      oda:year <http://dbpedia.org/resource/2009> ;
+      sdmx-measure:obsValue
+              "6592"^^xsd:short .
+
+<http://open.data.al/ElectricityConsumersTotal_Albania_2004>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/Albania#dataset> ;
+      oda:indicator oda:ElectricityConsumersTotal ;
+      oda:year <http://dbpedia.org/resource/2004> ;
+      sdmx-measure:obsValue
+              "5945"^^xsd:short .
+
+<http://open.data.al/ElectricityConsumersTotal_Albania_1994>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/Albania#dataset> ;
+      oda:indicator oda:ElectricityConsumersTotal ;
+      oda:year <http://dbpedia.org/resource/1994> ;
+      sdmx-measure:obsValue
+              "3719"^^xsd:short .
+
+<http://open.data.al/ElectricityConsumersTotal_Albania_1986>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/Albania#dataset> ;
+      oda:indicator oda:ElectricityConsumersTotal ;
+      oda:year <http://dbpedia.org/resource/1986> ;
+      sdmx-measure:obsValue
+              "2949"^^xsd:short .
+
+<http://open.data.al/ElectricityConsumersTotal_Albania_2008>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/Albania#dataset> ;
+      oda:indicator oda:ElectricityConsumersTotal ;
+      oda:year <http://dbpedia.org/resource/2008> ;
+      sdmx-measure:obsValue
+              "6300"^^xsd:short .
+
+<http://open.data.al/ElectricityConsumersTotal_Albania_1988>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/Albania#dataset> ;
+      oda:indicator oda:ElectricityConsumersTotal ;
+      oda:year <http://dbpedia.org/resource/1988> ;
+      sdmx-measure:obsValue
+              "3304"^^xsd:short .
+
+[]    rdfs:domain oda:DataEntry ;
+      rdfs:label "Data Entry Value" .
+
+[]    rdfs:label "Country" ;
+      rdfs:subClassOf oda:Dimension .
+
+<http://open.data.al/ElectricityConsumersTotal_Albania_2003>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/Albania#dataset> ;
+      oda:indicator oda:ElectricityConsumersTotal ;
+      oda:year <http://dbpedia.org/resource/2003> ;
+      sdmx-measure:obsValue
+              "5900"^^xsd:short .
+
+<http://open.data.al/ElectricityConsumersTotal_Albania_2001>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/Albania#dataset> ;
+      oda:indicator oda:ElectricityConsumersTotal ;
+      oda:year <http://dbpedia.org/resource/2001> ;
+      sdmx-measure:obsValue
+              "5431"^^xsd:short .
+
+<http://open.data.al/ElectricityConsumersTotal_Albania_1999>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/Albania#dataset> ;
+      oda:indicator oda:ElectricityConsumersTotal ;
+      oda:year <http://dbpedia.org/resource/1999> ;
+      sdmx-measure:obsValue
+              "5742"^^xsd:short .
+
+<http://open.data.al/ElectricityConsumersTotal_Albania_1997>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/Albania#dataset> ;
+      oda:indicator oda:ElectricityConsumersTotal ;
+      oda:year <http://dbpedia.org/resource/1997> ;
+      sdmx-measure:obsValue
+              "5054"^^xsd:short .
+
+oda:ElectricityConsumersTotal
+      a       oda:Indicator ;
+      rdfs:label "ElectricityConsumersTotal" .
+
+<http://open.data.al/ElectricityConsumersTotal_Albania_1991>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/Albania#dataset> ;
+      oda:indicator oda:ElectricityConsumersTotal ;
+      oda:year <http://dbpedia.org/resource/1991> ;
+      sdmx-measure:obsValue
+              "2910"^^xsd:short .
+
+<http://open.data.al/ElectricityConsumersTotal_Albania_2005>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/Albania#dataset> ;
+      oda:indicator oda:ElectricityConsumersTotal ;
+      oda:year <http://dbpedia.org/resource/2005> ;
+      sdmx-measure:obsValue
+              "5933"^^xsd:short .

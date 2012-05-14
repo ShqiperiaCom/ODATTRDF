@@ -1,0 +1,149 @@
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ckan:    <http://ckan.net/ns#> .
+@prefix sdx:     <http://epimorphics.com/vocab/sdx#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix scv:     <http://purl.org/NET/scovo#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlybudgetrevenue#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyBudgetRevenue> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2006> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "229443.8443110875"^^xsd:double .
+
+<http://open.data.al/ODA#YearlyBudgetRevenue>
+      a       <http://open.data.al/ODA#Indicator> ;
+      rdfs:label "Yearly Budget Revenue" .
+
+[]    rdfs:domain <http://open.data.al/ODA#DataEntry> ;
+      rdfs:label "Data Entry Value" .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlybudgetrevenue#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyBudgetRevenue> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2002> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "154595.31"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#Indicator> ;
+      rdfs:label "Indicator" .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlybudgetrevenue#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyBudgetRevenue> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2000> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "130642"^^xsd:int .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlybudgetrevenue#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyBudgetRevenue> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "291237.80000000005"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlybudgetrevenue#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyBudgetRevenue> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "204162.54094334936"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlybudgetrevenue#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyBudgetRevenue> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "251555.32063791"^^xsd:double .
+
+<http://open.data.al/yearlybudgetrevenue#dataset>
+      a       <http://open.data.al/ODA#Dataset> ;
+      dc:creator "Open Data Albania (ODA)" ;
+      dc:date "2011-03-22T10:56:40+0000" ;
+      dc:publisher "Ministry Of Finance Albania" ;
+      dc:title "Total budget revenue per year in Albania" .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlybudgetrevenue#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyBudgetRevenue> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2001> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "145639.35840417002"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlybudgetrevenue#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyBudgetRevenue> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2010> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "324891"^^xsd:int .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlybudgetrevenue#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyBudgetRevenue> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2004> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "184355.35"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlybudgetrevenue#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyBudgetRevenue> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2003> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "167223.97"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlybudgetrevenue#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyBudgetRevenue> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "298980.6"^^xsd:double .
+
+[]    rdfs:label "Year" ;
+      rdfs:subClassOf <http://open.data.al/ODA#Dimension> .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlybudgetrevenue#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyBudgetRevenue> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2011> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "362222.5525583782"^^xsd:double .

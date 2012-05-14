@@ -1,0 +1,109 @@
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ckan:    <http://ckan.net/ns#> .
+@prefix sdx:     <http://epimorphics.com/vocab/sdx#> .
+@prefix sdmx-measure:  <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix scv:     <http://purl.org/NET/scovo#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix oda:     <http://open.data.al/oda.owl#> .
+
+[]    a       oda:Dataset ;
+      rdfs:label "Dataset" .
+
+[]    rdfs:label "Country" ;
+      rdfs:subClassOf oda:Dimension .
+
+<http://open.data.al/DefenseBudgetAsPercOfTotalBudgetExpenditures_Albania_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetaspercoftotalbudget#dataset> ;
+      oda:indicator oda:DefenseBudgetAsPercOfTotalBudgetExpenditures ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "0.054838626340595706"^^xsd:double .
+
+oda:DefenseBudgetAsPercOfTotalBudgetExpenditures
+      a       oda:Indicator ;
+      rdfs:label "DefenseBudgetAsPercOfTotalBudgetExpenditures" .
+
+<http://open.data.al/DefenseBudgetAsPercOfTotalBudgetExpenditures_Albania_2009>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetaspercoftotalbudget#dataset> ;
+      oda:indicator oda:DefenseBudgetAsPercOfTotalBudgetExpenditures ;
+      oda:year <http://dbpedia.org/resource/2009> ;
+      sdmx-measure:obsValue
+              "0.05300181314630696"^^xsd:double .
+
+<http://open.data.al/DefenseBudgetAsPercOfTotalBudgetExpenditures_Albania_2008>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetaspercoftotalbudget#dataset> ;
+      oda:indicator oda:DefenseBudgetAsPercOfTotalBudgetExpenditures ;
+      oda:year <http://dbpedia.org/resource/2008> ;
+      sdmx-measure:obsValue
+              "0.05105761641673244"^^xsd:double .
+
+<http://open.data.al/DefenseBudgetAsPercOfTotalBudgetExpenditures_Albania_2007>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetaspercoftotalbudget#dataset> ;
+      oda:indicator oda:DefenseBudgetAsPercOfTotalBudgetExpenditures ;
+      oda:year <http://dbpedia.org/resource/2007> ;
+      sdmx-measure:obsValue
+              "0.06026748973096059"^^xsd:double .
+
+<http://open.data.al/DefenseBudgetAsPercOfTotalBudgetExpenditures_Albania_2005>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetaspercoftotalbudget#dataset> ;
+      oda:indicator oda:DefenseBudgetAsPercOfTotalBudgetExpenditures ;
+      oda:year <http://dbpedia.org/resource/2005> ;
+      sdmx-measure:obsValue
+              "0.046405764931074976"^^xsd:double .
+
+<http://open.data.al/DefenseBudgetAsPercOfTotalBudgetExpenditures_Albania_2004>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetaspercoftotalbudget#dataset> ;
+      oda:indicator oda:DefenseBudgetAsPercOfTotalBudgetExpenditures ;
+      oda:year <http://dbpedia.org/resource/2004> ;
+      sdmx-measure:obsValue
+              "0.044722499583957395"^^xsd:double .
+
+<http://open.data.al/defensebudgetaspercoftotalbudget#dataset>
+      a       oda:Dataset ;
+      dc:creator "Open Data Albania (ODA)" ;
+      dc:date "Sat Oct 08 18:12:08 CEST 2011" ;
+      dc:publisher "Ministry of Finance,Bank of Albania" ;
+      dc:title "Budget Expenditures on Defense as percent of Total Budget in Albania" .
+
+[]    a       oda:Indicator ;
+      rdfs:label "Indicator" .
+
+[]    rdfs:label "Year" ;
+      rdfs:subClassOf oda:Dimension .
+
+<http://open.data.al/DefenseBudgetAsPercOfTotalBudgetExpenditures_Albania_2010>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetaspercoftotalbudget#dataset> ;
+      oda:indicator oda:DefenseBudgetAsPercOfTotalBudgetExpenditures ;
+      oda:year <http://dbpedia.org/resource/2010> ;
+      sdmx-measure:obsValue
+              "0.053122775494394356"^^xsd:double .
+
+[]    rdfs:domain oda:DataEntry ;
+      rdfs:label "Data Entry Value" .
+
+<http://open.data.al/DefenseBudgetAsPercOfTotalBudgetExpenditures_Albania_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/defensebudgetaspercoftotalbudget#dataset> ;
+      oda:indicator oda:DefenseBudgetAsPercOfTotalBudgetExpenditures ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "0.05281824431564258"^^xsd:double .

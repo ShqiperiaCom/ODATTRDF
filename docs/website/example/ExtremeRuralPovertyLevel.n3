@@ -1,0 +1,91 @@
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ckan:    <http://ckan.net/ns#> .
+@prefix sdx:     <http://epimorphics.com/vocab/sdx#> .
+@prefix sdmx-measure:  <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix scv:     <http://purl.org/NET/scovo#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix oda:     <http://open.data.al/oda.owl#> .
+
+<http://open.data.al/ExtremeRuralPovertyLevel_Albania_2002>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/extremeruralpovertylevel#dataset> ;
+      oda:indicator oda:ExtremeRuralPovertyLevel ;
+      oda:year <http://dbpedia.org/resource/2002> ;
+      sdmx-measure:obsValue
+              "5.2"^^xsd:double .
+
+<http://open.data.al/ExtremeRuralPovertyLevel_Albania_2003>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/extremeruralpovertylevel#dataset> ;
+      oda:indicator oda:ExtremeRuralPovertyLevel ;
+      oda:year <http://dbpedia.org/resource/2003> ;
+      sdmx-measure:obsValue
+              "0.5454545454545454"^^xsd:double .
+
+[]    rdfs:domain oda:DataEntry ;
+      rdfs:label "Data Entry Value" .
+
+<http://open.data.al/ExtremeRuralPovertyLevel_Albania_2005>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/extremeruralpovertylevel#dataset> ;
+      oda:indicator oda:ExtremeRuralPovertyLevel ;
+      oda:year <http://dbpedia.org/resource/2005> ;
+      sdmx-measure:obsValue
+              "4.5"^^xsd:float .
+
+<http://open.data.al/ExtremeRuralPovertyLevel_Albania_2008>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/extremeruralpovertylevel#dataset> ;
+      oda:indicator oda:ExtremeRuralPovertyLevel ;
+      oda:year <http://dbpedia.org/resource/2008> ;
+      sdmx-measure:obsValue
+              "1.2"^^xsd:double .
+
+<http://open.data.al/ExtremeRuralPovertyLevel_Albania_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/extremeruralpovertylevel#dataset> ;
+      oda:indicator oda:ExtremeRuralPovertyLevel ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "0.5652173913043478"^^xsd:double .
+
+[]    rdfs:label "Year" ;
+      rdfs:subClassOf oda:Dimension .
+
+<http://open.data.al/ExtremeRuralPovertyLevel_Albania_2009>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/extremeruralpovertylevel#dataset> ;
+      oda:indicator oda:ExtremeRuralPovertyLevel ;
+      oda:year <http://dbpedia.org/resource/2009> ;
+      sdmx-measure:obsValue
+              "0.5"^^xsd:float .
+
+[]    a       oda:Indicator ;
+      rdfs:label "Indicator" .
+
+<http://open.data.al/extremeruralpovertylevel#dataset>
+      a       oda:Dataset ;
+      dc:creator "Open Data Albania (ODA)" ;
+      dc:date "Thu Sep 08 23:05:40 CEST 2011" ;
+      dc:publisher "INSTAT, World Bank, UNDP" ;
+      dc:title "Extreme Rural poverty level in Albania" .
+
+[]    a       oda:Dataset ;
+      rdfs:label "Dataset" .
+
+oda:ExtremeRuralPovertyLevel
+      a       oda:Indicator ;
+      rdfs:label "ExtremeRuralPovertyLevel" .
+
+[]    rdfs:label "Country" ;
+      rdfs:subClassOf oda:Dimension .

@@ -1,0 +1,1727 @@
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ckan:    <http://ckan.net/ns#> .
+@prefix sdx:     <http://epimorphics.com/vocab/sdx#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix scv:     <http://purl.org/NET/scovo#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://open.data.al/papunesi_2010_Romania>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Romania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2010> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "7.205"^^xsd:double .
+
+<http://open.data.al/papunesiabycountry#dataset>
+      a       <http://open.data.al/ODA#Dataset> ;
+      dc:creator "Open Data Albania. Source  International Monetary Fund (IMF)" ;
+      dc:date "Tue Jun 14 00:23:57 CEST 2011" ;
+      dc:publisher "International Monetary Fund (IMF)" ;
+      dc:title "Uneployment Rate by year and country" .
+
+<http://open.data.al/papunesi_2004_Albania>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2004> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "15"^^xsd:byte .
+
+<http://open.data.al/papunesi_2010_Croatia>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Croatia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2010> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "9.5"^^xsd:float .
+
+<http://open.data.al/papunesi_2000_Romania>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Romania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2000> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "10.884"^^xsd:double .
+
+[]    rdfs:label "Year" ;
+      rdfs:subClassOf <http://open.data.al/ODA#Dimension> .
+
+<http://open.data.al/papunesi_2008_Serbia>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Serbia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "14.7"^^xsd:double .
+
+<http://open.data.al/papunesi_2007_Bosnia_and_Herzegovina>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Bosnia_and_Herzegovina> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "29.013"^^xsd:double .
+
+<http://open.data.al/papunesi_2001_Serbia>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Serbia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2001> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "12.2"^^xsd:double .
+
+<http://open.data.al/papunesi_2000_Kosova>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Kosova> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2000> .
+
+<http://open.data.al/papunesi_2001_Kosova>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Kosova> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2001> .
+
+<http://open.data.al/papunesi_2011_Turkey>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Turkey> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2011> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "10.658"^^xsd:double .
+
+<http://open.data.al/papunesi_2011_Greece>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Greece> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2011> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "14.622"^^xsd:double .
+
+<http://open.data.al/papunesi_2005_Romania>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Romania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "5.767"^^xsd:double .
+
+<http://open.data.al/ODA#UnemploymentRate>
+      a       <http://open.data.al/ODA#Indicator> ;
+      rdfs:label "UnemploymentRate" .
+
+<http://open.data.al/papunesi_2002_Serbia>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Serbia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2002> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "13.28"^^xsd:double .
+
+<http://open.data.al/papunesi_2003_Poland>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Poland> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2003> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "19.643"^^xsd:double .
+
+<http://open.data.al/papunesi_2009_Poland>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Poland> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "8.166"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#Indicator> ;
+      rdfs:label "Indicator" .
+
+<http://open.data.al/papunesi_2008_Turkey>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Turkey> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "10.945"^^xsd:double .
+
+<http://open.data.al/papunesi_2011_Bosnia_and_Herzegovina>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Bosnia_and_Herzegovina> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2011> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "23"^^xsd:byte .
+
+<http://open.data.al/papunesi_2004_Montenegro>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Montenegro> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2004> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "22.3"^^xsd:double .
+
+<http://open.data.al/papunesi_2005_Bosnia_and_Herzegovina>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Bosnia_and_Herzegovina> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "31.096"^^xsd:double .
+
+<http://open.data.al/papunesi_2004_Kosova>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Kosova> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2004> .
+
+<http://open.data.al/papunesi_2005_Albania>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "14.5"^^xsd:float .
+
+<http://open.data.al/papunesi_2001_Croatia>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Croatia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2001> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "15.841"^^xsd:double .
+
+<http://open.data.al/papunesi_2008_Greece>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Greece> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "7.683"^^xsd:double .
+
+<http://open.data.al/papunesi_2005_Kosova>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Kosova> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> .
+
+<http://open.data.al/papunesi_2006_Greece>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Greece> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2006> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "8.892"^^xsd:double .
+
+<http://open.data.al/papunesi_2006_Romania>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Romania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2006> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "5.425"^^xsd:double .
+
+<http://open.data.al/papunesi_2000_Albania>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2000> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "16.8"^^xsd:double .
+
+<http://open.data.al/papunesi_2001_Albania>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2001> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "14.5"^^xsd:float .
+
+<http://open.data.al/papunesi_2009_Croatia>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Croatia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "9.2"^^xsd:double .
+
+[]    rdfs:domain <http://open.data.al/ODA#DataEntry> ;
+      rdfs:label "Data Entry Value" .
+
+<http://open.data.al/papunesi_2004_Serbia>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Serbia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2004> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "19.5"^^xsd:float .
+
+<http://open.data.al/papunesi_2004_Bosnia_and_Herzegovina>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Bosnia_and_Herzegovina> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2004> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "31.096"^^xsd:double .
+
+<http://open.data.al/papunesi_2006_Macedonia>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Macedonia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2006> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "36.025"^^xsd:double .
+
+<http://open.data.al/papunesi_2001_Poland>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Poland> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2001> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "18.264"^^xsd:double .
+
+<http://open.data.al/papunesi_2008_Croatia>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Croatia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "8.7"^^xsd:double .
+
+<http://open.data.al/papunesi_2004_Greece>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Greece> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2004> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "10.492"^^xsd:double .
+
+<http://open.data.al/papunesi_2000_Serbia>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Serbia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2000> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "12.1"^^xsd:double .
+
+<http://open.data.al/papunesi_2008_Kosova>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Kosova> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> .
+
+<http://open.data.al/papunesi_2002_Romania>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Romania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2002> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "9.467"^^xsd:double .
+
+<http://open.data.al/papunesi_2006_Croatia>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Croatia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2006> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "11.129"^^xsd:double .
+
+<http://open.data.al/papunesi_2011_Romania>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Romania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2011> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "7.105"^^xsd:double .
+
+<http://open.data.al/papunesi_2009_Bosnia_and_Herzegovina>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Bosnia_and_Herzegovina> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "24.068"^^xsd:double .
+
+<http://open.data.al/papunesi_2009_Serbia>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Serbia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "17.4"^^xsd:double .
+
+<http://open.data.al/papunesi_2002_Albania>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2002> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "16"^^xsd:byte .
+
+<http://open.data.al/papunesi_2001_Greece>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Greece> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2001> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "10.75"^^xsd:float .
+
+<http://open.data.al/papunesi_2005_Turkey>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Turkey> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "10.203"^^xsd:double .
+
+<http://open.data.al/papunesi_2001_Montenegro>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Montenegro> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2001> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "n/a" .
+
+<http://open.data.al/papunesi_2009_Albania>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "13.1"^^xsd:double .
+
+<http://open.data.al/papunesi_2003_Montenegro>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Montenegro> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2003> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "22.9"^^xsd:double .
+
+<http://open.data.al/papunesi_2008_Bosnia_and_Herzegovina>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Bosnia_and_Herzegovina> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "23.408"^^xsd:double .
+
+<http://open.data.al/papunesi_2010_Greece>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Greece> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2010> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "11.756"^^xsd:double .
+
+<http://open.data.al/papunesi_2006_Turkey>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Turkey> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2006> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "9.856"^^xsd:double .
+
+<http://open.data.al/papunesi_2006_Serbia>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Serbia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2006> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "21.6"^^xsd:double .
+
+<http://open.data.al/papunesi_2004_Macedonia>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Macedonia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2004> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "37.161"^^xsd:double .
+
+<http://open.data.al/papunesi_2000_Turkey>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Turkey> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2000> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "6.497"^^xsd:double .
+
+<http://open.data.al/papunesi_2000_Poland>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Poland> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2000> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "16.098"^^xsd:double .
+
+<http://open.data.al/papunesi_2000_Bosnia_and_Herzegovina>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Bosnia_and_Herzegovina> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2000> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "31.096"^^xsd:double .
+
+<http://open.data.al/papunesi_2011_Kosova>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Kosova> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2011> .
+
+<http://open.data.al/papunesi_2010_Macedonia>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Macedonia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2010> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "32"^^xsd:byte .
+
+<http://open.data.al/papunesi_2002_Bosnia_and_Herzegovina>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Bosnia_and_Herzegovina> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2002> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "31.096"^^xsd:double .
+
+<http://open.data.al/papunesi_2007_Albania>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "13.5"^^xsd:float .
+
+<http://open.data.al/papunesi_2007_Kosova>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Kosova> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> .
+
+<http://open.data.al/papunesi_2002_Poland>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Poland> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2002> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "19.942"^^xsd:double .
+
+<http://open.data.al/papunesi_2011_Montenegro>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Montenegro> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2011> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "11.5"^^xsd:float .
+
+<http://open.data.al/papunesi_2003_Kosova>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Kosova> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2003> .
+
+<http://open.data.al/papunesi_2003_Croatia>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Croatia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2003> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "14.282"^^xsd:double .
+
+<http://open.data.al/papunesi_2007_Turkey>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Turkey> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "10.244"^^xsd:double .
+
+<http://open.data.al/papunesi_2007_Romania>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Romania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "4.308"^^xsd:double .
+
+<http://open.data.al/papunesi_2005_Serbia>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Serbia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "21.8"^^xsd:double .
+
+<http://open.data.al/papunesi_2004_Turkey>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Turkey> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2004> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "10.25"^^xsd:float .
+
+<http://open.data.al/papunesi_2005_Greece>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Greece> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "9.9"^^xsd:double .
+
+<http://open.data.al/papunesi_2002_Turkey>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Turkey> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2002> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "10.333"^^xsd:double .
+
+<http://open.data.al/papunesi_2003_Romania>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Romania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2003> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "7.592"^^xsd:double .
+
+<http://open.data.al/papunesi_2005_Croatia>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Croatia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "12.708"^^xsd:double .
+
+<http://open.data.al/papunesi_2009_Romania>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Romania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "6.275"^^xsd:double .
+
+<http://open.data.al/papunesi_2007_Macedonia>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Macedonia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "34.741"^^xsd:double .
+
+<http://open.data.al/papunesi_2009_Kosova>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Kosova> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> .
+
+<http://open.data.al/papunesi_2007_Croatia>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Croatia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "9.583"^^xsd:double .
+
+<http://open.data.al/papunesi_2003_Serbia>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Serbia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2003> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "14.63"^^xsd:double .
+
+<http://open.data.al/papunesi_2004_Croatia>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Croatia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2004> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "13.769"^^xsd:double .
+
+<http://open.data.al/papunesi_2007_Montenegro>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Montenegro> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "11.9"^^xsd:double .
+
+<http://open.data.al/papunesi_2010_Turkey>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Turkey> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2010> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "11"^^xsd:byte .
+
+<http://open.data.al/papunesi_2000_Croatia>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Croatia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2000> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "16.077"^^xsd:double .
+
+<http://open.data.al/papunesi_2011_Poland>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Poland> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2011> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "9.167"^^xsd:double .
+
+<http://open.data.al/papunesi_2005_Poland>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Poland> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "17.745"^^xsd:double .
+
+<http://open.data.al/papunesi_2002_Croatia>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Croatia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2002> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "14.831"^^xsd:double .
+
+<http://open.data.al/papunesi_2010_Serbia>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Serbia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2010> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "18.208"^^xsd:double .
+
+<http://open.data.al/papunesi_2005_Montenegro>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Montenegro> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "19.7"^^xsd:double .
+
+<http://open.data.al/papunesi_2006_Poland>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Poland> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2006> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "13.84"^^xsd:double .
+
+<http://open.data.al/papunesi_2002_Macedonia>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Macedonia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2002> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "31.944"^^xsd:double .
+
+<http://open.data.al/papunesi_2008_Poland>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Poland> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "7.118"^^xsd:double .
+
+<http://open.data.al/papunesi_2001_Macedonia>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Macedonia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2001> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "30.515"^^xsd:double .
+
+<http://open.data.al/papunesi_2009_Turkey>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Turkey> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "14.028"^^xsd:double .
+
+<http://open.data.al/papunesi_2000_Montenegro>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Montenegro> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2000> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "n/a" .
+
+<http://open.data.al/papunesi_2000_Macedonia>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Macedonia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2000> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "31.727"^^xsd:double .
+
+<http://open.data.al/papunesi_2010_Montenegro>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Montenegro> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2010> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "12.2"^^xsd:double .
+
+<http://open.data.al/papunesi_2003_Turkey>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Turkey> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2003> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "10.495"^^xsd:double .
+
+<http://open.data.al/papunesi_2003_Macedonia>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Macedonia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2003> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "36.687"^^xsd:double .
+
+<http://open.data.al/papunesi_2008_Macedonia>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Macedonia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "33.46"^^xsd:double .
+
+<http://open.data.al/papunesi_2002_Greece>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Greece> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2002> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "10.325"^^xsd:double .
+
+<http://open.data.al/papunesi_2011_Croatia>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Croatia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2011> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "9"^^xsd:byte .
+
+<http://open.data.al/papunesi_2002_Kosova>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Kosova> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2002> .
+
+<http://open.data.al/papunesi_2003_Albania>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2003> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "15.5"^^xsd:float .
+
+<http://open.data.al/papunesi_2010_Bosnia_and_Herzegovina>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Bosnia_and_Herzegovina> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2010> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "27.202"^^xsd:double .
+
+<http://open.data.al/papunesi_2006_Montenegro>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Montenegro> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2006> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "14.7"^^xsd:double .
+
+<http://open.data.al/papunesi_2007_Serbia>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Serbia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "18.8"^^xsd:double .
+
+<http://open.data.al/papunesi_2008_Albania>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "12.5"^^xsd:float .
+
+<http://open.data.al/papunesi_2009_Greece>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Greece> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "9.375"^^xsd:float .
+
+<http://open.data.al/papunesi_2001_Turkey>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Turkey> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2001> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "8.335"^^xsd:double .
+
+[]    rdfs:label "Country" ;
+      rdfs:subClassOf <http://open.data.al/ODA#Dimension> .
+
+<http://open.data.al/papunesi_2005_Macedonia>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Macedonia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "37.3"^^xsd:double .
+
+<http://open.data.al/papunesi_2003_Bosnia_and_Herzegovina>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Bosnia_and_Herzegovina> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2003> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "31.096"^^xsd:double .
+
+<file:mappings/PapunesiaByCountry.trig>
+      owl:import <http://open.data.al/ODA#> .
+
+<http://open.data.al/papunesi_2006_Kosova>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Kosova> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2006> .
+
+<http://open.data.al/papunesi_2000_Greece>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Greece> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2000> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "11.35"^^xsd:double .
+
+<http://open.data.al/papunesi_2001_Bosnia_and_Herzegovina>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Bosnia_and_Herzegovina> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2001> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "31.096"^^xsd:double .
+
+<http://open.data.al/papunesi_2004_Romania>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Romania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2004> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "6.7"^^xsd:double .
+
+<http://open.data.al/papunesi_2010_Poland>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Poland> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2010> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "9.836"^^xsd:double .
+
+<http://open.data.al/papunesi_2010_Kosova>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Kosova> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2010> .
+
+<http://open.data.al/papunesi_2002_Montenegro>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Montenegro> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2002> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "n/a" .
+
+<http://open.data.al/papunesi_2011_Albania>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2011> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "11.5"^^xsd:float .
+
+<http://open.data.al/papunesi_2009_Macedonia>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Macedonia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "33"^^xsd:byte .
+
+<http://open.data.al/papunesi_2003_Greece>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Greece> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2003> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "9.725"^^xsd:double .
+
+<http://open.data.al/papunesi_2011_Serbia>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Serbia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2011> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "18.407"^^xsd:double .
+
+<http://open.data.al/papunesi_2001_Romania>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Romania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2001> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "9.362"^^xsd:double .
+
+<http://open.data.al/papunesi_2004_Poland>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Poland> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2004> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "18.974"^^xsd:double .
+
+<http://open.data.al/papunesi_2007_Greece>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Greece> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "8.292"^^xsd:double .
+
+<http://open.data.al/papunesi_2006_Albania>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2006> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "13.78"^^xsd:double .
+
+<http://open.data.al/papunesi_2009_Montenegro>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Montenegro> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "11.2"^^xsd:double .
+
+<http://open.data.al/papunesi_2011_Macedonia>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Macedonia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2011> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "31"^^xsd:byte .
+
+<http://open.data.al/papunesi_2010_Albania>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2010> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "12.5"^^xsd:float .
+
+<http://open.data.al/papunesi_2007_Poland>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Poland> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "9.603"^^xsd:double .
+
+<http://open.data.al/papunesi_2006_Bosnia_and_Herzegovina>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Bosnia_and_Herzegovina> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2006> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "31.096"^^xsd:double .
+
+<http://open.data.al/papunesi_2008_Romania>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Romania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "3.975"^^xsd:double .
+
+<http://open.data.al/papunesi_2008_Montenegro>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Montenegro> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/papunesiabycountry> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#UnemploymentRate> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "10.7"^^xsd:double .

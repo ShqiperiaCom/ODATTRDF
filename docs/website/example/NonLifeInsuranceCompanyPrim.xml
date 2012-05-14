@@ -1,0 +1,480 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:sdmx-measure="http://purl.org/linked-data/sdmx/2009/measure#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:scv="http://purl.org/NET/scovo#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:sdx="http://epimorphics.com/vocab/sdx#"
+    xmlns:oda="http://open.data.al/oda.owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:ckan="http://ckan.net/ns#" > 
+  <rdf:Description rdf:about="http://open.data.al/NonLifeInsuranceCompanyPrim_Atlantik _2011">
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:dataset rdf:resource="http://open.data.al/nonlifeinsuranceprim#dataset"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#NonLifeInsuranceCompanyPrim"/>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2011"/>
+    <oda:product>Atlantik </oda:product>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">229647.38921857148</sdmx-measure:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/NonLifeInsuranceCompanyPrim_Sigma_2008">
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1016519.3413898</sdmx-measure:obsValue>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:dataset rdf:resource="http://open.data.al/nonlifeinsuranceprim#dataset"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#NonLifeInsuranceCompanyPrim"/>
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2008"/>
+    <oda:product>Sigma</oda:product>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/NonLifeInsuranceCompanyPrim_Sigal_2010">
+    <oda:year rdf:resource="http://dbpedia.org/resource/2010"/>
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2242623.1186273</sdmx-measure:obsValue>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#NonLifeInsuranceCompanyPrim"/>
+    <oda:dataset rdf:resource="http://open.data.al/nonlifeinsuranceprim#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:product>Sigal</oda:product>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/NonLifeInsuranceCompanyPrim_Sigal_2006">
+    <oda:product>Sigal</oda:product>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2006"/>
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#NonLifeInsuranceCompanyPrim"/>
+    <oda:dataset rdf:resource="http://open.data.al/nonlifeinsuranceprim#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1061698.3213435998</sdmx-measure:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/NonLifeInsuranceCompanyPrim_Atlantik _2008">
+    <oda:year rdf:resource="http://dbpedia.org/resource/2008"/>
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">757243.9067290002</sdmx-measure:obsValue>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#NonLifeInsuranceCompanyPrim"/>
+    <oda:dataset rdf:resource="http://open.data.al/nonlifeinsuranceprim#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:product>Atlantik </oda:product>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/NonLifeInsuranceCompanyPrim_Insig_2006">
+    <oda:product>Insig</oda:product>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2006"/>
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#NonLifeInsuranceCompanyPrim"/>
+    <oda:dataset rdf:resource="http://open.data.al/nonlifeinsuranceprim#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">657641.084116155</sdmx-measure:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/NonLifeInsuranceCompanyPrim_Interalbanian_2009">
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">722847.1252529001</sdmx-measure:obsValue>
+    <oda:product>Interalbanian</oda:product>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2009"/>
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#NonLifeInsuranceCompanyPrim"/>
+    <oda:dataset rdf:resource="http://open.data.al/nonlifeinsuranceprim#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <rdfs:subClassOf rdf:resource="http://open.data.al/oda.owl#Dimension"/>
+    <rdfs:label>Year</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/NonLifeInsuranceCompanyPrim_Albsig_2007">
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:dataset rdf:resource="http://open.data.al/nonlifeinsuranceprim#dataset"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#NonLifeInsuranceCompanyPrim"/>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2007"/>
+    <oda:product>Albsig</oda:product>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">273439.41949296027</sdmx-measure:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/NonLifeInsuranceCompanyPrim_Intersig_2007">
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">345685.79810144333</sdmx-measure:obsValue>
+    <oda:product>Intersig</oda:product>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2007"/>
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#NonLifeInsuranceCompanyPrim"/>
+    <oda:dataset rdf:resource="http://open.data.al/nonlifeinsuranceprim#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/NonLifeInsuranceCompanyPrim_Eurosig_2006">
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:dataset rdf:resource="http://open.data.al/nonlifeinsuranceprim#dataset"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#NonLifeInsuranceCompanyPrim"/>
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2006"/>
+    <oda:product>Eurosig</oda:product>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">122117.08365147469</sdmx-measure:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/oda.owl#NonLifeInsuranceCompanyPrim">
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#Indicator"/>
+    <rdfs:label>NonLifeInsuranceCompanyPrim</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/NonLifeInsuranceCompanyPrim_Eurosig_2010">
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">458379.2948842999</sdmx-measure:obsValue>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:dataset rdf:resource="http://open.data.al/nonlifeinsuranceprim#dataset"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#NonLifeInsuranceCompanyPrim"/>
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2010"/>
+    <oda:product>Eurosig</oda:product>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/NonLifeInsuranceCompanyPrim_Intersig_2008">
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">502563.631582</sdmx-measure:obsValue>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:dataset rdf:resource="http://open.data.al/nonlifeinsuranceprim#dataset"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#NonLifeInsuranceCompanyPrim"/>
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2008"/>
+    <oda:product>Intersig</oda:product>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/NonLifeInsuranceCompanyPrim_Sigma_2009">
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1044946.5182205001</sdmx-measure:obsValue>
+    <oda:product>Sigma</oda:product>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2009"/>
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#NonLifeInsuranceCompanyPrim"/>
+    <oda:dataset rdf:resource="http://open.data.al/nonlifeinsuranceprim#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/NonLifeInsuranceCompanyPrim_Sigal_2007">
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:dataset rdf:resource="http://open.data.al/nonlifeinsuranceprim#dataset"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#NonLifeInsuranceCompanyPrim"/>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2007"/>
+    <oda:product>Sigal</oda:product>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1413972.888486641</sdmx-measure:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/NonLifeInsuranceCompanyPrim_Insig_2009">
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:dataset rdf:resource="http://open.data.al/nonlifeinsuranceprim#dataset"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#NonLifeInsuranceCompanyPrim"/>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2009"/>
+    <oda:product>Insig</oda:product>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">803840.0322599</sdmx-measure:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/NonLifeInsuranceCompanyPrim_Intersig_2011">
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">228289.53899313332</sdmx-measure:obsValue>
+    <oda:product>Intersig</oda:product>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2011"/>
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#NonLifeInsuranceCompanyPrim"/>
+    <oda:dataset rdf:resource="http://open.data.al/nonlifeinsuranceprim#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/NonLifeInsuranceCompanyPrim_Atlantik _2007">
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:dataset rdf:resource="http://open.data.al/nonlifeinsuranceprim#dataset"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#NonLifeInsuranceCompanyPrim"/>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2007"/>
+    <oda:product>Atlantik </oda:product>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">397501.303346663</sdmx-measure:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <rdfs:domain rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <rdfs:label>Data Entry Value</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A2">
+    <rdfs:subClassOf rdf:resource="http://open.data.al/oda.owl#Dimension"/>
+    <rdfs:label>Country</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/NonLifeInsuranceCompanyPrim_Albsig_2006">
+    <oda:product>Albsig</oda:product>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2006"/>
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#NonLifeInsuranceCompanyPrim"/>
+    <oda:dataset rdf:resource="http://open.data.al/nonlifeinsuranceprim#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">305598.5960694978</sdmx-measure:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/NonLifeInsuranceCompanyPrim_Interalbanian_2008">
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">693325.39696486</sdmx-measure:obsValue>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:dataset rdf:resource="http://open.data.al/nonlifeinsuranceprim#dataset"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#NonLifeInsuranceCompanyPrim"/>
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2008"/>
+    <oda:product>Interalbanian</oda:product>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/NonLifeInsuranceCompanyPrim_Insig_2010">
+    <oda:year rdf:resource="http://dbpedia.org/resource/2010"/>
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">810144.3300660001</sdmx-measure:obsValue>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#NonLifeInsuranceCompanyPrim"/>
+    <oda:dataset rdf:resource="http://open.data.al/nonlifeinsuranceprim#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:product>Insig</oda:product>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/NonLifeInsuranceCompanyPrim_Intersig_2006">
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:dataset rdf:resource="http://open.data.al/nonlifeinsuranceprim#dataset"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#NonLifeInsuranceCompanyPrim"/>
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2006"/>
+    <oda:product>Intersig</oda:product>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">223369.4455327824</sdmx-measure:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/NonLifeInsuranceCompanyPrim_Atlantik _2006">
+    <oda:product>Atlantik </oda:product>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2006"/>
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#NonLifeInsuranceCompanyPrim"/>
+    <oda:dataset rdf:resource="http://open.data.al/nonlifeinsuranceprim#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">268385.87316799944</sdmx-measure:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/NonLifeInsuranceCompanyPrim_Intersig_2009">
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">884931.478644</sdmx-measure:obsValue>
+    <oda:product>Intersig</oda:product>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2009"/>
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#NonLifeInsuranceCompanyPrim"/>
+    <oda:dataset rdf:resource="http://open.data.al/nonlifeinsuranceprim#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/NonLifeInsuranceCompanyPrim_Sigma_2006">
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:dataset rdf:resource="http://open.data.al/nonlifeinsuranceprim#dataset"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#NonLifeInsuranceCompanyPrim"/>
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2006"/>
+    <oda:product>Sigma</oda:product>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">630316.9006366413</sdmx-measure:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/NonLifeInsuranceCompanyPrim_Sigma_2011">
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">329695.9492013429</sdmx-measure:obsValue>
+    <oda:product>Sigma</oda:product>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2011"/>
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#NonLifeInsuranceCompanyPrim"/>
+    <oda:dataset rdf:resource="http://open.data.al/nonlifeinsuranceprim#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/NonLifeInsuranceCompanyPrim_Eurosig_2009">
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">388129.7125069</sdmx-measure:obsValue>
+    <oda:product>Eurosig</oda:product>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2009"/>
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#NonLifeInsuranceCompanyPrim"/>
+    <oda:dataset rdf:resource="http://open.data.al/nonlifeinsuranceprim#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/NonLifeInsuranceCompanyPrim_Eurosig_2011">
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">181603.4924999619</sdmx-measure:obsValue>
+    <oda:product>Eurosig</oda:product>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2011"/>
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#NonLifeInsuranceCompanyPrim"/>
+    <oda:dataset rdf:resource="http://open.data.al/nonlifeinsuranceprim#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/NonLifeInsuranceCompanyPrim_Albsig_2011">
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:dataset rdf:resource="http://open.data.al/nonlifeinsuranceprim#dataset"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#NonLifeInsuranceCompanyPrim"/>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2011"/>
+    <oda:product>Albsig</oda:product>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">190328.18077595235</sdmx-measure:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/NonLifeInsuranceCompanyPrim_Sigal_2008">
+    <oda:year rdf:resource="http://dbpedia.org/resource/2008"/>
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1785175.3804272</sdmx-measure:obsValue>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#NonLifeInsuranceCompanyPrim"/>
+    <oda:dataset rdf:resource="http://open.data.al/nonlifeinsuranceprim#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:product>Sigal</oda:product>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/NonLifeInsuranceCompanyPrim_Interalbanian_2006">
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:dataset rdf:resource="http://open.data.al/nonlifeinsuranceprim#dataset"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#NonLifeInsuranceCompanyPrim"/>
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2006"/>
+    <oda:product>Interalbanian</oda:product>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">437247.70816269337</sdmx-measure:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/NonLifeInsuranceCompanyPrim_Insig_2008">
+    <oda:year rdf:resource="http://dbpedia.org/resource/2008"/>
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">995503.7522</sdmx-measure:obsValue>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#NonLifeInsuranceCompanyPrim"/>
+    <oda:dataset rdf:resource="http://open.data.al/nonlifeinsuranceprim#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:product>Insig</oda:product>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A3">
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#Indicator"/>
+    <rdfs:label>Indicator</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/NonLifeInsuranceCompanyPrim_Interalbanian_2011">
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">240105.2426609</sdmx-measure:obsValue>
+    <oda:product>Interalbanian</oda:product>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2011"/>
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#NonLifeInsuranceCompanyPrim"/>
+    <oda:dataset rdf:resource="http://open.data.al/nonlifeinsuranceprim#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/NonLifeInsuranceCompanyPrim_Intersig_2010">
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">614235.27728</sdmx-measure:obsValue>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:dataset rdf:resource="http://open.data.al/nonlifeinsuranceprim#dataset"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#NonLifeInsuranceCompanyPrim"/>
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2010"/>
+    <oda:product>Intersig</oda:product>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/NonLifeInsuranceCompanyPrim_Eurosig_2008">
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">297891.6885209</sdmx-measure:obsValue>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:dataset rdf:resource="http://open.data.al/nonlifeinsuranceprim#dataset"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#NonLifeInsuranceCompanyPrim"/>
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2008"/>
+    <oda:product>Eurosig</oda:product>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/nonlifeinsuranceprim#dataset">
+    <dc:date>Sun Sep 04 18:26:10 CEST 2011</dc:date>
+    <dc:publisher>AMF (Autoriteti i Mbikeqyrjes financiare ne Shqiperi)</dc:publisher>
+    <dc:creator>Open Data Albania (ODA)</dc:creator>
+    <dc:title>Primet e shkruara bruto te shoqerive te sigurimeve te jo jetes per vitin 2011 ne Shqiper</dc:title>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/NonLifeInsuranceCompanyPrim_Albsig_2009">
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:dataset rdf:resource="http://open.data.al/nonlifeinsuranceprim#dataset"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#NonLifeInsuranceCompanyPrim"/>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2009"/>
+    <oda:product>Albsig</oda:product>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">516876.3124782001</sdmx-measure:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/NonLifeInsuranceCompanyPrim_Insig_2011">
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:dataset rdf:resource="http://open.data.al/nonlifeinsuranceprim#dataset"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#NonLifeInsuranceCompanyPrim"/>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2011"/>
+    <oda:product>Insig</oda:product>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">246218.57443672858</sdmx-measure:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A4">
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#Dataset"/>
+    <rdfs:label>Dataset</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/NonLifeInsuranceCompanyPrim_Sigma_2007">
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">840165.4292305</sdmx-measure:obsValue>
+    <oda:product>Sigma</oda:product>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2007"/>
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#NonLifeInsuranceCompanyPrim"/>
+    <oda:dataset rdf:resource="http://open.data.al/nonlifeinsuranceprim#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/NonLifeInsuranceCompanyPrim_Sigma_2010">
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1123080.2400896002</sdmx-measure:obsValue>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:dataset rdf:resource="http://open.data.al/nonlifeinsuranceprim#dataset"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#NonLifeInsuranceCompanyPrim"/>
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2010"/>
+    <oda:product>Sigma</oda:product>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/NonLifeInsuranceCompanyPrim_Albsig_2010">
+    <oda:year rdf:resource="http://dbpedia.org/resource/2010"/>
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">543288.1280608</sdmx-measure:obsValue>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#NonLifeInsuranceCompanyPrim"/>
+    <oda:dataset rdf:resource="http://open.data.al/nonlifeinsuranceprim#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:product>Albsig</oda:product>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/NonLifeInsuranceCompanyPrim_Sigal_2011">
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:dataset rdf:resource="http://open.data.al/nonlifeinsuranceprim#dataset"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#NonLifeInsuranceCompanyPrim"/>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2011"/>
+    <oda:product>Sigal</oda:product>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">939153.0413801526</sdmx-measure:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/NonLifeInsuranceCompanyPrim_Insig_2007">
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:dataset rdf:resource="http://open.data.al/nonlifeinsuranceprim#dataset"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#NonLifeInsuranceCompanyPrim"/>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2007"/>
+    <oda:product>Insig</oda:product>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">887694.7660316393</sdmx-measure:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/NonLifeInsuranceCompanyPrim_Sigal_2009">
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:dataset rdf:resource="http://open.data.al/nonlifeinsuranceprim#dataset"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#NonLifeInsuranceCompanyPrim"/>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2009"/>
+    <oda:product>Sigal</oda:product>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2104436.142575</sdmx-measure:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/NonLifeInsuranceCompanyPrim_Interalbanian_2007">
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">641329.5164321028</sdmx-measure:obsValue>
+    <oda:product>Interalbanian</oda:product>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2007"/>
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#NonLifeInsuranceCompanyPrim"/>
+    <oda:dataset rdf:resource="http://open.data.al/nonlifeinsuranceprim#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/NonLifeInsuranceCompanyPrim_Atlantik _2009">
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:dataset rdf:resource="http://open.data.al/nonlifeinsuranceprim#dataset"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#NonLifeInsuranceCompanyPrim"/>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2009"/>
+    <oda:product>Atlantik </oda:product>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">616544.58288775</sdmx-measure:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A5">
+    <rdfs:subClassOf rdf:resource="http://open.data.al/oda.owl#Dimension"/>
+    <rdfs:label>Product</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/NonLifeInsuranceCompanyPrim_Eurosig_2007">
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">256472.8667059</sdmx-measure:obsValue>
+    <oda:product>Eurosig</oda:product>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2007"/>
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#NonLifeInsuranceCompanyPrim"/>
+    <oda:dataset rdf:resource="http://open.data.al/nonlifeinsuranceprim#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/NonLifeInsuranceCompanyPrim_Albsig_2008">
+    <oda:year rdf:resource="http://dbpedia.org/resource/2008"/>
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">523665.9209336001</sdmx-measure:obsValue>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#NonLifeInsuranceCompanyPrim"/>
+    <oda:dataset rdf:resource="http://open.data.al/nonlifeinsuranceprim#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:product>Albsig</oda:product>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/NonLifeInsuranceCompanyPrim_Interalbanian_2010">
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">790661.9621597</sdmx-measure:obsValue>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:dataset rdf:resource="http://open.data.al/nonlifeinsuranceprim#dataset"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#NonLifeInsuranceCompanyPrim"/>
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2010"/>
+    <oda:product>Interalbanian</oda:product>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/NonLifeInsuranceCompanyPrim_Atlantik _2010">
+    <oda:year rdf:resource="http://dbpedia.org/resource/2010"/>
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">720426.0750729999</sdmx-measure:obsValue>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#NonLifeInsuranceCompanyPrim"/>
+    <oda:dataset rdf:resource="http://open.data.al/nonlifeinsuranceprim#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:product>Atlantik </oda:product>
+  </rdf:Description>
+</rdf:RDF>

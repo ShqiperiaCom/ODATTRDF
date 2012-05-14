@@ -1,0 +1,520 @@
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ckan:    <http://ckan.net/ns#> .
+@prefix sdx:     <http://epimorphics.com/vocab/sdx#> .
+@prefix sdmx-measure:  <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix scv:     <http://purl.org/NET/scovo#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix oda:     <http://open.data.al/oda.owl#> .
+
+<http://open.data.al/NonLifeInsuranceCompanyPrim_Atlantik _2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprim#dataset> ;
+      oda:indicator oda:NonLifeInsuranceCompanyPrim ;
+      oda:product "Atlantik " ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "229647.38921857148"^^xsd:double .
+
+<http://open.data.al/NonLifeInsuranceCompanyPrim_Sigma_2008>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprim#dataset> ;
+      oda:indicator oda:NonLifeInsuranceCompanyPrim ;
+      oda:product "Sigma" ;
+      oda:year <http://dbpedia.org/resource/2008> ;
+      sdmx-measure:obsValue
+              "1016519.3413898"^^xsd:double .
+
+<http://open.data.al/NonLifeInsuranceCompanyPrim_Sigal_2010>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprim#dataset> ;
+      oda:indicator oda:NonLifeInsuranceCompanyPrim ;
+      oda:product "Sigal" ;
+      oda:year <http://dbpedia.org/resource/2010> ;
+      sdmx-measure:obsValue
+              "2242623.1186273"^^xsd:double .
+
+<http://open.data.al/NonLifeInsuranceCompanyPrim_Sigal_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprim#dataset> ;
+      oda:indicator oda:NonLifeInsuranceCompanyPrim ;
+      oda:product "Sigal" ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "1061698.3213435998"^^xsd:double .
+
+<http://open.data.al/NonLifeInsuranceCompanyPrim_Atlantik _2008>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprim#dataset> ;
+      oda:indicator oda:NonLifeInsuranceCompanyPrim ;
+      oda:product "Atlantik " ;
+      oda:year <http://dbpedia.org/resource/2008> ;
+      sdmx-measure:obsValue
+              "757243.9067290002"^^xsd:double .
+
+<http://open.data.al/NonLifeInsuranceCompanyPrim_Insig_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprim#dataset> ;
+      oda:indicator oda:NonLifeInsuranceCompanyPrim ;
+      oda:product "Insig" ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "657641.084116155"^^xsd:double .
+
+<http://open.data.al/NonLifeInsuranceCompanyPrim_Interalbanian_2009>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprim#dataset> ;
+      oda:indicator oda:NonLifeInsuranceCompanyPrim ;
+      oda:product "Interalbanian" ;
+      oda:year <http://dbpedia.org/resource/2009> ;
+      sdmx-measure:obsValue
+              "722847.1252529001"^^xsd:double .
+
+[]    rdfs:label "Year" ;
+      rdfs:subClassOf oda:Dimension .
+
+<http://open.data.al/NonLifeInsuranceCompanyPrim_Albsig_2007>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprim#dataset> ;
+      oda:indicator oda:NonLifeInsuranceCompanyPrim ;
+      oda:product "Albsig" ;
+      oda:year <http://dbpedia.org/resource/2007> ;
+      sdmx-measure:obsValue
+              "273439.41949296027"^^xsd:double .
+
+<http://open.data.al/NonLifeInsuranceCompanyPrim_Intersig_2007>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprim#dataset> ;
+      oda:indicator oda:NonLifeInsuranceCompanyPrim ;
+      oda:product "Intersig" ;
+      oda:year <http://dbpedia.org/resource/2007> ;
+      sdmx-measure:obsValue
+              "345685.79810144333"^^xsd:double .
+
+<http://open.data.al/NonLifeInsuranceCompanyPrim_Eurosig_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprim#dataset> ;
+      oda:indicator oda:NonLifeInsuranceCompanyPrim ;
+      oda:product "Eurosig" ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "122117.08365147469"^^xsd:double .
+
+oda:NonLifeInsuranceCompanyPrim
+      a       oda:Indicator ;
+      rdfs:label "NonLifeInsuranceCompanyPrim" .
+
+<http://open.data.al/NonLifeInsuranceCompanyPrim_Eurosig_2010>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprim#dataset> ;
+      oda:indicator oda:NonLifeInsuranceCompanyPrim ;
+      oda:product "Eurosig" ;
+      oda:year <http://dbpedia.org/resource/2010> ;
+      sdmx-measure:obsValue
+              "458379.2948842999"^^xsd:double .
+
+<http://open.data.al/NonLifeInsuranceCompanyPrim_Intersig_2008>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprim#dataset> ;
+      oda:indicator oda:NonLifeInsuranceCompanyPrim ;
+      oda:product "Intersig" ;
+      oda:year <http://dbpedia.org/resource/2008> ;
+      sdmx-measure:obsValue
+              "502563.631582"^^xsd:double .
+
+<http://open.data.al/NonLifeInsuranceCompanyPrim_Sigma_2009>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprim#dataset> ;
+      oda:indicator oda:NonLifeInsuranceCompanyPrim ;
+      oda:product "Sigma" ;
+      oda:year <http://dbpedia.org/resource/2009> ;
+      sdmx-measure:obsValue
+              "1044946.5182205001"^^xsd:double .
+
+<http://open.data.al/NonLifeInsuranceCompanyPrim_Sigal_2007>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprim#dataset> ;
+      oda:indicator oda:NonLifeInsuranceCompanyPrim ;
+      oda:product "Sigal" ;
+      oda:year <http://dbpedia.org/resource/2007> ;
+      sdmx-measure:obsValue
+              "1413972.888486641"^^xsd:double .
+
+<http://open.data.al/NonLifeInsuranceCompanyPrim_Insig_2009>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprim#dataset> ;
+      oda:indicator oda:NonLifeInsuranceCompanyPrim ;
+      oda:product "Insig" ;
+      oda:year <http://dbpedia.org/resource/2009> ;
+      sdmx-measure:obsValue
+              "803840.0322599"^^xsd:double .
+
+<http://open.data.al/NonLifeInsuranceCompanyPrim_Intersig_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprim#dataset> ;
+      oda:indicator oda:NonLifeInsuranceCompanyPrim ;
+      oda:product "Intersig" ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "228289.53899313332"^^xsd:double .
+
+<http://open.data.al/NonLifeInsuranceCompanyPrim_Atlantik _2007>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprim#dataset> ;
+      oda:indicator oda:NonLifeInsuranceCompanyPrim ;
+      oda:product "Atlantik " ;
+      oda:year <http://dbpedia.org/resource/2007> ;
+      sdmx-measure:obsValue
+              "397501.303346663"^^xsd:double .
+
+[]    rdfs:domain oda:DataEntry ;
+      rdfs:label "Data Entry Value" .
+
+[]    rdfs:label "Country" ;
+      rdfs:subClassOf oda:Dimension .
+
+<http://open.data.al/NonLifeInsuranceCompanyPrim_Albsig_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprim#dataset> ;
+      oda:indicator oda:NonLifeInsuranceCompanyPrim ;
+      oda:product "Albsig" ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "305598.5960694978"^^xsd:double .
+
+<http://open.data.al/NonLifeInsuranceCompanyPrim_Interalbanian_2008>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprim#dataset> ;
+      oda:indicator oda:NonLifeInsuranceCompanyPrim ;
+      oda:product "Interalbanian" ;
+      oda:year <http://dbpedia.org/resource/2008> ;
+      sdmx-measure:obsValue
+              "693325.39696486"^^xsd:double .
+
+<http://open.data.al/NonLifeInsuranceCompanyPrim_Insig_2010>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprim#dataset> ;
+      oda:indicator oda:NonLifeInsuranceCompanyPrim ;
+      oda:product "Insig" ;
+      oda:year <http://dbpedia.org/resource/2010> ;
+      sdmx-measure:obsValue
+              "810144.3300660001"^^xsd:double .
+
+<http://open.data.al/NonLifeInsuranceCompanyPrim_Intersig_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprim#dataset> ;
+      oda:indicator oda:NonLifeInsuranceCompanyPrim ;
+      oda:product "Intersig" ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "223369.4455327824"^^xsd:double .
+
+<http://open.data.al/NonLifeInsuranceCompanyPrim_Atlantik _2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprim#dataset> ;
+      oda:indicator oda:NonLifeInsuranceCompanyPrim ;
+      oda:product "Atlantik " ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "268385.87316799944"^^xsd:double .
+
+<http://open.data.al/NonLifeInsuranceCompanyPrim_Intersig_2009>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprim#dataset> ;
+      oda:indicator oda:NonLifeInsuranceCompanyPrim ;
+      oda:product "Intersig" ;
+      oda:year <http://dbpedia.org/resource/2009> ;
+      sdmx-measure:obsValue
+              "884931.478644"^^xsd:double .
+
+<http://open.data.al/NonLifeInsuranceCompanyPrim_Sigma_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprim#dataset> ;
+      oda:indicator oda:NonLifeInsuranceCompanyPrim ;
+      oda:product "Sigma" ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "630316.9006366413"^^xsd:double .
+
+<http://open.data.al/NonLifeInsuranceCompanyPrim_Sigma_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprim#dataset> ;
+      oda:indicator oda:NonLifeInsuranceCompanyPrim ;
+      oda:product "Sigma" ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "329695.9492013429"^^xsd:double .
+
+<http://open.data.al/NonLifeInsuranceCompanyPrim_Eurosig_2009>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprim#dataset> ;
+      oda:indicator oda:NonLifeInsuranceCompanyPrim ;
+      oda:product "Eurosig" ;
+      oda:year <http://dbpedia.org/resource/2009> ;
+      sdmx-measure:obsValue
+              "388129.7125069"^^xsd:double .
+
+<http://open.data.al/NonLifeInsuranceCompanyPrim_Eurosig_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprim#dataset> ;
+      oda:indicator oda:NonLifeInsuranceCompanyPrim ;
+      oda:product "Eurosig" ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "181603.4924999619"^^xsd:double .
+
+<http://open.data.al/NonLifeInsuranceCompanyPrim_Albsig_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprim#dataset> ;
+      oda:indicator oda:NonLifeInsuranceCompanyPrim ;
+      oda:product "Albsig" ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "190328.18077595235"^^xsd:double .
+
+<http://open.data.al/NonLifeInsuranceCompanyPrim_Sigal_2008>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprim#dataset> ;
+      oda:indicator oda:NonLifeInsuranceCompanyPrim ;
+      oda:product "Sigal" ;
+      oda:year <http://dbpedia.org/resource/2008> ;
+      sdmx-measure:obsValue
+              "1785175.3804272"^^xsd:double .
+
+<http://open.data.al/NonLifeInsuranceCompanyPrim_Interalbanian_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprim#dataset> ;
+      oda:indicator oda:NonLifeInsuranceCompanyPrim ;
+      oda:product "Interalbanian" ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "437247.70816269337"^^xsd:double .
+
+<http://open.data.al/NonLifeInsuranceCompanyPrim_Insig_2008>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprim#dataset> ;
+      oda:indicator oda:NonLifeInsuranceCompanyPrim ;
+      oda:product "Insig" ;
+      oda:year <http://dbpedia.org/resource/2008> ;
+      sdmx-measure:obsValue
+              "995503.7522"^^xsd:double .
+
+[]    a       oda:Indicator ;
+      rdfs:label "Indicator" .
+
+<http://open.data.al/NonLifeInsuranceCompanyPrim_Interalbanian_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprim#dataset> ;
+      oda:indicator oda:NonLifeInsuranceCompanyPrim ;
+      oda:product "Interalbanian" ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "240105.2426609"^^xsd:double .
+
+<http://open.data.al/NonLifeInsuranceCompanyPrim_Intersig_2010>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprim#dataset> ;
+      oda:indicator oda:NonLifeInsuranceCompanyPrim ;
+      oda:product "Intersig" ;
+      oda:year <http://dbpedia.org/resource/2010> ;
+      sdmx-measure:obsValue
+              "614235.27728"^^xsd:double .
+
+<http://open.data.al/NonLifeInsuranceCompanyPrim_Eurosig_2008>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprim#dataset> ;
+      oda:indicator oda:NonLifeInsuranceCompanyPrim ;
+      oda:product "Eurosig" ;
+      oda:year <http://dbpedia.org/resource/2008> ;
+      sdmx-measure:obsValue
+              "297891.6885209"^^xsd:double .
+
+<http://open.data.al/nonlifeinsuranceprim#dataset>
+      a       oda:Dataset ;
+      dc:creator "Open Data Albania (ODA)" ;
+      dc:date "Sun Sep 04 18:26:10 CEST 2011" ;
+      dc:publisher "AMF (Autoriteti i Mbikeqyrjes financiare ne Shqiperi)" ;
+      dc:title "Primet e shkruara bruto te shoqerive te sigurimeve te jo jetes per vitin 2011 ne Shqiper" .
+
+<http://open.data.al/NonLifeInsuranceCompanyPrim_Albsig_2009>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprim#dataset> ;
+      oda:indicator oda:NonLifeInsuranceCompanyPrim ;
+      oda:product "Albsig" ;
+      oda:year <http://dbpedia.org/resource/2009> ;
+      sdmx-measure:obsValue
+              "516876.3124782001"^^xsd:double .
+
+<http://open.data.al/NonLifeInsuranceCompanyPrim_Insig_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprim#dataset> ;
+      oda:indicator oda:NonLifeInsuranceCompanyPrim ;
+      oda:product "Insig" ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "246218.57443672858"^^xsd:double .
+
+[]    a       oda:Dataset ;
+      rdfs:label "Dataset" .
+
+<http://open.data.al/NonLifeInsuranceCompanyPrim_Sigma_2007>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprim#dataset> ;
+      oda:indicator oda:NonLifeInsuranceCompanyPrim ;
+      oda:product "Sigma" ;
+      oda:year <http://dbpedia.org/resource/2007> ;
+      sdmx-measure:obsValue
+              "840165.4292305"^^xsd:double .
+
+<http://open.data.al/NonLifeInsuranceCompanyPrim_Sigma_2010>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprim#dataset> ;
+      oda:indicator oda:NonLifeInsuranceCompanyPrim ;
+      oda:product "Sigma" ;
+      oda:year <http://dbpedia.org/resource/2010> ;
+      sdmx-measure:obsValue
+              "1123080.2400896002"^^xsd:double .
+
+<http://open.data.al/NonLifeInsuranceCompanyPrim_Albsig_2010>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprim#dataset> ;
+      oda:indicator oda:NonLifeInsuranceCompanyPrim ;
+      oda:product "Albsig" ;
+      oda:year <http://dbpedia.org/resource/2010> ;
+      sdmx-measure:obsValue
+              "543288.1280608"^^xsd:double .
+
+<http://open.data.al/NonLifeInsuranceCompanyPrim_Sigal_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprim#dataset> ;
+      oda:indicator oda:NonLifeInsuranceCompanyPrim ;
+      oda:product "Sigal" ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "939153.0413801526"^^xsd:double .
+
+<http://open.data.al/NonLifeInsuranceCompanyPrim_Insig_2007>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprim#dataset> ;
+      oda:indicator oda:NonLifeInsuranceCompanyPrim ;
+      oda:product "Insig" ;
+      oda:year <http://dbpedia.org/resource/2007> ;
+      sdmx-measure:obsValue
+              "887694.7660316393"^^xsd:double .
+
+<http://open.data.al/NonLifeInsuranceCompanyPrim_Sigal_2009>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprim#dataset> ;
+      oda:indicator oda:NonLifeInsuranceCompanyPrim ;
+      oda:product "Sigal" ;
+      oda:year <http://dbpedia.org/resource/2009> ;
+      sdmx-measure:obsValue
+              "2104436.142575"^^xsd:double .
+
+<http://open.data.al/NonLifeInsuranceCompanyPrim_Interalbanian_2007>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprim#dataset> ;
+      oda:indicator oda:NonLifeInsuranceCompanyPrim ;
+      oda:product "Interalbanian" ;
+      oda:year <http://dbpedia.org/resource/2007> ;
+      sdmx-measure:obsValue
+              "641329.5164321028"^^xsd:double .
+
+<http://open.data.al/NonLifeInsuranceCompanyPrim_Atlantik _2009>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprim#dataset> ;
+      oda:indicator oda:NonLifeInsuranceCompanyPrim ;
+      oda:product "Atlantik " ;
+      oda:year <http://dbpedia.org/resource/2009> ;
+      sdmx-measure:obsValue
+              "616544.58288775"^^xsd:double .
+
+[]    rdfs:label "Product" ;
+      rdfs:subClassOf oda:Dimension .
+
+<http://open.data.al/NonLifeInsuranceCompanyPrim_Eurosig_2007>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprim#dataset> ;
+      oda:indicator oda:NonLifeInsuranceCompanyPrim ;
+      oda:product "Eurosig" ;
+      oda:year <http://dbpedia.org/resource/2007> ;
+      sdmx-measure:obsValue
+              "256472.8667059"^^xsd:double .
+
+<http://open.data.al/NonLifeInsuranceCompanyPrim_Albsig_2008>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprim#dataset> ;
+      oda:indicator oda:NonLifeInsuranceCompanyPrim ;
+      oda:product "Albsig" ;
+      oda:year <http://dbpedia.org/resource/2008> ;
+      sdmx-measure:obsValue
+              "523665.9209336001"^^xsd:double .
+
+<http://open.data.al/NonLifeInsuranceCompanyPrim_Interalbanian_2010>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprim#dataset> ;
+      oda:indicator oda:NonLifeInsuranceCompanyPrim ;
+      oda:product "Interalbanian" ;
+      oda:year <http://dbpedia.org/resource/2010> ;
+      sdmx-measure:obsValue
+              "790661.9621597"^^xsd:double .
+
+<http://open.data.al/NonLifeInsuranceCompanyPrim_Atlantik _2010>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprim#dataset> ;
+      oda:indicator oda:NonLifeInsuranceCompanyPrim ;
+      oda:product "Atlantik " ;
+      oda:year <http://dbpedia.org/resource/2010> ;
+      sdmx-measure:obsValue
+              "720426.0750729999"^^xsd:double .

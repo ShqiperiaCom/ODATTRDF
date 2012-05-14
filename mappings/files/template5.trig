@@ -1,0 +1,76 @@
+#Komente, paqartesi
+#Perdoret per konvertim ne rdf/xml te xls me tabela 2 dimensionale (city,year)
+#5 rreshtat e pare kane te dhena qe lexohen nga .trig file
+#rreshtat ne vazhdim jane tabela dimensionale
+#skedari . trig lexon deri ku mbaron tabela, mund te kalohet ne sheet pasardhes ku percaktohet nje indikator tjeter
+#template2.xls 
+
+#Datasets duhen shtuar si individuals ne ontologji? Percaktimi i dataset te templ_graph me poshte eshtei sakte?
+#uri i kam ndryshuar sipas uri te ontologjia psh: http://open.data.al/oda.owl#YearlyInflationByCountry por nuk jam e sigurt nese eshte e sakte
+
+
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:    <http://www.w3.org/2002/07/owl#> .
+@prefix dc:     <http://purl.org/dc/elements/1.1/> .
+@prefix oda:	<http://open.data.al/oda.owl#> .  #ishte http://open.data.al/ODA# , e zevendesova me oda.owl# sipas ontologjise por nk e di a eshte i sakte
+@prefix sdmx-measure:  <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix xl:		<http://purl.org/NET/xlwrap#> .
+@prefix :       <http://myApplication/configuration#> .
+
+
+# mapping
+{ [] a xl:Mapping ;
+	xl:offline "false"^^xsd:boolean ;
+
+	xl:template [
+		xl:fileName "mappings/files/Numri_i_lejeve_te_ndertimit_sipas_qarqeve.xls" ;  # e percaktoj manualisht
+		xl:sheetNumber "0" ;	
+		xl:constantGraph :ODAconst_graph ;
+		xl:templateGraph :ODAtempl_graph ;
+		xl:transform [
+			a rdf:Seq ;
+			rdf:_1 [
+				a xl:RowShift ;
+				xl:restriction "A7; B7" ;
+				xl:breakCondition "ALLEMPTY(A7)" ;	
+				xl:steps "1" ;
+			] ;
+			rdf:_2 [
+				a xl:ColShift ;
+				xl:restriction "B6; B7"^^xl:Expr ;
+				xl:breakCondition "ALLEMPTY(B6)" ;
+				xl:steps "1" ;
+			] ;
+			rdf:_3 [
+				a xl:SheetShift ;
+				xl:restriction "#1.*"^^xl:Expr ;
+				xl:breakCondition "SUBSTRING(SHEETNAME(A1), '0','5') == 'Sheet'" ;				
+				xl:steps "1"
+			] ;
+		]
+	].
+}
+:ODAconst_graph {
+	<> owl:import oda: .
+	[ xl:uri "'http://open.data.al/'& SUBSTRING(A4,'8')"^^xl:Expr ] a oda:Dataset ; #kap string pas Dataset: tek A1
+		dc:title    "SUBSTRING(STRING(A1),'6')"^^xl:Expr ;   #kap string pas Title: tek A1
+		dc:creator  "Open Data Albania (ODA)" ;
+		dc:publisher  "SUBSTRING(STRING(A2),'7')"^^xl:Expr ;   #kap string pas Source: tek A2, nenkupton publisher
+		dc:date     "NOW()"^^xl:Expr . 
+	
+	sdmx-measure:obsValue  [ rdfs:label "Data Entry Value" ; rdfs:domain oda:DataEntry ] .
+	oda:Indicator [ rdfs:label "Indicator" ; a oda:Indicator ] .
+	oda:Year     [ rdfs:label "Year" ; rdfs:subClassOf oda:Dimension ] .	
+	oda:City  [ rdfs:label "City" ; rdfs:subClassOf oda:Dimension ] .
+	oda:Dataset  [ rdfs:label "Dataset" ; a oda:Dataset ] .
+}
+:ODAtempl_graph {		
+	[xl:uri "'http://open.data.al/' & SUBSTRING(A3,'10') & '_' & A7 & '_' & B6"^^xl:Expr] a oda:DataEntry ;	
+	oda:dataset [ xl:uri "'http://open.data.al/oda.owl#' & SUBSTRING(STRING(A4),'8')"^^xl:Expr ];	
+	oda:indicator [ xl:uri "'http://open.data.al/oda.owl#' & SUBSTRING(STRING(A3),'10')"^^xl:Expr ; a oda:Indicator ; rdfs:label "SUBSTRING(STRING(A3),'10')"^^xl:Expr ] ;	
+	oda:city    "DBP_LOCALITY(A7)"^^xl:Expr ; 
+	oda:year       "DBP_YEAR(B6)"^^xl:Expr ;	
+	sdmx-measure:obsValue   "B7"^^xl:Expr . # mund ta zevendesoj me :rdf:value    "B7"^^xl:Expr.
+}

@@ -1,0 +1,140 @@
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ckan:    <http://ckan.net/ns#> .
+@prefix sdx:     <http://epimorphics.com/vocab/sdx#> .
+@prefix sdmx-measure:  <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix scv:     <http://purl.org/NET/scovo#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix oda:     <http://open.data.al/oda.owl#> .
+
+<http://open.data.al/AgriculturalAreaStructurePerc_Fondi Pyjor, Kullotat_2005>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/agricultureareapercent#dataset> ;
+      oda:indicator oda:AgriculturalAreaStructurePerc ;
+      oda:product "Fondi Pyjor, Kullotat" ;
+      oda:year <http://dbpedia.org/resource/2005> ;
+      sdmx-measure:obsValue
+              "0.7568695652173913"^^xsd:double .
+
+<http://open.data.al/AgriculturalAreaStructurePerc_Toke Bujqesore_2008>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/agricultureareapercent#dataset> ;
+      oda:indicator oda:AgriculturalAreaStructurePerc ;
+      oda:product "Toke Bujqesore" ;
+      oda:year <http://dbpedia.org/resource/2008> ;
+      sdmx-measure:obsValue
+              "0.24243478260869566"^^xsd:double .
+
+[]    rdfs:label "Product" ;
+      rdfs:subClassOf oda:Dimension .
+
+<http://open.data.al/AgriculturalAreaStructurePerc_Toke Bujqesore_2009>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/agricultureareapercent#dataset> ;
+      oda:indicator oda:AgriculturalAreaStructurePerc ;
+      oda:product "Toke Bujqesore" ;
+      oda:year <http://dbpedia.org/resource/2009> ;
+      sdmx-measure:obsValue
+              "0.24208695652173914"^^xsd:double .
+
+[]    rdfs:domain oda:DataEntry ;
+      rdfs:label "Data Entry Value" .
+
+[]    a       oda:Indicator ;
+      rdfs:label "Indicator" .
+
+oda:AgriculturalAreaStructurePerc
+      a       oda:Indicator ;
+      rdfs:label "AgriculturalAreaStructurePerc" .
+
+<http://open.data.al/AgriculturalAreaStructurePerc_Toke Bujqesore_2007>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/agricultureareapercent#dataset> ;
+      oda:indicator oda:AgriculturalAreaStructurePerc ;
+      oda:product "Toke Bujqesore" ;
+      oda:year <http://dbpedia.org/resource/2007> ;
+      sdmx-measure:obsValue
+              "0.24243478260869566"^^xsd:double .
+
+[]    rdfs:label "Year" ;
+      rdfs:subClassOf oda:Dimension .
+
+[]    rdfs:label "Country" ;
+      rdfs:subClassOf oda:Dimension .
+
+<http://open.data.al/AgriculturalAreaStructurePerc_Toke Bujqesore_2005>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/agricultureareapercent#dataset> ;
+      oda:indicator oda:AgriculturalAreaStructurePerc ;
+      oda:product "Toke Bujqesore" ;
+      oda:year <http://dbpedia.org/resource/2005> ;
+      sdmx-measure:obsValue
+              "0.2431304347826087"^^xsd:double .
+
+[]    a       oda:Dataset ;
+      rdfs:label "Dataset" .
+
+<http://open.data.al/AgriculturalAreaStructurePerc_Toke Bujqesore_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/agricultureareapercent#dataset> ;
+      oda:indicator oda:AgriculturalAreaStructurePerc ;
+      oda:product "Toke Bujqesore" ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "0.2431304347826087"^^xsd:double .
+
+<http://open.data.al/AgriculturalAreaStructurePerc_Fondi Pyjor, Kullotat_2009>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/agricultureareapercent#dataset> ;
+      oda:indicator oda:AgriculturalAreaStructurePerc ;
+      oda:product "Fondi Pyjor, Kullotat" ;
+      oda:year <http://dbpedia.org/resource/2009> ;
+      sdmx-measure:obsValue
+              "0.7579130434782608"^^xsd:double .
+
+<http://open.data.al/AgriculturalAreaStructurePerc_Fondi Pyjor, Kullotat_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/agricultureareapercent#dataset> ;
+      oda:indicator oda:AgriculturalAreaStructurePerc ;
+      oda:product "Fondi Pyjor, Kullotat" ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "0.7568695652173913"^^xsd:double .
+
+<http://open.data.al/AgriculturalAreaStructurePerc_Fondi Pyjor, Kullotat_2007>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/agricultureareapercent#dataset> ;
+      oda:indicator oda:AgriculturalAreaStructurePerc ;
+      oda:product "Fondi Pyjor, Kullotat" ;
+      oda:year <http://dbpedia.org/resource/2007> ;
+      sdmx-measure:obsValue
+              "0.7575652173913043"^^xsd:double .
+
+<http://open.data.al/agricultureareapercent#dataset>
+      a       oda:Dataset ;
+      dc:creator "Open Data Albania (ODA)" ;
+      dc:date "Sat Sep 10 11:36:46 CEST 2011" ;
+      dc:publisher "Ministria e Bujqësisë, Ushqimit, dhe Mbrojtjes së Konsumatorit" ;
+      dc:title "Perqindja e tokes bujqesore ndaj tokes totale ne Shqiperi ne vite" .
+
+<http://open.data.al/AgriculturalAreaStructurePerc_Fondi Pyjor, Kullotat_2008>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/agricultureareapercent#dataset> ;
+      oda:indicator oda:AgriculturalAreaStructurePerc ;
+      oda:product "Fondi Pyjor, Kullotat" ;
+      oda:year <http://dbpedia.org/resource/2008> ;
+      sdmx-measure:obsValue
+              "0.7575652173913043"^^xsd:double .

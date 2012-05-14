@@ -1,0 +1,1595 @@
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ckan:    <http://ckan.net/ns#> .
+@prefix sdx:     <http://epimorphics.com/vocab/sdx#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix scv:     <http://purl.org/NET/scovo#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://open.data.al/yearlyinflationcountryTurkey_2008>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Turkey> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "10.064"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryKosovo_2011*>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Kosovo> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2011*> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "2.4"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryKosovo_2009>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Kosovo> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0.09"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryBosnia_and_Herzegovina_2002>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Bosnia_and_Herzegovina> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2002> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "-0.4"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryPoland_2009>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Poland> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "3.5"^^xsd:float .
+
+<http://open.data.al/yearlyinflationcountrySerbia_2005>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Serbia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "17.657"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryBosnia_and_Herzegovina_2011*>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Bosnia_and_Herzegovina> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2011*> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "2"^^xsd:byte .
+
+<file:mappings/InflationByCountry.trig>
+      owl:import <http://open.data.al/ODA#> .
+
+<http://open.data.al/yearlyinflationcountryAlbania_2009>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "3.515"^^xsd:double .
+
+[]    rdfs:label "Country" ;
+      rdfs:subClassOf <http://open.data.al/ODA#Dimension> .
+
+<http://open.data.al/yearlyinflationcountryPoland_2001>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Poland> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2001> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "3.6"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountrySerbia_2010*>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Serbia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2010*> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "6.832"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryKosovo_2000>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Kosovo> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2000> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "n/a" .
+
+<http://open.data.al/yearlyinflationcountryAlbania_2001>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2001> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "3.528"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryGreece_2007>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Greece> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "3.861"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryKosovo_2010*>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Kosovo> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2010*> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "3.127"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryCroatia_2008>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Croatia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "2.826"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryRumania_2010*>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Rumania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2010*> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "7.855"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryMacedonia_2009>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Macedonia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "-1.637"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountrySerbia_2006>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Serbia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2006> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "6.606"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryCroatia_2000>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Croatia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2000> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "5.51"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryAlbania_2010*>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2010*> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "3"^^xsd:byte .
+
+<http://open.data.al/yearlyinflationcountryTurkey_2007>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Turkey> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "8.387"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryAlbania_2008>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "2.162"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryKosovo_2001>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Kosovo> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2001> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "n/a" .
+
+[]    rdfs:label "Year" ;
+      rdfs:subClassOf <http://open.data.al/ODA#Dimension> .
+
+<http://open.data.al/yearlyinflationcountrySerbia_2011*>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Serbia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2011*> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "4.977"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryPoland_2002>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Poland> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2002> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0.8"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryGreece_2008>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Greece> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "3.1"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryAlbania_2011*>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2011*> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "2.9"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryAlbania_2000>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2000> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "4.203"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryCroatia_2009>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Croatia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "1.862"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryMacedonia_2008>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Macedonia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "4.101"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryGreece_2000>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Greece> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2000> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "3.658"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryTurkey_2010*>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Turkey> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2010*> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "7.611"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryMacedonia_2011*>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Macedonia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2011*> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "3"^^xsd:byte .
+
+<http://open.data.al/yearlyinflationcountryTurkey_2000>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Turkey> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2000> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "38.998"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryBosnia_and_Herzegovina_2003>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Bosnia_and_Herzegovina> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2003> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0.5"^^xsd:float .
+
+<http://open.data.al/yearlyinflationcountrySerbia_2007>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Serbia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "11.022"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryTurkey_2011*>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Turkey> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2011*> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "6.207"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#Indicator> ;
+      rdfs:label "Indicator" .
+
+<http://open.data.al/yearlyinflationcountryPoland_2007>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Poland> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "4"^^xsd:byte .
+
+<http://open.data.al/yearlyinflationcountryTurkey_2006>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Turkey> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2006> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "9.653"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryGreece_2005>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Greece> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "3.462"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryCroatia_2005>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Croatia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "3.673"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryKosovo_2002>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Kosovo> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2002> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "n/a" .
+
+<http://open.data.al/yearlyinflationcountryMacedonia_2007>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Macedonia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "6.667"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryBosnia_and_Herzegovina_2004>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Bosnia_and_Herzegovina> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2004> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0.6"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountrySerbia_2008>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Serbia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "8.603"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryAlbania_2007>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "3.057"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryRumania_2009>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Rumania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "4.7"^^xsd:double .
+
+[]    rdfs:domain <http://open.data.al/ODA#DataEntry> ;
+      rdfs:label "Data Entry Value" .
+
+<http://open.data.al/yearlyinflationcountryTurkey_2005>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Turkey> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "7.72"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryPoland_2008>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Poland> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "3.3"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryCroatia_2006>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Croatia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2006> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "2.067"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryGreece_2006>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Greece> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2006> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "3.199"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryKosovo_2003>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Kosovo> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2003> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0.493"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryMacedonia_2001>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Macedonia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2001> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "3.96"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryPoland_2000>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Poland> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2000> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "8.5"^^xsd:float .
+
+<http://open.data.al/yearlyinflationcountryCroatia_2011*>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Croatia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2011*> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "2.75"^^xsd:float .
+
+<http://open.data.al/yearlyinflationcountryMacedonia_2000>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Macedonia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2000> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "5.836"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryMacedonia_2006>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Macedonia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2006> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "3.078"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountrySerbia_2000>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Serbia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2000> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "111.959"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryCroatia_2007>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Croatia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "5.786"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryBosnia_and_Herzegovina_2005>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Bosnia_and_Herzegovina> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "4.3"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountrySerbia_2009>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Serbia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "6.578"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryCroatia_2010*>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Croatia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2010*> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "2.5"^^xsd:float .
+
+<http://open.data.al/yearlyinflationcountryAlbania_2006>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2006> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "2.513"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryRumania_2008>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Rumania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "6.3"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryAlbania_2005>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "2.038"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryPoland_2011*>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Poland> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2011*> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "2.728"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryRumania_2011*>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Rumania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2011*> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "2.962"^^xsd:double .
+
+<http://open.data.al/ODA#YearlyInflationByCountry>
+      a       <http://open.data.al/ODA#Indicator> ;
+      rdfs:label "Yearly Inflation by country" .
+
+<http://open.data.al/yearlyinflationcountryPoland_2010*>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Poland> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2010*> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "2.443"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryGreece_2010*>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Greece> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2010*> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "4.4"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryKosovo_2005>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Kosovo> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0.714"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryTurkey_2004>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Turkey> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2004> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "9.355"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountrySerbia_2001>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Serbia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2001> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "40.666"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryCroatia_2004>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Croatia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2004> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "2.725"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryGreece_2003>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Greece> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2003> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "3.143"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryRumania_2007>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Rumania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "6.572"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryKosovo_2004>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Kosovo> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2004> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "-3.729"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryBosnia_and_Herzegovina_2001>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Bosnia_and_Herzegovina> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2001> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0.6"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryPoland_2005>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Poland> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0.7"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryBosnia_and_Herzegovina_2006>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Bosnia_and_Herzegovina> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2006> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "4.548"^^xsd:double .
+
+<http://open.data.al/yearlyinflationbycountry#dataset>
+      a       <http://open.data.al/ODA#Dataset> ;
+      dc:creator "Open Data Albania" ;
+      dc:date "Mon Jun 13 22:41:40 CEST 2011" , "Mon Jun 13 22:41:41 CEST 2011" ;
+      dc:publisher " International Monetary Fund (IMF)" ;
+      dc:title "Yearly Inflation Rate By Country" .
+
+<http://open.data.al/yearlyinflationcountryRumania_2000>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Rumania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2000> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "40.71"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryMacedonia_2005>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Macedonia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "1.581"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryBosnia_and_Herzegovina_2010*>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Bosnia_and_Herzegovina> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2010*> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "3.336"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryAlbania_2004>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2004> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "2.204"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountrySerbia_2002>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Serbia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2002> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "14.758"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryPoland_2006>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Poland> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2006> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "1.4"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryTurkey_2003>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Turkey> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2003> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "18.399"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryKosovo_2006>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Kosovo> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2006> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "1.113"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryBosnia_and_Herzegovina_2007>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Bosnia_and_Herzegovina> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "4.944"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryGreece_2004>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Greece> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2004> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "3.12"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryBosnia_and_Herzegovina_2000>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Bosnia_and_Herzegovina> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2000> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "7"^^xsd:byte .
+
+<http://open.data.al/yearlyinflationcountryCroatia_2003>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Croatia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2003> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "1.706"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryRumania_2006>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Rumania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2006> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "4.878"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryMacedonia_2010*>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Macedonia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2010*> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "2"^^xsd:byte .
+
+<http://open.data.al/yearlyinflationcountryMacedonia_2004>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Macedonia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2004> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "-2.167"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryRumania_2001>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Rumania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2001> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "30.29"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryAlbania_2003>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2003> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "3.298"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryKosovo_2007>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Kosovo> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "10.511"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryTurkey_2002>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Turkey> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2002> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "29.705"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountrySerbia_2003>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Serbia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2003> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "7.6"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryPoland_2003>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Poland> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2003> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "1.7"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryCroatia_2002>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Croatia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2002> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "1.846"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryRumania_2005>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Rumania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "8.646"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryBosnia_and_Herzegovina_2008>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Bosnia_and_Herzegovina> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "3.809"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryGreece_2001>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Greece> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2001> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "3.529"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryGreece_2009>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Greece> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "1.977"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryMacedonia_2003>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Macedonia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2003> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "2.677"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryRumania_2002>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Rumania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2002> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "17.84"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryAlbania_2002>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2002> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "1.681"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryTurkey_2001>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Turkey> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2001> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "68.489"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryKosovo_2008>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Kosovo> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0.453"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountrySerbia_2004>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Serbia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2004> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "13.741"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryCroatia_2001>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Croatia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2001> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "2.333"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryPoland_2004>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Poland> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2004> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "4.4"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryRumania_2004>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Rumania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2004> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "9.261"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryRumania_2003>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Rumania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2003> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "14.14"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryGreece_2002>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Greece> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2002> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "3.498"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryBosnia_and_Herzegovina_2009>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Bosnia_and_Herzegovina> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "-0.025"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryTurkey_2009>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Turkey> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "6.526"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryGreece_2011*>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Greece> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2011*> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "1.366"^^xsd:double .
+
+<http://open.data.al/yearlyinflationcountryMacedonia_2002>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Macedonia> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlyinflationbycountry#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#YearlyInflationByCountry> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2002> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0.806"^^xsd:double .

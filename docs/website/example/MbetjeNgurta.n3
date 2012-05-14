@@ -1,0 +1,165 @@
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ckan:    <http://ckan.net/ns#> .
+@prefix sdx:     <http://epimorphics.com/vocab/sdx#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix scv:     <http://purl.org/NET/scovo#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+[]    a       <http://open.data.al/ODA#Indicator> ;
+      rdfs:label "Indicator" .
+
+[]    rdfs:label "Year" ;
+      rdfs:subClassOf <http://open.data.al/ODA#Dimension> .
+
+[]    rdfs:domain <http://open.data.al/ODA#DataEntry> ;
+      rdfs:label "Data Entry Value" .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/solidscraps#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              "UrbanSolidScraps" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "633596"^^xsd:int .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/solidscraps#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              "Inerts" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2004> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "466320"^^xsd:int .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/solidscraps#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              "UrbanSolidScraps" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2004> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "397382"^^xsd:int .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/solidscraps#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              "Inerts" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "645387"^^xsd:int .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/solidscraps#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              "Inerts" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "506540"^^xsd:int .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/solidscraps#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              "UrbanSolidScraps" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "762353"^^xsd:int .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/solidscraps#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              "UrbanSolidScraps" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "738738"^^xsd:int .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/solidscraps#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              "UrbanSolidScraps" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "857223"^^xsd:int .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/solidscraps#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              "UrbanSolidScraps" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2006> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "722726"^^xsd:int .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/solidscraps#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              "Inerts" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "455866"^^xsd:int .
+
+<http://open.data.al/solidscraps#dataset>
+      a       <http://open.data.al/ODA#Dataset> ;
+      dc:creator "Open Data Albania" ;
+      dc:date "NOW()" ;
+      dc:publisher "Albanian Ministry of Environment, Forestry and administration of Waters" ;
+      dc:title "URBAN SOLID SCRAPS AND INERTS" .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/solidscraps#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              "Inerts" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2006> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "506540"^^xsd:int .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/solidscraps#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              "Inerts" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "455866"^^xsd:int .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/solidscraps#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              "UrbanSolidScraps" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2003> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "358226"^^xsd:int .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/solidscraps#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              "Inerts" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2003> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "636750"^^xsd:int .

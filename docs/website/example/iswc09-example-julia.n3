@@ -1,0 +1,152 @@
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ckan:    <http://ckan.net/ns#> .
+@prefix sdx:     <http://epimorphics.com/vocab/sdx#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix scv:     <http://purl.org/NET/scovo#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://example.org/revenue_Austria_2009_Product4>
+      a       <http://example.org/Revenue> ;
+      <http://example.org/country>
+              <http://dbpedia.org/resource/Austria> ;
+      <http://example.org/itemsSold>
+              "54"^^xsd:byte ;
+      <http://example.org/product>
+              "Product4" ;
+      <http://example.org/year>
+              <http://dbpedia.org/resource/2009> .
+
+<http://example.org/revenue_Austria_2007_Product3>
+      a       <http://example.org/Revenue> ;
+      <http://example.org/country>
+              <http://dbpedia.org/resource/Austria> ;
+      <http://example.org/itemsSold>
+              "3312"^^xsd:short ;
+      <http://example.org/product>
+              "Product3" ;
+      <http://example.org/year>
+              <http://dbpedia.org/resource/2007> .
+
+<http://example.org/revenue_Austria_2009_Product3>
+      a       <http://example.org/Revenue> ;
+      <http://example.org/country>
+              <http://dbpedia.org/resource/Austria> ;
+      <http://example.org/itemsSold>
+              "5993"^^xsd:short ;
+      <http://example.org/product>
+              "Product3" ;
+      <http://example.org/year>
+              <http://dbpedia.org/resource/2009> .
+
+<http://example.org/revenue_Austria_2007_Product2>
+      a       <http://example.org/Revenue> ;
+      <http://example.org/country>
+              <http://dbpedia.org/resource/Austria> ;
+      <http://example.org/itemsSold>
+              "4333"^^xsd:short ;
+      <http://example.org/product>
+              "Product2" ;
+      <http://example.org/year>
+              <http://dbpedia.org/resource/2007> .
+
+<http://example.org/revenue_Austria_2009_Product2>
+      a       <http://example.org/Revenue> ;
+      <http://example.org/country>
+              <http://dbpedia.org/resource/Austria> ;
+      <http://example.org/itemsSold>
+              "3493"^^xsd:short ;
+      <http://example.org/product>
+              "Product2" ;
+      <http://example.org/year>
+              <http://dbpedia.org/resource/2009> .
+
+<http://example.org/revenue_Germany_2007_Product2>
+      a       <http://example.org/Revenue> ;
+      <http://example.org/country>
+              <http://dbpedia.org/resource/Germany> ;
+      <http://example.org/itemsSold>
+              "31230"^^xsd:short ;
+      <http://example.org/product>
+              "Product2" ;
+      <http://example.org/year>
+              <http://dbpedia.org/resource/2007> .
+
+<http://example.org/revenue_Germany_2007_Product1>
+      a       <http://example.org/Revenue> ;
+      <http://example.org/country>
+              <http://dbpedia.org/resource/Germany> ;
+      <http://example.org/itemsSold>
+              "2431"^^xsd:short ;
+      <http://example.org/product>
+              "Product1" ;
+      <http://example.org/year>
+              <http://dbpedia.org/resource/2007> .
+
+<http://example.org/revenue_Austria_2009_Product1>
+      a       <http://example.org/Revenue> ;
+      <http://example.org/country>
+              <http://dbpedia.org/resource/Austria> ;
+      <http://example.org/itemsSold>
+              "490"^^xsd:short ;
+      <http://example.org/product>
+              "Product1" ;
+      <http://example.org/year>
+              <http://dbpedia.org/resource/2009> .
+
+<http://example.org/revenue_Germany_2007_Product5>
+      a       <http://example.org/Revenue> ;
+      <http://example.org/country>
+              <http://dbpedia.org/resource/Germany> ;
+      <http://example.org/itemsSold>
+              "121"^^xsd:byte ;
+      <http://example.org/product>
+              "Product5" ;
+      <http://example.org/year>
+              <http://dbpedia.org/resource/2007> .
+
+<http://example.org/revenue_Germany_2007_Product3>
+      a       <http://example.org/Revenue> ;
+      <http://example.org/country>
+              <http://dbpedia.org/resource/Germany> ;
+      <http://example.org/itemsSold>
+              "23121"^^xsd:short ;
+      <http://example.org/product>
+              "Product3" ;
+      <http://example.org/year>
+              <http://dbpedia.org/resource/2007> .
+
+<http://example.org/revenue_Germany_2007_Product4>
+      a       <http://example.org/Revenue> ;
+      <http://example.org/country>
+              <http://dbpedia.org/resource/Germany> ;
+      <http://example.org/itemsSold>
+              "3423"^^xsd:short ;
+      <http://example.org/product>
+              "Product4" ;
+      <http://example.org/year>
+              <http://dbpedia.org/resource/2007> .
+
+<http://example.org/revenue_Austria_2007_Product1>
+      a       <http://example.org/Revenue> ;
+      <http://example.org/country>
+              <http://dbpedia.org/resource/Austria> ;
+      <http://example.org/itemsSold>
+              "398"^^xsd:short ;
+      <http://example.org/product>
+              "Product1" ;
+      <http://example.org/year>
+              <http://dbpedia.org/resource/2007> .
+
+<http://example.org/revenue_Austria_2007_Product4>
+      a       <http://example.org/Revenue> ;
+      <http://example.org/country>
+              <http://dbpedia.org/resource/Austria> ;
+      <http://example.org/itemsSold>
+              "45"^^xsd:byte ;
+      <http://example.org/product>
+              "Product4" ;
+      <http://example.org/year>
+              <http://dbpedia.org/resource/2007> .

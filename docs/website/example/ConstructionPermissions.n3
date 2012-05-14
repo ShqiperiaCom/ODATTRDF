@@ -1,0 +1,1127 @@
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ckan:    <http://ckan.net/ns#> .
+@prefix sdx:     <http://epimorphics.com/vocab/sdx#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix scv:     <http://purl.org/NET/scovo#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://open.data.al/ConstructionPermissionNumber_Durres_2008>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Durres> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "170"^^xsd:short .
+
+<http://open.data.al/ConstructionPermissionNumber_Lezhe_Totali Sipas Qarqeve>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Lezhe> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/Totali Sipas Qarqeve> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "711"^^xsd:short .
+
+<http://open.data.al/ConstructionPermissionNumber_Elbasan_2006>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Elbasan> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2006> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "192"^^xsd:short .
+
+<http://open.data.al/ConstructionPermissionNumber_Diber_2007>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Diber> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "28"^^xsd:byte .
+
+<http://open.data.al/ConstructionPermissionNumber_Shkoder_2010>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Shkoder> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2010> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "95"^^xsd:byte .
+
+<http://open.data.al/ConstructionPermissionNumber_Elbasan_Totali Sipas Qarqeve>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Elbasan> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/Totali Sipas Qarqeve> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "1004"^^xsd:short .
+
+<http://open.data.al/ConstructionPermissionNumber_Tirane_2005>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Tirane> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "211"^^xsd:short .
+
+<http://open.data.al/ConstructionPermissionNumber_Vlore_Totali Sipas Qarqeve>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Vlore> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/Totali Sipas Qarqeve> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "676"^^xsd:short .
+
+<http://open.data.al/ConstructionPermissionNumber_Lezhe_2008>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Lezhe> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "66"^^xsd:byte .
+
+<http://open.data.al/ConstructionPermissionNumber_Berat_2005>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Berat> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "209"^^xsd:short .
+
+<http://open.data.al/ConstructionPermissionNumber_Fier_2006>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Fier> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2006> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "294"^^xsd:short .
+
+<http://open.data.al/ConstructionPermissionNumber_Berat_2010>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Berat> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2010> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "37"^^xsd:byte .
+
+[]    rdfs:domain <http://open.data.al/ODA#DataEntry> ;
+      rdfs:label "Data Entry Value" .
+
+<http://open.data.al/ConstructionPermissionNumber_Kukes_2007>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Kukes> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "12"^^xsd:byte .
+
+<http://open.data.al/ConstructionPermissionNumber_Tirane_2009>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Tirane> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "140"^^xsd:short .
+
+<http://open.data.al/ConstructionPermissionNumber_Vlore_2009>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Vlore> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "73"^^xsd:byte .
+
+<http://open.data.al/ConstructionPermissionNumber_Gjirokaster_2005>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Gjirokaster> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "448"^^xsd:short .
+
+<http://open.data.al/ConstructionPermissionNumber_Diber_2010>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Diber> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2010> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "35"^^xsd:byte .
+
+<http://open.data.al/ConstructionPermissionNumber_Vlore_2005>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Vlore> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "101"^^xsd:byte .
+
+<http://open.data.al/ConstructionPermissionNumber_Durres_2010>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Durres> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2010> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "312"^^xsd:short .
+
+<http://open.data.al/ConstructionPermissionNumber_Korçe_2006>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Korçe> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2006> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "251"^^xsd:short .
+
+<http://open.data.al/ConstructionPermissionNumber_Berat_2009>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Berat> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "68"^^xsd:byte .
+
+<http://open.data.al/ConstructionPermissionNumber_Durres_2009>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Durres> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "211"^^xsd:short .
+
+<http://open.data.al/ConstructionPermissionNumber_Elbasan_2007>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Elbasan> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "133"^^xsd:short .
+
+<file:mappings/ConstructionPermissions.trig>
+      owl:import <http://open.data.al/ODA#> .
+
+<http://open.data.al/ConstructionPermissionNumber_Tirane_2010>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Tirane> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2010> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "254"^^xsd:short .
+
+<http://open.data.al/ConstructionPermissionNumber_Gjirokaster_2007>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Gjirokaster> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "58"^^xsd:byte .
+
+<http://open.data.al/ConstructionPermissionNumber_Diber_2006>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Diber> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2006> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "42"^^xsd:byte .
+
+<http://open.data.al/ConstructionPermissionNumber_Tirane_2006>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Tirane> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2006> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "209"^^xsd:short .
+
+<http://open.data.al/ConstructionPermissionNumber_Fier_2010>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Fier> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2010> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "248"^^xsd:short .
+
+<http://open.data.al/ConstructionPermissionNumber_Berat_Totali Sipas Qarqeve>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Berat> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/Totali Sipas Qarqeve> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "624"^^xsd:short .
+
+<http://open.data.al/ConstructionPermissionNumber_Lezhe_2010>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Lezhe> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2010> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "105"^^xsd:byte .
+
+<http://open.data.al/ConstructionPermissionNumber_Lezhe_2007>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Lezhe> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "21"^^xsd:byte .
+
+<http://open.data.al/ConstructionPermissionNumber_Fier_2007>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Fier> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "121"^^xsd:byte .
+
+<http://open.data.al/ConstructionPermissionNumber_Kukes_Totali Sipas Qarqeve>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Kukes> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/Totali Sipas Qarqeve> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "243"^^xsd:short .
+
+<http://open.data.al/ConstructionPermissionNumber_Shkoder_2005>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Shkoder> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "74"^^xsd:byte .
+
+<http://open.data.al/ConstructionPermissionNumber_Vlore_2008>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Vlore> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "172"^^xsd:short .
+
+<http://open.data.al/ConstructionPermissionNumber_Kukes_2006>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Kukes> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2006> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "49"^^xsd:byte .
+
+<http://open.data.al/ConstructionPermissionNumber_Gjirokaster_2006>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Gjirokaster> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2006> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "405"^^xsd:short .
+
+<http://open.data.al/ConstructionPermissionNumber_Berat_2008>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Berat> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "71"^^xsd:byte .
+
+<http://open.data.al/ConstructionPermissionNumber_Durres_Totali Sipas Qarqeve>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Durres> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/Totali Sipas Qarqeve> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "1258"^^xsd:short .
+
+<http://open.data.al/ConstructionPermissionNumber_Vlore_2010>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Vlore> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2010> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "131"^^xsd:short .
+
+<http://open.data.al/ConstructionPermissionNumber_Korçe_2007>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Korçe> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "116"^^xsd:byte .
+
+[]    rdfs:label "City" ;
+      rdfs:subClassOf <http://open.data.al/ODA#Dimension> .
+
+<http://open.data.al/ConstructionPermissionNumber_Durres_2005>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Durres> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "243"^^xsd:short .
+
+<http://open.data.al/ConstructionPermissionNumber_Gjirokaster_2008>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Gjirokaster> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "91"^^xsd:byte .
+
+<http://open.data.al/ConstructionPermissionNumber_Diber_2005>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Diber> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "58"^^xsd:byte .
+
+<http://open.data.al/ConstructionPermissionNumber_Lezhe_2006>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Lezhe> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2006> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "260"^^xsd:short .
+
+<http://open.data.al/ConstructionPermissionNumber_Diber_2009>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Diber> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "41"^^xsd:byte .
+
+<http://open.data.al/ConstructionPermissionNumber_Korçe_2010>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Korçe> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2010> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "133"^^xsd:short .
+
+<http://open.data.al/ConstructionPermissionNumber_Elbasan_2008>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Elbasan> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "177"^^xsd:short .
+
+<http://open.data.al/ConstructionPermissionNumber_Berat_2007>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Berat> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "101"^^xsd:byte .
+
+<http://open.data.al/ConstructionPermissionNumber_Tirane_2007>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Tirane> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "213"^^xsd:short .
+
+<http://open.data.al/LejeNdertimi#dataset>
+      a       <http://open.data.al/ODA#Dataset> ;
+      dc:creator "Open Data Albania" ;
+      dc:date "Mon Jun 13 22:32:48 CEST 2011" ;
+      dc:publisher "INSTAT" ;
+      dc:title "Construction Permissions by City" .
+
+<http://open.data.al/ConstructionPermissionNumber_Fier_2008>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Fier> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "202"^^xsd:short .
+
+<http://open.data.al/ConstructionPermissionNumber_Korçe_2008>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Korçe> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "123"^^xsd:byte .
+
+<http://open.data.al/ConstructionPermissionNumber_Shkoder_2006>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Shkoder> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2006> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "109"^^xsd:byte .
+
+<http://open.data.al/ConstructionPermissionNumber_Kukes_2009>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Kukes> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "71"^^xsd:byte .
+
+[]    rdfs:label "Year" ;
+      rdfs:subClassOf <http://open.data.al/ODA#Dimension> .
+
+<http://open.data.al/ConstructionPermissionNumber_Shkoder_2009>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Shkoder> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "61"^^xsd:byte .
+
+<http://open.data.al/ConstructionPermissionNumber_Korçe_Totali Sipas Qarqeve>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Korçe> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/Totali Sipas Qarqeve> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "1040"^^xsd:short .
+
+<http://open.data.al/ODA#ConstructionPermissions>
+      a       <http://open.data.al/ODA#Indicator> ;
+      rdfs:label "Construction Permissions" .
+
+<http://open.data.al/ConstructionPermissionNumber_Vlore_2007>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Vlore> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "49"^^xsd:byte .
+
+<http://open.data.al/ConstructionPermissionNumber_Kukes_2005>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Kukes> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "55"^^xsd:byte .
+
+<http://open.data.al/ConstructionPermissionNumber_Fier_Totali Sipas Qarqeve>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Fier> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/Totali Sipas Qarqeve> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "1300"^^xsd:short .
+
+<http://open.data.al/ConstructionPermissionNumber_Diber_Totali Sipas Qarqeve>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Diber> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/Totali Sipas Qarqeve> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "238"^^xsd:short .
+
+<http://open.data.al/ConstructionPermissionNumber_Durres_2006>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Durres> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2006> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "212"^^xsd:short .
+
+<http://open.data.al/ConstructionPermissionNumber_Tirane_Totali Sipas Qarqeve>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Tirane> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/Totali Sipas Qarqeve> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "1328"^^xsd:short .
+
+<http://open.data.al/ConstructionPermissionNumber_Elbasan_2005>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Elbasan> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "195"^^xsd:short .
+
+<http://open.data.al/ConstructionPermissionNumber_Lezhe_2009>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Lezhe> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "113"^^xsd:byte .
+
+<http://open.data.al/ConstructionPermissionNumber_Gjirokaster_2009>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Gjirokaster> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "344"^^xsd:short .
+
+<http://open.data.al/ConstructionPermissionNumber_Gjirokaster_Totali Sipas Qarqeve>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Gjirokaster> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/Totali Sipas Qarqeve> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "1626"^^xsd:short .
+
+<http://open.data.al/ConstructionPermissionNumber_Elbasan_2010>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Elbasan> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2010> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "162"^^xsd:short .
+
+<http://open.data.al/ConstructionPermissionNumber_Lezhe_2005>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Lezhe> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "146"^^xsd:short .
+
+<http://open.data.al/ConstructionPermissionNumber_Gjirokaster_2010>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Gjirokaster> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2010> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "280"^^xsd:short .
+
+<http://open.data.al/ConstructionPermissionNumber_Kukes_2010>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Kukes> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2010> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "53"^^xsd:byte .
+
+<http://open.data.al/ConstructionPermissionNumber_Diber_2008>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Diber> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "34"^^xsd:byte .
+
+<http://open.data.al/ConstructionPermissionNumber_Elbasan_2009>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Elbasan> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "145"^^xsd:short .
+
+<http://open.data.al/ConstructionPermissionNumber_Fier_2009>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Fier> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "131"^^xsd:short .
+
+<http://open.data.al/ConstructionPermissionNumber_Tirane_2008>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Tirane> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "301"^^xsd:short .
+
+<http://open.data.al/ConstructionPermissionNumber_Berat_2006>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Berat> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2006> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "138"^^xsd:short .
+
+<http://open.data.al/ConstructionPermissionNumber_Shkoder_2007>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Shkoder> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "33"^^xsd:byte .
+
+<http://open.data.al/ConstructionPermissionNumber_Korçe_2009>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Korçe> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "124"^^xsd:byte .
+
+<http://open.data.al/ConstructionPermissionNumber_Fier_2005>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Fier> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "304"^^xsd:short .
+
+[]    a       <http://open.data.al/ODA#Indicator> ;
+      rdfs:label "Indicator" .
+
+<http://open.data.al/ConstructionPermissionNumber_Kukes_2008>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Kukes> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "3"^^xsd:byte .
+
+<http://open.data.al/ConstructionPermissionNumber_Shkoder_2008>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Shkoder> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "82"^^xsd:byte .
+
+<http://open.data.al/ConstructionPermissionNumber_Shkoder_Totali Sipas Qarqeve>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Shkoder> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/Totali Sipas Qarqeve> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "454"^^xsd:short .
+
+<http://open.data.al/ConstructionPermissionNumber_Korçe_2005>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Korçe> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "293"^^xsd:short .
+
+<http://open.data.al/ConstructionPermissionNumber_Durres_2007>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Durres> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "110"^^xsd:byte .
+
+<http://open.data.al/ConstructionPermissionNumber_Vlore_2006>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Vlore> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/LejeNdertimi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#ConstructionPermissions> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2006> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "150"^^xsd:short .

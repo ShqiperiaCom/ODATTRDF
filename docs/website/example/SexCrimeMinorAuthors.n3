@@ -1,0 +1,290 @@
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ckan:    <http://ckan.net/ns#> .
+@prefix sdx:     <http://epimorphics.com/vocab/sdx#> .
+@prefix sdmx-measure:  <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix scv:     <http://purl.org/NET/scovo#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix oda:     <http://open.data.al/oda.owl#> .
+
+<http://open.data.al/SexCrimeMinorAuthors_Neni 108_2002>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/sexcrimeminors#dataset> ;
+      oda:indicator oda:SexCrimeMinorAuthors ;
+      oda:product "Neni 108" ;
+      oda:year <http://dbpedia.org/resource/2002> ;
+      sdmx-measure:obsValue
+              "1"^^xsd:byte .
+
+[]    rdfs:domain oda:DataEntry ;
+      rdfs:label "Data Entry Value" .
+
+[]    rdfs:label "Country" ;
+      rdfs:subClassOf oda:Dimension .
+
+[]    rdfs:label "Product" ;
+      rdfs:subClassOf oda:Dimension .
+
+<http://open.data.al/SexCrimeMinorAuthors_Neni 101_2004>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/sexcrimeminors#dataset> ;
+      oda:indicator oda:SexCrimeMinorAuthors ;
+      oda:product "Neni 101" ;
+      oda:year <http://dbpedia.org/resource/2004> ;
+      sdmx-measure:obsValue
+              "0"^^xsd:byte .
+
+<http://open.data.al/SexCrimeMinorAuthors_Neni 101_2002>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/sexcrimeminors#dataset> ;
+      oda:indicator oda:SexCrimeMinorAuthors ;
+      oda:product "Neni 101" ;
+      oda:year <http://dbpedia.org/resource/2002> ;
+      sdmx-measure:obsValue
+              "2"^^xsd:byte .
+
+<http://open.data.al/SexCrimeMinorAuthors_Neni 109_2005>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/sexcrimeminors#dataset> ;
+      oda:indicator oda:SexCrimeMinorAuthors ;
+      oda:product "Neni 109" ;
+      oda:year <http://dbpedia.org/resource/2005> ;
+      sdmx-measure:obsValue
+              "0"^^xsd:byte .
+
+<http://open.data.al/SexCrimeMinorAuthors_Neni 108_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/sexcrimeminors#dataset> ;
+      oda:indicator oda:SexCrimeMinorAuthors ;
+      oda:product "Neni 108" ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "0"^^xsd:byte .
+
+<http://open.data.al/SexCrimeMinorAuthors_Neni 100/2_2003>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/sexcrimeminors#dataset> ;
+      oda:indicator oda:SexCrimeMinorAuthors ;
+      oda:product "Neni 100/2" ;
+      oda:year <http://dbpedia.org/resource/2003> ;
+      sdmx-measure:obsValue
+              "0"^^xsd:byte .
+
+<http://open.data.al/SexCrimeMinorAuthors_Neni 100/1_2003>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/sexcrimeminors#dataset> ;
+      oda:indicator oda:SexCrimeMinorAuthors ;
+      oda:product "Neni 100/1" ;
+      oda:year <http://dbpedia.org/resource/2003> ;
+      sdmx-measure:obsValue
+              "1"^^xsd:byte .
+
+oda:SexCrimeMinorAuthors
+      a       oda:Indicator ;
+      rdfs:label "SexCrimeMinorAuthors" .
+
+<http://open.data.al/SexCrimeMinorAuthors_Neni 101_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/sexcrimeminors#dataset> ;
+      oda:indicator oda:SexCrimeMinorAuthors ;
+      oda:product "Neni 101" ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "0"^^xsd:byte .
+
+<http://open.data.al/SexCrimeMinorAuthors_Neni 100/2_2005>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/sexcrimeminors#dataset> ;
+      oda:indicator oda:SexCrimeMinorAuthors ;
+      oda:product "Neni 100/2" ;
+      oda:year <http://dbpedia.org/resource/2005> ;
+      sdmx-measure:obsValue
+              "0"^^xsd:byte .
+
+<http://open.data.al/SexCrimeMinorAuthors_Neni 108_2004>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/sexcrimeminors#dataset> ;
+      oda:indicator oda:SexCrimeMinorAuthors ;
+      oda:product "Neni 108" ;
+      oda:year <http://dbpedia.org/resource/2004> ;
+      sdmx-measure:obsValue
+              "1"^^xsd:byte .
+
+<http://open.data.al/SexCrimeMinorAuthors_Neni 109_2003>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/sexcrimeminors#dataset> ;
+      oda:indicator oda:SexCrimeMinorAuthors ;
+      oda:product "Neni 109" ;
+      oda:year <http://dbpedia.org/resource/2003> ;
+      sdmx-measure:obsValue
+              "0"^^xsd:byte .
+
+<http://open.data.al/SexCrimeMinorAuthors_Neni 100/1_2005>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/sexcrimeminors#dataset> ;
+      oda:indicator oda:SexCrimeMinorAuthors ;
+      oda:product "Neni 100/1" ;
+      oda:year <http://dbpedia.org/resource/2005> ;
+      sdmx-measure:obsValue
+              "2"^^xsd:byte .
+
+<http://open.data.al/sexcrimeminors#dataset>
+      a       oda:Dataset ;
+      dc:creator "Open Data Albania (ODA)" ;
+      dc:date "Sun Sep 04 17:41:14 CEST 2011" ;
+      dc:publisher "Ministry Of Justice of Albania" ;
+      dc:title "Number of sex crimes with minor authors per year in Albania" .
+
+<http://open.data.al/SexCrimeMinorAuthors_Neni 101_2005>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/sexcrimeminors#dataset> ;
+      oda:indicator oda:SexCrimeMinorAuthors ;
+      oda:product "Neni 101" ;
+      oda:year <http://dbpedia.org/resource/2005> ;
+      sdmx-measure:obsValue
+              "0"^^xsd:byte .
+
+[]    a       oda:Indicator ;
+      rdfs:label "Indicator" .
+
+[]    rdfs:label "Year" ;
+      rdfs:subClassOf oda:Dimension .
+
+<http://open.data.al/SexCrimeMinorAuthors_Neni 101_2003>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/sexcrimeminors#dataset> ;
+      oda:indicator oda:SexCrimeMinorAuthors ;
+      oda:product "Neni 101" ;
+      oda:year <http://dbpedia.org/resource/2003> ;
+      sdmx-measure:obsValue
+              "2"^^xsd:byte .
+
+[]    a       oda:Dataset ;
+      rdfs:label "Dataset" .
+
+<http://open.data.al/SexCrimeMinorAuthors_Neni 100/1_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/sexcrimeminors#dataset> ;
+      oda:indicator oda:SexCrimeMinorAuthors ;
+      oda:product "Neni 100/1" ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "1"^^xsd:byte .
+
+<http://open.data.al/SexCrimeMinorAuthors_Neni 100/2_2002>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/sexcrimeminors#dataset> ;
+      oda:indicator oda:SexCrimeMinorAuthors ;
+      oda:product "Neni 100/2" ;
+      oda:year <http://dbpedia.org/resource/2002> ;
+      sdmx-measure:obsValue
+              "0"^^xsd:byte .
+
+<http://open.data.al/SexCrimeMinorAuthors_Neni 108_2005>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/sexcrimeminors#dataset> ;
+      oda:indicator oda:SexCrimeMinorAuthors ;
+      oda:product "Neni 108" ;
+      oda:year <http://dbpedia.org/resource/2005> ;
+      sdmx-measure:obsValue
+              "2"^^xsd:byte .
+
+<http://open.data.al/SexCrimeMinorAuthors_Neni 100/2_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/sexcrimeminors#dataset> ;
+      oda:indicator oda:SexCrimeMinorAuthors ;
+      oda:product "Neni 100/2" ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "1"^^xsd:byte .
+
+<http://open.data.al/SexCrimeMinorAuthors_Neni 109_2002>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/sexcrimeminors#dataset> ;
+      oda:indicator oda:SexCrimeMinorAuthors ;
+      oda:product "Neni 109" ;
+      oda:year <http://dbpedia.org/resource/2002> ;
+      sdmx-measure:obsValue
+              "0"^^xsd:byte .
+
+<http://open.data.al/SexCrimeMinorAuthors_Neni 109_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/sexcrimeminors#dataset> ;
+      oda:indicator oda:SexCrimeMinorAuthors ;
+      oda:product "Neni 109" ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "1"^^xsd:byte .
+
+<http://open.data.al/SexCrimeMinorAuthors_Neni 100/1_2002>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/sexcrimeminors#dataset> ;
+      oda:indicator oda:SexCrimeMinorAuthors ;
+      oda:product "Neni 100/1" ;
+      oda:year <http://dbpedia.org/resource/2002> ;
+      sdmx-measure:obsValue
+              "1"^^xsd:byte .
+
+<http://open.data.al/SexCrimeMinorAuthors_Neni 108_2003>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/sexcrimeminors#dataset> ;
+      oda:indicator oda:SexCrimeMinorAuthors ;
+      oda:product "Neni 108" ;
+      oda:year <http://dbpedia.org/resource/2003> ;
+      sdmx-measure:obsValue
+              "2"^^xsd:byte .
+
+<http://open.data.al/SexCrimeMinorAuthors_Neni 100/1_2004>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/sexcrimeminors#dataset> ;
+      oda:indicator oda:SexCrimeMinorAuthors ;
+      oda:product "Neni 100/1" ;
+      oda:year <http://dbpedia.org/resource/2004> ;
+      sdmx-measure:obsValue
+              "1"^^xsd:byte .
+
+<http://open.data.al/SexCrimeMinorAuthors_Neni 100/2_2004>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/sexcrimeminors#dataset> ;
+      oda:indicator oda:SexCrimeMinorAuthors ;
+      oda:product "Neni 100/2" ;
+      oda:year <http://dbpedia.org/resource/2004> ;
+      sdmx-measure:obsValue
+              "0"^^xsd:byte .
+
+<http://open.data.al/SexCrimeMinorAuthors_Neni 109_2004>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/sexcrimeminors#dataset> ;
+      oda:indicator oda:SexCrimeMinorAuthors ;
+      oda:product "Neni 109" ;
+      oda:year <http://dbpedia.org/resource/2004> ;
+      sdmx-measure:obsValue
+              "0"^^xsd:byte .

@@ -1,0 +1,715 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://purl.org/linked-data/sdmx/2009/measure#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:scv="http://purl.org/NET/scovo#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:sdx="http://epimorphics.com/vocab/sdx#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:j.1="http://open.data.al/ODA#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:ckan="http://ckan.net/ns#" > 
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Durres_2008">
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Durres"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2008"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">170</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Lezhe_Totali Sipas Qarqeve">
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Lezhe"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">711</j.0:obsValue>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/Totali Sipas Qarqeve"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Elbasan_2006">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">192</j.0:obsValue>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2006"/>
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Elbasan"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Diber_2007">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#byte">28</j.0:obsValue>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Diber"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2007"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Shkoder_2010">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#byte">95</j.0:obsValue>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2010"/>
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Shkoder"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Elbasan_Totali Sipas Qarqeve">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">1004</j.0:obsValue>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Elbasan"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/Totali Sipas Qarqeve"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Tirane_2005">
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2005"/>
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Tirane"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">211</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Vlore_Totali Sipas Qarqeve">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">676</j.0:obsValue>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Vlore"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/Totali Sipas Qarqeve"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Lezhe_2008">
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Lezhe"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2008"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#byte">66</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Berat_2005">
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2005"/>
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Berat"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">209</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Fier_2006">
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Fier"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2006"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">294</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Berat_2010">
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Berat"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2010"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#byte">37</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <rdfs:domain rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <rdfs:label>Data Entry Value</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Kukes_2007">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#byte">12</j.0:obsValue>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Kukes"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2007"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Tirane_2009">
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Tirane"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">140</j.0:obsValue>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2009"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Vlore_2009">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#byte">73</j.0:obsValue>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Vlore"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2009"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Gjirokaster_2005">
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Gjirokaster"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2005"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">448</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Diber_2010">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#byte">35</j.0:obsValue>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2010"/>
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Diber"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Vlore_2005">
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Vlore"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2005"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#byte">101</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Durres_2010">
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Durres"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2010"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">312</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Korçe_2006">
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Korçe"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2006"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">251</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Berat_2009">
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Berat"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#byte">68</j.0:obsValue>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2009"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Durres_2009">
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Durres"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">211</j.0:obsValue>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2009"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Elbasan_2007">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">133</j.0:obsValue>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Elbasan"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2007"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="file:mappings/ConstructionPermissions.trig">
+    <owl:import rdf:resource="http://open.data.al/ODA#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Tirane_2010">
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Tirane"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2010"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">254</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Gjirokaster_2007">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#byte">58</j.0:obsValue>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Gjirokaster"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2007"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Diber_2006">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#byte">42</j.0:obsValue>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2006"/>
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Diber"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Tirane_2006">
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Tirane"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2006"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">209</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Fier_2010">
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Fier"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2010"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">248</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Berat_Totali Sipas Qarqeve">
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Berat"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">624</j.0:obsValue>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/Totali Sipas Qarqeve"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Lezhe_2010">
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Lezhe"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2010"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#byte">105</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Lezhe_2007">
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Lezhe"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#byte">21</j.0:obsValue>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2007"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Fier_2007">
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Fier"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#byte">121</j.0:obsValue>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2007"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Kukes_Totali Sipas Qarqeve">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">243</j.0:obsValue>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Kukes"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/Totali Sipas Qarqeve"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Shkoder_2005">
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Shkoder"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2005"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#byte">74</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Vlore_2008">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">172</j.0:obsValue>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2008"/>
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Vlore"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Kukes_2006">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#byte">49</j.0:obsValue>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2006"/>
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Kukes"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Gjirokaster_2006">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">405</j.0:obsValue>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2006"/>
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Gjirokaster"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Berat_2008">
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Berat"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2008"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#byte">71</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Durres_Totali Sipas Qarqeve">
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Durres"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">1258</j.0:obsValue>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/Totali Sipas Qarqeve"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Vlore_2010">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">131</j.0:obsValue>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2010"/>
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Vlore"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Korçe_2007">
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Korçe"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#byte">116</j.0:obsValue>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2007"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <rdfs:subClassOf rdf:resource="http://open.data.al/ODA#Dimension"/>
+    <rdfs:label>City</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Durres_2005">
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2005"/>
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Durres"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">243</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Gjirokaster_2008">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#byte">91</j.0:obsValue>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2008"/>
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Gjirokaster"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Diber_2005">
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Diber"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2005"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#byte">58</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Lezhe_2006">
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Lezhe"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2006"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">260</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Diber_2009">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#byte">41</j.0:obsValue>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Diber"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2009"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Korçe_2010">
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Korçe"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2010"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">133</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Elbasan_2008">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">177</j.0:obsValue>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2008"/>
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Elbasan"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Berat_2007">
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Berat"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#byte">101</j.0:obsValue>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2007"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Tirane_2007">
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Tirane"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">213</j.0:obsValue>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2007"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/LejeNdertimi#dataset">
+    <dc:date>Mon Jun 13 22:32:48 CEST 2011</dc:date>
+    <dc:publisher>INSTAT</dc:publisher>
+    <dc:creator>Open Data Albania</dc:creator>
+    <dc:title>Construction Permissions by City</dc:title>
+    <rdf:type rdf:resource="http://open.data.al/ODA#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Fier_2008">
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Fier"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2008"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">202</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Korçe_2008">
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Korçe"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2008"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#byte">123</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Shkoder_2006">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#byte">109</j.0:obsValue>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2006"/>
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Shkoder"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Kukes_2009">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#byte">71</j.0:obsValue>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Kukes"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2009"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A2">
+    <rdfs:subClassOf rdf:resource="http://open.data.al/ODA#Dimension"/>
+    <rdfs:label>Year</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Shkoder_2009">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#byte">61</j.0:obsValue>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Shkoder"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2009"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Korçe_Totali Sipas Qarqeve">
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Korçe"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">1040</j.0:obsValue>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/Totali Sipas Qarqeve"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ODA#ConstructionPermissions">
+    <rdf:type rdf:resource="http://open.data.al/ODA#Indicator"/>
+    <rdfs:label>Construction Permissions</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Vlore_2007">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#byte">49</j.0:obsValue>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Vlore"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2007"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Kukes_2005">
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Kukes"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2005"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#byte">55</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Fier_Totali Sipas Qarqeve">
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Fier"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">1300</j.0:obsValue>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/Totali Sipas Qarqeve"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Diber_Totali Sipas Qarqeve">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">238</j.0:obsValue>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Diber"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/Totali Sipas Qarqeve"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Durres_2006">
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Durres"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2006"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">212</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Tirane_Totali Sipas Qarqeve">
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Tirane"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">1328</j.0:obsValue>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/Totali Sipas Qarqeve"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Elbasan_2005">
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Elbasan"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2005"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">195</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Lezhe_2009">
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Lezhe"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#byte">113</j.0:obsValue>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2009"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Gjirokaster_2009">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">344</j.0:obsValue>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Gjirokaster"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2009"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Gjirokaster_Totali Sipas Qarqeve">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">1626</j.0:obsValue>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Gjirokaster"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/Totali Sipas Qarqeve"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Elbasan_2010">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">162</j.0:obsValue>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2010"/>
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Elbasan"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Lezhe_2005">
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2005"/>
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Lezhe"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">146</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Gjirokaster_2010">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">280</j.0:obsValue>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2010"/>
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Gjirokaster"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Kukes_2010">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#byte">53</j.0:obsValue>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2010"/>
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Kukes"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Diber_2008">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#byte">34</j.0:obsValue>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2008"/>
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Diber"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Elbasan_2009">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">145</j.0:obsValue>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Elbasan"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2009"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Fier_2009">
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Fier"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">131</j.0:obsValue>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2009"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Tirane_2008">
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Tirane"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2008"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">301</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Berat_2006">
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Berat"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2006"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">138</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Shkoder_2007">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#byte">33</j.0:obsValue>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Shkoder"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2007"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Korçe_2009">
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Korçe"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#byte">124</j.0:obsValue>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2009"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Fier_2005">
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2005"/>
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Fier"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">304</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A3">
+    <rdf:type rdf:resource="http://open.data.al/ODA#Indicator"/>
+    <rdfs:label>Indicator</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Kukes_2008">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#byte">3</j.0:obsValue>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2008"/>
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Kukes"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Shkoder_2008">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#byte">82</j.0:obsValue>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2008"/>
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Shkoder"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Shkoder_Totali Sipas Qarqeve">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">454</j.0:obsValue>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Shkoder"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/Totali Sipas Qarqeve"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Korçe_2005">
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2005"/>
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Korçe"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">293</j.0:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Durres_2007">
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Durres"/>
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#byte">110</j.0:obsValue>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2007"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ConstructionPermissionNumber_Vlore_2006">
+    <j.0:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">150</j.0:obsValue>
+    <j.1:year rdf:resource="http://dbpedia.org/resource/2006"/>
+    <j.1:city rdf:resource="http://dbpedia.org/resource/Vlore"/>
+    <j.1:indicator rdf:resource="http://open.data.al/ODA#ConstructionPermissions"/>
+    <j.1:dataset rdf:resource="http://open.data.al/LejeNdertimi#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/ODA#DataEntry"/>
+  </rdf:Description>
+</rdf:RDF>

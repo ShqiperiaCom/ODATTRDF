@@ -1,0 +1,76 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:sdmx-measure="http://purl.org/linked-data/sdmx/2009/measure#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:scv="http://purl.org/NET/scovo#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:sdx="http://epimorphics.com/vocab/sdx#"
+    xmlns:oda="http://open.data.al/oda.owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:ckan="http://ckan.net/ns#" > 
+  <rdf:Description rdf:nodeID="A0">
+    <rdfs:subClassOf rdf:resource="http://open.data.al/oda.owl#Dimension"/>
+    <rdfs:label>Year</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/VehiclesPer1000ByCountry_Bosnia_and_Herzegovina_2010">
+    <oda:year rdf:resource="http://dbpedia.org/resource/2010"/>
+    <oda:country rdf:resource="http://dbpedia.org/resource/Bosnia_and_Herzegovina"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#VehiclesPer1000ByCountry"/>
+    <oda:dataset rdf:resource="http://open.data.al/vehiclesX1000inhab2010#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">135</sdmx-measure:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <rdfs:subClassOf rdf:resource="http://open.data.al/oda.owl#Dimension"/>
+    <rdfs:label>Country</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/vehiclesX1000inhab2010#dataset">
+    <dc:date>Tue Aug 16 19:53:20 CEST 2011</dc:date>
+    <dc:publisher>World Bank</dc:publisher>
+    <dc:creator>Open Data Albania (ODA)</dc:creator>
+    <dc:title>Number of vehicles per 1000 inhabitants in different Countries in the Balkans Region</dc:title>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/VehiclesPer1000ByCountry_Albania_2010">
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:dataset rdf:resource="http://open.data.al/vehiclesX1000inhab2010#dataset"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#VehiclesPer1000ByCountry"/>
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2010"/>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#byte">121</sdmx-measure:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/VehiclesPer1000ByCountry_Serbia_2010">
+    <oda:year rdf:resource="http://dbpedia.org/resource/2010"/>
+    <oda:country rdf:resource="http://dbpedia.org/resource/Serbia"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#VehiclesPer1000ByCountry"/>
+    <oda:dataset rdf:resource="http://open.data.al/vehiclesX1000inhab2010#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">227</sdmx-measure:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/oda.owl#VehiclesPer1000ByCountry">
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#Indicator"/>
+    <rdfs:label>VehiclesPer1000ByCountry</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/VehiclesPer1000ByCountry_Macedonia_2010">
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:dataset rdf:resource="http://open.data.al/vehiclesX1000inhab2010#dataset"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#VehiclesPer1000ByCountry"/>
+    <oda:country rdf:resource="http://dbpedia.org/resource/Macedonia"/>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2010"/>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">144</sdmx-measure:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A2">
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#Dataset"/>
+    <rdfs:label>Dataset</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A3">
+    <rdfs:domain rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <rdfs:label>Data Entry Value</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A4">
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#Indicator"/>
+    <rdfs:label>Indicator</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

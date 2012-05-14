@@ -1,0 +1,68 @@
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:    <http://www.w3.org/2002/07/owl#> .
+@prefix dc:     <http://purl.org/dc/elements/1.1/> .
+
+@prefix oda:	<http://open.data.al/ODA#> .
+@prefix sdmx-measure:  <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix xl:		<http://purl.org/NET/xlwrap#> .
+@prefix :       <http://myApplication/configuration#> .
+
+
+
+# mapping
+{ [] a xl:Mapping ;
+	xl:offline "false"^^xsd:boolean ;
+
+	xl:template [
+		xl:fileName "mappings/files/te_ardhurat_totale_2000-2011.xls" ;
+		xl:sheetNumber "0" ;
+		xl:templateGraph :TotalBudgetRevenue ;
+		xl:constantGraph :ODADataset ;
+		xl:transform [
+			a rdf:Seq ;
+			rdf:_1 [
+				a xl:RowShift ;
+				xl:restriction "A3; B3" ;
+				xl:breakCondition "ALLEMPTY(B3)" ;
+				xl:steps "1" ;
+			] ;
+			rdf:_2 [
+				a xl:ColShift ;
+				xl:restriction "B2; B3"^^xl:Expr ;
+				xl:breakCondition "ALLEMPTY(B3)" ;
+				xl:steps "1" ;
+			] ;
+			rdf:_3 [
+				a xl:SheetShift ;
+				xl:restriction "#1.*"^^xl:Expr ;
+				xl:repeat "1"
+			] ;
+		]
+	] .
+}
+
+:ODADataset {
+#	<> owl:import oda: .
+	
+	[ xl:uri "'http://open.data.al/yearlybudgetrevenue#dataset'"^^xl:Expr ] a oda:Dataset ;
+		dc:title    "Total budget revenue per year in Albania" ;
+		dc:creator  "Open Data Albania (ODA)" ;
+		dc:publisher  "Ministry Of Finance Albania" ;
+		dc:date     "2011-03-22T10:56:40+0000" .
+	
+	sdmx-measure:obsValue  [ rdfs:label "Data Entry Value" ; rdfs:domain oda:DataEntry ] .
+	oda:Indicator [ rdfs:label "Indicator" ; a oda:Indicator ] .
+	oda:Year     [ rdfs:label "Year" ; rdfs:subClassOf oda:Dimension ] .		
+}
+
+:TotalBudgetRevenue {
+	
+	[] a oda:DataEntry ;#xl:uri "'http://open.data.al/yearlybudgetrevenue_' & URLENCODE('Albania_' & B2 & '_' & A3)"^^xl:Expr;
+	
+	oda:dataset [ xl:uri "'http://open.data.al/yearlybudgetrevenue#dataset'"^^xl:Expr ];
+	oda:indicator [ xl:uri "'http://open.data.al/ODA#YearlyBudgetRevenue'"^^xl:Expr ; a oda:Indicator ; rdfs:label "'Yearly Budget Revenue'"^^xl:Expr ] ;	
+	oda:year       "DBP_YEAR(B2)"^^xl:Expr ;	
+	sdmx-measure:obsValue   "B3"^^xl:Expr .
+}

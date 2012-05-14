@@ -1,0 +1,851 @@
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ckan:    <http://ckan.net/ns#> .
+@prefix sdx:     <http://epimorphics.com/vocab/sdx#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix scv:     <http://purl.org/NET/scovo#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://open.data.al/ElectoralCrimeAuthors20042009_Neni 332. Shperdorimi I autoritetit ushtarak._2004>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/electoralcrimeauth0409#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#ElectoralCrimeAuthors20042009> ;
+      <http://open.data.al/oda.owl#product>
+              "Neni 332. Shperdorimi I autoritetit ushtarak." ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2004> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0"^^xsd:byte .
+
+<http://open.data.al/ElectoralCrimeAuthors20042009_Neni 325. Pengim I subjekteve pwr zgjehdje ne organet perfaqesuese_2007>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/electoralcrimeauth0409#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#ElectoralCrimeAuthors20042009> ;
+      <http://open.data.al/oda.owl#product>
+              "Neni 325. Pengim I subjekteve pwr zgjehdje ne organet perfaqesuese" ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0"^^xsd:byte .
+
+<http://open.data.al/ElectoralCrimeAuthors20042009_Neni 326. Falsifikim I dokumenteve dhe I rezultateve te zgjedhjeve_2004>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/electoralcrimeauth0409#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#ElectoralCrimeAuthors20042009> ;
+      <http://open.data.al/oda.owl#product>
+              "Neni 326. Falsifikim I dokumenteve dhe I rezultateve te zgjedhjeve" ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2004> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "1"^^xsd:byte .
+
+[]    a       <http://open.data.al/oda.owl#Dataset> ;
+      rdfs:label "Dataset" .
+
+<http://open.data.al/ElectoralCrimeAuthors20042009_Neni 327. Shkelja e fshehtesise se votimit_2009>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/electoralcrimeauth0409#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#ElectoralCrimeAuthors20042009> ;
+      <http://open.data.al/oda.owl#product>
+              "Neni 327. Shkelja e fshehtesise se votimit" ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0"^^xsd:byte .
+
+<http://open.data.al/ElectoralCrimeAuthors20042009_Neni 331. Shkelja e te drejtes se zgjedhjes._2004>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/electoralcrimeauth0409#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#ElectoralCrimeAuthors20042009> ;
+      <http://open.data.al/oda.owl#product>
+              "Neni 331. Shkelja e te drejtes se zgjedhjes." ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2004> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0"^^xsd:byte .
+
+<http://open.data.al/ElectoralCrimeAuthors20042009_Neni 331. Shkelja e te drejtes se zgjedhjes._2009>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/electoralcrimeauth0409#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#ElectoralCrimeAuthors20042009> ;
+      <http://open.data.al/oda.owl#product>
+              "Neni 331. Shkelja e te drejtes se zgjedhjes." ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0"^^xsd:byte .
+
+<file:mappings/Template2.trig>
+      owl:import <http://open.data.al/oda.owl#> .
+
+<http://open.data.al/ElectoralCrimeAuthors20042009_Vepra dhe Kundravajtje sipas Kodit Zgjedhor._2009>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/electoralcrimeauth0409#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#ElectoralCrimeAuthors20042009> ;
+      <http://open.data.al/oda.owl#product>
+              "Vepra dhe Kundravajtje sipas Kodit Zgjedhor." ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0"^^xsd:byte .
+
+<http://open.data.al/ElectoralCrimeAuthors20042009_Vepra dhe Kundravajtje sipas Kodit Zgjedhor._2005>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/electoralcrimeauth0409#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#ElectoralCrimeAuthors20042009> ;
+      <http://open.data.al/oda.owl#product>
+              "Vepra dhe Kundravajtje sipas Kodit Zgjedhor." ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "5"^^xsd:byte .
+
+<http://open.data.al/ElectoralCrimeAuthors20042009_Neni 330. Kanosja e Kandidatit._2006>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/electoralcrimeauth0409#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#ElectoralCrimeAuthors20042009> ;
+      <http://open.data.al/oda.owl#product>
+              "Neni 330. Kanosja e Kandidatit." ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2006> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0"^^xsd:byte .
+
+<http://open.data.al/ElectoralCrimeAuthors20042009_Neni 329. Kanosja e zgjedhesit._2009>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/electoralcrimeauth0409#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#ElectoralCrimeAuthors20042009> ;
+      <http://open.data.al/oda.owl#product>
+              "Neni 329. Kanosja e zgjedhesit." ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0"^^xsd:byte .
+
+<http://open.data.al/ElectoralCrimeAuthors20042009_Neni 326. Falsifikim I dokumenteve dhe I rezultateve te zgjedhjeve_2009>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/electoralcrimeauth0409#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#ElectoralCrimeAuthors20042009> ;
+      <http://open.data.al/oda.owl#product>
+              "Neni 326. Falsifikim I dokumenteve dhe I rezultateve te zgjedhjeve" ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "9"^^xsd:byte .
+
+<http://open.data.al/ElectoralCrimeAuthors20042009_Neni 331. Shkelja e te drejtes se zgjedhjes._2005>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/electoralcrimeauth0409#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#ElectoralCrimeAuthors20042009> ;
+      <http://open.data.al/oda.owl#product>
+              "Neni 331. Shkelja e te drejtes se zgjedhjes." ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0"^^xsd:byte .
+
+<http://open.data.al/ElectoralCrimeAuthors20042009_Neni 327. Shkelja e fshehtesise se votimit_2006>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/electoralcrimeauth0409#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#ElectoralCrimeAuthors20042009> ;
+      <http://open.data.al/oda.owl#product>
+              "Neni 327. Shkelja e fshehtesise se votimit" ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2006> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0"^^xsd:byte .
+
+<http://open.data.al/ElectoralCrimeAuthors20042009_Neni 325. Pengim I subjekteve pwr zgjehdje ne organet perfaqesuese_2004>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/electoralcrimeauth0409#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#ElectoralCrimeAuthors20042009> ;
+      <http://open.data.al/oda.owl#product>
+              "Neni 325. Pengim I subjekteve pwr zgjehdje ne organet perfaqesuese" ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2004> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0"^^xsd:byte .
+
+[]    a       <http://open.data.al/oda.owl#Indicator> ;
+      rdfs:label "Indicator" .
+
+<http://open.data.al/ElectoralCrimeAuthors20042009_Neni 332. Shperdorimi I autoritetit ushtarak._2008>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/electoralcrimeauth0409#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#ElectoralCrimeAuthors20042009> ;
+      <http://open.data.al/oda.owl#product>
+              "Neni 332. Shperdorimi I autoritetit ushtarak." ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0"^^xsd:byte .
+
+<http://open.data.al/ElectoralCrimeAuthors20042009_Neni 329. Kanosja e zgjedhesit._2005>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/electoralcrimeauth0409#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#ElectoralCrimeAuthors20042009> ;
+      <http://open.data.al/oda.owl#product>
+              "Neni 329. Kanosja e zgjedhesit." ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0"^^xsd:byte .
+
+<http://open.data.al/ElectoralCrimeAuthors20042009_Neni 328. Dhwnie e Shperblimeve dhe e premtimeve_2006>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/electoralcrimeauth0409#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#ElectoralCrimeAuthors20042009> ;
+      <http://open.data.al/oda.owl#product>
+              "Neni 328. Dhwnie e Shperblimeve dhe e premtimeve" ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2006> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0"^^xsd:byte .
+
+<http://open.data.al/ElectoralCrimeAuthors20042009_Neni 325. Pengim I subjekteve pwr zgjehdje ne organet perfaqesuese_2008>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/electoralcrimeauth0409#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#ElectoralCrimeAuthors20042009> ;
+      <http://open.data.al/oda.owl#product>
+              "Neni 325. Pengim I subjekteve pwr zgjehdje ne organet perfaqesuese" ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0"^^xsd:byte .
+
+[]    rdfs:label "Country" ;
+      rdfs:subClassOf <http://open.data.al/oda.owl#Dimension> .
+
+<http://open.data.al/ElectoralCrimeAuthors20042009_Neni 326. Falsifikim I dokumenteve dhe I rezultateve te zgjedhjeve_2005>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/electoralcrimeauth0409#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#ElectoralCrimeAuthors20042009> ;
+      <http://open.data.al/oda.owl#product>
+              "Neni 326. Falsifikim I dokumenteve dhe I rezultateve te zgjedhjeve" ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "11"^^xsd:byte .
+
+<http://open.data.al/ElectoralCrimeAuthors20042009_Neni 328. Dhwnie e Shperblimeve dhe e premtimeve_2009>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/electoralcrimeauth0409#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#ElectoralCrimeAuthors20042009> ;
+      <http://open.data.al/oda.owl#product>
+              "Neni 328. Dhwnie e Shperblimeve dhe e premtimeve" ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0"^^xsd:byte .
+
+<http://open.data.al/ElectoralCrimeAuthors20042009_Neni 329. Kanosja e zgjedhesit._2008>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/electoralcrimeauth0409#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#ElectoralCrimeAuthors20042009> ;
+      <http://open.data.al/oda.owl#product>
+              "Neni 329. Kanosja e zgjedhesit." ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0"^^xsd:byte .
+
+<http://open.data.al/ElectoralCrimeAuthors20042009_Neni 330. Kanosja e Kandidatit._2007>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/electoralcrimeauth0409#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#ElectoralCrimeAuthors20042009> ;
+      <http://open.data.al/oda.owl#product>
+              "Neni 330. Kanosja e Kandidatit." ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0"^^xsd:byte .
+
+<http://open.data.al/ElectoralCrimeAuthors20042009_Vepra dhe Kundravajtje sipas Kodit Zgjedhor._2006>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/electoralcrimeauth0409#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#ElectoralCrimeAuthors20042009> ;
+      <http://open.data.al/oda.owl#product>
+              "Vepra dhe Kundravajtje sipas Kodit Zgjedhor." ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2006> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0"^^xsd:byte .
+
+<http://open.data.al/ElectoralCrimeAuthors20042009_Neni 331. Shkelja e te drejtes se zgjedhjes._2006>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/electoralcrimeauth0409#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#ElectoralCrimeAuthors20042009> ;
+      <http://open.data.al/oda.owl#product>
+              "Neni 331. Shkelja e te drejtes se zgjedhjes." ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2006> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0"^^xsd:byte .
+
+<http://open.data.al/ElectoralCrimeAuthors20042009_Neni 326. Falsifikim I dokumenteve dhe I rezultateve te zgjedhjeve_2008>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/electoralcrimeauth0409#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#ElectoralCrimeAuthors20042009> ;
+      <http://open.data.al/oda.owl#product>
+              "Neni 326. Falsifikim I dokumenteve dhe I rezultateve te zgjedhjeve" ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "3"^^xsd:byte .
+
+[]    rdfs:domain <http://open.data.al/oda.owl#DataEntry> ;
+      rdfs:label "Data Entry Value" .
+
+<http://open.data.al/ElectoralCrimeAuthors20042009_Neni 327. Shkelja e fshehtesise se votimit_2005>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/electoralcrimeauth0409#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#ElectoralCrimeAuthors20042009> ;
+      <http://open.data.al/oda.owl#product>
+              "Neni 327. Shkelja e fshehtesise se votimit" ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0"^^xsd:byte .
+
+<http://open.data.al/ElectoralCrimeAuthors20042009_Neni 328. Dhwnie e Shperblimeve dhe e premtimeve_2005>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/electoralcrimeauth0409#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#ElectoralCrimeAuthors20042009> ;
+      <http://open.data.al/oda.owl#product>
+              "Neni 328. Dhwnie e Shperblimeve dhe e premtimeve" ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0"^^xsd:byte .
+
+<http://open.data.al/ElectoralCrimeAuthors20042009_Neni 329. Kanosja e zgjedhesit._2004>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/electoralcrimeauth0409#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#ElectoralCrimeAuthors20042009> ;
+      <http://open.data.al/oda.owl#product>
+              "Neni 329. Kanosja e zgjedhesit." ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2004> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0"^^xsd:byte .
+
+<http://open.data.al/ElectoralCrimeAuthors20042009_Neni 332. Shperdorimi I autoritetit ushtarak._2007>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/electoralcrimeauth0409#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#ElectoralCrimeAuthors20042009> ;
+      <http://open.data.al/oda.owl#product>
+              "Neni 332. Shperdorimi I autoritetit ushtarak." ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0"^^xsd:byte .
+
+<http://open.data.al/oda.owl#ElectoralCrimeAuthors20042009>
+      a       <http://open.data.al/oda.owl#Indicator> ;
+      rdfs:label "ElectoralCrimeAuthors20042009" .
+
+<http://open.data.al/ElectoralCrimeAuthors20042009_Neni 325. Pengim I subjekteve pwr zgjehdje ne organet perfaqesuese_2005>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/electoralcrimeauth0409#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#ElectoralCrimeAuthors20042009> ;
+      <http://open.data.al/oda.owl#product>
+              "Neni 325. Pengim I subjekteve pwr zgjehdje ne organet perfaqesuese" ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "1"^^xsd:byte .
+
+<http://open.data.al/ElectoralCrimeAuthors20042009_Neni 331. Shkelja e te drejtes se zgjedhjes._2007>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/electoralcrimeauth0409#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#ElectoralCrimeAuthors20042009> ;
+      <http://open.data.al/oda.owl#product>
+              "Neni 331. Shkelja e te drejtes se zgjedhjes." ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0"^^xsd:byte .
+
+<http://open.data.al/ElectoralCrimeAuthors20042009_Neni 325. Pengim I subjekteve pwr zgjehdje ne organet perfaqesuese_2009>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/electoralcrimeauth0409#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#ElectoralCrimeAuthors20042009> ;
+      <http://open.data.al/oda.owl#product>
+              "Neni 325. Pengim I subjekteve pwr zgjehdje ne organet perfaqesuese" ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0"^^xsd:byte .
+
+<http://open.data.al/ElectoralCrimeAuthors20042009_Neni 326. Falsifikim I dokumenteve dhe I rezultateve te zgjedhjeve_2007>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/electoralcrimeauth0409#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#ElectoralCrimeAuthors20042009> ;
+      <http://open.data.al/oda.owl#product>
+              "Neni 326. Falsifikim I dokumenteve dhe I rezultateve te zgjedhjeve" ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "6"^^xsd:byte .
+
+<http://open.data.al/ElectoralCrimeAuthors20042009_Neni 327. Shkelja e fshehtesise se votimit_2004>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/electoralcrimeauth0409#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#ElectoralCrimeAuthors20042009> ;
+      <http://open.data.al/oda.owl#product>
+              "Neni 327. Shkelja e fshehtesise se votimit" ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2004> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "3"^^xsd:byte .
+
+<http://open.data.al/ElectoralCrimeAuthors20042009_Neni 330. Kanosja e Kandidatit._2008>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/electoralcrimeauth0409#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#ElectoralCrimeAuthors20042009> ;
+      <http://open.data.al/oda.owl#product>
+              "Neni 330. Kanosja e Kandidatit." ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0"^^xsd:byte .
+
+<http://open.data.al/ElectoralCrimeAuthors20042009_Vepra dhe Kundravajtje sipas Kodit Zgjedhor._2007>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/electoralcrimeauth0409#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#ElectoralCrimeAuthors20042009> ;
+      <http://open.data.al/oda.owl#product>
+              "Vepra dhe Kundravajtje sipas Kodit Zgjedhor." ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "55"^^xsd:byte .
+
+[]    rdfs:label "Year" ;
+      rdfs:subClassOf <http://open.data.al/oda.owl#Dimension> .
+
+<http://open.data.al/ElectoralCrimeAuthors20042009_Neni 332. Shperdorimi I autoritetit ushtarak._2006>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/electoralcrimeauth0409#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#ElectoralCrimeAuthors20042009> ;
+      <http://open.data.al/oda.owl#product>
+              "Neni 332. Shperdorimi I autoritetit ushtarak." ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2006> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0"^^xsd:byte .
+
+<http://open.data.al/ElectoralCrimeAuthors20042009_Neni 330. Kanosja e Kandidatit._2004>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/electoralcrimeauth0409#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#ElectoralCrimeAuthors20042009> ;
+      <http://open.data.al/oda.owl#product>
+              "Neni 330. Kanosja e Kandidatit." ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2004> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0"^^xsd:byte .
+
+<http://open.data.al/ElectoralCrimeAuthors20042009_Neni 327. Shkelja e fshehtesise se votimit_2008>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/electoralcrimeauth0409#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#ElectoralCrimeAuthors20042009> ;
+      <http://open.data.al/oda.owl#product>
+              "Neni 327. Shkelja e fshehtesise se votimit" ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0"^^xsd:byte .
+
+<http://open.data.al/ElectoralCrimeAuthors20042009_Neni 329. Kanosja e zgjedhesit._2007>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/electoralcrimeauth0409#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#ElectoralCrimeAuthors20042009> ;
+      <http://open.data.al/oda.owl#product>
+              "Neni 329. Kanosja e zgjedhesit." ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0"^^xsd:byte .
+
+<http://open.data.al/ElectoralCrimeAuthors20042009_Neni 328. Dhwnie e Shperblimeve dhe e premtimeve_2008>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/electoralcrimeauth0409#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#ElectoralCrimeAuthors20042009> ;
+      <http://open.data.al/oda.owl#product>
+              "Neni 328. Dhwnie e Shperblimeve dhe e premtimeve" ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0"^^xsd:byte .
+
+<http://open.data.al/ElectoralCrimeAuthors20042009_Neni 325. Pengim I subjekteve pwr zgjehdje ne organet perfaqesuese_2006>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/electoralcrimeauth0409#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#ElectoralCrimeAuthors20042009> ;
+      <http://open.data.al/oda.owl#product>
+              "Neni 325. Pengim I subjekteve pwr zgjehdje ne organet perfaqesuese" ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2006> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "1"^^xsd:byte .
+
+<http://open.data.al/ElectoralCrimeAuthors20042009_Neni 328. Dhwnie e Shperblimeve dhe e premtimeve_2004>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/electoralcrimeauth0409#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#ElectoralCrimeAuthors20042009> ;
+      <http://open.data.al/oda.owl#product>
+              "Neni 328. Dhwnie e Shperblimeve dhe e premtimeve" ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2004> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0"^^xsd:byte .
+
+<http://open.data.al/ElectoralCrimeAuthors20042009_Neni 331. Shkelja e te drejtes se zgjedhjes._2008>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/electoralcrimeauth0409#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#ElectoralCrimeAuthors20042009> ;
+      <http://open.data.al/oda.owl#product>
+              "Neni 331. Shkelja e te drejtes se zgjedhjes." ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0"^^xsd:byte .
+
+<http://open.data.al/electoralcrimeauth0409#dataset>
+      a       <http://open.data.al/oda.owl#Dataset> ;
+      dc:creator "Open Data Albania (ODA)" ;
+      dc:date "Tue Aug 16 12:51:25 CEST 2011" ;
+      dc:publisher "Ministry of Justice, Albania" ;
+      dc:title "Electoral crime authors per year in Albania" .
+
+<http://open.data.al/ElectoralCrimeAuthors20042009_Neni 332. Shperdorimi I autoritetit ushtarak._2009>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/electoralcrimeauth0409#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#ElectoralCrimeAuthors20042009> ;
+      <http://open.data.al/oda.owl#product>
+              "Neni 332. Shperdorimi I autoritetit ushtarak." ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0"^^xsd:byte .
+
+<http://open.data.al/ElectoralCrimeAuthors20042009_Neni 330. Kanosja e Kandidatit._2009>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/electoralcrimeauth0409#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#ElectoralCrimeAuthors20042009> ;
+      <http://open.data.al/oda.owl#product>
+              "Neni 330. Kanosja e Kandidatit." ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0"^^xsd:byte .
+
+<http://open.data.al/ElectoralCrimeAuthors20042009_Vepra dhe Kundravajtje sipas Kodit Zgjedhor._2004>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/electoralcrimeauth0409#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#ElectoralCrimeAuthors20042009> ;
+      <http://open.data.al/oda.owl#product>
+              "Vepra dhe Kundravajtje sipas Kodit Zgjedhor." ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2004> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0"^^xsd:byte .
+
+<http://open.data.al/ElectoralCrimeAuthors20042009_Neni 326. Falsifikim I dokumenteve dhe I rezultateve te zgjedhjeve_2006>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/electoralcrimeauth0409#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#ElectoralCrimeAuthors20042009> ;
+      <http://open.data.al/oda.owl#product>
+              "Neni 326. Falsifikim I dokumenteve dhe I rezultateve te zgjedhjeve" ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2006> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "1"^^xsd:byte .
+
+<http://open.data.al/ElectoralCrimeAuthors20042009_Vepra dhe Kundravajtje sipas Kodit Zgjedhor._2008>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/electoralcrimeauth0409#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#ElectoralCrimeAuthors20042009> ;
+      <http://open.data.al/oda.owl#product>
+              "Vepra dhe Kundravajtje sipas Kodit Zgjedhor." ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0"^^xsd:byte .
+
+<http://open.data.al/ElectoralCrimeAuthors20042009_Neni 332. Shperdorimi I autoritetit ushtarak._2005>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/electoralcrimeauth0409#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#ElectoralCrimeAuthors20042009> ;
+      <http://open.data.al/oda.owl#product>
+              "Neni 332. Shperdorimi I autoritetit ushtarak." ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0"^^xsd:byte .
+
+<http://open.data.al/ElectoralCrimeAuthors20042009_Neni 328. Dhwnie e Shperblimeve dhe e premtimeve_2007>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/electoralcrimeauth0409#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#ElectoralCrimeAuthors20042009> ;
+      <http://open.data.al/oda.owl#product>
+              "Neni 328. Dhwnie e Shperblimeve dhe e premtimeve" ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0"^^xsd:byte .
+
+<http://open.data.al/ElectoralCrimeAuthors20042009_Neni 329. Kanosja e zgjedhesit._2006>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/electoralcrimeauth0409#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#ElectoralCrimeAuthors20042009> ;
+      <http://open.data.al/oda.owl#product>
+              "Neni 329. Kanosja e zgjedhesit." ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2006> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0"^^xsd:byte .
+
+[]    rdfs:label "Product" ;
+      rdfs:subClassOf <http://open.data.al/oda.owl#Dimension> .
+
+<http://open.data.al/ElectoralCrimeAuthors20042009_Neni 327. Shkelja e fshehtesise se votimit_2007>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/electoralcrimeauth0409#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#ElectoralCrimeAuthors20042009> ;
+      <http://open.data.al/oda.owl#product>
+              "Neni 327. Shkelja e fshehtesise se votimit" ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0"^^xsd:byte .
+
+<http://open.data.al/ElectoralCrimeAuthors20042009_Neni 330. Kanosja e Kandidatit._2005>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/electoralcrimeauth0409#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#ElectoralCrimeAuthors20042009> ;
+      <http://open.data.al/oda.owl#product>
+              "Neni 330. Kanosja e Kandidatit." ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0"^^xsd:byte .

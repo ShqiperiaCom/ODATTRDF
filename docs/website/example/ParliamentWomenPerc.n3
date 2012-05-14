@@ -1,0 +1,175 @@
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ckan:    <http://ckan.net/ns#> .
+@prefix sdx:     <http://epimorphics.com/vocab/sdx#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix scv:     <http://purl.org/NET/scovo#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://open.data.al/%25+e+femrave+ne+parlament+ndaj+numrit+total+te+deputeteve_2009>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/parliamentwomenperc#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliament> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "7.1"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#Indicator> ;
+      rdfs:label "Indicator" .
+
+<http://open.data.al/%25+e+femrave+ne+parlament+ndaj+numrit+total+te+deputeteve_2008>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/parliamentwomenperc#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliament> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "7.1"^^xsd:double .
+
+<http://open.data.al/%25+e+femrave+ne+parlament+ndaj+numrit+total+te+deputeteve_2010>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/parliamentwomenperc#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliament> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2010> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "16.4"^^xsd:double .
+
+<http://open.data.al/ODA#WomenPercentParliament>
+      a       <http://open.data.al/ODA#Indicator> ;
+      rdfs:label "Percentage of women in parliament" .
+
+<http://open.data.al/%25+e+femrave+ne+parlament+ndaj+numrit+total+te+deputeteve_2007>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/parliamentwomenperc#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliament> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "7.1"^^xsd:double .
+
+<http://open.data.al/%25+e+femrave+ne+parlament+ndaj+numrit+total+te+deputeteve_2006>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/parliamentwomenperc#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliament> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2006> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "7.1"^^xsd:double .
+
+[]    rdfs:label "Year" ;
+      rdfs:subClassOf <http://open.data.al/ODA#Dimension> .
+
+<http://open.data.al/%25+e+femrave+ne+parlament+ndaj+numrit+total+te+deputeteve_2005>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/parliamentwomenperc#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliament> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "6.4"^^xsd:double .
+
+<http://open.data.al/parliamentwomenperc#dataset>
+      a       <http://open.data.al/ODA#Dataset> ;
+      dc:creator "Open Data Albania" ;
+      dc:date "Mon Jun 13 22:55:44 CEST 2011" ;
+      dc:publisher "United Nations Statistics Division, World Bank" ;
+      dc:title "Percent of women in Parliament Albania" .
+
+[]    rdfs:domain <http://open.data.al/ODA#DataEntry> ;
+      rdfs:label "Data Entry Value" .
+
+<http://open.data.al/%25+e+femrave+ne+parlament+ndaj+numrit+total+te+deputeteve_2002>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/parliamentwomenperc#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliament> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2002> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "5.7"^^xsd:double .
+
+<http://open.data.al/%25+e+femrave+ne+parlament+ndaj+numrit+total+te+deputeteve_2004>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/parliamentwomenperc#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliament> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2004> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "5.7"^^xsd:double .
+
+<http://open.data.al/%25+e+femrave+ne+parlament+ndaj+numrit+total+te+deputeteve_2003>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/parliamentwomenperc#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliament> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2003> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "5.7"^^xsd:double .
+
+<http://open.data.al/%25+e+femrave+ne+parlament+ndaj+numrit+total+te+deputeteve_2000>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/parliamentwomenperc#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliament> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2000> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "5.2"^^xsd:double .
+
+<http://open.data.al/%25+e+femrave+ne+parlament+ndaj+numrit+total+te+deputeteve_1997>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/parliamentwomenperc#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliament> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1997> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "12.1"^^xsd:double .
+
+<http://open.data.al/%25+e+femrave+ne+parlament+ndaj+numrit+total+te+deputeteve_2001>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/parliamentwomenperc#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliament> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2001> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "5.2"^^xsd:double .
+
+<http://open.data.al/%25+e+femrave+ne+parlament+ndaj+numrit+total+te+deputeteve_1990>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/parliamentwomenperc#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#WomenPercentParliament> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1990> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "28.8"^^xsd:double .
+
+<file:mappings/ParliamentWomenPerc.trig>
+      owl:import <http://open.data.al/ODA#> .

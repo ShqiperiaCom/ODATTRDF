@@ -1,0 +1,148 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:sdmx-measure="http://purl.org/linked-data/sdmx/2009/measure#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:scv="http://purl.org/NET/scovo#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:sdx="http://epimorphics.com/vocab/sdx#"
+    xmlns:oda="http://open.data.al/oda.owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:ckan="http://ckan.net/ns#" > 
+  <rdf:Description rdf:about="http://open.data.al/oda.owl#ElectricityImport">
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#Indicator"/>
+    <rdfs:label>ElectricityImport</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ElectricityImport_Albania_2010">
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">1004</sdmx-measure:obsValue>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#ElectricityImport"/>
+    <oda:dataset rdf:resource="http://open.data.al/energyimport#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/energyimport#dataset">
+    <dc:date>Tue Aug 16 18:10:16 CEST 2011</dc:date>
+    <dc:publisher>Bilanci i Energjise, INSTAT</dc:publisher>
+    <dc:creator>Open Data Albania (ODA)</dc:creator>
+    <dc:title>Electricity Import per year in Albania</dc:title>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ElectricityImport_Albania_2006">
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">1242</sdmx-measure:obsValue>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#ElectricityImport"/>
+    <oda:dataset rdf:resource="http://open.data.al/energyimport#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2006"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ElectricityImport_Albania_1998">
+    <oda:year rdf:resource="http://dbpedia.org/resource/1998"/>
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#ElectricityImport"/>
+    <oda:dataset rdf:resource="http://open.data.al/energyimport#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">1068</sdmx-measure:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ElectricityImport_Albania_2007">
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:dataset rdf:resource="http://open.data.al/energyimport#dataset"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#ElectricityImport"/>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2007"/>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">2934</sdmx-measure:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <rdfs:subClassOf rdf:resource="http://open.data.al/oda.owl#Dimension"/>
+    <rdfs:label>Year</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ElectricityImport_Albania_2005">
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:dataset rdf:resource="http://open.data.al/energyimport#dataset"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#ElectricityImport"/>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2005"/>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">1253</sdmx-measure:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <rdfs:domain rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <rdfs:label>Data Entry Value</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ElectricityImport_Albania_1999">
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:dataset rdf:resource="http://open.data.al/energyimport#dataset"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#ElectricityImport"/>
+    <oda:year rdf:resource="http://dbpedia.org/resource/1999"/>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">1112</sdmx-measure:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A2">
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#Indicator"/>
+    <rdfs:label>Indicator</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ElectricityImport_Albania_2003">
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:dataset rdf:resource="http://open.data.al/energyimport#dataset"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#ElectricityImport"/>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2003"/>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">1242</sdmx-measure:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ElectricityImport_Albania_2009">
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:dataset rdf:resource="http://open.data.al/energyimport#dataset"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#ElectricityImport"/>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2009"/>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">1964</sdmx-measure:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ElectricityImport_Albania_2004">
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">868</sdmx-measure:obsValue>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#ElectricityImport"/>
+    <oda:dataset rdf:resource="http://open.data.al/energyimport#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2004"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ElectricityImport_Albania_2008">
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">2758</sdmx-measure:obsValue>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#ElectricityImport"/>
+    <oda:dataset rdf:resource="http://open.data.al/energyimport#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2008"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A3">
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#Dataset"/>
+    <rdfs:label>Dataset</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ElectricityImport_Albania_2002">
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">2279</sdmx-measure:obsValue>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#ElectricityImport"/>
+    <oda:dataset rdf:resource="http://open.data.al/energyimport#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2002"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ElectricityImport_Albania_2000">
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">1223</sdmx-measure:obsValue>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#ElectricityImport"/>
+    <oda:dataset rdf:resource="http://open.data.al/energyimport#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2000"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/ElectricityImport_Albania_2001">
+    <oda:country rdf:resource="http://dbpedia.org/resource/Albania"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:dataset rdf:resource="http://open.data.al/energyimport#dataset"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#ElectricityImport"/>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2001"/>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">1819</sdmx-measure:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A4">
+    <rdfs:subClassOf rdf:resource="http://open.data.al/oda.owl#Dimension"/>
+    <rdfs:label>Country</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

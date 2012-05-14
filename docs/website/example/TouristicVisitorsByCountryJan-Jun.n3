@@ -1,0 +1,127 @@
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ckan:    <http://ckan.net/ns#> .
+@prefix sdx:     <http://epimorphics.com/vocab/sdx#> .
+@prefix sdmx-measure:  <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix scv:     <http://purl.org/NET/scovo#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix oda:     <http://open.data.al/oda.owl#> .
+
+[]    rdfs:label "Country" ;
+      rdfs:subClassOf oda:Dimension .
+
+<http://open.data.al/TouristicVisitorsByCountryJan-Jun_Montenegro_2010>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Montenegro> ;
+      oda:dataset <http://open.data.al/touristicvisitorsjan-jul#dataset> ;
+      oda:indicator oda:TouristicVisitorsByCountryJan-Jun ;
+      oda:year <http://dbpedia.org/resource/2010> ;
+      sdmx-measure:obsValue
+              "65243"^^xsd:int .
+
+[]    a       oda:Indicator ;
+      rdfs:label "Indicator" .
+
+[]    rdfs:domain oda:DataEntry ;
+      rdfs:label "Data Entry Value" .
+
+<http://open.data.al/TouristicVisitorsByCountryJan-Jun_UK_2010>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/UK> ;
+      oda:dataset <http://open.data.al/touristicvisitorsjan-jul#dataset> ;
+      oda:indicator oda:TouristicVisitorsByCountryJan-Jun ;
+      oda:year <http://dbpedia.org/resource/2010> ;
+      sdmx-measure:obsValue
+              "18463"^^xsd:short .
+
+<http://open.data.al/TouristicVisitorsByCountryJan-Jun_France_2010>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/France> ;
+      oda:dataset <http://open.data.al/touristicvisitorsjan-jul#dataset> ;
+      oda:indicator oda:TouristicVisitorsByCountryJan-Jun ;
+      oda:year <http://dbpedia.org/resource/2010> ;
+      sdmx-measure:obsValue
+              "7263"^^xsd:short .
+
+[]    a       oda:Dataset ;
+      rdfs:label "Dataset" .
+
+<http://open.data.al/TouristicVisitorsByCountryJan-Jun_Greece_2010>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Greece> ;
+      oda:dataset <http://open.data.al/touristicvisitorsjan-jul#dataset> ;
+      oda:indicator oda:TouristicVisitorsByCountryJan-Jun ;
+      oda:year <http://dbpedia.org/resource/2010> ;
+      sdmx-measure:obsValue
+              "45132"^^xsd:int .
+
+[]    rdfs:label "Year" ;
+      rdfs:subClassOf oda:Dimension .
+
+<http://open.data.al/TouristicVisitorsByCountryJan-Jun_Macedoni_2010>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Macedoni> ;
+      oda:dataset <http://open.data.al/touristicvisitorsjan-jul#dataset> ;
+      oda:indicator oda:TouristicVisitorsByCountryJan-Jun ;
+      oda:year <http://dbpedia.org/resource/2010> ;
+      sdmx-measure:obsValue
+              "113894"^^xsd:int .
+
+<http://open.data.al/TouristicVisitorsByCountryJan-Jun_Turkey_2010>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Turkey> ;
+      oda:dataset <http://open.data.al/touristicvisitorsjan-jul#dataset> ;
+      oda:indicator oda:TouristicVisitorsByCountryJan-Jun ;
+      oda:year <http://dbpedia.org/resource/2010> ;
+      sdmx-measure:obsValue
+              "15251"^^xsd:short .
+
+<http://open.data.al/touristicvisitorsjan-jul#dataset>
+      a       oda:Dataset ;
+      dc:creator "Open Data Albania (ODA)" ;
+      dc:date "Tue Aug 16 19:43:33 CEST 2011" ;
+      dc:publisher "-" ;
+      dc:title "Number of touristic visitors in Albania in January - june from different countries" .
+
+<http://open.data.al/TouristicVisitorsByCountryJan-Jun_Germany_2010>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Germany> ;
+      oda:dataset <http://open.data.al/touristicvisitorsjan-jul#dataset> ;
+      oda:indicator oda:TouristicVisitorsByCountryJan-Jun ;
+      oda:year <http://dbpedia.org/resource/2010> ;
+      sdmx-measure:obsValue
+              "14474"^^xsd:short .
+
+<http://open.data.al/TouristicVisitorsByCountryJan-Jun_Kosovo_2010>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Kosovo> ;
+      oda:dataset <http://open.data.al/touristicvisitorsjan-jul#dataset> ;
+      oda:indicator oda:TouristicVisitorsByCountryJan-Jun ;
+      oda:year <http://dbpedia.org/resource/2010> ;
+      sdmx-measure:obsValue
+              "103459"^^xsd:int .
+
+<http://open.data.al/TouristicVisitorsByCountryJan-Jun_Italy_2010>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Italy> ;
+      oda:dataset <http://open.data.al/touristicvisitorsjan-jul#dataset> ;
+      oda:indicator oda:TouristicVisitorsByCountryJan-Jun ;
+      oda:year <http://dbpedia.org/resource/2010> ;
+      sdmx-measure:obsValue
+              "43630"^^xsd:int .
+
+oda:TouristicVisitorsByCountryJan-Jun
+      a       oda:Indicator ;
+      rdfs:label "TouristicVisitorsByCountryJan-Jun" .
+
+<http://open.data.al/TouristicVisitorsByCountryJan-Jun_Serbia_2010>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Serbia> ;
+      oda:dataset <http://open.data.al/touristicvisitorsjan-jul#dataset> ;
+      oda:indicator oda:TouristicVisitorsByCountryJan-Jun ;
+      oda:year <http://dbpedia.org/resource/2010> ;
+      sdmx-measure:obsValue
+              "15368"^^xsd:short .

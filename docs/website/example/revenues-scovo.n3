@@ -1,0 +1,56 @@
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ckan:    <http://ckan.net/ns#> .
+@prefix sdx:     <http://epimorphics.com/vocab/sdx#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix scv:     <http://purl.org/NET/scovo#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://example.com/Shared+Services>
+      a       rdfs:Class ;
+      rdfs:subClassOf <http://example.com/Corporate> .
+
+<http://example.com/HR>
+      a       rdfs:Class ;
+      rdfs:subClassOf <http://example.com/Shared+Services> .
+
+<http://example.com/Company+USA>
+      a       rdfs:Class ;
+      rdfs:subClassOf <http://example.com/Americas> .
+
+<http://example.com/Sales+Germany>
+      a       rdfs:Class ;
+      rdfs:subClassOf <http://example.com/Company+Germany> .
+
+<http://example.com/IT>
+      a       rdfs:Class ;
+      rdfs:subClassOf <http://example.com/Shared+Services> .
+
+<http://example.com/Marketing+Germany>
+      a       rdfs:Class ;
+      rdfs:subClassOf <http://example.com/Company+Germany> .
+
+<http://example.com/Sales+USA>
+      a       rdfs:Class ;
+      rdfs:subClassOf <http://example.com/Company+USA> .
+
+<http://example.com/EMEA>
+      a       rdfs:Class ;
+      rdfs:subClassOf <http://example.com/Corporate> .
+
+<http://example.com/Company+Germany>
+      a       rdfs:Class ;
+      rdfs:subClassOf <http://example.com/EMEA> .
+
+<http://example.com/Americas>
+      a       rdfs:Class ;
+      rdfs:subClassOf <http://example.com/Corporate> .
+
+<http://example.com/Corporate>
+      a       rdfs:Class .
+
+<http://example.com/Marketing+USA>
+      a       rdfs:Class ;
+      rdfs:subClassOf <http://example.com/Company+USA> .

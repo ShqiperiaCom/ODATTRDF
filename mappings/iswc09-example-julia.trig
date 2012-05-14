@@ -1,0 +1,98 @@
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:    <http://www.w3.org/2002/07/owl#> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix ex:		<http://open.data.al/> .
+@prefix dc:     <http://purl.org/dc/elements/1.1/> .
+
+@prefix xl:		<http://purl.org/NET/xlwrap#> .
+@prefix scv:	<http://purl.org/NET/scovo#> .
+@prefix :       <http://myApplication/configuration#> .
+
+# Example query:
+#
+# SELECT ?country ?year ?product ?var ?revenue WHERE {
+#       [] ex:country ?country ;
+#       ex:year ?year ;
+#       ex:product ?product ;
+#       ex:value ?var ;
+#       ex:revenue ?revenue
+# } ORDER BY ?country ?year ?product
+
+# SCOVO variant example query:
+#
+# PREFIX scv: <http://purl.org/NET/scovo#>
+# SELECT ?country ?year ?product ?type ?value WHERE {
+#       ?s a ?type ;
+#       scv:dimension [ a ex:Year ; rdfs:seeAlso ?year ] ;
+#       scv:dimension [ a ex:Country ; rdfs:seeAlso ?country ] ;
+#       scv:dimension [ a ex:Product ; rdfs:label ?product ] ;
+#       rdf:value ?value
+# } ORDER BY ?country ?year ?product
+
+
+# mapping
+{ [] a xl:Mapping ;
+	xl:offline "false"^^xsd:boolean ;
+
+	xl:template [
+		xl:fileName "mappings/files/iswc09-example-julia.xls" ;
+		xl:sheetNumber "0" ;
+		xl:templateGraph :BilanciTregtar ;
+#		xl:constantGraph :SCOVODataset ;
+#		xl:templateGraph :SCOVOBilanciTregtar ;
+		xl:transform [
+			a rdf:Seq ;
+			rdf:_1 [
+				a xl:RowShift ;
+				xl:restriction "A4; B4" ;
+				xl:breakCondition "ALLEMPTY(A4)" ;
+				xl:steps "1" ;
+			] ;
+			rdf:_2 [
+				a xl:ColShift ;
+				xl:restriction "B2; B4"^^xl:Expr ;
+				xl:breakCondition "ALLEMPTY(B4)" ;
+				xl:steps "2" ;
+			] ;
+			rdf:_3 [
+				a xl:SheetShift ;
+				xl:restriction "#1.*"^^xl:Expr ;
+				xl:repeat "2"
+			] ;
+		]
+	] .
+}
+
+:BilanciTregtar {
+	[ xl:uri "'http://open.data.al/bilanci_' & URLENCODE(SHEETNAME(A1) & '_' & B2 & '_' & A4)"^^xl:Expr ] a ex:BilanciTregtar ;
+	ex:hasCountry    "DBP_LOCALITY(A1)"^^xl:Expr ; #DBP_LOCALITY(SHEETNAME(A1))
+	ex:hasYear       "DBP_YEAR(B2)"^^xl:Expr ;
+	ex:hasProduct    "A4"^^xl:Expr ;
+	ex:value  "B4"^^xl:Expr .
+}
+
+:SCOVODataset {
+	<> owl:import scv: .
+	
+	[ xl:id "BilanciTregtar" ] a scv:Dataset ;
+	dc:title    "BilanciTregtar per year, country, and products" ;
+	dc:creator  "Open Data Albania. Source Ministry of Finance" ;
+	dc:date     "NOW()" .
+	
+	ex:value  a scv:Item .
+	ex:Year     [ rdfs:label "Year" ; rdfs:subClassOf scv:Dimension ] .
+	ex:Product  [ rdfs:label "Product" ; rdfs:subClassOf scv:Dimension ] .
+	ex:Country  [ rdfs:label "Country" ; rdfs:subClassOf scv:Dimension ] .
+}
+
+:SCOVOBilanciTregtar {
+	[] a ex:value ;
+	scv:dataset [ xl:id "BilanciTregtar" ] ;
+	scv:dimension [ xl:id "A1"^^xl:Expr ; a ex:Country ; rdfs:label "SHEETNAME(A1)"^^xl:Expr ] ;
+	scv:dimension [ xl:id "B2"^^xl:Expr ; a ex:Year ; rdfs:label "B2"^^xl:Expr ] ;
+	scv:dimension [ xl:id "A4"^^xl:Expr ; a ex:Product ; rdfs:label "A4"^^xl:Expr ] ;
+	rdf:value    "B4"^^xl:Expr .
+}
+

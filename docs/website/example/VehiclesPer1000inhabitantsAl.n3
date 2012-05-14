@@ -1,0 +1,154 @@
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ckan:    <http://ckan.net/ns#> .
+@prefix sdx:     <http://epimorphics.com/vocab/sdx#> .
+@prefix sdmx-measure:  <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix scv:     <http://purl.org/NET/scovo#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix oda:     <http://open.data.al/oda.owl#> .
+
+<http://open.data.al/VehiclesPer1000inhabitantsAl_Albania_2004>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/vehiclesXinhabitants19932010alb#dataset> ;
+      oda:indicator oda:VehiclesPer1000inhabitantsAl ;
+      oda:year <http://dbpedia.org/resource/2004> ;
+      sdmx-measure:obsValue
+              "83.94784622367885"^^xsd:double .
+
+[]    rdfs:label "Country" ;
+      rdfs:subClassOf oda:Dimension .
+
+<http://open.data.al/VehiclesPer1000inhabitantsAl_Albania_2005>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/vehiclesXinhabitants19932010alb#dataset> ;
+      oda:indicator oda:VehiclesPer1000inhabitantsAl ;
+      oda:year <http://dbpedia.org/resource/2005> ;
+      sdmx-measure:obsValue
+              "86.12968112735575"^^xsd:double .
+
+<http://open.data.al/VehiclesPer1000inhabitantsAl_Albania_2007>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/vehiclesXinhabitants19932010alb#dataset> ;
+      oda:indicator oda:VehiclesPer1000inhabitantsAl ;
+      oda:year <http://dbpedia.org/resource/2007> ;
+      sdmx-measure:obsValue
+              "103.75023789887712"^^xsd:double .
+
+<http://open.data.al/VehiclesPer1000inhabitantsAl_Albania_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/vehiclesXinhabitants19932010alb#dataset> ;
+      oda:indicator oda:VehiclesPer1000inhabitantsAl ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "95.38153758216633"^^xsd:double .
+
+<http://open.data.al/VehiclesPer1000inhabitantsAl_Albania_2010>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/vehiclesXinhabitants19932010alb#dataset> ;
+      oda:indicator oda:VehiclesPer1000inhabitantsAl ;
+      oda:year <http://dbpedia.org/resource/2010> ;
+      sdmx-measure:obsValue
+              "120.83724569640063"^^xsd:double .
+
+oda:VehiclesPer1000inhabitantsAl
+      a       oda:Indicator ;
+      rdfs:label "VehiclesPer1000inhabitantsAl" .
+
+[]    rdfs:domain oda:DataEntry ;
+      rdfs:label "Data Entry Value" .
+
+[]    a       oda:Indicator ;
+      rdfs:label "Indicator" .
+
+[]    a       oda:Dataset ;
+      rdfs:label "Dataset" .
+
+<http://open.data.al/vehiclesXinhabitants19932010alb#dataset>
+      a       oda:Dataset ;
+      dc:creator "Open Data Albania (ODA)" ;
+      dc:date "Tue Aug 16 19:53:08 CEST 2011" ;
+      dc:publisher "World Bank" ;
+      dc:title "Automjete per 1000 baore ne Shqiperi ne vite" .
+
+<http://open.data.al/VehiclesPer1000inhabitantsAl_Albania_2009>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/vehiclesXinhabitants19932010alb#dataset> ;
+      oda:indicator oda:VehiclesPer1000inhabitantsAl ;
+      oda:year <http://dbpedia.org/resource/2009> ;
+      sdmx-measure:obsValue
+              "115.13666677103228"^^xsd:double .
+
+<http://open.data.al/VehiclesPer1000inhabitantsAl_Albania_2002>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/vehiclesXinhabitants19932010alb#dataset> ;
+      oda:indicator oda:VehiclesPer1000inhabitantsAl ;
+      oda:year <http://dbpedia.org/resource/2002> ;
+      sdmx-measure:obsValue
+              "71.82437418697157"^^xsd:double .
+
+<http://open.data.al/VehiclesPer1000inhabitantsAl_Albania_1999>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/vehiclesXinhabitants19932010alb#dataset> ;
+      oda:indicator oda:VehiclesPer1000inhabitantsAl ;
+      oda:year <http://dbpedia.org/resource/1999> ;
+      sdmx-measure:obsValue
+              "45.856488579660336"^^xsd:double .
+
+<http://open.data.al/VehiclesPer1000inhabitantsAl_Albania_2001>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/vehiclesXinhabitants19932010alb#dataset> ;
+      oda:indicator oda:VehiclesPer1000inhabitantsAl ;
+      oda:year <http://dbpedia.org/resource/2001> ;
+      sdmx-measure:obsValue
+              "66.57682943788403"^^xsd:double .
+
+<http://open.data.al/VehiclesPer1000inhabitantsAl_Albania_2008>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/vehiclesXinhabitants19932010alb#dataset> ;
+      oda:indicator oda:VehiclesPer1000inhabitantsAl ;
+      oda:year <http://dbpedia.org/resource/2008> ;
+      sdmx-measure:obsValue
+              "110.5763406940063"^^xsd:double .
+
+[]    rdfs:label "Year" ;
+      rdfs:subClassOf oda:Dimension .
+
+<http://open.data.al/VehiclesPer1000inhabitantsAl_Albania_1998>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/vehiclesXinhabitants19932010alb#dataset> ;
+      oda:indicator oda:VehiclesPer1000inhabitantsAl ;
+      oda:year <http://dbpedia.org/resource/1998> ;
+      sdmx-measure:obsValue
+              "43.89060518739519"^^xsd:double .
+
+<http://open.data.al/VehiclesPer1000inhabitantsAl_Albania_2000>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/vehiclesXinhabitants19932010alb#dataset> ;
+      oda:indicator oda:VehiclesPer1000inhabitantsAl ;
+      oda:year <http://dbpedia.org/resource/2000> ;
+      sdmx-measure:obsValue
+              "57.09961461462934"^^xsd:double .
+
+<http://open.data.al/VehiclesPer1000inhabitantsAl_Albania_2003>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/vehiclesXinhabitants19932010alb#dataset> ;
+      oda:indicator oda:VehiclesPer1000inhabitantsAl ;
+      oda:year <http://dbpedia.org/resource/2003> ;
+      sdmx-measure:obsValue
+              "80.69373893935796"^^xsd:double .

@@ -1,0 +1,121 @@
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:    <http://www.w3.org/2002/07/owl#> .
+@prefix dc:     <http://purl.org/dc/elements/1.1/> .
+@prefix oda:	<http://open.data.al/ODA#> .
+@prefix sdmx-measure:  <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix xl:		<http://purl.org/NET/xlwrap#> .
+@prefix :       <http://myApplication/configuration#> .
+
+# mapping
+{ [] a xl:Mapping ;
+	xl:offline "false"^^xsd:boolean ;
+
+	xl:template [
+		xl:fileName "mappings/files/Cilesia_e_ajrit_so2_dhe_no2.xls" ;
+		xl:sheetNumber "0" ;	
+		xl:constantGraph :ODASasiaNO2_c ;
+		xl:templateGraph :ODASasiaNO2_t ;
+		xl:transform [
+			a rdf:Seq ;
+			rdf:_1 [
+				a xl:RowShift ;
+				xl:restriction "B23; C23" ;
+				xl:repeat "7" ;				
+				xl:steps "1" ;
+			] ;
+			rdf:_2 [
+				a xl:ColShift ;
+				xl:restriction "C22; C23"^^xl:Expr ;
+				xl:breakCondition "ALLEMPTY(C22)" ;
+				xl:steps "1" ;
+			] ;
+			rdf:_3 [
+				a xl:SheetShift ;
+				xl:restriction "#1.*"^^xl:Expr ;
+				xl:repeat "1"
+			] ;
+		]
+	] ;
+		xl:template [
+		xl:fileName "mappings/files/Cilesia_e_ajrit_so2_dhe_no2.xls" ;
+		xl:sheetNumber "0" ;	
+		xl:constantGraph :ODASasiaNO2_c ;
+		xl:templateGraph :ODANormaAlNO2_t ;
+		xl:transform [
+			a rdf:Seq ;
+			rdf:_1 [
+				a xl:ColShift ;
+				xl:restriction "C22; C31"^^xl:Expr ;
+				xl:breakCondition "ALLEMPTY(C22)" ;
+				xl:steps "1" ;
+			] ;
+			rdf:_2 [
+				a xl:SheetShift ;
+				xl:restriction "#1.*"^^xl:Expr ;
+				xl:repeat "1"
+			] ;
+		]
+	] ;
+			xl:template [
+		xl:fileName "mappings/files/Cilesia_e_ajrit_so2_dhe_no2.xls" ;
+		xl:sheetNumber "0" ;	
+		xl:constantGraph :ODASasiaNO2_c ;
+		xl:templateGraph :ODANormaEuNO2_t ;
+		xl:transform [
+			a rdf:Seq ;
+			rdf:_1 [
+				a xl:ColShift ;
+				xl:restriction "C22; C32"^^xl:Expr ;
+				xl:breakCondition "ALLEMPTY(C22)" ;
+				xl:steps "1" ;
+			] ;
+			rdf:_2 [
+				a xl:SheetShift ;
+				xl:restriction "#1.*"^^xl:Expr ;
+				xl:repeat "1"
+			] ;
+		]
+	] .
+}
+
+:ODASasiaNO2_c {
+	<> owl:import oda: .	
+	[ xl:uri "'http://open.data.al/SasiaNO2#dataset'"^^xl:Expr ] a oda:Dataset ;
+		dc:title    "NO2 Indicators by city" ;
+		dc:creator  "Open Data Albania" ;
+		dc:publisher  "Albanian Ministry of Environment, Forestry and administration of Waters" ;
+		dc:date     "NOW()"^^xl:Expr .
+	
+	sdmx-measure:obsValue  [ rdfs:label "Data Entry Value" ; rdfs:domain oda:DataEntry ] .
+	oda:Indicator [ rdfs:label "Indicator" ; a oda:Indicator ] .
+	oda:Year     [ rdfs:label "Year" ; rdfs:subClassOf oda:Dimension ] .	
+	oda:City  [ rdfs:label "City" ; rdfs:subClassOf oda:Dimension ] .
+}
+
+:ODASasiaNO2_t {
+	
+	[xl:uri "'http://open.data.al/sasia_' & H20 & '_' & B23 & '_' & C22"^^xl:Expr] a oda:DataEntry ;
+	oda:dataset [ xl:uri "'http://open.data.al/SasiaNO2#dataset'"^^xl:Expr ];
+	oda:indicator [ xl:uri "'http://open.data.al/ODA#NO2Value'"^^xl:Expr ; a oda:Indicator ; rdfs:label "'NO2Value'"^^xl:Expr ] ;	
+	oda:city    "DBP_LOCALITY(B23)"^^xl:Expr ; 
+	oda:year       "DBP_YEAR(C22)"^^xl:Expr ;	
+	sdmx-measure:obsValue   "C23"^^xl:Expr .
+}
+
+:ODANormaAlNO2_t {	
+	[xl:uri "'http://open.data.al/normaal_' & H20 & '_' & C22"^^xl:Expr] a oda:DataEntry ;
+	oda:dataset [ xl:uri "'http://open.data.al/SasiaNO2#dataset'"^^xl:Expr ];
+	oda:indicator [ xl:uri "'http://open.data.al/ODA#NO2NormaAl'"^^xl:Expr ; a oda:Indicator ; rdfs:label "'NO2 Norma Shqiptare'"^^xl:Expr ] ;	
+	oda:year       "DBP_YEAR(C22)"^^xl:Expr ;	
+	sdmx-measure:obsValue   "C31"^^xl:Expr .
+}
+
+:ODANormaEuNO2_t {	
+	[xl:uri "'http://open.data.al/normaeu_' & H20 & '_' & C22"^^xl:Expr] a oda:DataEntry ;	
+	oda:dataset [ xl:uri "'http://open.data.al/SasiaNO2#dataset'"^^xl:Expr ];
+	oda:indicator [ xl:uri "'http://open.data.al/ODA#NO2NormaEu'"^^xl:Expr ; a oda:Indicator ; rdfs:label "'NO2 Norma Europiane'"^^xl:Expr ] ;	
+	oda:year       "DBP_YEAR(C22)"^^xl:Expr ;	
+	sdmx-measure:obsValue   "C32"^^xl:Expr .
+}

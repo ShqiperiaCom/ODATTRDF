@@ -1,0 +1,168 @@
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ckan:    <http://ckan.net/ns#> .
+@prefix sdx:     <http://epimorphics.com/vocab/sdx#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix scv:     <http://purl.org/NET/scovo#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://open.data.al/UnemploymentRateMale_Albania_2004>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/unemploymentratemalealb#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#UnemploymentRateMale> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2004> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "12.4"^^xsd:double .
+
+<file:mappings/Template1.trig>
+      owl:import <http://open.data.al/oda.owl#> .
+
+<http://open.data.al/UnemploymentRateMale_Albania_2009>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/unemploymentratemalealb#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#UnemploymentRateMale> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "12.2"^^xsd:double .
+
+<http://open.data.al/UnemploymentRateMale_Albania_2001>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/unemploymentratemalealb#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#UnemploymentRateMale> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2001> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "14.243323442136498"^^xsd:double .
+
+<http://open.data.al/UnemploymentRateMale_Albania_2003>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/unemploymentratemalealb#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#UnemploymentRateMale> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2003> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "12.9"^^xsd:double .
+
+<http://open.data.al/UnemploymentRateMale_Albania_2002>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/unemploymentratemalealb#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#UnemploymentRateMale> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2002> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "13.622754491017963"^^xsd:double .
+
+<http://open.data.al/UnemploymentRateMale_Albania_2000>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/unemploymentratemalealb#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#UnemploymentRateMale> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2000> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "14.9"^^xsd:double .
+
+[]    rdfs:label "Year" ;
+      rdfs:subClassOf <http://open.data.al/oda.owl#Dimension> .
+
+[]    rdfs:label "Country" ;
+      rdfs:subClassOf <http://open.data.al/oda.owl#Dimension> .
+
+[]    a       <http://open.data.al/oda.owl#Dataset> ;
+      rdfs:label "Dataset" .
+
+[]    a       <http://open.data.al/oda.owl#Indicator> ;
+      rdfs:label "Indicator" .
+
+<http://open.data.al/oda.owl#UnemploymentRateMale>
+      a       <http://open.data.al/oda.owl#Indicator> ;
+      rdfs:label "UnemploymentRateMale" .
+
+<http://open.data.al/unemploymentratemalealb#dataset>
+      a       <http://open.data.al/oda.owl#Dataset> ;
+      dc:creator "Open Data Albania (ODA)" ;
+      dc:date "Tue Aug 16 13:27:48 CEST 2011" ;
+      dc:publisher "Ministry of Employment, Social Affairs & Equal Opportunities, Albania" ;
+      dc:title "Male Unemployment Rate Male per year in Albania" .
+
+[]    rdfs:domain <http://open.data.al/oda.owl#DataEntry> ;
+      rdfs:label "Data Entry Value" .
+
+<http://open.data.al/UnemploymentRateMale_Albania_2008>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/unemploymentratemalealb#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#UnemploymentRateMale> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "12.5"^^xsd:float .
+
+<http://open.data.al/UnemploymentRateMale_Albania_2007>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/unemploymentratemalealb#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#UnemploymentRateMale> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "14.4"^^xsd:double .
+
+<http://open.data.al/UnemploymentRateMale_Albania_2005>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/unemploymentratemalealb#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#UnemploymentRateMale> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "12.1"^^xsd:double .
+
+<http://open.data.al/UnemploymentRateMale_Albania_2006>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/unemploymentratemalealb#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#UnemploymentRateMale> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2006> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "11.8"^^xsd:double .

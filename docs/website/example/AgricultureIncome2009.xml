@@ -1,0 +1,136 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:sdmx-measure="http://purl.org/linked-data/sdmx/2009/measure#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:scv="http://purl.org/NET/scovo#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:sdx="http://epimorphics.com/vocab/sdx#"
+    xmlns:oda="http://open.data.al/oda.owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:ckan="http://ckan.net/ns#" > 
+  <rdf:Description rdf:about="http://open.data.al/AgricultureIncome2009_Gjirokaster_2011">
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:dataset rdf:resource="http://open.data.al/agricultureincomes2009#dataset"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#AgricultureIncome2009"/>
+    <oda:city rdf:resource="http://dbpedia.org/resource/Gjirokaster"/>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2011"/>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2984200</sdmx-measure:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <rdfs:subClassOf rdf:resource="http://open.data.al/oda.owl#Dimension"/>
+    <rdfs:label>Country</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/AgricultureIncome2009_Vlore_2011">
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:dataset rdf:resource="http://open.data.al/agricultureincomes2009#dataset"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#AgricultureIncome2009"/>
+    <oda:city rdf:resource="http://dbpedia.org/resource/Vlore"/>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2011"/>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8796178</sdmx-measure:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/AgricultureIncome2009_Durres_2011">
+    <oda:year rdf:resource="http://dbpedia.org/resource/2011"/>
+    <oda:city rdf:resource="http://dbpedia.org/resource/Durres"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#AgricultureIncome2009"/>
+    <oda:dataset rdf:resource="http://open.data.al/agricultureincomes2009#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8103376</sdmx-measure:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/AgricultureIncome2009_Tirane_2011">
+    <oda:year rdf:resource="http://dbpedia.org/resource/2011"/>
+    <oda:city rdf:resource="http://dbpedia.org/resource/Tirane"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#AgricultureIncome2009"/>
+    <oda:dataset rdf:resource="http://open.data.al/agricultureincomes2009#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8658081</sdmx-measure:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/AgricultureIncome2009_Lezhe_2011">
+    <oda:year rdf:resource="http://dbpedia.org/resource/2011"/>
+    <oda:city rdf:resource="http://dbpedia.org/resource/Lezhe"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#AgricultureIncome2009"/>
+    <oda:dataset rdf:resource="http://open.data.al/agricultureincomes2009#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2780699</sdmx-measure:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/AgricultureIncome2009_Elbasan_2011">
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:dataset rdf:resource="http://open.data.al/agricultureincomes2009#dataset"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#AgricultureIncome2009"/>
+    <oda:city rdf:resource="http://dbpedia.org/resource/Elbasan"/>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2011"/>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8476308</sdmx-measure:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/AgricultureIncome2009_Fier_2011">
+    <oda:year rdf:resource="http://dbpedia.org/resource/2011"/>
+    <oda:city rdf:resource="http://dbpedia.org/resource/Fier"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#AgricultureIncome2009"/>
+    <oda:dataset rdf:resource="http://open.data.al/agricultureincomes2009#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">14856421</sdmx-measure:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/AgricultureIncome2009_Korce_2011">
+    <oda:year rdf:resource="http://dbpedia.org/resource/2011"/>
+    <oda:city rdf:resource="http://dbpedia.org/resource/Korce"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#AgricultureIncome2009"/>
+    <oda:dataset rdf:resource="http://open.data.al/agricultureincomes2009#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8994969</sdmx-measure:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#Indicator"/>
+    <rdfs:label>Indicator</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/AgricultureIncome2009_Berat_2011">
+    <oda:year rdf:resource="http://dbpedia.org/resource/2011"/>
+    <oda:city rdf:resource="http://dbpedia.org/resource/Berat"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#AgricultureIncome2009"/>
+    <oda:dataset rdf:resource="http://open.data.al/agricultureincomes2009#dataset"/>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5797045</sdmx-measure:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/oda.owl#AgricultureIncome2009">
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#Indicator"/>
+    <rdfs:label>AgricultureIncome2009</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A2">
+    <rdfs:domain rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <rdfs:label>Data Entry Value</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/AgricultureIncome2009_Diber_2011">
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:dataset rdf:resource="http://open.data.al/agricultureincomes2009#dataset"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#AgricultureIncome2009"/>
+    <oda:city rdf:resource="http://dbpedia.org/resource/Diber"/>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2011"/>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4639095</sdmx-measure:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/AgricultureIncome2009_Shkoder_2011">
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:dataset rdf:resource="http://open.data.al/agricultureincomes2009#dataset"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#AgricultureIncome2009"/>
+    <oda:city rdf:resource="http://dbpedia.org/resource/Shkoder"/>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2011"/>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7439028</sdmx-measure:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/AgricultureIncome2009_Kukes_2011">
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#DataEntry"/>
+    <oda:dataset rdf:resource="http://open.data.al/agricultureincomes2009#dataset"/>
+    <oda:indicator rdf:resource="http://open.data.al/oda.owl#AgricultureIncome2009"/>
+    <oda:city rdf:resource="http://dbpedia.org/resource/Kukes"/>
+    <oda:year rdf:resource="http://dbpedia.org/resource/2011"/>
+    <sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2009376</sdmx-measure:obsValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://open.data.al/agricultureincomes2009#dataset">
+    <dc:date>Sat Sep 10 13:11:27 CEST 2011</dc:date>
+    <dc:publisher>Ministria e Bujqësisë, Ushqimit, dhe Mbrojtjes së Konsumatorit</dc:publisher>
+    <dc:creator>Open Data Albania (ODA)</dc:creator>
+    <dc:title>Te ardhurat bruto nga bujqesia (.000 leke) ne Shqiperi per vitin 2009</dc:title>
+    <rdf:type rdf:resource="http://open.data.al/oda.owl#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A3">
+    <rdfs:subClassOf rdf:resource="http://open.data.al/oda.owl#Dimension"/>
+    <rdfs:label>City</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

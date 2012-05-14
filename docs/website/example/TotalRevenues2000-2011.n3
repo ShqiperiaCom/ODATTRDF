@@ -1,0 +1,164 @@
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ckan:    <http://ckan.net/ns#> .
+@prefix sdx:     <http://epimorphics.com/vocab/sdx#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix scv:     <http://purl.org/NET/scovo#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://open.data.al/ODA#BudgetTotalRevenue>
+      a       <http://open.data.al/ODA#Indicator> ;
+      rdfs:label "BudgetTotalRevenue" .
+
+<http://open.data.al/TOTALI TË ARDHURAVE (në milionë lekë)_2008>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/totalrevenues20002011#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BudgetTotalRevenue> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "291237.80000000005"^^xsd:double .
+
+<http://open.data.al/TOTALI TË ARDHURAVE (në milionë lekë)_2009>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/totalrevenues20002011#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BudgetTotalRevenue> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "298980.6"^^xsd:double .
+
+<http://open.data.al/totalrevenues20002011#dataset>
+      a       <http://open.data.al/ODA#Dataset> ;
+      dc:creator "Open Data Albania" ;
+      dc:date "Mon Jun 13 23:08:36 CEST 2011" ;
+      dc:publisher "Ministry of Finance Albania" ;
+      dc:title "Total Budget Revenues 200-2011" .
+
+<http://open.data.al/TOTALI TË ARDHURAVE (në milionë lekë)_2006>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/totalrevenues20002011#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BudgetTotalRevenue> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2006> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "229443.8443110875"^^xsd:double .
+
+<http://open.data.al/TOTALI TË ARDHURAVE (në milionë lekë)_2005>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/totalrevenues20002011#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BudgetTotalRevenue> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "204162.54094334936"^^xsd:double .
+
+<http://open.data.al/TOTALI TË ARDHURAVE (në milionë lekë)_2010>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/totalrevenues20002011#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BudgetTotalRevenue> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2010> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "324891"^^xsd:int .
+
+[]    rdfs:domain <http://open.data.al/ODA#DataEntry> ;
+      rdfs:label "Data Entry Value" .
+
+<http://open.data.al/TOTALI TË ARDHURAVE (në milionë lekë)_2004>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/totalrevenues20002011#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BudgetTotalRevenue> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2004> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "184355.35"^^xsd:double .
+
+<http://open.data.al/TOTALI TË ARDHURAVE (në milionë lekë)_2007>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/totalrevenues20002011#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BudgetTotalRevenue> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "251555.32063791"^^xsd:double .
+
+<http://open.data.al/TOTALI TË ARDHURAVE (në milionë lekë)_2011>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/totalrevenues20002011#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BudgetTotalRevenue> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2011> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "362222.5525583782"^^xsd:double .
+
+<http://open.data.al/TOTALI TË ARDHURAVE (në milionë lekë)_2001>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/totalrevenues20002011#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BudgetTotalRevenue> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2001> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "145639.35840417002"^^xsd:double .
+
+[]    rdfs:label "Year" ;
+      rdfs:subClassOf <http://open.data.al/ODA#Dimension> .
+
+<file:mappings/TotalRevenues2000-2011.trig>
+      owl:import <http://open.data.al/ODA#> .
+
+<http://open.data.al/TOTALI TË ARDHURAVE (në milionë lekë)_2000>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/totalrevenues20002011#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BudgetTotalRevenue> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2000> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "130642"^^xsd:int .
+
+[]    a       <http://open.data.al/ODA#Indicator> ;
+      rdfs:label "Indicator" .
+
+<http://open.data.al/TOTALI TË ARDHURAVE (në milionë lekë)_2002>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/totalrevenues20002011#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BudgetTotalRevenue> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2002> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "154595.31"^^xsd:double .
+
+<http://open.data.al/TOTALI TË ARDHURAVE (në milionë lekë)_2003>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/totalrevenues20002011#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BudgetTotalRevenue> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2003> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "167223.97"^^xsd:double .

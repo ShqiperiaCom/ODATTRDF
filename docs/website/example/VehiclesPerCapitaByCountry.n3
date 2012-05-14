@@ -1,0 +1,90 @@
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ckan:    <http://ckan.net/ns#> .
+@prefix sdx:     <http://epimorphics.com/vocab/sdx#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix scv:     <http://purl.org/NET/scovo#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+[]    rdfs:label "Year" ;
+      rdfs:subClassOf <http://open.data.al/oda.owl#Dimension> .
+
+[]    rdfs:domain <http://open.data.al/oda.owl#DataEntry> ;
+      rdfs:label "Data Entry Value" .
+
+<http://open.data.al/VehiclesPerCapitaByCountry_Macedonia_2010>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Macedonia> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/vehiclesXcapita2010#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#VehiclesPerCapitaByCountry> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2010> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "144"^^xsd:short .
+
+<file:mappings/Template1.trig>
+      owl:import <http://open.data.al/oda.owl#> .
+
+<http://open.data.al/VehiclesPerCapitaByCountry_Serbia_2010>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Serbia> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/vehiclesXcapita2010#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#VehiclesPerCapitaByCountry> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2010> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "227"^^xsd:short .
+
+[]    rdfs:label "Country" ;
+      rdfs:subClassOf <http://open.data.al/oda.owl#Dimension> .
+
+<http://open.data.al/VehiclesPerCapitaByCountry_Albania_2010>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/vehiclesXcapita2010#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#VehiclesPerCapitaByCountry> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2010> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "121"^^xsd:byte .
+
+[]    a       <http://open.data.al/oda.owl#Indicator> ;
+      rdfs:label "Indicator" .
+
+[]    a       <http://open.data.al/oda.owl#Dataset> ;
+      rdfs:label "Dataset" .
+
+<http://open.data.al/vehiclesXcapita2010#dataset>
+      a       <http://open.data.al/oda.owl#Dataset> ;
+      dc:creator "Open Data Albania (ODA)" ;
+      dc:date "Tue Aug 16 13:08:33 CEST 2011" ;
+      dc:publisher "World Bank" ;
+      dc:title "Automjete per 1000 baore vendet Ballkanit 2010" .
+
+<http://open.data.al/VehiclesPerCapitaByCountry_Bosnia_and_Herzegovina_2010>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Bosnia_and_Herzegovina> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/vehiclesXcapita2010#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#VehiclesPerCapitaByCountry> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2010> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "135"^^xsd:short .
+
+<http://open.data.al/oda.owl#VehiclesPerCapitaByCountry>
+      a       <http://open.data.al/oda.owl#Indicator> ;
+      rdfs:label "VehiclesPerCapitaByCountry" .

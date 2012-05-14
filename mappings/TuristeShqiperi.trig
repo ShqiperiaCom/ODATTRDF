@@ -1,0 +1,8 @@
+
+SELECT ?country ?year ?indicator ?type ?value WHERE {
+      ?s a ?type ;
+      oda:dimension [ a oda:Year ; rdfs:seeAlso ?year ] ;
+      oda:dimension [ a oda:Country ; rdfs:seeAlso ?country ] ;
+      oda:dimension [ a oda:Indicator ; rdfs:label ?indicator ] ;
+      rdf:value ?value
+} ORDER BY ?country ?year ?indicator

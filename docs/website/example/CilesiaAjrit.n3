@@ -1,0 +1,1039 @@
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ckan:    <http://ckan.net/ns#> .
+@prefix sdx:     <http://epimorphics.com/vocab/sdx#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix scv:     <http://purl.org/NET/scovo#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://open.data.al/sasia_SO 2 (ne μg/m3)_Elbasan_2005>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Elbasan> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Value> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "27"^^xsd:byte .
+
+<http://open.data.al/normaeu_SO 2 (ne μg/m3)_2002>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2NormaEu> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2002> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "40"^^xsd:byte .
+
+<http://open.data.al/sasia_SO 2 (ne μg/m3)_Vlorë_2006>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Vlorë> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Value> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2006> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "16"^^xsd:byte .
+
+<http://open.data.al/sasia_SO 2 (ne μg/m3)_Korçë_2004>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Korçë> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Value> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2004> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "8"^^xsd:byte .
+
+<http://open.data.al/normaeu_SO 2 (ne μg/m3)_2006>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2NormaEu> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2006> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "40"^^xsd:byte .
+
+<http://open.data.al/sasia_SO 2 (ne μg/m3)_Durres_2004>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Durres> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Value> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2004> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "12"^^xsd:byte .
+
+<http://open.data.al/normaal_SO 2 (ne μg/m3)_2009>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2NormaAl> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "60"^^xsd:byte .
+
+<http://open.data.al/normaal_SO 2 (ne μg/m3)_2004>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2NormaAl> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2004> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "60"^^xsd:byte .
+
+<http://open.data.al/sasia_SO 2 (ne μg/m3)_Tirane _2003>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Tirane > ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Value> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2003> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "17"^^xsd:byte .
+
+<http://open.data.al/sasia_SO 2 (ne μg/m3)_Shkoder_2002>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Shkoder> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Value> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2002> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "20"^^xsd:byte .
+
+<http://open.data.al/sasia_SO 2 (ne μg/m3)_Vlorë_2002>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Vlorë> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Value> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2002> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "23"^^xsd:byte .
+
+<http://open.data.al/mesatarja_SO 2 (ne μg/m3)_2002>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Avg> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2002> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "23"^^xsd:byte .
+
+[]    a       <http://open.data.al/ODA#Indicator> ;
+      rdfs:label "Indicator" .
+
+<http://open.data.al/sasia_SO 2 (ne μg/m3)_Tirane _2006>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Tirane > ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Value> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2006> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "24"^^xsd:byte .
+
+<http://open.data.al/mesatarja_SO 2 (ne μg/m3)_2008>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Avg> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "17.434"^^xsd:double .
+
+<http://open.data.al/sasia_SO 2 (ne μg/m3)_Durres_2003>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Durres> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Value> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2003> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "19.5"^^xsd:float .
+
+<http://open.data.al/sasia_SO 2 (ne μg/m3)_Durres_2008>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Durres> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Value> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "18"^^xsd:byte .
+
+<http://open.data.al/mesatarja_SO 2 (ne μg/m3)_2004>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Avg> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2004> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "13.357142857142858"^^xsd:double .
+
+<http://open.data.al/sasia_SO 2 (ne μg/m3)_Shkoder_2006>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Shkoder> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Value> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2006> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "18"^^xsd:byte .
+
+<http://open.data.al/ODA#SO2Value>
+      a       <http://open.data.al/ODA#Indicator> ;
+      rdfs:label "SO2Value" .
+
+<http://open.data.al/sasia_SO 2 (ne μg/m3)_Fier_2008>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Fier> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Value> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "32"^^xsd:byte .
+
+<http://open.data.al/sasia_SO 2 (ne μg/m3)_Korçë_2008>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Korçë> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Value> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              " - " .
+
+<http://open.data.al/ODA#SO2NormaEu>
+      a       <http://open.data.al/ODA#Indicator> ;
+      rdfs:label "SO2 Norma Europiane" .
+
+<http://open.data.al/sasia_SO 2 (ne μg/m3)_Elbasan_2008>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Elbasan> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Value> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "8.67"^^xsd:double .
+
+<file:mappings/AirQuality.trig>
+      owl:import <http://open.data.al/ODA#> .
+
+<http://open.data.al/sasia_SO 2 (ne μg/m3)_Shkoder_2003>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Shkoder> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Value> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2003> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "14.5"^^xsd:float .
+
+<http://open.data.al/normaeu_SO 2 (ne μg/m3)_2003>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2NormaEu> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2003> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "40"^^xsd:byte .
+
+<http://open.data.al/sasia_SO 2 (ne μg/m3)_Vlorë_2007>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Vlorë> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Value> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "14"^^xsd:byte .
+
+<http://open.data.al/ODA#SO2Avg>
+      a       <http://open.data.al/ODA#Indicator> ;
+      rdfs:label "SO2 Average" .
+
+<http://open.data.al/sasia_SO 2 (ne μg/m3)_Tirane _2008>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Tirane > ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Value> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "12.5"^^xsd:float .
+
+<http://open.data.al/normaeu_SO 2 (ne μg/m3)_2007>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2NormaEu> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "40"^^xsd:byte .
+
+<http://open.data.al/sasia_SO 2 (ne μg/m3)_Elbasan_2004>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Elbasan> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Value> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2004> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "20"^^xsd:byte .
+
+<http://open.data.al/normaal_SO 2 (ne μg/m3)_2008>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2NormaAl> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "60"^^xsd:byte .
+
+<http://open.data.al/sasia_SO 2 (ne μg/m3)_Tirane _2002>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Tirane > ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Value> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2002> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "18"^^xsd:byte .
+
+<http://open.data.al/normaal_SO 2 (ne μg/m3)_2005>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2NormaAl> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "60"^^xsd:byte .
+
+[]    rdfs:label "Year" ;
+      rdfs:subClassOf <http://open.data.al/ODA#Dimension> .
+
+<http://open.data.al/sasia_SO 2 (ne μg/m3)_Durres_2007>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Durres> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Value> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "15"^^xsd:byte .
+
+<http://open.data.al/sasia_SO 2 (ne μg/m3)_Vlorë_2003>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Vlorë> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Value> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2003> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "16.5"^^xsd:float .
+
+<http://open.data.al/sasia_SO 2 (ne μg/m3)_Korçë_2005>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Korçë> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Value> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "10"^^xsd:byte .
+
+<http://open.data.al/sasia_SO 2 (ne μg/m3)_Durres_2002>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Durres> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Value> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2002> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "27"^^xsd:byte .
+
+<http://open.data.al/mesatarja_SO 2 (ne μg/m3)_2007>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Avg> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "16.428571428571427"^^xsd:double .
+
+<http://open.data.al/sasia_SO 2 (ne μg/m3)_Tirane _2007>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Tirane > ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Value> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "20"^^xsd:byte .
+
+<http://open.data.al/sasia_SO 2 (ne μg/m3)_Fier_2002>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Fier> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Value> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2002> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "21"^^xsd:byte .
+
+<http://open.data.al/sasia_SO 2 (ne μg/m3)_Fier_2007>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Fier> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Value> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "25"^^xsd:byte .
+
+<http://open.data.al/sasia_SO 2 (ne μg/m3)_Korçë_2009>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Korçë> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Value> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              " - " .
+
+<http://open.data.al/sasia_SO 2 (ne μg/m3)_Elbasan_2009>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Elbasan> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Value> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "14.41"^^xsd:double .
+
+<http://open.data.al/mesatarja_SO 2 (ne μg/m3)_2003>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Avg> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2003> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "18.178571428571427"^^xsd:double .
+
+<http://open.data.al/sasia_SO 2 (ne μg/m3)_Shkoder_2007>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Shkoder> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Value> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "11"^^xsd:byte .
+
+<http://open.data.al/sasia_SO 2 (ne μg/m3)_Vlorë_2008>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Vlorë> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Value> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              " - " .
+
+<http://open.data.al/sasia_SO 2 (ne μg/m3)_Elbasan_2003>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Elbasan> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Value> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2003> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "29"^^xsd:byte .
+
+<http://open.data.al/sasia_SO 2 (ne μg/m3)_Elbasan_2007>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Elbasan> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Value> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "19"^^xsd:byte .
+
+<http://open.data.al/normaal_SO 2 (ne μg/m3)_2007>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2NormaAl> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "60"^^xsd:byte .
+
+<http://open.data.al/normaal_SO 2 (ne μg/m3)_2002>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2NormaAl> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2002> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "60"^^xsd:byte .
+
+<http://open.data.al/normaeu_SO 2 (ne μg/m3)_2004>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2NormaEu> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2004> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "40"^^xsd:byte .
+
+<http://open.data.al/sasia_SO 2 (ne μg/m3)_Korçë_2002>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Korçë> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Value> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2002> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "14"^^xsd:byte .
+
+<http://open.data.al/sasia_SO 2 (ne μg/m3)_Durres_2006>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Durres> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Value> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2006> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "19"^^xsd:byte .
+
+<http://open.data.al/sasia_SO 2 (ne μg/m3)_Tirane _2005>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Tirane > ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Value> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "20"^^xsd:byte .
+
+<http://open.data.al/sasia_SO 2 (ne μg/m3)_Tirane _2009>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Tirane > ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Value> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "13.04"^^xsd:double .
+
+[]    rdfs:domain <http://open.data.al/ODA#DataEntry> ;
+      rdfs:label "Data Entry Value" .
+
+<http://open.data.al/sasia_SO 2 (ne μg/m3)_Shkoder_2008>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Shkoder> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Value> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "16"^^xsd:byte .
+
+<http://open.data.al/sasia_SO 2 (ne μg/m3)_Fier_2003>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Fier> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Value> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2003> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "19.75"^^xsd:float .
+
+<http://open.data.al/sasia_SO 2 (ne μg/m3)_Vlorë_2004>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Vlorë> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Value> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2004> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "10"^^xsd:byte .
+
+<http://open.data.al/normaeu_SO 2 (ne μg/m3)_2008>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2NormaEu> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "40"^^xsd:byte .
+
+[]    rdfs:label "City" ;
+      rdfs:subClassOf <http://open.data.al/ODA#Dimension> .
+
+<http://open.data.al/ODA#SO2NormaAl>
+      a       <http://open.data.al/ODA#Indicator> ;
+      rdfs:label "SO2 Norma Shqiptare" .
+
+<http://open.data.al/sasia_SO 2 (ne μg/m3)_Korçë_2006>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Korçë> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Value> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2006> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "17"^^xsd:byte .
+
+<http://open.data.al/sasia_SO 2 (ne μg/m3)_Fier_2006>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Fier> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Value> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2006> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "24"^^xsd:byte .
+
+<http://open.data.al/mesatarja_SO 2 (ne μg/m3)_2006>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Avg> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2006> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "20"^^xsd:byte .
+
+<http://open.data.al/sasia_SO 2 (ne μg/m3)_Shkoder_2004>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Shkoder> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Value> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2004> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "9"^^xsd:byte .
+
+<http://open.data.al/sasia_SO 2 (ne μg/m3)_Elbasan_2002>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Elbasan> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Value> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2002> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "38"^^xsd:byte .
+
+<http://open.data.al/sasia_SO 2 (ne μg/m3)_Vlorë_2009>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Vlorë> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Value> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              " - " .
+
+<http://open.data.al/sasia_SO 2 (ne μg/m3)_Elbasan_2006>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Elbasan> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Value> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2006> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "22"^^xsd:byte .
+
+<http://open.data.al/normaal_SO 2 (ne μg/m3)_2006>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2NormaAl> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2006> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "60"^^xsd:byte .
+
+<http://open.data.al/sasia_SO 2 (ne μg/m3)_Vlorë_2005>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Vlorë> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Value> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "12"^^xsd:byte .
+
+<http://open.data.al/normaeu_SO 2 (ne μg/m3)_2005>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2NormaEu> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "40"^^xsd:byte .
+
+<http://open.data.al/normaal_SO 2 (ne μg/m3)_2003>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2NormaAl> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2003> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "60"^^xsd:byte .
+
+<http://open.data.al/sasia_SO 2 (ne μg/m3)_Tirane _2004>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Tirane > ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Value> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2004> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "16"^^xsd:byte .
+
+<http://open.data.al/SasiaSO2#dataset>
+      a       <http://open.data.al/ODA#Dataset> ;
+      dc:creator "Open Data Albania" ;
+      dc:date "Fri Aug 05 23:03:40 CEST 2011" ;
+      dc:publisher "Albanian Ministry of Environment, Forestry and administration of Waters" ;
+      dc:title "NO2 Indicators by city" .
+
+<http://open.data.al/sasia_SO 2 (ne μg/m3)_Durres_2005>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Durres> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Value> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "16"^^xsd:byte .
+
+<http://open.data.al/sasia_SO 2 (ne μg/m3)_Korçë_2003>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Korçë> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Value> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2003> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "11"^^xsd:byte .
+
+<http://open.data.al/sasia_SO 2 (ne μg/m3)_Durres_2009>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Durres> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Value> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "18"^^xsd:byte .
+
+<http://open.data.al/mesatarja_SO 2 (ne μg/m3)_2009>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Avg> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "18.69"^^xsd:double .
+
+<http://open.data.al/sasia_SO 2 (ne μg/m3)_Fier_2004>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Fier> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Value> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2004> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "18.5"^^xsd:float .
+
+<http://open.data.al/sasia_SO 2 (ne μg/m3)_Fier_2009>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Fier> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Value> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "33"^^xsd:byte .
+
+<http://open.data.al/sasia_SO 2 (ne μg/m3)_Shkoder_2009>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Shkoder> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Value> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "15"^^xsd:byte .
+
+<http://open.data.al/normaeu_SO 2 (ne μg/m3)_2009>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2NormaEu> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "40"^^xsd:byte .
+
+<http://open.data.al/sasia_SO 2 (ne μg/m3)_Korçë_2007>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Korçë> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Value> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "11"^^xsd:byte .
+
+<http://open.data.al/mesatarja_SO 2 (ne μg/m3)_2005>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Avg> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "16.428571428571427"^^xsd:double .
+
+<http://open.data.al/sasia_SO 2 (ne μg/m3)_Shkoder_2005>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Shkoder> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Value> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "12"^^xsd:byte .
+
+<http://open.data.al/sasia_SO 2 (ne μg/m3)_Fier_2005>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#city>
+              <http://dbpedia.org/resource/Fier> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/SasiaSO2#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#SO2Value> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "18"^^xsd:byte .

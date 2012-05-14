@@ -1,0 +1,64 @@
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ckan:    <http://ckan.net/ns#> .
+@prefix sdx:     <http://epimorphics.com/vocab/sdx#> .
+@prefix sdmx-measure:  <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix scv:     <http://purl.org/NET/scovo#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix oda:     <http://open.data.al/oda.owl#> .
+
+[]    rdfs:label "Country" ;
+      rdfs:subClassOf oda:Dimension .
+
+<http://open.data.al/absruralpovertylev#dataset>
+      a       oda:Dataset ;
+      dc:creator "Open Data Albania (ODA)" ;
+      dc:date "Wed Sep 07 23:35:25 CEST 2011" ;
+      dc:publisher "INSTAT, World Bank, UNDP" ;
+      dc:title "Absolute Rural poverty level in Albania" .
+
+[]    rdfs:domain oda:DataEntry ;
+      rdfs:label "Data Entry Value" .
+
+[]    a       oda:Dataset ;
+      rdfs:label "Dataset" .
+
+<http://open.data.al/AbsRuralPovertyLevel_Albania_2005>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/absruralpovertylev#dataset> ;
+      oda:indicator oda:AbsRuralPovertyLevel ;
+      oda:year <http://dbpedia.org/resource/2005> ;
+      sdmx-measure:obsValue
+              "423848"^^xsd:int .
+
+oda:AbsRuralPovertyLevel
+      a       oda:Indicator ;
+      rdfs:label "AbsRuralPovertyLevel" .
+
+[]    a       oda:Indicator ;
+      rdfs:label "Indicator" .
+
+<http://open.data.al/AbsRuralPovertyLevel_Albania_2002>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/absruralpovertylev#dataset> ;
+      oda:indicator oda:AbsRuralPovertyLevel ;
+      oda:year <http://dbpedia.org/resource/2002> ;
+      sdmx-measure:obsValue
+              "555506"^^xsd:int .
+
+<http://open.data.al/AbsRuralPovertyLevel_Albania_2008>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/absruralpovertylev#dataset> ;
+      oda:indicator oda:AbsRuralPovertyLevel ;
+      oda:year <http://dbpedia.org/resource/2008> ;
+      sdmx-measure:obsValue
+              "223085"^^xsd:int .
+
+[]    rdfs:label "Year" ;
+      rdfs:subClassOf oda:Dimension .

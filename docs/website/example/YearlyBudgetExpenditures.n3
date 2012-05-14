@@ -1,0 +1,149 @@
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ckan:    <http://ckan.net/ns#> .
+@prefix sdx:     <http://epimorphics.com/vocab/sdx#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix scv:     <http://purl.org/NET/scovo#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://open.data.al/ODA#TotalExpenditures>
+      a       <http://open.data.al/ODA#Indicator> ;
+      rdfs:label "Yearly Budget Revenue" .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlybudgetexpenditures#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#TotalExpenditures> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2001> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "186049.2885200688"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlybudgetexpenditures#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#TotalExpenditures> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2000> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "170621"^^xsd:int .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlybudgetexpenditures#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#TotalExpenditures> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "232338.79956166723"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlybudgetexpenditures#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#TotalExpenditures> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "379863.19999999995"^^xsd:double .
+
+[]    rdfs:domain <http://open.data.al/ODA#DataEntry> ;
+      rdfs:label "Data Entry Value" .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlybudgetexpenditures#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#TotalExpenditures> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2006> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "258815.54688008604"^^xsd:double .
+
+<http://open.data.alyearlybudgetexp#dataset>
+      a       <http://open.data.al/ODA#Dataset> ;
+      dc:creator "Open Data Albania (ODA)" ;
+      dc:date "2011-03-22T10:56:40+0000" ;
+      dc:publisher "Ministry Of Finance Albania" ;
+      dc:title "Total budget expenditures per year in Albania" .
+
+[]    a       <http://open.data.al/ODA#Indicator> ;
+      rdfs:label "Indicator" .
+
+[]    rdfs:label "Year" ;
+      rdfs:subClassOf <http://open.data.al/ODA#Dimension> .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlybudgetexpenditures#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#TotalExpenditures> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2003> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "201152.21"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlybudgetexpenditures#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#TotalExpenditures> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2004> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "222438.581"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlybudgetexpenditures#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#TotalExpenditures> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "351491.8"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlybudgetexpenditures#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#TotalExpenditures> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "285674.08804759"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlybudgetexpenditures#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#TotalExpenditures> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2011> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "409034.8"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlybudgetexpenditures#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#TotalExpenditures> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2002> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "192516.83827396348"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/yearlybudgetexpenditures#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#TotalExpenditures> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2010> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "361764"^^xsd:int .

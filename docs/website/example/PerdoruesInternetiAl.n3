@@ -1,0 +1,153 @@
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ckan:    <http://ckan.net/ns#> .
+@prefix sdx:     <http://epimorphics.com/vocab/sdx#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix scv:     <http://purl.org/NET/scovo#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://open.data.al/Numri i perdoruesve te internetit per 100 banore_2005>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/internetusersal#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#InternetUsers> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "6.04389086404814"^^xsd:double .
+
+<http://open.data.al/Numri i perdoruesve te internetit per 100 banore_2000>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/internetusersal#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#InternetUsers> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2000> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0.114097346552109"^^xsd:double .
+
+[]    rdfs:label "Year" ;
+      rdfs:subClassOf <http://open.data.al/ODA#Dimension> .
+
+<http://open.data.al/internetusersal#dataset>
+      a       <http://open.data.al/ODA#Dataset> ;
+      dc:creator "Open Data Albania" ;
+      dc:date "Mon Jun 13 23:05:06 CEST 2011" ;
+      dc:publisher "International Telecommunication Union (ITU)" ;
+      dc:title "Number of Internet Users in Albania" .
+
+<http://open.data.al/Numri i perdoruesve te internetit per 100 banore_2006>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/internetusersal#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#InternetUsers> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2006> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "9.60999131577118"^^xsd:double .
+
+[]    rdfs:domain <http://open.data.al/ODA#DataEntry> ;
+      rdfs:label "Data Entry Value" .
+
+<http://open.data.al/Numri i perdoruesve te internetit per 100 banore_2001>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/internetusersal#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#InternetUsers> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2001> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0.325798377067964"^^xsd:double .
+
+<http://open.data.al/Numri i perdoruesve te internetit per 100 banore_2003>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/internetusersal#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#InternetUsers> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2003> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0.971900415195857"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#Indicator> ;
+      rdfs:label "Indicator" .
+
+<http://open.data.al/Numri i perdoruesve te internetit per 100 banore_2004>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/internetusersal#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#InternetUsers> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2004> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "2.42038779776014"^^xsd:double .
+
+<http://open.data.al/Numri i perdoruesve te internetit per 100 banore_2008>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/internetusersal#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#InternetUsers> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "23.8603425518032"^^xsd:double .
+
+<file:mappings/PerdoruesInternetiAl.trig>
+      owl:import <http://open.data.al/ODA#> .
+
+<http://open.data.al/Numri i perdoruesve te internetit per 100 banore_2007>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/internetusersal#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#InternetUsers> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "15.0361154084109"^^xsd:double .
+
+<http://open.data.al/Numri i perdoruesve te internetit per 100 banore_2009>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/internetusersal#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#InternetUsers> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "41.2008984331298"^^xsd:double .
+
+<http://open.data.al/Numri i perdoruesve te internetit per 100 banore_2010>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/internetusersal#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#InternetUsers> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2010> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "43.5"^^xsd:float .
+
+<http://open.data.al/Numri i perdoruesve te internetit per 100 banore_2002>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/internetusersal#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#InternetUsers> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2002> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0.39008127343332"^^xsd:double .
+
+<http://open.data.al/ODA#InternetUsers>
+      a       <http://open.data.al/ODA#Indicator> ;
+      rdfs:label "Internet Users" .

@@ -1,0 +1,188 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:scv="http://purl.org/NET/scovo#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:sdx="http://epimorphics.com/vocab/sdx#"
+    xmlns:j.0="http://example.org/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:ckan="http://ckan.net/ns#" > 
+  <rdf:Description rdf:about="http://example.org/revenue_Austria_2009_Product4">
+    <j.0:revenue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">23328</j.0:revenue>
+    <rdf:type rdf:resource="http://example.org/Revenue"/>
+    <j.0:country rdf:resource="http://dbpedia.org/resource/Austria"/>
+    <j.0:year rdf:resource="http://dbpedia.org/resource/2009"/>
+    <j.0:product>Product4</j.0:product>
+    <j.0:itemsSold rdf:datatype="http://www.w3.org/2001/XMLSchema#byte">54</j.0:itemsSold>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/revenue_Germany_2009_Product2">
+    <rdf:type rdf:resource="http://example.org/Revenue"/>
+    <j.0:country rdf:resource="http://dbpedia.org/resource/Germany"/>
+    <j.0:year rdf:resource="http://dbpedia.org/resource/2009"/>
+    <j.0:product>Product2</j.0:product>
+    <j.0:itemsSold rdf:datatype="http://www.w3.org/2001/XMLSchema#short">32123</j.0:itemsSold>
+    <j.0:revenue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7709520</j.0:revenue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/revenue_Austria_2008_Product2">
+    <j.0:revenue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1328925</j.0:revenue>
+    <j.0:itemsSold rdf:datatype="http://www.w3.org/2001/XMLSchema#short">5655</j.0:itemsSold>
+    <j.0:product>Product2</j.0:product>
+    <j.0:year rdf:resource="http://dbpedia.org/resource/2008"/>
+    <j.0:country rdf:resource="http://dbpedia.org/resource/Austria"/>
+    <rdf:type rdf:resource="http://example.org/Revenue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/revenue_Germany_2009_Product1">
+    <j.0:itemsSold rdf:datatype="http://www.w3.org/2001/XMLSchema#short">3419</j.0:itemsSold>
+    <j.0:product>Product1</j.0:product>
+    <j.0:year rdf:resource="http://dbpedia.org/resource/2009"/>
+    <j.0:country rdf:resource="http://dbpedia.org/resource/Germany"/>
+    <rdf:type rdf:resource="http://example.org/Revenue"/>
+    <j.0:revenue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">82056</j.0:revenue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/revenue_Austria_2008_Product3">
+    <j.0:country rdf:resource="http://dbpedia.org/resource/Austria"/>
+    <rdf:type rdf:resource="http://example.org/Revenue"/>
+    <j.0:year rdf:resource="http://dbpedia.org/resource/2008"/>
+    <j.0:product>Product3</j.0:product>
+    <j.0:itemsSold rdf:datatype="http://www.w3.org/2001/XMLSchema#short">4566</j.0:itemsSold>
+    <j.0:revenue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1598100</j.0:revenue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/revenue_Austria_2007_Product3">
+    <j.0:itemsSold rdf:datatype="http://www.w3.org/2001/XMLSchema#short">3312</j.0:itemsSold>
+    <j.0:product>Product3</j.0:product>
+    <j.0:year rdf:resource="http://dbpedia.org/resource/2007"/>
+    <j.0:country rdf:resource="http://dbpedia.org/resource/Austria"/>
+    <rdf:type rdf:resource="http://example.org/Revenue"/>
+    <j.0:revenue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1136016</j.0:revenue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/revenue_Austria_2009_Product3">
+    <j.0:product>Product3</j.0:product>
+    <j.0:year rdf:resource="http://dbpedia.org/resource/2009"/>
+    <j.0:country rdf:resource="http://dbpedia.org/resource/Austria"/>
+    <j.0:revenue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1917760</j.0:revenue>
+    <rdf:type rdf:resource="http://example.org/Revenue"/>
+    <j.0:itemsSold rdf:datatype="http://www.w3.org/2001/XMLSchema#short">5993</j.0:itemsSold>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/revenue_Austria_2008_Product1">
+    <j.0:country rdf:resource="http://dbpedia.org/resource/Austria"/>
+    <rdf:type rdf:resource="http://example.org/Revenue"/>
+    <j.0:year rdf:resource="http://dbpedia.org/resource/2008"/>
+    <j.0:product>Product1</j.0:product>
+    <j.0:itemsSold rdf:datatype="http://www.w3.org/2001/XMLSchema#short">376</j.0:itemsSold>
+    <j.0:revenue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">8648</j.0:revenue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/revenue_Austria_2007_Product2">
+    <rdf:type rdf:resource="http://example.org/Revenue"/>
+    <j.0:country rdf:resource="http://dbpedia.org/resource/Austria"/>
+    <j.0:year rdf:resource="http://dbpedia.org/resource/2007"/>
+    <j.0:product>Product2</j.0:product>
+    <j.0:itemsSold rdf:datatype="http://www.w3.org/2001/XMLSchema#short">4333</j.0:itemsSold>
+    <j.0:revenue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1005256</j.0:revenue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/revenue_Austria_2009_Product2">
+    <j.0:revenue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">838320</j.0:revenue>
+    <rdf:type rdf:resource="http://example.org/Revenue"/>
+    <j.0:country rdf:resource="http://dbpedia.org/resource/Austria"/>
+    <j.0:year rdf:resource="http://dbpedia.org/resource/2009"/>
+    <j.0:product>Product2</j.0:product>
+    <j.0:itemsSold rdf:datatype="http://www.w3.org/2001/XMLSchema#short">3493</j.0:itemsSold>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/revenue_Germany_2007_Product2">
+    <j.0:revenue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7339050</j.0:revenue>
+    <j.0:itemsSold rdf:datatype="http://www.w3.org/2001/XMLSchema#short">31230</j.0:itemsSold>
+    <j.0:product>Product2</j.0:product>
+    <j.0:year rdf:resource="http://dbpedia.org/resource/2007"/>
+    <rdf:type rdf:resource="http://example.org/Revenue"/>
+    <j.0:country rdf:resource="http://dbpedia.org/resource/Germany"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/revenue_Germany_2009_Product4">
+    <rdf:type rdf:resource="http://example.org/Revenue"/>
+    <j.0:country rdf:resource="http://dbpedia.org/resource/Germany"/>
+    <j.0:year rdf:resource="http://dbpedia.org/resource/2009"/>
+    <j.0:product>Product4</j.0:product>
+    <j.0:itemsSold rdf:datatype="http://www.w3.org/2001/XMLSchema#short">3412</j.0:itemsSold>
+    <j.0:revenue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1091840</j.0:revenue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/revenue_Germany_2009_Product3">
+    <j.0:itemsSold rdf:datatype="http://www.w3.org/2001/XMLSchema#short">31039</j.0:itemsSold>
+    <j.0:product>Product3</j.0:product>
+    <j.0:year rdf:resource="http://dbpedia.org/resource/2009"/>
+    <j.0:country rdf:resource="http://dbpedia.org/resource/Germany"/>
+    <rdf:type rdf:resource="http://example.org/Revenue"/>
+    <j.0:revenue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9932480</j.0:revenue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/revenue_Germany_2007_Product1">
+    <j.0:year rdf:resource="http://dbpedia.org/resource/2007"/>
+    <rdf:type rdf:resource="http://example.org/Revenue"/>
+    <j.0:product>Product1</j.0:product>
+    <j.0:itemsSold rdf:datatype="http://www.w3.org/2001/XMLSchema#short">2431</j.0:itemsSold>
+    <j.0:revenue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">55913</j.0:revenue>
+    <j.0:country rdf:resource="http://dbpedia.org/resource/Germany"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/revenue_Germany_2009_Product5">
+    <j.0:itemsSold rdf:datatype="http://www.w3.org/2001/XMLSchema#short">312</j.0:itemsSold>
+    <j.0:product>Product5</j.0:product>
+    <j.0:year rdf:resource="http://dbpedia.org/resource/2009"/>
+    <j.0:country rdf:resource="http://dbpedia.org/resource/Germany"/>
+    <rdf:type rdf:resource="http://example.org/Revenue"/>
+    <j.0:revenue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">134784</j.0:revenue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/revenue_Austria_2009_Product1">
+    <j.0:product>Product1</j.0:product>
+    <j.0:year rdf:resource="http://dbpedia.org/resource/2009"/>
+    <j.0:country rdf:resource="http://dbpedia.org/resource/Austria"/>
+    <j.0:revenue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">11760</j.0:revenue>
+    <rdf:type rdf:resource="http://example.org/Revenue"/>
+    <j.0:itemsSold rdf:datatype="http://www.w3.org/2001/XMLSchema#short">490</j.0:itemsSold>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/revenue_Germany_2007_Product5">
+    <j.0:year rdf:resource="http://dbpedia.org/resource/2007"/>
+    <rdf:type rdf:resource="http://example.org/Revenue"/>
+    <j.0:product>Product5</j.0:product>
+    <j.0:itemsSold rdf:datatype="http://www.w3.org/2001/XMLSchema#byte">121</j.0:itemsSold>
+    <j.0:revenue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">52514</j.0:revenue>
+    <j.0:country rdf:resource="http://dbpedia.org/resource/Germany"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/revenue_Austria_2008_Product4">
+    <j.0:revenue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">24304</j.0:revenue>
+    <j.0:itemsSold rdf:datatype="http://www.w3.org/2001/XMLSchema#byte">56</j.0:itemsSold>
+    <j.0:product>Product4</j.0:product>
+    <j.0:year rdf:resource="http://dbpedia.org/resource/2008"/>
+    <j.0:country rdf:resource="http://dbpedia.org/resource/Austria"/>
+    <rdf:type rdf:resource="http://example.org/Revenue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/revenue_Germany_2007_Product3">
+    <j.0:year rdf:resource="http://dbpedia.org/resource/2007"/>
+    <rdf:type rdf:resource="http://example.org/Revenue"/>
+    <j.0:product>Product3</j.0:product>
+    <j.0:itemsSold rdf:datatype="http://www.w3.org/2001/XMLSchema#short">23121</j.0:itemsSold>
+    <j.0:revenue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8092350</j.0:revenue>
+    <j.0:country rdf:resource="http://dbpedia.org/resource/Germany"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/revenue_Germany_2007_Product4">
+    <j.0:revenue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1198050</j.0:revenue>
+    <j.0:itemsSold rdf:datatype="http://www.w3.org/2001/XMLSchema#short">3423</j.0:itemsSold>
+    <j.0:product>Product4</j.0:product>
+    <j.0:year rdf:resource="http://dbpedia.org/resource/2007"/>
+    <rdf:type rdf:resource="http://example.org/Revenue"/>
+    <j.0:country rdf:resource="http://dbpedia.org/resource/Germany"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/revenue_Austria_2007_Product1">
+    <j.0:itemsSold rdf:datatype="http://www.w3.org/2001/XMLSchema#short">398</j.0:itemsSold>
+    <j.0:product>Product1</j.0:product>
+    <j.0:year rdf:resource="http://dbpedia.org/resource/2007"/>
+    <j.0:country rdf:resource="http://dbpedia.org/resource/Austria"/>
+    <rdf:type rdf:resource="http://example.org/Revenue"/>
+    <j.0:revenue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">9154</j.0:revenue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/revenue_Austria_2007_Product4">
+    <rdf:type rdf:resource="http://example.org/Revenue"/>
+    <j.0:country rdf:resource="http://dbpedia.org/resource/Austria"/>
+    <j.0:year rdf:resource="http://dbpedia.org/resource/2007"/>
+    <j.0:product>Product4</j.0:product>
+    <j.0:itemsSold rdf:datatype="http://www.w3.org/2001/XMLSchema#byte">45</j.0:itemsSold>
+    <j.0:revenue rdf:datatype="http://www.w3.org/2001/XMLSchema#short">19350</j.0:revenue>
+  </rdf:Description>
+</rdf:RDF>

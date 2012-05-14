@@ -1,0 +1,160 @@
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ckan:    <http://ckan.net/ns#> .
+@prefix sdx:     <http://epimorphics.com/vocab/sdx#> .
+@prefix sdmx-measure:  <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix scv:     <http://purl.org/NET/scovo#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix oda:     <http://open.data.al/oda.owl#> .
+
+<http://open.data.al/BudgetExpendituresByFunction2011_Mbrojtja_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/budgetexpendituresbyfunc2011#dataset> ;
+      oda:indicator oda:BudgetExpendituresByFunction2011 ;
+      oda:product "Mbrojtja" ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "21604500"^^xsd:int .
+
+[]    rdfs:label "Product" ;
+      rdfs:subClassOf oda:Dimension .
+
+<http://open.data.al/BudgetExpendituresByFunction2011_Arsimi_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/budgetexpendituresbyfunc2011#dataset> ;
+      oda:indicator oda:BudgetExpendituresByFunction2011 ;
+      oda:product "Arsimi" ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "40394457"^^xsd:int .
+
+<http://open.data.al/budgetexpendituresbyfunc2011#dataset>
+      a       oda:Dataset ;
+      dc:creator "Open Data Albania (ODA)" ;
+      dc:date "Thu Oct 13 23:10:42 CEST 2011" ;
+      dc:publisher "" ;
+      dc:title "Shpenzimet buxhetore sipas funksioneve ne Shqiperi 2011 (ne .000 leke)" .
+
+<http://open.data.al/BudgetExpendituresByFunction2011_Buxhetet Lokale_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/budgetexpendituresbyfunc2011#dataset> ;
+      oda:indicator oda:BudgetExpendituresByFunction2011 ;
+      oda:product "Buxhetet Lokale" ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "31772000"^^xsd:int .
+
+<http://open.data.al/BudgetExpendituresByFunction2011_Kultura dhe Argetimi_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/budgetexpendituresbyfunc2011#dataset> ;
+      oda:indicator oda:BudgetExpendituresByFunction2011 ;
+      oda:product "Kultura dhe Argetimi" ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "3392104"^^xsd:int .
+
+<http://open.data.al/BudgetExpendituresByFunction2011_Bujqesia_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/budgetexpendituresbyfunc2011#dataset> ;
+      oda:indicator oda:BudgetExpendituresByFunction2011 ;
+      oda:product "Bujqesia" ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "7961788"^^xsd:int .
+
+[]    a       oda:Dataset ;
+      rdfs:label "Dataset" .
+
+[]    rdfs:label "Country" ;
+      rdfs:subClassOf oda:Dimension .
+
+<http://open.data.al/BudgetExpendituresByFunction2011_Rendi dhe Siguria_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/budgetexpendituresbyfunc2011#dataset> ;
+      oda:indicator oda:BudgetExpendituresByFunction2011 ;
+      oda:product "Rendi dhe Siguria" ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "16275841"^^xsd:int .
+
+[]    rdfs:label "Year" ;
+      rdfs:subClassOf oda:Dimension .
+
+<http://open.data.al/BudgetExpendituresByFunction2011_Sigurimet Sociale dhe Mbrojtja Sociale_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/budgetexpendituresbyfunc2011#dataset> ;
+      oda:indicator oda:BudgetExpendituresByFunction2011 ;
+      oda:product "Sigurimet Sociale dhe Mbrojtja Sociale" ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "105712510"^^xsd:int .
+
+[]    rdfs:domain oda:DataEntry ;
+      rdfs:label "Data Entry Value" .
+
+[]    a       oda:Indicator ;
+      rdfs:label "Indicator" .
+
+<http://open.data.al/BudgetExpendituresByFunction2011_Drejtesia_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/budgetexpendituresbyfunc2011#dataset> ;
+      oda:indicator oda:BudgetExpendituresByFunction2011 ;
+      oda:product "Drejtesia" ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "6468680"^^xsd:int .
+
+<http://open.data.al/BudgetExpendituresByFunction2011_Kosto e Borxhit_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/budgetexpendituresbyfunc2011#dataset> ;
+      oda:indicator oda:BudgetExpendituresByFunction2011 ;
+      oda:product "Kosto e Borxhit" ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "47838400"^^xsd:int .
+
+<http://open.data.al/BudgetExpendituresByFunction2011_Shpenzime te tjera te Buxhetit_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/budgetexpendituresbyfunc2011#dataset> ;
+      oda:indicator oda:BudgetExpendituresByFunction2011 ;
+      oda:product "Shpenzime te tjera te Buxhetit" ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "42779686"^^xsd:int .
+
+<http://open.data.al/BudgetExpendituresByFunction2011_Transporti dhe Punet Publike_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/budgetexpendituresbyfunc2011#dataset> ;
+      oda:indicator oda:BudgetExpendituresByFunction2011 ;
+      oda:product "Transporti dhe Punet Publike" ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "48487269"^^xsd:int .
+
+<http://open.data.al/BudgetExpendituresByFunction2011_Shendetesia_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/budgetexpendituresbyfunc2011#dataset> ;
+      oda:indicator oda:BudgetExpendituresByFunction2011 ;
+      oda:product "Shendetesia" ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "36347565"^^xsd:int .
+
+oda:BudgetExpendituresByFunction2011
+      a       oda:Indicator ;
+      rdfs:label "BudgetExpendituresByFunction2011" .

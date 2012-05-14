@@ -1,0 +1,87 @@
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ckan:    <http://ckan.net/ns#> .
+@prefix sdx:     <http://epimorphics.com/vocab/sdx#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix scv:     <http://purl.org/NET/scovo#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://open.data.al/Albania_Vizitore Turiste_2009>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/turisteshqiperi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#TouristicVisitors> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "1786045"^^xsd:int .
+
+<http://open.data.al/Albania_Vizitore Turiste_2008>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/turisteshqiperi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#TouristicVisitors> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "1330138"^^xsd:int .
+
+[]    rdfs:label "Year" ;
+      rdfs:subClassOf <http://open.data.al/ODA#Dimension> .
+
+<http://open.data.al/Albania_Vizitore Turiste_2007>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/turisteshqiperi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#TouristicVisitors> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "1098765"^^xsd:int .
+
+[]    a       <http://open.data.al/ODA#Indicator> ;
+      rdfs:label "Indicator" .
+
+[]    rdfs:domain <http://open.data.al/ODA#DataEntry> ;
+      rdfs:label "Data Entry Value" .
+
+<http://open.data.al/ODA#TouristicVisitors>
+      a       <http://open.data.al/ODA#Indicator> ;
+      rdfs:label "Touristic Visitors" .
+
+<http://open.data.al/Albania_Vizitore Turiste_2006>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/turisteshqiperi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#TouristicVisitors> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2006> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "926056"^^xsd:int .
+
+<http://open.data.al/Albania_Vizitore Turiste_2005>
+      a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/turisteshqiperi#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#TouristicVisitors> ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "612391"^^xsd:int .
+
+<file:mappings/TuristeShqiperi.trig>
+      owl:import <http://open.data.al/ODA#> .
+
+<http://open.data.al/turisteshqiperi#dataset>
+      a       <http://open.data.al/ODA#Dataset> ;
+      dc:creator "Open Data Albania" ;
+      dc:date "Tue Jun 14 00:38:49 CEST 2011" ;
+      dc:publisher "" ;
+      dc:title "Number of tourists in Albania" .

@@ -1,0 +1,190 @@
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ckan:    <http://ckan.net/ns#> .
+@prefix sdx:     <http://epimorphics.com/vocab/sdx#> .
+@prefix sdmx-measure:  <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix scv:     <http://purl.org/NET/scovo#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix oda:     <http://open.data.al/oda.owl#> .
+
+[]    a       oda:Indicator ;
+      rdfs:label "Indicator" .
+
+<http://open.data.al/agricultureoutputbycategory#dataset>
+      a       oda:Dataset ;
+      dc:creator "Open Data Albania (ODA)" ;
+      dc:date "Sat Sep 10 13:07:23 CEST 2011" ;
+      dc:publisher "Ministria e Bujqësisë, Ushqimit, dhe Mbrojtjes së Konsumatorit" ;
+      dc:title "Agricultural Output By Categories in Albania (million LEK)" .
+
+<http://open.data.al/AgriculturalOutputByCategory_Bimet e arave_2008>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/agricultureoutputbycategory#dataset> ;
+      oda:indicator oda:AgriculturalOutputByCategory ;
+      oda:product "Bimet e arave" ;
+      oda:year <http://dbpedia.org/resource/2008> ;
+      sdmx-measure:obsValue
+              "45741"^^xsd:int .
+
+<http://open.data.al/AgriculturalOutputByCategory_Bimet e arave_2007>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/agricultureoutputbycategory#dataset> ;
+      oda:indicator oda:AgriculturalOutputByCategory ;
+      oda:product "Bimet e arave" ;
+      oda:year <http://dbpedia.org/resource/2007> ;
+      sdmx-measure:obsValue
+              "40482"^^xsd:int .
+
+<http://open.data.al/AgriculturalOutputByCategory_Bimet e arave_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/agricultureoutputbycategory#dataset> ;
+      oda:indicator oda:AgriculturalOutputByCategory ;
+      oda:product "Bimet e arave" ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "42226"^^xsd:int .
+
+<http://open.data.al/AgriculturalOutputByCategory_Bimet e arave_2009>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/agricultureoutputbycategory#dataset> ;
+      oda:indicator oda:AgriculturalOutputByCategory ;
+      oda:product "Bimet e arave" ;
+      oda:year <http://dbpedia.org/resource/2009> ;
+      sdmx-measure:obsValue
+              "47352"^^xsd:int .
+
+<http://open.data.al/AgriculturalOutputByCategory_Blegtoria_2008>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/agricultureoutputbycategory#dataset> ;
+      oda:indicator oda:AgriculturalOutputByCategory ;
+      oda:product "Blegtoria" ;
+      oda:year <http://dbpedia.org/resource/2008> ;
+      sdmx-measure:obsValue
+              "86882"^^xsd:int .
+
+[]    rdfs:domain oda:DataEntry ;
+      rdfs:label "Data Entry Value" .
+
+<http://open.data.al/AgriculturalOutputByCategory_Blegtoria_2009>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/agricultureoutputbycategory#dataset> ;
+      oda:indicator oda:AgriculturalOutputByCategory ;
+      oda:product "Blegtoria" ;
+      oda:year <http://dbpedia.org/resource/2009> ;
+      sdmx-measure:obsValue
+              "87727"^^xsd:int .
+
+oda:AgriculturalOutputByCategory
+      a       oda:Indicator ;
+      rdfs:label "AgriculturalOutputByCategory" .
+
+<http://open.data.al/AgriculturalOutputByCategory_Blegtoria_2007>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/agricultureoutputbycategory#dataset> ;
+      oda:indicator oda:AgriculturalOutputByCategory ;
+      oda:product "Blegtoria" ;
+      oda:year <http://dbpedia.org/resource/2007> ;
+      sdmx-measure:obsValue
+              "90101"^^xsd:int .
+
+<http://open.data.al/AgriculturalOutputByCategory_Pemetaria_2007>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/agricultureoutputbycategory#dataset> ;
+      oda:indicator oda:AgriculturalOutputByCategory ;
+      oda:product "Pemetaria" ;
+      oda:year <http://dbpedia.org/resource/2007> ;
+      sdmx-measure:obsValue
+              "19219"^^xsd:short .
+
+<http://open.data.al/AgriculturalOutputByCategory_Pemetaria_2008>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/agricultureoutputbycategory#dataset> ;
+      oda:indicator oda:AgriculturalOutputByCategory ;
+      oda:product "Pemetaria" ;
+      oda:year <http://dbpedia.org/resource/2008> ;
+      sdmx-measure:obsValue
+              "23046"^^xsd:short .
+
+<http://open.data.al/AgriculturalOutputByCategory_Pemetaria_2009>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/agricultureoutputbycategory#dataset> ;
+      oda:indicator oda:AgriculturalOutputByCategory ;
+      oda:product "Pemetaria" ;
+      oda:year <http://dbpedia.org/resource/2009> ;
+      sdmx-measure:obsValue
+              "24001"^^xsd:short .
+
+<http://open.data.al/AgriculturalOutputByCategory_Pemetaria_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/agricultureoutputbycategory#dataset> ;
+      oda:indicator oda:AgriculturalOutputByCategory ;
+      oda:product "Pemetaria" ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "18446"^^xsd:short .
+
+[]    rdfs:label "Country" ;
+      rdfs:subClassOf oda:Dimension .
+
+<http://open.data.al/AgriculturalOutputByCategory_Blegtoria_2005>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/agricultureoutputbycategory#dataset> ;
+      oda:indicator oda:AgriculturalOutputByCategory ;
+      oda:product "Blegtoria" ;
+      oda:year <http://dbpedia.org/resource/2005> ;
+      sdmx-measure:obsValue
+              "84276"^^xsd:int .
+
+<http://open.data.al/AgriculturalOutputByCategory_Bimet e arave_2005>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/agricultureoutputbycategory#dataset> ;
+      oda:indicator oda:AgriculturalOutputByCategory ;
+      oda:product "Bimet e arave" ;
+      oda:year <http://dbpedia.org/resource/2005> ;
+      sdmx-measure:obsValue
+              "42392"^^xsd:int .
+
+<http://open.data.al/AgriculturalOutputByCategory_Pemetaria_2005>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/agricultureoutputbycategory#dataset> ;
+      oda:indicator oda:AgriculturalOutputByCategory ;
+      oda:product "Pemetaria" ;
+      oda:year <http://dbpedia.org/resource/2005> ;
+      sdmx-measure:obsValue
+              "15552"^^xsd:short .
+
+[]    rdfs:label "Year" ;
+      rdfs:subClassOf oda:Dimension .
+
+[]    rdfs:label "Product" ;
+      rdfs:subClassOf oda:Dimension .
+
+<http://open.data.al/AgriculturalOutputByCategory_Blegtoria_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/agricultureoutputbycategory#dataset> ;
+      oda:indicator oda:AgriculturalOutputByCategory ;
+      oda:product "Blegtoria" ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "86633"^^xsd:int .
+
+[]    a       oda:Dataset ;
+      rdfs:label "Dataset" .

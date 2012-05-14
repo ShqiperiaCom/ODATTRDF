@@ -1,0 +1,170 @@
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ckan:    <http://ckan.net/ns#> .
+@prefix sdx:     <http://epimorphics.com/vocab/sdx#> .
+@prefix sdmx-measure:  <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix scv:     <http://purl.org/NET/scovo#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix oda:     <http://open.data.al/oda.owl#> .
+
+[]    a       oda:Indicator ;
+      rdfs:label "Indicator" .
+
+<http://open.data.al/BudgetExpendituresByInstitution2011_Ministria e Puneve Publike dhe Transportit_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/budgetexpendituresbyinst2011#dataset> ;
+      oda:indicator oda:BudgetExpendituresByInstitution2011 ;
+      oda:product "Ministria e Puneve Publike dhe Transportit" ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "48487269"^^xsd:int .
+
+[]    rdfs:domain oda:DataEntry ;
+      rdfs:label "Data Entry Value" .
+
+<http://open.data.al/BudgetExpendituresByInstitution2011_Ministria e Puneve te Jashtme_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/budgetexpendituresbyinst2011#dataset> ;
+      oda:indicator oda:BudgetExpendituresByInstitution2011 ;
+      oda:product "Ministria e Puneve te Jashtme" ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "2263516"^^xsd:int .
+
+[]    rdfs:label "Year" ;
+      rdfs:subClassOf oda:Dimension .
+
+<http://open.data.al/BudgetExpendituresByInstitution2011_Ministria e Turizmit, Kultures, Rinise dhe Sporteve_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/budgetexpendituresbyinst2011#dataset> ;
+      oda:indicator oda:BudgetExpendituresByInstitution2011 ;
+      oda:product "Ministria e Turizmit, Kultures, Rinise dhe Sporteve" ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "3392104"^^xsd:int .
+
+oda:BudgetExpendituresByInstitution2011
+      a       oda:Indicator ;
+      rdfs:label "BudgetExpendituresByInstitution2011" .
+
+<http://open.data.al/BudgetExpendituresByInstitution2011_Ministria e Ekonomise, Tregtise dhe Energjitikes_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/budgetexpendituresbyinst2011#dataset> ;
+      oda:indicator oda:BudgetExpendituresByInstitution2011 ;
+      oda:product "Ministria e Ekonomise, Tregtise dhe Energjitikes" ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "2613660"^^xsd:int .
+
+[]    rdfs:label "Product" ;
+      rdfs:subClassOf oda:Dimension .
+
+<http://open.data.al/BudgetExpendituresByInstitution2011_Ministria e Drejtesise_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/budgetexpendituresbyinst2011#dataset> ;
+      oda:indicator oda:BudgetExpendituresByInstitution2011 ;
+      oda:product "Ministria e Drejtesise" ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "6468680"^^xsd:int .
+
+<http://open.data.al/budgetexpendituresbyinst2011#dataset>
+      a       oda:Dataset ;
+      dc:creator "Open Data Albania (ODA)" ;
+      dc:date "Thu Oct 13 23:05:31 CEST 2011" ;
+      dc:publisher "" ;
+      dc:title "Shpenzimet buxhetore sipas institucioneve qeveritare ne Shqiperi 2011 (ne .000 leke)" .
+
+<http://open.data.al/BudgetExpendituresByInstitution2011_Ministria e Mjedisit, Pyjeve dhe Administrimit te Ujrave_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/budgetexpendituresbyinst2011#dataset> ;
+      oda:indicator oda:BudgetExpendituresByInstitution2011 ;
+      oda:product "Ministria e Mjedisit, Pyjeve dhe Administrimit te Ujrave" ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "1886071"^^xsd:int .
+
+<http://open.data.al/BudgetExpendituresByInstitution2011_Ministria e Arsimit dhe Shkences_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/budgetexpendituresbyinst2011#dataset> ;
+      oda:indicator oda:BudgetExpendituresByInstitution2011 ;
+      oda:product "Ministria e Arsimit dhe Shkences" ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "40394457"^^xsd:int .
+
+<http://open.data.al/BudgetExpendituresByInstitution2011_Ministria e Shendetesise_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/budgetexpendituresbyinst2011#dataset> ;
+      oda:indicator oda:BudgetExpendituresByInstitution2011 ;
+      oda:product "Ministria e Shendetesise" ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "29617565"^^xsd:int .
+
+<http://open.data.al/BudgetExpendituresByInstitution2011_Ministria e Bujqesise, Ushqimit dhe Mbrojtjes se Konsumatorit_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/budgetexpendituresbyinst2011#dataset> ;
+      oda:indicator oda:BudgetExpendituresByInstitution2011 ;
+      oda:product "Ministria e Bujqesise, Ushqimit dhe Mbrojtjes se Konsumatorit" ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "7961788"^^xsd:int .
+
+<http://open.data.al/BudgetExpendituresByInstitution2011_Ministria e Punes, Ceshtjeve Sociale dhe Shanseve te Barabarta_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/budgetexpendituresbyinst2011#dataset> ;
+      oda:indicator oda:BudgetExpendituresByInstitution2011 ;
+      oda:product "Ministria e Punes, Ceshtjeve Sociale dhe Shanseve te Barabarta" ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "50411000"^^xsd:int .
+
+<http://open.data.al/BudgetExpendituresByInstitution2011_Ministria e Brendshme_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/budgetexpendituresbyinst2011#dataset> ;
+      oda:indicator oda:BudgetExpendituresByInstitution2011 ;
+      oda:product "Ministria e Brendshme" ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "16275841"^^xsd:int .
+
+<http://open.data.al/BudgetExpendituresByInstitution2011_Ministria e Mbrojtjes_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/budgetexpendituresbyinst2011#dataset> ;
+      oda:indicator oda:BudgetExpendituresByInstitution2011 ;
+      oda:product "Ministria e Mbrojtjes" ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "21604500"^^xsd:int .
+
+[]    rdfs:label "Country" ;
+      rdfs:subClassOf oda:Dimension .
+
+<http://open.data.al/BudgetExpendituresByInstitution2011_Ministria e Financave _2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/budgetexpendituresbyinst2011#dataset> ;
+      oda:indicator oda:BudgetExpendituresByInstitution2011 ;
+      oda:product "Ministria e Financave " ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "7561366"^^xsd:int .
+
+[]    a       oda:Dataset ;
+      rdfs:label "Dataset" .

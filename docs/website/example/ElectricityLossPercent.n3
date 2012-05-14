@@ -1,0 +1,155 @@
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ckan:    <http://ckan.net/ns#> .
+@prefix sdx:     <http://epimorphics.com/vocab/sdx#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix scv:     <http://purl.org/NET/scovo#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+[]    rdfs:label "Country" ;
+      rdfs:subClassOf <http://open.data.al/oda.owl#Dimension> .
+
+<file:mappings/Template1.trig>
+      owl:import <http://open.data.al/oda.owl#> .
+
+[]    a       <http://open.data.al/oda.owl#Dataset> ;
+      rdfs:label "Dataset" .
+
+[]    rdfs:label "Year" ;
+      rdfs:subClassOf <http://open.data.al/oda.owl#Dimension> .
+
+[]    a       <http://open.data.al/oda.owl#Indicator> ;
+      rdfs:label "Indicator" .
+
+<http://open.data.al/oda.owl#ElectricityLossPercent>
+      a       <http://open.data.al/oda.owl#Indicator> ;
+      rdfs:label "ElectricityLossPercent" .
+
+[]    rdfs:domain <http://open.data.al/oda.owl#DataEntry> ;
+      rdfs:label "Data Entry Value" .
+
+<http://open.data.al/ElectricityLossPercent_Albania_2004>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/Energylosspercent#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#ElectricityLossPercent> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2004> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0.3967308019751405"^^xsd:double .
+
+<http://open.data.al/ElectricityLossPercent_Albania_2005>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/Energylosspercent#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#ElectricityLossPercent> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0.40901360544217685"^^xsd:double .
+
+<http://open.data.al/ElectricityLossPercent_Albania_2006>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/Energylosspercent#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#ElectricityLossPercent> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2006> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0.41017173051519157"^^xsd:double .
+
+<http://open.data.al/ElectricityLossPercent_Albania_2010>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/Energylosspercent#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#ElectricityLossPercent> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2010> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0.31999409332545775"^^xsd:double .
+
+<http://open.data.al/ElectricityLossPercent_Albania_2009>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/Energylosspercent#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#ElectricityLossPercent> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0.35310177460943426"^^xsd:double .
+
+<http://open.data.al/ElectricityLossPercent_Albania_2007>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/Energylosspercent#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#ElectricityLossPercent> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0.3640013966480447"^^xsd:double .
+
+<http://open.data.al/ElectricityLossPercent_Albania_2002>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/Energylosspercent#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#ElectricityLossPercent> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2002> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0.4106813996316759"^^xsd:double .
+
+<http://open.data.al/ElectricityLossPercent_Albania_2008>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/Energylosspercent#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#ElectricityLossPercent> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0.3396825396825397"^^xsd:double .
+
+<http://open.data.al/ElectricityLossPercent_Albania_2003>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/Energylosspercent#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#ElectricityLossPercent> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2003> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "0.391997103023719"^^xsd:double .
+
+<http://open.data.al/Energylosspercent#dataset>
+      a       <http://open.data.al/oda.owl#Dataset> ;
+      dc:creator "Open Data Albania (ODA)" ;
+      dc:date "Thu Aug 11 16:06:17 CEST 2011" ;
+      dc:publisher "INSTAT, ERE" ;
+      dc:title "Humbja ne %" .

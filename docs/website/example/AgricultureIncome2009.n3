@@ -1,0 +1,142 @@
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ckan:    <http://ckan.net/ns#> .
+@prefix sdx:     <http://epimorphics.com/vocab/sdx#> .
+@prefix sdmx-measure:  <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix scv:     <http://purl.org/NET/scovo#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix oda:     <http://open.data.al/oda.owl#> .
+
+<http://open.data.al/AgricultureIncome2009_Gjirokaster_2011>
+      a       oda:DataEntry ;
+      oda:city <http://dbpedia.org/resource/Gjirokaster> ;
+      oda:dataset <http://open.data.al/agricultureincomes2009#dataset> ;
+      oda:indicator oda:AgricultureIncome2009 ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "2984200"^^xsd:int .
+
+[]    rdfs:label "Country" ;
+      rdfs:subClassOf oda:Dimension .
+
+<http://open.data.al/AgricultureIncome2009_Vlore_2011>
+      a       oda:DataEntry ;
+      oda:city <http://dbpedia.org/resource/Vlore> ;
+      oda:dataset <http://open.data.al/agricultureincomes2009#dataset> ;
+      oda:indicator oda:AgricultureIncome2009 ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "8796178"^^xsd:int .
+
+<http://open.data.al/AgricultureIncome2009_Durres_2011>
+      a       oda:DataEntry ;
+      oda:city <http://dbpedia.org/resource/Durres> ;
+      oda:dataset <http://open.data.al/agricultureincomes2009#dataset> ;
+      oda:indicator oda:AgricultureIncome2009 ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "8103376"^^xsd:int .
+
+<http://open.data.al/AgricultureIncome2009_Tirane_2011>
+      a       oda:DataEntry ;
+      oda:city <http://dbpedia.org/resource/Tirane> ;
+      oda:dataset <http://open.data.al/agricultureincomes2009#dataset> ;
+      oda:indicator oda:AgricultureIncome2009 ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "8658081"^^xsd:int .
+
+<http://open.data.al/AgricultureIncome2009_Lezhe_2011>
+      a       oda:DataEntry ;
+      oda:city <http://dbpedia.org/resource/Lezhe> ;
+      oda:dataset <http://open.data.al/agricultureincomes2009#dataset> ;
+      oda:indicator oda:AgricultureIncome2009 ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "2780699"^^xsd:int .
+
+<http://open.data.al/AgricultureIncome2009_Elbasan_2011>
+      a       oda:DataEntry ;
+      oda:city <http://dbpedia.org/resource/Elbasan> ;
+      oda:dataset <http://open.data.al/agricultureincomes2009#dataset> ;
+      oda:indicator oda:AgricultureIncome2009 ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "8476308"^^xsd:int .
+
+<http://open.data.al/AgricultureIncome2009_Fier_2011>
+      a       oda:DataEntry ;
+      oda:city <http://dbpedia.org/resource/Fier> ;
+      oda:dataset <http://open.data.al/agricultureincomes2009#dataset> ;
+      oda:indicator oda:AgricultureIncome2009 ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "14856421"^^xsd:int .
+
+<http://open.data.al/AgricultureIncome2009_Korce_2011>
+      a       oda:DataEntry ;
+      oda:city <http://dbpedia.org/resource/Korce> ;
+      oda:dataset <http://open.data.al/agricultureincomes2009#dataset> ;
+      oda:indicator oda:AgricultureIncome2009 ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "8994969"^^xsd:int .
+
+[]    a       oda:Indicator ;
+      rdfs:label "Indicator" .
+
+<http://open.data.al/AgricultureIncome2009_Berat_2011>
+      a       oda:DataEntry ;
+      oda:city <http://dbpedia.org/resource/Berat> ;
+      oda:dataset <http://open.data.al/agricultureincomes2009#dataset> ;
+      oda:indicator oda:AgricultureIncome2009 ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "5797045"^^xsd:int .
+
+oda:AgricultureIncome2009
+      a       oda:Indicator ;
+      rdfs:label "AgricultureIncome2009" .
+
+[]    rdfs:domain oda:DataEntry ;
+      rdfs:label "Data Entry Value" .
+
+<http://open.data.al/AgricultureIncome2009_Diber_2011>
+      a       oda:DataEntry ;
+      oda:city <http://dbpedia.org/resource/Diber> ;
+      oda:dataset <http://open.data.al/agricultureincomes2009#dataset> ;
+      oda:indicator oda:AgricultureIncome2009 ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "4639095"^^xsd:int .
+
+<http://open.data.al/AgricultureIncome2009_Shkoder_2011>
+      a       oda:DataEntry ;
+      oda:city <http://dbpedia.org/resource/Shkoder> ;
+      oda:dataset <http://open.data.al/agricultureincomes2009#dataset> ;
+      oda:indicator oda:AgricultureIncome2009 ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "7439028"^^xsd:int .
+
+<http://open.data.al/AgricultureIncome2009_Kukes_2011>
+      a       oda:DataEntry ;
+      oda:city <http://dbpedia.org/resource/Kukes> ;
+      oda:dataset <http://open.data.al/agricultureincomes2009#dataset> ;
+      oda:indicator oda:AgricultureIncome2009 ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "2009376"^^xsd:int .
+
+<http://open.data.al/agricultureincomes2009#dataset>
+      a       oda:Dataset ;
+      dc:creator "Open Data Albania (ODA)" ;
+      dc:date "Sat Sep 10 13:11:27 CEST 2011" ;
+      dc:publisher "Ministria e Bujqësisë, Ushqimit, dhe Mbrojtjes së Konsumatorit" ;
+      dc:title "Te ardhurat bruto nga bujqesia (.000 leke) ne Shqiperi per vitin 2009" .
+
+[]    rdfs:label "City" ;
+      rdfs:subClassOf oda:Dimension .

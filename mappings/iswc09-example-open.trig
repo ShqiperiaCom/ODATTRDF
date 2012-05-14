@@ -1,0 +1,76 @@
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:    <http://www.w3.org/2002/07/owl#> .
+@prefix dc:     <http://purl.org/dc/elements/1.1/> .
+
+@prefix oda:	<http://open.data.al/ODA#> .
+@prefix sdmx-measure:  <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix xl:		<http://purl.org/NET/xlwrap#> .
+@prefix :       <http://myApplication/configuration#> .
+
+
+
+# mapping
+{ [] a xl:Mapping ;
+	xl:offline "false"^^xsd:boolean ;
+
+	xl:template [
+		xl:fileName "mappings/files/iswc09-example-julia.xls" ;
+		xl:sheetNumber "0" ;
+		xl:templateGraph :BilanciTregtar ;
+		xl:constantGraph :ODADataset ;
+#		xl:templateGraph :ODABilanciTregtar ;
+		xl:transform [
+			a rdf:Seq ;
+			rdf:_1 [
+				a xl:RowShift ;
+				xl:restriction "A4; B4" ;
+				xl:breakCondition "ALLEMPTY(A4)" ;
+				xl:steps "1" ;
+			] ;
+			rdf:_2 [
+				a xl:ColShift ;
+				xl:restriction "B2; B4"^^xl:Expr ;
+				xl:breakCondition "ALLEMPTY(B4)" ;
+				xl:steps "2" ;
+			] ;
+			rdf:_3 [
+				a xl:SheetShift ;
+				xl:restriction "#1.*"^^xl:Expr ;
+				xl:repeat "2"
+			] ;
+		]
+	] .
+}
+
+:ODADataset {
+#	<> owl:import oda: .
+	
+	[ xl:uri "'http://open.data.al/BilanciTregtarAlbania#dataset'"^^xl:Expr ] a oda:Dataset ;
+		dc:title    "BilanciTregtar per year, country, and products" ;
+		dc:creator  "Open Data Albania. Source Ministry of Finance" ;
+		dc:publisher  "Albanian Ministry of Finance" ;
+		dc:date     "NOW()" .
+	
+	sdmx-measure:obsValue  [ rdfs:label "Data Entry Value" ; rdfs:domain oda:DataEntry ] .
+	oda:Indicator [ rdfs:label "Indicator" ; a oda:Indicator ] .
+	oda:Year     [ rdfs:label "Year" ; rdfs:subClassOf oda:Dimension ] .
+	oda:Product  [ rdfs:label "Product" ; rdfs:subClassOf oda:Dimension ] .
+	oda:Country  [ rdfs:label "Country" ; rdfs:subClassOf oda:Dimension ] .
+}
+
+:BilanciTregtar {
+	
+	[] a oda:DataEntry ;#xl:uri "'http://open.data.al/bilanci' & URLENCODE(SHEETNAME(A1) &B2& A4)"^^xl:Expr;
+	
+	oda:dataset [ xl:uri "'http://open.data.al/BilanciTregtarAlbania#dataset'"^^xl:Expr ];
+	oda:indicator [ xl:uri "'http://open.data.al/ODA#BilanciTregtar'"^^xl:Expr ; a oda:Indicator ; rdfs:label "'BilanciTregtar'"^^xl:Expr ] ;	
+	oda:country    "DBP_LOCALITY(A1)"^^xl:Expr ; #DBP_LOCALITY(SHEETNAME(A1))
+	oda:year       "DBP_YEAR(B2)"^^xl:Expr ;
+	oda:product    "A4"^^xl:Expr ;
+	sdmx-measure:obsValue   "B4"^^xl:Expr .
+}
+
+
+

@@ -1,0 +1,199 @@
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ckan:    <http://ckan.net/ns#> .
+@prefix sdx:     <http://epimorphics.com/vocab/sdx#> .
+@prefix sdmx-measure:  <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix scv:     <http://purl.org/NET/scovo#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix oda:     <http://open.data.al/oda.owl#> .
+
+<http://open.data.al/RemittanceAlbania_Albania_2001>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/remittancealb#dataset> ;
+      oda:indicator oda:RemittanceAlbania ;
+      oda:year <http://dbpedia.org/resource/2001> ;
+      sdmx-measure:obsValue
+              "77863.1"^^xsd:double .
+
+<http://open.data.al/RemittanceAlbania_Albania_2008>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/remittancealb#dataset> ;
+      oda:indicator oda:RemittanceAlbania ;
+      oda:year <http://dbpedia.org/resource/2008> ;
+      sdmx-measure:obsValue
+              "102292.4"^^xsd:double .
+
+<http://open.data.al/RemittanceAlbania_Albania_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/remittancealb#dataset> ;
+      oda:indicator oda:RemittanceAlbania ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "115344.7"^^xsd:double .
+
+<http://open.data.al/RemittanceAlbania_Albania_2005>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/remittancealb#dataset> ;
+      oda:indicator oda:RemittanceAlbania ;
+      oda:year <http://dbpedia.org/resource/2005> ;
+      sdmx-measure:obsValue
+              "99608.40000000001"^^xsd:double .
+
+[]    rdfs:label "Year" ;
+      rdfs:subClassOf oda:Dimension .
+
+[]    rdfs:domain oda:DataEntry ;
+      rdfs:label "Data Entry Value" .
+
+<http://open.data.al/RemittanceAlbania_Albania_1999>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/remittancealb#dataset> ;
+      oda:indicator oda:RemittanceAlbania ;
+      oda:year <http://dbpedia.org/resource/1999> ;
+      sdmx-measure:obsValue
+              "25942.68"^^xsd:double .
+
+<http://open.data.al/RemittanceAlbania_Albania_2003>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/remittancealb#dataset> ;
+      oda:indicator oda:RemittanceAlbania ;
+      oda:year <http://dbpedia.org/resource/2003> ;
+      sdmx-measure:obsValue
+              "95289.23000000001"^^xsd:double .
+
+[]    a       oda:Dataset ;
+      rdfs:label "Dataset" .
+
+<http://open.data.al/RemittanceAlbania_Albania_1992>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/remittancealb#dataset> ;
+      oda:indicator oda:RemittanceAlbania ;
+      oda:year <http://dbpedia.org/resource/1992> ;
+      sdmx-measure:obsValue
+              "11254.5"^^xsd:float .
+
+<http://open.data.al/RemittanceAlbania_Albania_1998>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/remittancealb#dataset> ;
+      oda:indicator oda:RemittanceAlbania ;
+      oda:year <http://dbpedia.org/resource/1998> ;
+      sdmx-measure:obsValue
+              "63464.632"^^xsd:double .
+
+<http://open.data.al/RemittanceAlbania_Albania_1996>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/remittancealb#dataset> ;
+      oda:indicator oda:RemittanceAlbania ;
+      oda:year <http://dbpedia.org/resource/1996> ;
+      sdmx-measure:obsValue
+              "49742"^^xsd:int .
+
+<http://open.data.al/RemittanceAlbania_Albania_1994>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/remittancealb#dataset> ;
+      oda:indicator oda:RemittanceAlbania ;
+      oda:year <http://dbpedia.org/resource/1994> ;
+      sdmx-measure:obsValue
+              "35419.78800000001"^^xsd:double .
+
+<http://open.data.al/remittancealb#dataset>
+      a       oda:Dataset ;
+      dc:creator "Open Data Albania (ODA)" ;
+      dc:date "Thu Sep 29 02:18:13 CEST 2011" ;
+      dc:publisher "Bank of Albania" ;
+      dc:title "Remitacna historike ne Shqiperi" .
+
+[]    a       oda:Indicator ;
+      rdfs:label "Indicator" .
+
+<http://open.data.al/RemittanceAlbania_Albania_2000>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/remittancealb#dataset> ;
+      oda:indicator oda:RemittanceAlbania ;
+      oda:year <http://dbpedia.org/resource/2000> ;
+      sdmx-measure:obsValue
+              "63026.82"^^xsd:double .
+
+<http://open.data.al/RemittanceAlbania_Albania_2007>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/remittancealb#dataset> ;
+      oda:indicator oda:RemittanceAlbania ;
+      oda:year <http://dbpedia.org/resource/2007> ;
+      sdmx-measure:obsValue
+              "117667.2"^^xsd:double .
+
+<http://open.data.al/RemittanceAlbania_Albania_2009>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/remittancealb#dataset> ;
+      oda:indicator oda:RemittanceAlbania ;
+      oda:year <http://dbpedia.org/resource/2009> ;
+      sdmx-measure:obsValue
+              "103170.09999999999"^^xsd:double .
+
+<http://open.data.al/RemittanceAlbania_Albania_2004>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/remittancealb#dataset> ;
+      oda:indicator oda:RemittanceAlbania ;
+      oda:year <http://dbpedia.org/resource/2004> ;
+      sdmx-measure:obsValue
+              "98839.8"^^xsd:double .
+
+[]    rdfs:label "Country" ;
+      rdfs:subClassOf oda:Dimension .
+
+<http://open.data.al/RemittanceAlbania_Albania_2002>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/remittancealb#dataset> ;
+      oda:indicator oda:RemittanceAlbania ;
+      oda:year <http://dbpedia.org/resource/2002> ;
+      sdmx-measure:obsValue
+              "80557.5"^^xsd:float .
+
+oda:RemittanceAlbania
+      a       oda:Indicator ;
+      rdfs:label "RemittanceAlbania" .
+
+<http://open.data.al/RemittanceAlbania_Albania_1997>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/remittancealb#dataset> ;
+      oda:indicator oda:RemittanceAlbania ;
+      oda:year <http://dbpedia.org/resource/1997> ;
+      sdmx-measure:obsValue
+              "35102.801"^^xsd:double .
+
+<http://open.data.al/RemittanceAlbania_Albania_1993>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/remittancealb#dataset> ;
+      oda:indicator oda:RemittanceAlbania ;
+      oda:year <http://dbpedia.org/resource/1993> ;
+      sdmx-measure:obsValue
+              "28046.088000000003"^^xsd:double .
+
+<http://open.data.al/RemittanceAlbania_Albania_1995>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/remittancealb#dataset> ;
+      oda:indicator oda:RemittanceAlbania ;
+      oda:year <http://dbpedia.org/resource/1995> ;
+      sdmx-measure:obsValue
+              "32374.431"^^xsd:double .

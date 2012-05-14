@@ -1,0 +1,155 @@
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ckan:    <http://ckan.net/ns#> .
+@prefix sdx:     <http://epimorphics.com/vocab/sdx#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix scv:     <http://purl.org/NET/scovo#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://open.data.al/oda.owl#TotalEnergy>
+      a       <http://open.data.al/oda.owl#Indicator> ;
+      rdfs:label "TotalEnergy" .
+
+<http://open.data.al/TotalEnergy_Albania_2006>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/totalenergy#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#TotalEnergy> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2006> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "6056"^^xsd:short .
+
+<file:mappings/Template1.trig>
+      owl:import <http://open.data.al/oda.owl#> .
+
+<http://open.data.al/TotalEnergy_Albania_2007>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/totalenergy#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#TotalEnergy> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "5728"^^xsd:short .
+
+<http://open.data.al/TotalEnergy_Albania_2005>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/totalenergy#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#TotalEnergy> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "5880"^^xsd:short .
+
+<http://open.data.al/totalenergy#dataset>
+      a       <http://open.data.al/oda.owl#Dataset> ;
+      dc:creator "Open Data Albania (ODA)" ;
+      dc:date "Sun Aug 14 19:16:39 CEST 2011" ;
+      dc:publisher "INSTAT, ERE" ;
+      dc:title "Humbjet totale (GWh)" .
+
+<http://open.data.al/TotalEnergy_Albania_2004>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/totalenergy#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#TotalEnergy> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2004> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "5873"^^xsd:short .
+
+<http://open.data.al/TotalEnergy_Albania_2008>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/totalenergy#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#TotalEnergy> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "6300"^^xsd:short .
+
+<http://open.data.al/TotalEnergy_Albania_2009>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/totalenergy#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#TotalEnergy> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "6593"^^xsd:short .
+
+[]    rdfs:domain <http://open.data.al/oda.owl#DataEntry> ;
+      rdfs:label "Data Entry Value" .
+
+<http://open.data.al/TotalEnergy_Albania_2010>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/totalenergy#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#TotalEnergy> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2010> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "6772"^^xsd:short .
+
+[]    a       <http://open.data.al/oda.owl#Indicator> ;
+      rdfs:label "Indicator" .
+
+<http://open.data.al/TotalEnergy_Albania_2002>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/totalenergy#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#TotalEnergy> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2002> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "5430"^^xsd:short .
+
+[]    rdfs:label "Year" ;
+      rdfs:subClassOf <http://open.data.al/oda.owl#Dimension> .
+
+[]    a       <http://open.data.al/oda.owl#Dataset> ;
+      rdfs:label "Dataset" .
+
+[]    rdfs:label "Country" ;
+      rdfs:subClassOf <http://open.data.al/oda.owl#Dimension> .
+
+<http://open.data.al/TotalEnergy_Albania_2003>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/totalenergy#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#TotalEnergy> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2003> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "5523"^^xsd:short .

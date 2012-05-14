@@ -1,0 +1,91 @@
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ckan:    <http://ckan.net/ns#> .
+@prefix sdx:     <http://epimorphics.com/vocab/sdx#> .
+@prefix sdmx-measure:  <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix scv:     <http://purl.org/NET/scovo#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix oda:     <http://open.data.al/oda.owl#> .
+
+[]    a       oda:Dataset ;
+      rdfs:label "Dataset" .
+
+<http://open.data.al/CorruptionCases2004-2009_Albania_2008>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/corruptioncases20042009#dataset> ;
+      oda:indicator oda:CorruptionCases2004-2009 ;
+      oda:year <http://dbpedia.org/resource/2008> ;
+      sdmx-measure:obsValue
+              "130"^^xsd:short .
+
+[]    rdfs:label "Country" ;
+      rdfs:subClassOf oda:Dimension .
+
+<http://open.data.al/corruptioncases20042009#dataset>
+      a       oda:Dataset ;
+      dc:creator "Open Data Albania (ODA)" ;
+      dc:date "Tue Aug 16 19:55:21 CEST 2011" ;
+      dc:publisher "Ministry of Justice, Albania" ;
+      dc:title "Cases of Corruption 2004-2009 in Albania " .
+
+<http://open.data.al/CorruptionCases2004-2009_Albania_2009>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/corruptioncases20042009#dataset> ;
+      oda:indicator oda:CorruptionCases2004-2009 ;
+      oda:year <http://dbpedia.org/resource/2009> ;
+      sdmx-measure:obsValue
+              "157"^^xsd:short .
+
+<http://open.data.al/CorruptionCases2004-2009_Albania_2007>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/corruptioncases20042009#dataset> ;
+      oda:indicator oda:CorruptionCases2004-2009 ;
+      oda:year <http://dbpedia.org/resource/2007> ;
+      sdmx-measure:obsValue
+              "100"^^xsd:byte .
+
+<http://open.data.al/CorruptionCases2004-2009_Albania_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/corruptioncases20042009#dataset> ;
+      oda:indicator oda:CorruptionCases2004-2009 ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "102"^^xsd:byte .
+
+oda:CorruptionCases2004-2009
+      a       oda:Indicator ;
+      rdfs:label "CorruptionCases2004-2009" .
+
+[]    rdfs:label "Year" ;
+      rdfs:subClassOf oda:Dimension .
+
+[]    a       oda:Indicator ;
+      rdfs:label "Indicator" .
+
+<http://open.data.al/CorruptionCases2004-2009_Albania_2004>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/corruptioncases20042009#dataset> ;
+      oda:indicator oda:CorruptionCases2004-2009 ;
+      oda:year <http://dbpedia.org/resource/2004> ;
+      sdmx-measure:obsValue
+              "77"^^xsd:byte .
+
+<http://open.data.al/CorruptionCases2004-2009_Albania_2005>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/corruptioncases20042009#dataset> ;
+      oda:indicator oda:CorruptionCases2004-2009 ;
+      oda:year <http://dbpedia.org/resource/2005> ;
+      sdmx-measure:obsValue
+              "90"^^xsd:byte .
+
+[]    rdfs:domain oda:DataEntry ;
+      rdfs:label "Data Entry Value" .

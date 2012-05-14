@@ -1,0 +1,172 @@
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ckan:    <http://ckan.net/ns#> .
+@prefix sdx:     <http://epimorphics.com/vocab/sdx#> .
+@prefix sdmx-measure:  <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix scv:     <http://purl.org/NET/scovo#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix oda:     <http://open.data.al/oda.owl#> .
+
+<http://open.data.al/BankingStructureAl_Kuwait_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Kuwait> ;
+      oda:dataset <http://open.data.al/bankingstructurealb#dataset> ;
+      oda:indicator oda:BankingStructureAl ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "100"^^xsd:byte .
+
+<http://open.data.al/BankingStructureAl_Greece_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Greece> ;
+      oda:dataset <http://open.data.al/bankingstructurealb#dataset> ;
+      oda:indicator oda:BankingStructureAl ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "400"^^xsd:short .
+
+<http://open.data.al/BankingStructureAl_Bulgaria_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Bulgaria> ;
+      oda:dataset <http://open.data.al/bankingstructurealb#dataset> ;
+      oda:indicator oda:BankingStructureAl ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "100"^^xsd:byte .
+
+[]    a       oda:Indicator ;
+      rdfs:label "Indicator" .
+
+<http://open.data.al/BankingStructureAl_France_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/France> ;
+      oda:dataset <http://open.data.al/bankingstructurealb#dataset> ;
+      oda:indicator oda:BankingStructureAl ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "75"^^xsd:byte .
+
+[]    rdfs:domain oda:DataEntry ;
+      rdfs:label "Data Entry Value" .
+
+[]    rdfs:label "Year" ;
+      rdfs:subClassOf oda:Dimension .
+
+<http://open.data.al/BankingStructureAl_Albania_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/bankingstructurealb#dataset> ;
+      oda:indicator oda:BankingStructureAl ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "183.01"^^xsd:double .
+
+oda:BankingStructureAl
+      a       oda:Indicator ;
+      rdfs:label "BankingStructureAl" .
+
+[]    a       oda:Dataset ;
+      rdfs:label "Dataset" .
+
+<http://open.data.al/BankingStructureAl_Malaysia_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Malaysia> ;
+      oda:dataset <http://open.data.al/bankingstructurealb#dataset> ;
+      oda:indicator oda:BankingStructureAl ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "6.34"^^xsd:double .
+
+[]    rdfs:label "Country" ;
+      rdfs:subClassOf oda:Dimension .
+
+<http://open.data.al/BankingStructureAl_International Institutions_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/International Institutions> ;
+      oda:dataset <http://open.data.al/bankingstructurealb#dataset> ;
+      oda:indicator oda:BankingStructureAl ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "75.28"^^xsd:double .
+
+<http://open.data.al/BankingStructureAl_Arabia_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Arabia> ;
+      oda:dataset <http://open.data.al/bankingstructurealb#dataset> ;
+      oda:indicator oda:BankingStructureAl ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "38.67"^^xsd:double .
+
+<http://open.data.al/BankingStructureAl_Italy_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Italy> ;
+      oda:dataset <http://open.data.al/bankingstructurealb#dataset> ;
+      oda:indicator oda:BankingStructureAl ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "192.2"^^xsd:double .
+
+<http://open.data.al/BankingStructureAl_Germany_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Germany> ;
+      oda:dataset <http://open.data.al/bankingstructurealb#dataset> ;
+      oda:indicator oda:BankingStructureAl ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "100"^^xsd:byte .
+
+<http://open.data.al/BankingStructureAl_Austria_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Austria> ;
+      oda:dataset <http://open.data.al/bankingstructurealb#dataset> ;
+      oda:indicator oda:BankingStructureAl ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "100"^^xsd:byte .
+
+<http://open.data.al/BankingStructureAl_Spain_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Spain> ;
+      oda:dataset <http://open.data.al/bankingstructurealb#dataset> ;
+      oda:indicator oda:BankingStructureAl ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "4.15"^^xsd:double .
+
+<http://open.data.al/bankingstructurealb#dataset>
+      a       oda:Dataset ;
+      dc:creator "Open Data Albania (ODA)" ;
+      dc:date "Thu Sep 08 22:51:32 CEST 2011" ;
+      dc:publisher "Bank of Albania" ;
+      dc:title "Shperndarja e kapitalit te bankave sipas vendeve te origjines" .
+
+<http://open.data.al/BankingStructureAl_Switzerland_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Switzerland> ;
+      oda:dataset <http://open.data.al/bankingstructurealb#dataset> ;
+      oda:indicator oda:BankingStructureAl ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "103.17"^^xsd:double .
+
+<http://open.data.al/BankingStructureAl_Turkey_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Turkey> ;
+      oda:dataset <http://open.data.al/bankingstructurealb#dataset> ;
+      oda:indicator oda:BankingStructureAl ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "100"^^xsd:byte .
+
+<http://open.data.al/BankingStructureAl_Holland_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Holland> ;
+      oda:dataset <http://open.data.al/bankingstructurealb#dataset> ;
+      oda:indicator oda:BankingStructureAl ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "22.17"^^xsd:double .

@@ -1,0 +1,78 @@
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:    <http://www.w3.org/2002/07/owl#> .
+@prefix dc:     <http://purl.org/dc/elements/1.1/> .
+
+@prefix oda:	<http://open.data.al/ODA#> .
+@prefix sdmx-measure:  <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix xl:		<http://purl.org/NET/xlwrap#> .
+@prefix :       <http://myApplication/configuration#> .
+
+
+
+# mapping
+{ [] a xl:Mapping ;
+	xl:offline "false"^^xsd:boolean ;
+
+	xl:template [
+		xl:fileName "mappings/files/YearlyInflationRate.xls" ;
+		xl:sheetName "data";
+		xl:templateGraph :indikator_t1 ;
+		xl:transform [
+			a rdf:Seq ;
+			rdf:_1 [
+				a xl:RowShift ;
+				xl:restriction "A2; B2" ;
+				xl:breakCondition "ALLEMPTY(A2)" ;
+				xl:steps "1" ;
+			] ;
+			rdf:_2 [
+				a xl:ColShift ;
+				xl:restriction "B1; B2" ; #^^xl:Expr
+				xl:breakCondition "ALLEMPTY(B1)" ;
+				#xl:steps "2" ;
+			] ;
+			rdf:_3 [
+				a xl:SheetShift ;
+				xl:restriction "#1.*"^^xl:Expr ;
+				xl:repeat "0"
+			] ;
+		]
+	] ;
+	
+	xl:template [
+		xl:fileName "mappings/files/YearlyInflationRate.xls" ;
+		#xl:sheetNumber "3" ;
+		xl:sheetName "metadata";
+		xl:templateGraph :ODADataset ;
+		#xl:constantGraph :ODADataset ;
+		
+	] ;	
+}
+
+:ODADataset {
+#	<> owl:import oda: .
+	
+	[ xl:uri "'http://open.data.al/' & B1 & '#dataset'"^^xl:Expr ] a oda:Dataset ;
+		dc:title    "B2"^^xl:Expr ;
+		dc:creator  "Open Data Albania (ODA)" ;
+		dc:publisher  "B3"^^xl:Expr ;
+		dc:date     "B4"^^xl:Expr .
+	
+	sdmx-measure:obsValue  [ rdfs:label "Data Entry Value" ; rdfs:domain oda:DataEntry ] .
+	oda:Indicator [ rdfs:label "Indicator" ; a oda:Indicator ] .
+	oda:Year     [ rdfs:label "Year" ; rdfs:subClassOf oda:Dimension ] .
+	oda:Country  [ rdfs:label "Country" ; rdfs:subClassOf oda:Dimension ] .
+}
+
+:indikator_t1 {
+	
+	[] a oda:DataEntry ;#xl:uri "'http://open.data.al/inflationrate_' & B2 & '_' & A2)"^^xl:Expr;
+	
+	oda:dataset [ xl:uri "'http://open.data.al/' & A1 & '#dataset'"^^xl:Expr ];
+	oda:indicator [ xl:uri "'http://open.data.al/ODA#' & A1"^^xl:Expr ; a oda:Indicator ; rdfs:label "'Yearly Inflation Rate'"^^xl:Expr ] ;	
+	oda:country    "Albania" ;
+	oda:year       "DBP_YEAR(B1)"^^xl:Expr ;
+	sdmx-measure:obsValue   "B2"^^xl:Expr .
+}

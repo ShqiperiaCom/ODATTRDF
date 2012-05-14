@@ -1,0 +1,815 @@
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ckan:    <http://ckan.net/ns#> .
+@prefix sdx:     <http://epimorphics.com/vocab/sdx#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix scv:     <http://purl.org/NET/scovo#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://open.data.al/indikatori ketu_Albania_2009>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/dataset ketu#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#indikatori ketu> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "16.4"^^xsd:double .
+
+<http://open.data.al/indikatori ketu_European_Union_2007>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/European_Union> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/dataset ketu#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#indikatori ketu> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "23.398409346846854"^^xsd:double .
+
+<http://open.data.al/indikatori ketu_Bulgaria_2010>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Bulgaria> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/dataset ketu#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#indikatori ketu> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2010> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "20.8"^^xsd:double .
+
+[]    a       <http://open.data.al/oda.owl#Indicator> ;
+      rdfs:label "Indicator" .
+
+<http://open.data.al/indikatori ketu_Slovakia_2009>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Slovakia> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/dataset ketu#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#indikatori ketu> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "19.3"^^xsd:double .
+
+<http://open.data.al/indikatori ketu_Greece_2008>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Greece> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/dataset ketu#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#indikatori ketu> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "14.7"^^xsd:double .
+
+<http://open.data.al/indikatori ketu_World_2008>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/World> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/dataset ketu#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#indikatori ketu> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "18.462972114366394"^^xsd:double .
+
+<http://open.data.al/indikatori ketu_Kosovo_2009>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Kosovo> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/dataset ketu#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#indikatori ketu> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "33.3"^^xsd:double .
+
+<http://open.data.al/indikatori ketu_European_Union_2010>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/European_Union> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/dataset ketu#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#indikatori ketu> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2010> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "24.21138725077226"^^xsd:double .
+
+<http://open.data.al/indikatori ketu_Kosovo_2010>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Kosovo> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/dataset ketu#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#indikatori ketu> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2010> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "33.3"^^xsd:double .
+
+<http://open.data.al/indikatori ketu_Hungary_2009>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Hungary> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/dataset ketu#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#indikatori ketu> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "11.1"^^xsd:double .
+
+<http://open.data.al/indikatori ketu_World_2010>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/World> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/dataset ketu#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#indikatori ketu> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2010> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "19.26803940568475"^^xsd:double .
+
+<file:mappings/Template1.trig>
+      owl:import <http://open.data.al/oda.owl#> .
+
+<http://open.data.al/indikatori ketu_Macedonia_2007>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Macedonia> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/dataset ketu#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#indikatori ketu> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "28.3"^^xsd:double .
+
+<http://open.data.al/indikatori ketu_Albania_2008>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/dataset ketu#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#indikatori ketu> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "7.1"^^xsd:double .
+
+<http://open.data.al/indikatori ketu_Albania_2010>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/dataset ketu#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#indikatori ketu> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2010> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "16.400000000000002"^^xsd:double .
+
+<http://open.data.al/indikatori ketu_Turkey_2009>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Turkey> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/dataset ketu#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#indikatori ketu> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "9.4"^^xsd:double .
+
+[]    rdfs:domain <http://open.data.al/oda.owl#DataEntry> ;
+      rdfs:label "Data Entry Value" .
+
+<http://open.data.al/indikatori ketu_Bulgaria_2007>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Bulgaria> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/dataset ketu#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#indikatori ketu> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "22.1"^^xsd:double .
+
+<http://open.data.al/indikatori ketu_Slovakia_2008>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Slovakia> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/dataset ketu#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#indikatori ketu> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "19.3"^^xsd:double .
+
+<http://open.data.al/indikatori ketu_Bosnia_and_Herzegovina_2007>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Bosnia_and_Herzegovina> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/dataset ketu#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#indikatori ketu> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "14.3"^^xsd:double .
+
+<http://open.data.al/indikatori ketu_Romania_2007>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Romania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/dataset ketu#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#indikatori ketu> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "11.2"^^xsd:double .
+
+<http://open.data.al/indikatori ketu_Greece_2007>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Greece> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/dataset ketu#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#indikatori ketu> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "16"^^xsd:byte .
+
+<http://open.data.al/indikatori ketu_Turkey_2010>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Turkey> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/dataset ketu#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#indikatori ketu> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2010> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "9.1"^^xsd:double .
+
+<http://open.data.al/indikatori ketu_Serbia_2007>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Serbia> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/dataset ketu#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#indikatori ketu> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "20.4"^^xsd:double .
+
+<http://open.data.al/indikatori ketu_Greece_2010>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Greece> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/dataset ketu#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#indikatori ketu> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2010> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "17.299999999999997"^^xsd:double .
+
+<http://open.data.al/indikatori ketu_World_2009>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/World> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/dataset ketu#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#indikatori ketu> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "18.81801134235728"^^xsd:double .
+
+<http://open.data.al/dataset ketu#dataset>
+      a       <http://open.data.al/oda.owl#Dataset> ;
+      dc:creator "Open Data Albania (ODA)" ;
+      dc:date "Wed Aug 10 23:53:55 CEST 2011" ;
+      dc:publisher "publisher ketu" ;
+      dc:title "titulli ketu" .
+
+<http://open.data.al/indikatori ketu_Slovenia_2007>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Slovenia> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/dataset ketu#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#indikatori ketu> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "12.2"^^xsd:double .
+
+<http://open.data.al/indikatori ketu_Hungary_2008>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Hungary> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/dataset ketu#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#indikatori ketu> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "11.1"^^xsd:double .
+
+<http://open.data.al/indikatori ketu_Turkey_2008>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Turkey> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/dataset ketu#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#indikatori ketu> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "9.1"^^xsd:double .
+
+<http://open.data.al/indikatori ketu_Macedonia_2010>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Macedonia> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/dataset ketu#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#indikatori ketu> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2010> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "32.5"^^xsd:float .
+
+[]    rdfs:label "Country" ;
+      rdfs:subClassOf <http://open.data.al/oda.owl#Dimension> .
+
+<http://open.data.al/indikatori ketu_Slovakia_2007>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Slovakia> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/dataset ketu#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#indikatori ketu> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "19.3"^^xsd:double .
+
+<http://open.data.al/indikatori ketu_Bulgaria_2008>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Bulgaria> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/dataset ketu#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#indikatori ketu> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "21.7"^^xsd:double .
+
+<http://open.data.al/indikatori ketu_Slovakia_2010>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Slovakia> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/dataset ketu#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#indikatori ketu> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2010> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "15.299999999999999"^^xsd:double .
+
+<http://open.data.al/indikatori ketu_Albania_2007>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/dataset ketu#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#indikatori ketu> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "7.1"^^xsd:double .
+
+<http://open.data.al/indikatori ketu_Serbia_2008>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Serbia> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/dataset ketu#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#indikatori ketu> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "21.6"^^xsd:double .
+
+<http://open.data.al/indikatori ketu_Slovenia_2008>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Slovenia> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/dataset ketu#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#indikatori ketu> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "13.3"^^xsd:double .
+
+<http://open.data.al/indikatori ketu_European_Union_2009>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/European_Union> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/dataset ketu#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#indikatori ketu> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "23.67662940920308"^^xsd:double .
+
+<http://open.data.al/indikatori ketu_Romania_2008>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Romania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/dataset ketu#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#indikatori ketu> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "9.4"^^xsd:double .
+
+<http://open.data.al/oda.owl#indikatori ketu>
+      a       <http://open.data.al/oda.owl#Indicator> ;
+      rdfs:label "indikatori ketu" .
+
+<http://open.data.al/indikatori ketu_Montenegro_2007>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Montenegro> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/dataset ketu#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#indikatori ketu> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "8.6"^^xsd:double .
+
+<http://open.data.al/indikatori ketu_Bosnia_and_Herzegovina_2008>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Bosnia_and_Herzegovina> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/dataset ketu#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#indikatori ketu> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "11.9"^^xsd:double .
+
+<http://open.data.al/indikatori ketu_Kosovo_2007>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Kosovo> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/dataset ketu#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#indikatori ketu> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "30.8"^^xsd:double .
+
+<http://open.data.al/indikatori ketu_Macedonia_2008>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Macedonia> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/dataset ketu#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#indikatori ketu> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "31.7"^^xsd:double .
+
+<http://open.data.al/indikatori ketu_Turkey_2007>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Turkey> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/dataset ketu#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#indikatori ketu> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "9.1"^^xsd:double .
+
+[]    rdfs:label "Year" ;
+      rdfs:subClassOf <http://open.data.al/oda.owl#Dimension> .
+
+<http://open.data.al/indikatori ketu_Hungary_2010>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Hungary> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/dataset ketu#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#indikatori ketu> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2010> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "9.1"^^xsd:double .
+
+<http://open.data.al/indikatori ketu_Hungary_2007>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Hungary> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/dataset ketu#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#indikatori ketu> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "10.4"^^xsd:double .
+
+<http://open.data.al/indikatori ketu_Romania_2010>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Romania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/dataset ketu#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#indikatori ketu> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2010> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "11.4"^^xsd:double .
+
+<http://open.data.al/indikatori ketu_Bosnia_and_Herzegovina_2010>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Bosnia_and_Herzegovina> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/dataset ketu#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#indikatori ketu> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2010> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "19"^^xsd:byte .
+
+<http://open.data.al/indikatori ketu_Greece_2009>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Greece> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/dataset ketu#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#indikatori ketu> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "14.7"^^xsd:double .
+
+<http://open.data.al/indikatori ketu_Bulgaria_2009>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Bulgaria> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/dataset ketu#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#indikatori ketu> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "20.8"^^xsd:double .
+
+<http://open.data.al/indikatori ketu_Romania_2009>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Romania> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/dataset ketu#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#indikatori ketu> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "11.4"^^xsd:double .
+
+<http://open.data.al/indikatori ketu_Macedonia_2009>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Macedonia> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/dataset ketu#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#indikatori ketu> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "28.3"^^xsd:double .
+
+<http://open.data.al/indikatori ketu_World_2007>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/World> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/dataset ketu#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#indikatori ketu> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "17.507380083801504"^^xsd:double .
+
+<http://open.data.al/indikatori ketu_Serbia_2009>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Serbia> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/dataset ketu#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#indikatori ketu> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "21.6"^^xsd:double .
+
+<http://open.data.al/indikatori ketu_Montenegro_2010>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Montenegro> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/dataset ketu#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#indikatori ketu> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2010> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "11.1"^^xsd:double .
+
+<http://open.data.al/indikatori ketu_Montenegro_2008>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Montenegro> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/dataset ketu#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#indikatori ketu> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "11.1"^^xsd:double .
+
+<http://open.data.al/indikatori ketu_Montenegro_2009>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Montenegro> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/dataset ketu#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#indikatori ketu> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "6.2"^^xsd:double .
+
+<http://open.data.al/indikatori ketu_Serbia_2010>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Serbia> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/dataset ketu#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#indikatori ketu> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2010> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "21.6"^^xsd:double .
+
+<http://open.data.al/indikatori ketu_Slovenia_2010>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Slovenia> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/dataset ketu#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#indikatori ketu> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2010> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "14.399999999999999"^^xsd:double .
+
+<http://open.data.al/indikatori ketu_European_Union_2008>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/European_Union> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/dataset ketu#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#indikatori ketu> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "23.630535894843277"^^xsd:double .
+
+<http://open.data.al/indikatori ketu_Bosnia_and_Herzegovina_2009>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Bosnia_and_Herzegovina> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/dataset ketu#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#indikatori ketu> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "11.9"^^xsd:double .
+
+<http://open.data.al/indikatori ketu_Kosovo_2008>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Kosovo> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/dataset ketu#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#indikatori ketu> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2008> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "33.3"^^xsd:double .
+
+<http://open.data.al/indikatori ketu_Slovenia_2009>
+      a       <http://open.data.al/oda.owl#DataEntry> ;
+      <http://open.data.al/oda.owl#country>
+              <http://dbpedia.org/resource/Slovenia> ;
+      <http://open.data.al/oda.owl#dataset>
+              <http://open.data.al/dataset ketu#dataset> ;
+      <http://open.data.al/oda.owl#indicator>
+              <http://open.data.al/oda.owl#indikatori ketu> ;
+      <http://open.data.al/oda.owl#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "13.3"^^xsd:double .

@@ -1,0 +1,566 @@
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ckan:    <http://ckan.net/ns#> .
+@prefix sdx:     <http://epimorphics.com/vocab/sdx#> .
+@prefix sdmx-measure:  <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix scv:     <http://purl.org/NET/scovo#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix oda:     <http://open.data.al/oda.owl#> .
+
+<http://open.data.al/ElectricityUsage1998-2010_Nga centrali_1998>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/electricityusage19982010#dataset> ;
+      oda:indicator oda:ElectricityUsage1998-2010 ;
+      oda:product "Nga centrali" ;
+      oda:year <http://dbpedia.org/resource/1998> ;
+      sdmx-measure:obsValue
+              "21.892"^^xsd:double .
+
+[]    a       oda:Dataset ;
+      rdfs:label "Dataset" .
+
+<http://open.data.al/ElectricityUsage1998-2010_Humbje në rrjet_2001>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/electricityusage19982010#dataset> ;
+      oda:indicator oda:ElectricityUsage1998-2010 ;
+      oda:product "Humbje në rrjet" ;
+      oda:year <http://dbpedia.org/resource/2001> ;
+      sdmx-measure:obsValue
+              "2058.358"^^xsd:double .
+
+<http://open.data.al/ElectricityUsage1998-2010_Nga centrali_2007>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/electricityusage19982010#dataset> ;
+      oda:indicator oda:ElectricityUsage1998-2010 ;
+      oda:product "Nga centrali" ;
+      oda:year <http://dbpedia.org/resource/2007> ;
+      sdmx-measure:obsValue
+              "48.037"^^xsd:double .
+
+<http://open.data.al/ElectricityUsage1998-2010_Nga konsumatorët_2010>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/electricityusage19982010#dataset> ;
+      oda:indicator oda:ElectricityUsage1998-2010 ;
+      oda:product "Nga konsumatorët" ;
+      oda:year <http://dbpedia.org/resource/2010> ;
+      sdmx-measure:obsValue
+              "4605.551"^^xsd:double .
+
+<http://open.data.al/ElectricityUsage1998-2010_Nga konsumatorët_2000>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/electricityusage19982010#dataset> ;
+      oda:indicator oda:ElectricityUsage1998-2010 ;
+      oda:product "Nga konsumatorët" ;
+      oda:year <http://dbpedia.org/resource/2000> ;
+      sdmx-measure:obsValue
+              "3192.767"^^xsd:double .
+
+<http://open.data.al/ElectricityUsage1998-2010_Humbje në rrjet_1999>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/electricityusage19982010#dataset> ;
+      oda:indicator oda:ElectricityUsage1998-2010 ;
+      oda:product "Humbje në rrjet" ;
+      oda:year <http://dbpedia.org/resource/1999> ;
+      sdmx-measure:obsValue
+              "3027.963"^^xsd:double .
+
+<http://open.data.al/ElectricityUsage1998-2010_Nga konsumatorët_2004>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/electricityusage19982010#dataset> ;
+      oda:indicator oda:ElectricityUsage1998-2010 ;
+      oda:product "Nga konsumatorët" ;
+      oda:year <http://dbpedia.org/resource/2004> ;
+      sdmx-measure:obsValue
+              "3677.073"^^xsd:double .
+
+<http://open.data.al/ElectricityUsage1998-2010_Humbje në rrjet_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/electricityusage19982010#dataset> ;
+      oda:indicator oda:ElectricityUsage1998-2010 ;
+      oda:product "Humbje në rrjet" ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "2481.174"^^xsd:double .
+
+<http://open.data.al/ElectricityUsage1998-2010_Humbje në rrjet_2005>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/electricityusage19982010#dataset> ;
+      oda:indicator oda:ElectricityUsage1998-2010 ;
+      oda:product "Humbje në rrjet" ;
+      oda:year <http://dbpedia.org/resource/2005> ;
+      sdmx-measure:obsValue
+              "2404.615"^^xsd:double .
+
+[]    rdfs:label "Country" ;
+      rdfs:subClassOf oda:Dimension .
+
+<http://open.data.al/ElectricityUsage1998-2010_Nga centrali_2003>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/electricityusage19982010#dataset> ;
+      oda:indicator oda:ElectricityUsage1998-2010 ;
+      oda:product "Nga centrali" ;
+      oda:year <http://dbpedia.org/resource/2003> ;
+      sdmx-measure:obsValue
+              "73.98"^^xsd:double .
+
+<http://open.data.al/ElectricityUsage1998-2010_Eksporti (me këmbimet)_2010>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/electricityusage19982010#dataset> ;
+      oda:indicator oda:ElectricityUsage1998-2010 ;
+      oda:product "Eksporti (me këmbimet)" ;
+      oda:year <http://dbpedia.org/resource/2010> ;
+      sdmx-measure:obsValue
+              "1905.549"^^xsd:double .
+
+<http://open.data.al/ElectricityUsage1998-2010_Eksporti (me këmbimet)_2009>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/electricityusage19982010#dataset> ;
+      oda:indicator oda:ElectricityUsage1998-2010 ;
+      oda:product "Eksporti (me këmbimet)" ;
+      oda:year <http://dbpedia.org/resource/2009> ;
+      sdmx-measure:obsValue
+              "536.364"^^xsd:double .
+
+<http://open.data.al/ElectricityUsage1998-2010_Eksporti (me këmbimet)_2000>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/electricityusage19982010#dataset> ;
+      oda:indicator oda:ElectricityUsage1998-2010 ;
+      oda:product "Eksporti (me këmbimet)" ;
+      oda:year <http://dbpedia.org/resource/2000> ;
+      sdmx-measure:obsValue
+              "221.811"^^xsd:double .
+
+<http://open.data.al/ElectricityUsage1998-2010_Eksporti (me këmbimet)_2004>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/electricityusage19982010#dataset> ;
+      oda:indicator oda:ElectricityUsage1998-2010 ;
+      oda:product "Eksporti (me këmbimet)" ;
+      oda:year <http://dbpedia.org/resource/2004> ;
+      sdmx-measure:obsValue
+              "390.307"^^xsd:double .
+
+<http://open.data.al/ElectricityUsage1998-2010_Nga konsumatorët_2007>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/electricityusage19982010#dataset> ;
+      oda:indicator oda:ElectricityUsage1998-2010 ;
+      oda:product "Nga konsumatorët" ;
+      oda:year <http://dbpedia.org/resource/2007> ;
+      sdmx-measure:obsValue
+              "3641.451"^^xsd:double .
+
+<http://open.data.al/ElectricityUsage1998-2010_Humbje në rrjet_2000>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/electricityusage19982010#dataset> ;
+      oda:indicator oda:ElectricityUsage1998-2010 ;
+      oda:product "Humbje në rrjet" ;
+      oda:year <http://dbpedia.org/resource/2000> ;
+      sdmx-measure:obsValue
+              "2479.399"^^xsd:double .
+
+<http://open.data.al/ElectricityUsage1998-2010_Humbje në rrjet_2007>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/electricityusage19982010#dataset> ;
+      oda:indicator oda:ElectricityUsage1998-2010 ;
+      oda:product "Humbje në rrjet" ;
+      oda:year <http://dbpedia.org/resource/2007> ;
+      sdmx-measure:obsValue
+              "2085.184"^^xsd:double .
+
+<http://open.data.al/ElectricityUsage1998-2010_Nga centrali_2008>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/electricityusage19982010#dataset> ;
+      oda:indicator oda:ElectricityUsage1998-2010 ;
+      oda:product "Nga centrali" ;
+      oda:year <http://dbpedia.org/resource/2008> ;
+      sdmx-measure:obsValue
+              "18.879"^^xsd:double .
+
+[]    rdfs:domain oda:DataEntry ;
+      rdfs:label "Data Entry Value" .
+
+<http://open.data.al/ElectricityUsage1998-2010_Nga centrali_1999>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/electricityusage19982010#dataset> ;
+      oda:indicator oda:ElectricityUsage1998-2010 ;
+      oda:product "Nga centrali" ;
+      oda:year <http://dbpedia.org/resource/1999> ;
+      sdmx-measure:obsValue
+              "28.906"^^xsd:double .
+
+<http://open.data.al/ElectricityUsage1998-2010_Nga konsumatorët_2001>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/electricityusage19982010#dataset> ;
+      oda:indicator oda:ElectricityUsage1998-2010 ;
+      oda:product "Nga konsumatorët" ;
+      oda:year <http://dbpedia.org/resource/2001> ;
+      sdmx-measure:obsValue
+              "3350.575"^^xsd:double .
+
+<http://open.data.al/ElectricityUsage1998-2010_Nga konsumatorët_2005>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/electricityusage19982010#dataset> ;
+      oda:indicator oda:ElectricityUsage1998-2010 ;
+      oda:product "Nga konsumatorët" ;
+      oda:year <http://dbpedia.org/resource/2005> ;
+      sdmx-measure:obsValue
+              "3473.586"^^xsd:double .
+
+<http://open.data.al/ElectricityUsage1998-2010_Nga konsumatorët_1998>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/electricityusage19982010#dataset> ;
+      oda:indicator oda:ElectricityUsage1998-2010 ;
+      oda:product "Nga konsumatorët" ;
+      oda:year <http://dbpedia.org/resource/1998> ;
+      sdmx-measure:obsValue
+              "2256.993"^^xsd:double .
+
+<http://open.data.al/ElectricityUsage1998-2010_Humbje në rrjet_2004>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/electricityusage19982010#dataset> ;
+      oda:indicator oda:ElectricityUsage1998-2010 ;
+      oda:product "Humbje në rrjet" ;
+      oda:year <http://dbpedia.org/resource/2004> ;
+      sdmx-measure:obsValue
+              "2193.886"^^xsd:double .
+
+<http://open.data.al/ElectricityUsage1998-2010_Nga centrali_2010>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/electricityusage19982010#dataset> ;
+      oda:indicator oda:ElectricityUsage1998-2010 ;
+      oda:product "Nga centrali" ;
+      oda:year <http://dbpedia.org/resource/2010> ;
+      sdmx-measure:obsValue
+              "40.81800881"^^xsd:double .
+
+<http://open.data.al/ElectricityUsage1998-2010_Nga centrali_2004>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/electricityusage19982010#dataset> ;
+      oda:indicator oda:ElectricityUsage1998-2010 ;
+      oda:product "Nga centrali" ;
+      oda:year <http://dbpedia.org/resource/2004> ;
+      sdmx-measure:obsValue
+              "100.16"^^xsd:double .
+
+<http://open.data.al/ElectricityUsage1998-2010_Nga konsumatorët_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/electricityusage19982010#dataset> ;
+      oda:indicator oda:ElectricityUsage1998-2010 ;
+      oda:product "Nga konsumatorët" ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "3572.722"^^xsd:double .
+
+<http://open.data.al/ElectricityUsage1998-2010_Eksporti (me këmbimet)_2003>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/electricityusage19982010#dataset> ;
+      oda:indicator oda:ElectricityUsage1998-2010 ;
+      oda:product "Eksporti (me këmbimet)" ;
+      oda:year <http://dbpedia.org/resource/2003> ;
+      sdmx-measure:obsValue
+              "326.151"^^xsd:double .
+
+<http://open.data.al/electricityusage19982010#dataset>
+      a       oda:Dataset ;
+      dc:creator "Open Data Albania (ODA)" ;
+      dc:date "Thu Sep 08 23:00:13 CEST 2011" ;
+      dc:publisher "INSTAT" ;
+      dc:title "Electricity Usage in Albania 1998-2010" .
+
+<http://open.data.al/ElectricityUsage1998-2010_Nga centrali_2000>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/electricityusage19982010#dataset> ;
+      oda:indicator oda:ElectricityUsage1998-2010 ;
+      oda:product "Nga centrali" ;
+      oda:year <http://dbpedia.org/resource/2000> ;
+      sdmx-measure:obsValue
+              "28.324"^^xsd:double .
+
+<http://open.data.al/ElectricityUsage1998-2010_Humbje në rrjet_2010>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/electricityusage19982010#dataset> ;
+      oda:indicator oda:ElectricityUsage1998-2010 ;
+      oda:product "Humbje në rrjet" ;
+      oda:year <http://dbpedia.org/resource/2010> ;
+      sdmx-measure:obsValue
+              "2167.199462"^^xsd:double .
+
+<http://open.data.al/ElectricityUsage1998-2010_Humbje në rrjet_2008>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/electricityusage19982010#dataset> ;
+      oda:indicator oda:ElectricityUsage1998-2010 ;
+      oda:product "Humbje në rrjet" ;
+      oda:year <http://dbpedia.org/resource/2008> ;
+      sdmx-measure:obsValue
+              "2139.985"^^xsd:double .
+
+<http://open.data.al/ElectricityUsage1998-2010_Humbje në rrjet_2003>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/electricityusage19982010#dataset> ;
+      oda:indicator oda:ElectricityUsage1998-2010 ;
+      oda:product "Humbje në rrjet" ;
+      oda:year <http://dbpedia.org/resource/2003> ;
+      sdmx-measure:obsValue
+              "2254.525"^^xsd:double .
+
+<http://open.data.al/ElectricityUsage1998-2010_Nga centrali_2009>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/electricityusage19982010#dataset> ;
+      oda:indicator oda:ElectricityUsage1998-2010 ;
+      oda:product "Nga centrali" ;
+      oda:year <http://dbpedia.org/resource/2009> ;
+      sdmx-measure:obsValue
+              "28.604"^^xsd:double .
+
+[]    a       oda:Indicator ;
+      rdfs:label "Indicator" .
+
+<http://open.data.al/ElectricityUsage1998-2010_Nga konsumatorët_2002>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/electricityusage19982010#dataset> ;
+      oda:indicator oda:ElectricityUsage1998-2010 ;
+      oda:product "Nga konsumatorët" ;
+      oda:year <http://dbpedia.org/resource/2002> ;
+      sdmx-measure:obsValue
+              "3462.913"^^xsd:double .
+
+<http://open.data.al/ElectricityUsage1998-2010_Eksporti (me këmbimet)_1999>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/electricityusage19982010#dataset> ;
+      oda:indicator oda:ElectricityUsage1998-2010 ;
+      oda:product "Eksporti (me këmbimet)" ;
+      oda:year <http://dbpedia.org/resource/1999> ;
+      sdmx-measure:obsValue
+              "774.093"^^xsd:double .
+
+<http://open.data.al/ElectricityUsage1998-2010_Nga centrali_2005>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/electricityusage19982010#dataset> ;
+      oda:indicator oda:ElectricityUsage1998-2010 ;
+      oda:product "Nga centrali" ;
+      oda:year <http://dbpedia.org/resource/2005> ;
+      sdmx-measure:obsValue
+              "99.668"^^xsd:double .
+
+<http://open.data.al/ElectricityUsage1998-2010_Eksporti (me këmbimet)_2007>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/electricityusage19982010#dataset> ;
+      oda:indicator oda:ElectricityUsage1998-2010 ;
+      oda:product "Eksporti (me këmbimet)" ;
+      oda:year <http://dbpedia.org/resource/2007> ;
+      sdmx-measure:obsValue
+              "106.586"^^xsd:double .
+
+<http://open.data.al/ElectricityUsage1998-2010_Nga centrali_2001>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/electricityusage19982010#dataset> ;
+      oda:indicator oda:ElectricityUsage1998-2010 ;
+      oda:product "Nga centrali" ;
+      oda:year <http://dbpedia.org/resource/2001> ;
+      sdmx-measure:obsValue
+              "33.104"^^xsd:double .
+
+<http://open.data.al/ElectricityUsage1998-2010_Eksporti (me këmbimet)_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/electricityusage19982010#dataset> ;
+      oda:indicator oda:ElectricityUsage1998-2010 ;
+      oda:product "Eksporti (me këmbimet)" ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "637.234"^^xsd:double .
+
+<http://open.data.al/ElectricityUsage1998-2010_Humbje në rrjet_1998>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/electricityusage19982010#dataset> ;
+      oda:indicator oda:ElectricityUsage1998-2010 ;
+      oda:product "Humbje në rrjet" ;
+      oda:year <http://dbpedia.org/resource/1998> ;
+      sdmx-measure:obsValue
+              "3167.879"^^xsd:double .
+
+[]    rdfs:label "Product" ;
+      rdfs:subClassOf oda:Dimension .
+
+<http://open.data.al/ElectricityUsage1998-2010_Eksporti (me këmbimet)_2002>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/electricityusage19982010#dataset> ;
+      oda:indicator oda:ElectricityUsage1998-2010 ;
+      oda:product "Eksporti (me këmbimet)" ;
+      oda:year <http://dbpedia.org/resource/2002> ;
+      sdmx-measure:obsValue
+              "52.558"^^xsd:double .
+
+<http://open.data.al/ElectricityUsage1998-2010__>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/electricityusage19982010#dataset> ;
+      oda:indicator oda:ElectricityUsage1998-2010 .
+
+<http://open.data.al/ElectricityUsage1998-2010_Nga konsumatorët_2009>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/electricityusage19982010#dataset> ;
+      oda:indicator oda:ElectricityUsage1998-2010 ;
+      oda:product "Nga konsumatorët" ;
+      oda:year <http://dbpedia.org/resource/2009> ;
+      sdmx-measure:obsValue
+              "4300.808"^^xsd:double .
+
+<http://open.data.al/ElectricityUsage1998-2010_Nga centrali_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/electricityusage19982010#dataset> ;
+      oda:indicator oda:ElectricityUsage1998-2010 ;
+      oda:product "Nga centrali" ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "102.393183015"^^xsd:double .
+
+<http://open.data.al/ElectricityUsage1998-2010_Humbje në rrjet_2009>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/electricityusage19982010#dataset> ;
+      oda:indicator oda:ElectricityUsage1998-2010 ;
+      oda:product "Humbje në rrjet" ;
+      oda:year <http://dbpedia.org/resource/2009> ;
+      sdmx-measure:obsValue
+              "2328.322"^^xsd:double .
+
+oda:ElectricityUsage1998-2010
+      a       oda:Indicator ;
+      rdfs:label "ElectricityUsage1998-2010" .
+
+<http://open.data.al/ElectricityUsage1998-2010_Eksporti (me këmbimet)_1998>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/electricityusage19982010#dataset> ;
+      oda:indicator oda:ElectricityUsage1998-2010 ;
+      oda:product "Eksporti (me këmbimet)" ;
+      oda:year <http://dbpedia.org/resource/1998> ;
+      sdmx-measure:obsValue
+              "690.435"^^xsd:double .
+
+<http://open.data.al/ElectricityUsage1998-2010_Nga konsumatorët_1999>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/electricityusage19982010#dataset> ;
+      oda:indicator oda:ElectricityUsage1998-2010 ;
+      oda:product "Nga konsumatorët" ;
+      oda:year <http://dbpedia.org/resource/1999> ;
+      sdmx-measure:obsValue
+              "2678.15"^^xsd:double .
+
+<http://open.data.al/ElectricityUsage1998-2010_Nga konsumatorët_2003>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/electricityusage19982010#dataset> ;
+      oda:indicator oda:ElectricityUsage1998-2010 ;
+      oda:product "Nga konsumatorët" ;
+      oda:year <http://dbpedia.org/resource/2003> ;
+      sdmx-measure:obsValue
+              "3490.955"^^xsd:double .
+
+<http://open.data.al/ElectricityUsage1998-2010_Humbje në rrjet_2002>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/electricityusage19982010#dataset> ;
+      oda:indicator oda:ElectricityUsage1998-2010 ;
+      oda:product "Humbje në rrjet" ;
+      oda:year <http://dbpedia.org/resource/2002> ;
+      sdmx-measure:obsValue
+              "1886.012"^^xsd:double .
+
+<http://open.data.al/ElectricityUsage1998-2010_Eksporti (me këmbimet)_2001>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/electricityusage19982010#dataset> ;
+      oda:indicator oda:ElectricityUsage1998-2010 ;
+      oda:product "Eksporti (me këmbimet)" ;
+      oda:year <http://dbpedia.org/resource/2001> ;
+      sdmx-measure:obsValue
+              "69.336"^^xsd:double .
+
+<http://open.data.al/ElectricityUsage1998-2010_Eksporti (me këmbimet)_2008>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/electricityusage19982010#dataset> ;
+      oda:indicator oda:ElectricityUsage1998-2010 ;
+      oda:product "Eksporti (me këmbimet)" ;
+      oda:year <http://dbpedia.org/resource/2008> ;
+      sdmx-measure:obsValue
+              "293.399"^^xsd:double .
+
+<http://open.data.al/ElectricityUsage1998-2010_Nga centrali_2002>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/electricityusage19982010#dataset> ;
+      oda:indicator oda:ElectricityUsage1998-2010 ;
+      oda:product "Nga centrali" ;
+      oda:year <http://dbpedia.org/resource/2002> ;
+      sdmx-measure:obsValue
+              "57.083"^^xsd:double .
+
+[]    rdfs:label "Year" ;
+      rdfs:subClassOf oda:Dimension .
+
+<http://open.data.al/ElectricityUsage1998-2010_Eksporti (me këmbimet)_2005>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/electricityusage19982010#dataset> ;
+      oda:indicator oda:ElectricityUsage1998-2010 ;
+      oda:product "Eksporti (me këmbimet)" ;
+      oda:year <http://dbpedia.org/resource/2005> ;
+      sdmx-measure:obsValue
+              "729.527"^^xsd:double .
+
+<http://open.data.al/ElectricityUsage1998-2010_Nga konsumatorët_2008>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/electricityusage19982010#dataset> ;
+      oda:indicator oda:ElectricityUsage1998-2010 ;
+      oda:product "Nga konsumatorët" ;
+      oda:year <http://dbpedia.org/resource/2008> ;
+      sdmx-measure:obsValue
+              "4156.23"^^xsd:double .

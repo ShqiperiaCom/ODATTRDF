@@ -1,0 +1,310 @@
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ckan:    <http://ckan.net/ns#> .
+@prefix sdx:     <http://epimorphics.com/vocab/sdx#> .
+@prefix sdmx-measure:  <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix scv:     <http://purl.org/NET/scovo#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix oda:     <http://open.data.al/oda.owl#> .
+
+<http://open.data.al/PopulationByAge_Perqindja e + 65 ndaj totalit_2009>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/annualpopulationbyage#dataset> ;
+      oda:indicator oda:PopulationByAge ;
+      oda:product "Perqindja e + 65 ndaj totalit" ;
+      oda:year <http://dbpedia.org/resource/2009> ;
+      sdmx-measure:obsValue
+              "0.09402905131045822"^^xsd:double .
+
+<http://open.data.al/annualpopulationbyage#dataset>
+      a       oda:Dataset ;
+      dc:creator "Open Data Albania (ODA)" ;
+      dc:date "Sat Sep 10 14:33:38 CEST 2011" ;
+      dc:publisher "INSTAT" ;
+      dc:title "Annual average population by age-groups, Albania" .
+
+<http://open.data.al/PopulationByAge_Perqindja e + 65 ndaj totalit_2007>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/annualpopulationbyage#dataset> ;
+      oda:indicator oda:PopulationByAge ;
+      oda:product "Perqindja e + 65 ndaj totalit" ;
+      oda:year <http://dbpedia.org/resource/2007> ;
+      sdmx-measure:obsValue
+              "0.08972975674532642"^^xsd:double .
+
+<http://open.data.al/PopulationByAge_Perqindja e 0-14 ndaj totalit_2002>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/annualpopulationbyage#dataset> ;
+      oda:indicator oda:PopulationByAge ;
+      oda:product "Perqindja e 0-14 ndaj totalit" ;
+      oda:year <http://dbpedia.org/resource/2002> ;
+      sdmx-measure:obsValue
+              "0.2844971577179635"^^xsd:double .
+
+<http://open.data.al/PopulationByAge_Perqindja e 15-64 ndaj totalit_2005>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/annualpopulationbyage#dataset> ;
+      oda:indicator oda:PopulationByAge ;
+      oda:product "Perqindja e 15-64 ndaj totalit" ;
+      oda:year <http://dbpedia.org/resource/2005> ;
+      sdmx-measure:obsValue
+              "0.6544521921812871"^^xsd:double .
+
+<http://open.data.al/PopulationByAge_Perqindja e + 65 ndaj totalit_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/annualpopulationbyage#dataset> ;
+      oda:indicator oda:PopulationByAge ;
+      oda:product "Perqindja e + 65 ndaj totalit" ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "0.08718884789150165"^^xsd:double .
+
+<http://open.data.al/PopulationByAge_Perqindja e 0-14 ndaj totalit_2004>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/annualpopulationbyage#dataset> ;
+      oda:indicator oda:PopulationByAge ;
+      oda:product "Perqindja e 0-14 ndaj totalit" ;
+      oda:year <http://dbpedia.org/resource/2004> ;
+      sdmx-measure:obsValue
+              "0.2689782506369785"^^xsd:double .
+
+<http://open.data.al/PopulationByAge_Perqindja e 0-14 ndaj totalit_2003>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/annualpopulationbyage#dataset> ;
+      oda:indicator oda:PopulationByAge ;
+      oda:product "Perqindja e 0-14 ndaj totalit" ;
+      oda:year <http://dbpedia.org/resource/2003> ;
+      sdmx-measure:obsValue
+              "0.2767153039146312"^^xsd:double .
+
+[]    rdfs:domain oda:DataEntry ;
+      rdfs:label "Data Entry Value" .
+
+<http://open.data.al/PopulationByAge_Perqindja e 0-14 ndaj totalit_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/annualpopulationbyage#dataset> ;
+      oda:indicator oda:PopulationByAge ;
+      oda:product "Perqindja e 0-14 ndaj totalit" ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "0.25259079583057525"^^xsd:double .
+
+<http://open.data.al/PopulationByAge_Perqindja e 15-64 ndaj totalit_2003>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/annualpopulationbyage#dataset> ;
+      oda:indicator oda:PopulationByAge ;
+      oda:product "Perqindja e 15-64 ndaj totalit" ;
+      oda:year <http://dbpedia.org/resource/2003> ;
+      sdmx-measure:obsValue
+              "0.6434127575826585"^^xsd:double .
+
+<http://open.data.al/PopulationByAge_Perqindja e + 65 ndaj totalit_2004>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/annualpopulationbyage#dataset> ;
+      oda:indicator oda:PopulationByAge ;
+      oda:product "Perqindja e + 65 ndaj totalit" ;
+      oda:year <http://dbpedia.org/resource/2004> ;
+      sdmx-measure:obsValue
+              "0.08213409549049905"^^xsd:double .
+
+[]    a       oda:Dataset ;
+      rdfs:label "Dataset" .
+
+<http://open.data.al/PopulationByAge_Perqindja e 15-64 ndaj totalit_2001>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/annualpopulationbyage#dataset> ;
+      oda:indicator oda:PopulationByAge ;
+      oda:product "Perqindja e 15-64 ndaj totalit" ;
+      oda:year <http://dbpedia.org/resource/2001> ;
+      sdmx-measure:obsValue
+              "0.6325878609840443"^^xsd:double .
+
+<http://open.data.al/PopulationByAge_Perqindja e 15-64 ndaj totalit_2007>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/annualpopulationbyage#dataset> ;
+      oda:indicator oda:PopulationByAge ;
+      oda:product "Perqindja e 15-64 ndaj totalit" ;
+      oda:year <http://dbpedia.org/resource/2007> ;
+      sdmx-measure:obsValue
+              "0.6649933240271442"^^xsd:double .
+
+<http://open.data.al/PopulationByAge_Perqindja e + 65 ndaj totalit_2002>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/annualpopulationbyage#dataset> ;
+      oda:indicator oda:PopulationByAge ;
+      oda:product "Perqindja e + 65 ndaj totalit" ;
+      oda:year <http://dbpedia.org/resource/2002> ;
+      sdmx-measure:obsValue
+              "0.07768667174188168"^^xsd:double .
+
+<http://open.data.al/PopulationByAge_Perqindja e 0-14 ndaj totalit_2008>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/annualpopulationbyage#dataset> ;
+      oda:indicator oda:PopulationByAge ;
+      oda:product "Perqindja e 0-14 ndaj totalit" ;
+      oda:year <http://dbpedia.org/resource/2008> ;
+      sdmx-measure:obsValue
+              "0.23939498082474392"^^xsd:double .
+
+<http://open.data.al/PopulationByAge_Perqindja e 15-64 ndaj totalit_2009>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/annualpopulationbyage#dataset> ;
+      oda:indicator oda:PopulationByAge ;
+      oda:product "Perqindja e 15-64 ndaj totalit" ;
+      oda:year <http://dbpedia.org/resource/2009> ;
+      sdmx-measure:obsValue
+              "0.6719889732617876"^^xsd:double .
+
+[]    rdfs:label "Year" ;
+      rdfs:subClassOf oda:Dimension .
+
+<http://open.data.al/PopulationByAge_Perqindja e + 65 ndaj totalit_2008>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/annualpopulationbyage#dataset> ;
+      oda:indicator oda:PopulationByAge ;
+      oda:product "Perqindja e + 65 ndaj totalit" ;
+      oda:year <http://dbpedia.org/resource/2008> ;
+      sdmx-measure:obsValue
+              "0.09232306387795373"^^xsd:double .
+
+oda:PopulationByAge
+      a       oda:Indicator ;
+      rdfs:label "PopulationByAge" .
+
+<http://open.data.al/PopulationByAge_Perqindja e 0-14 ndaj totalit_2001>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/annualpopulationbyage#dataset> ;
+      oda:indicator oda:PopulationByAge ;
+      oda:product "Perqindja e 0-14 ndaj totalit" ;
+      oda:year <http://dbpedia.org/resource/2001> ;
+      sdmx-measure:obsValue
+              "0.29195179087581924"^^xsd:double .
+
+[]    rdfs:label "Country" ;
+      rdfs:subClassOf oda:Dimension .
+
+<http://open.data.al/PopulationByAge_Perqindja e 0-14 ndaj totalit_2005>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/annualpopulationbyage#dataset> ;
+      oda:indicator oda:PopulationByAge ;
+      oda:product "Perqindja e 0-14 ndaj totalit" ;
+      oda:year <http://dbpedia.org/resource/2005> ;
+      sdmx-measure:obsValue
+              "0.26081800675956845"^^xsd:double .
+
+<http://open.data.al/PopulationByAge_Perqindja e 0-14 ndaj totalit_2007>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/annualpopulationbyage#dataset> ;
+      oda:indicator oda:PopulationByAge ;
+      oda:product "Perqindja e 0-14 ndaj totalit" ;
+      oda:year <http://dbpedia.org/resource/2007> ;
+      sdmx-measure:obsValue
+              "0.24527691922752937"^^xsd:double .
+
+<http://open.data.al/PopulationByAge_Perqindja e 15-64 ndaj totalit_2004>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/annualpopulationbyage#dataset> ;
+      oda:indicator oda:PopulationByAge ;
+      oda:product "Perqindja e 15-64 ndaj totalit" ;
+      oda:year <http://dbpedia.org/resource/2004> ;
+      sdmx-measure:obsValue
+              "0.6488876538725225"^^xsd:double .
+
+<http://open.data.al/PopulationByAge_Perqindja e + 65 ndaj totalit_2005>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/annualpopulationbyage#dataset> ;
+      oda:indicator oda:PopulationByAge ;
+      oda:product "Perqindja e + 65 ndaj totalit" ;
+      oda:year <http://dbpedia.org/resource/2005> ;
+      sdmx-measure:obsValue
+              "0.08472980105914439"^^xsd:double .
+
+[]    rdfs:label "Product" ;
+      rdfs:subClassOf oda:Dimension .
+
+<http://open.data.al/PopulationByAge_Perqindja e + 65 ndaj totalit_2003>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/annualpopulationbyage#dataset> ;
+      oda:indicator oda:PopulationByAge ;
+      oda:product "Perqindja e + 65 ndaj totalit" ;
+      oda:year <http://dbpedia.org/resource/2003> ;
+      sdmx-measure:obsValue
+              "0.07987193850271032"^^xsd:double .
+
+<http://open.data.al/PopulationByAge_Perqindja e 15-64 ndaj totalit_2002>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/annualpopulationbyage#dataset> ;
+      oda:indicator oda:PopulationByAge ;
+      oda:product "Perqindja e 15-64 ndaj totalit" ;
+      oda:year <http://dbpedia.org/resource/2002> ;
+      sdmx-measure:obsValue
+              "0.6378161705401548"^^xsd:double .
+
+[]    a       oda:Indicator ;
+      rdfs:label "Indicator" .
+
+<http://open.data.al/PopulationByAge_Perqindja e 15-64 ndaj totalit_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/annualpopulationbyage#dataset> ;
+      oda:indicator oda:PopulationByAge ;
+      oda:product "Perqindja e 15-64 ndaj totalit" ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "0.6602203562779231"^^xsd:double .
+
+<http://open.data.al/PopulationByAge_Perqindja e 0-14 ndaj totalit_2009>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/annualpopulationbyage#dataset> ;
+      oda:indicator oda:PopulationByAge ;
+      oda:product "Perqindja e 0-14 ndaj totalit" ;
+      oda:year <http://dbpedia.org/resource/2009> ;
+      sdmx-measure:obsValue
+              "0.23398197542775412"^^xsd:double .
+
+<http://open.data.al/PopulationByAge_Perqindja e 15-64 ndaj totalit_2008>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/annualpopulationbyage#dataset> ;
+      oda:indicator oda:PopulationByAge ;
+      oda:product "Perqindja e 15-64 ndaj totalit" ;
+      oda:year <http://dbpedia.org/resource/2008> ;
+      sdmx-measure:obsValue
+              "0.6682819552973023"^^xsd:double .
+
+<http://open.data.al/PopulationByAge_Perqindja e + 65 ndaj totalit_2001>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/annualpopulationbyage#dataset> ;
+      oda:indicator oda:PopulationByAge ;
+      oda:product "Perqindja e + 65 ndaj totalit" ;
+      oda:year <http://dbpedia.org/resource/2001> ;
+      sdmx-measure:obsValue
+              "0.07546034814013641"^^xsd:double .

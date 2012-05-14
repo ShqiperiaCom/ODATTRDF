@@ -1,0 +1,46 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:scv="http://purl.org/NET/scovo#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:sdx="http://epimorphics.com/vocab/sdx#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:ckan="http://ckan.net/ns#" > 
+  <rdf:Description rdf:about="file:mappings/UNdata_cpi.trig">
+    <owl:import rdf:resource="http://purl.org/NET/scovo#"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <rdfs:subClassOf rdf:resource="http://purl.org/NET/scovo#Dimension"/>
+    <rdfs:label>country</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <rdfs:subClassOf rdf:resource="http://purl.org/NET/scovo#Dimension"/>
+    <rdfs:label>year</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/CPI_Food">
+    <rdfs:seeAlso rdf:resource="http://dbpedia.org/page/Consumer_price_index"/>
+    <rdf:type rdf:resource="http://purl.org/NET/scovo#Item"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A2">
+    <rdfs:subClassOf rdf:resource="http://purl.org/NET/scovo#Dimension"/>
+    <rdfs:label>city</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A3">
+    <rdfs:subClassOf rdf:resource="http://purl.org/NET/scovo#Dimension"/>
+    <rdfs:label>year</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A4">
+    <rdfs:subClassOf rdf:resource="http://purl.org/NET/scovo#Dimension"/>
+    <rdfs:label>city</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/CPI_General">
+    <rdfs:seeAlso rdf:resource="http://dbpedia.org/page/Consumer_price_index"/>
+    <rdf:type rdf:resource="http://purl.org/NET/scovo#Item"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A5">
+    <rdfs:subClassOf rdf:resource="http://purl.org/NET/scovo#Dimension"/>
+    <rdfs:label>country</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

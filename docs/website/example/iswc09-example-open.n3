@@ -1,0 +1,2555 @@
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ckan:    <http://ckan.net/ns#> .
+@prefix sdx:     <http://epimorphics.com/vocab/sdx#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix scv:     <http://purl.org/NET/scovo#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Produkte kimike dhe plastike" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2003> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "380.9744177"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Të tjera" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2003> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "8113.406312"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Importi" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1999> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "-159464.793398"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Eksporti" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1995> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "18709.8"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Materiale ndërtimi dhe metale" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "59560.468026"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Eksporti" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "97171"^^xsd:int .
+
+[]    rdfs:domain <http://open.data.al/ODA#DataEntry> ;
+      rdfs:label "Data Entry Value" .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Prodhime druri dhe letre" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1995> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "1384"^^xsd:short .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Minerale, lëndë djegëse, energji elektrike" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2001> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "26132.675287"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Prodhime druri dhe letre" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1997> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "2842.517"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Produkte kimike dhe plastike" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "1644.2857840000001"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Makineri, pajisje dhe pjesë këmbimi" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2003> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "49042.311662"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Minerale, lëndë djegëse, energji elektrike" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1993> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "2771.5"^^xsd:float .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Minerale, lëndë djegëse, energji elektrike" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "31507"^^xsd:short .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Materiale ndërtimi dhe metale" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1999> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "2336.93394"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Importi" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2003> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "-225982.5719147"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Tekstile dhe këpucë" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1995> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "9810.898"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Makineri, pajisje dhe pjesë këmbimi" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "3924.523817"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Prodhime druri dhe letre" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1993> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "585.5"^^xsd:float .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Eksporti" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "65818"^^xsd:int .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Ushqime, pije, duhan" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1997> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "4208.9"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Minerale, lëndë djegëse, energji elektrike" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1997> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "1212.6"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Ushqime, pije, duhan" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "74691.97545845472"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Lëkurë dhe artikuj prej lëkure" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "7825.438784"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Eksporti" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1997> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "21044.4"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Ushqime, pije, duhan" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2003> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "4508.5337041"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Importi" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1995> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "-66146.924"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Tekstile dhe këpucë" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1999> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "32839.19606"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Produkte kimike dhe plastike" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2001> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "15656.142788000001"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Lëkurë dhe artikuj prej lëkure" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1999> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "1034.3938669999998"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Produkte kimike dhe plastike" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "39525.984397"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#Indicator> ;
+      rdfs:label "Indicator" .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Të tjera" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1999> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "1425.6993790000001"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Prodhime druri dhe letre" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "3031.096161"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Minerale, lëndë djegëse, energji elektrike" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1993> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "1769.9184"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Tekstile dhe këpucë" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2001> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "26634.59303"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Prodhime druri dhe letre" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2003> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "2235.541157"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Makineri, pajisje dhe pjesë këmbimi" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1995> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "255.4"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Produkte kimike dhe plastike" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1993> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "480.1"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Të tjera" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "10655"^^xsd:short .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Minerale, lëndë djegëse, energji elektrike" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1999> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "2432.335202"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Materiale ndërtimi dhe metale" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2001> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "3793.4479797"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Materiale ndërtimi dhe metale" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "39063"^^xsd:int .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Lëkurë dhe artikuj prej lëkure" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2003> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "6718.367601"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Produkte kimike dhe plastike" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "786.007692"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Minerale, lëndë djegëse, energji elektrike" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2001> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "840.689155"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Minerale, lëndë djegëse, energji elektrike" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1997> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "7567.465"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Minerale, lëndë djegëse, energji elektrike" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "3436"^^xsd:short .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Të tjera" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1993> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "2826.5776"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Materiale ndërtimi dhe metale" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1997> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "9438.603000000001"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Materiale ndërtimi dhe metale" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1999> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "13974.54263"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Lëkurë dhe artikuj prej lëkure" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "1274"^^xsd:short .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Lëkurë dhe artikuj prej lëkure" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "6913.622448085299"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Makineri, pajisje dhe pjesë këmbimi" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2001> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "45056.205485"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Ushqime, pije, duhan" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "7078.755173"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Lëkurë dhe artikuj prej lëkure" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1997> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "1151.5"^^xsd:float .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Ushqime, pije, duhan" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2003> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "44884.4617285"^^xsd:double .
+
+[]    rdfs:label "Year" ;
+      rdfs:subClassOf <http://open.data.al/ODA#Dimension> .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Minerale, lëndë djegëse, energji elektrike" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "14986.505079999999"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Minerale, lëndë djegëse, energji elektrike" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "20647.904389"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Tekstile dhe këpucë" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "32224"^^xsd:short .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Materiale ndërtimi dhe metale" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "12913.9840795"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Prodhime druri dhe letre" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "13323.377717"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Tekstile dhe këpucë" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1997> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "9008.5"^^xsd:float .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Materiale ndërtimi dhe metale" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2003> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "6274.269242"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Ushqime, pije, duhan" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "5386"^^xsd:short .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Të tjera" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "2341.46318144"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Makineri, pajisje dhe pjesë këmbimi" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1999> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "2779.788069"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Të tjera" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1997> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "3480.154"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Eksporti" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2001> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "44095.92713879"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Makineri, pajisje dhe pjesë këmbimi" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1993> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "413.7"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Ushqime, pije, duhan" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2001> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "3968.31622044"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Makineri, pajisje dhe pjesë këmbimi" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1997> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "1197.4"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Tekstile dhe këpucë" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1995> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "7659.8"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Materiale ndërtimi dhe metale" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1993> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "1284.2"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Prodhime druri dhe letre" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "17446.29435669199"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Importi" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "-431107.1390457674"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Materiale ndërtimi dhe metale" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1993> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "3232.5666"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Prodhime druri dhe letre" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1999> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "4796.3827630000005"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Eksporti" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1993> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "12498.9"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Importi" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2001> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "-190154.614561"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Minerale, lëndë djegëse, energji elektrike" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1995> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "6797.387000000001"^^xsd:double .
+
+[]    rdfs:label "Product" ;
+      rdfs:subClassOf <http://open.data.al/ODA#Dimension> .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Të tjera" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1995> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "2789.196"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Të tjera" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2003> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "1168.1639427999999"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Eksporti" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "103243.68350530002"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Prodhime druri dhe letre" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2001> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "1509.157768"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Ushqime, pije, duhan" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1993> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "16016.4079"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Produkte kimike dhe plastike" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1997> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "216.3"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Tekstile dhe këpucë" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2003> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "32720.53585"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Materiale ndërtimi dhe metale" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1995> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "4906.455"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Ushqime, pije, duhan" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1999> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "4184.162916"^^xsd:double .
+
+[]    rdfs:label "Country" ;
+      rdfs:subClassOf <http://open.data.al/ODA#Dimension> .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Të tjera" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1995> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "1218.6"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Lëkurë dhe artikuj prej lëkure" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1993> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "103.4"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Lëkurë dhe artikuj prej lëkure" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1999> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "2997.505506"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Ushqime, pije, duhan" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1995> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "18472.073999999997"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Importi" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "-376194.4555149999"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Minerale, lëndë djegëse, energji elektrike" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1995> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "2949.5"^^xsd:float .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Produkte kimike dhe plastike" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1997> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "8474.438"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Lëkurë dhe artikuj prej lëkure" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "2022.278174"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Materiale ndërtimi dhe metale" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2001> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "23573.958353"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Eksporti" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2003> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "54486.875152600005"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Lëkurë dhe artikuj prej lëkure" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1995> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "556.2"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Materiale ndërtimi dhe metale" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1995> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "1844.1"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Makineri, pajisje dhe pjesë këmbimi" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1999> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "27632.196163000004"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Prodhime druri dhe letre" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1997> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "1367.1"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Minerale, lëndë djegëse, energji elektrike" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "62932.282655999996"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Të tjera" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1997> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "491.2"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Prodhime druri dhe letre" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1999> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "1585.786681"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Lëkurë dhe artikuj prej lëkure" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2001> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "1570.816506"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Produkte kimike dhe plastike" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2001> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "571.803629"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Makineri, pajisje dhe pjesë këmbimi" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "61963"^^xsd:int .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Të tjera" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2001> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "7532.158981"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Ushqime, pije, duhan" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1999> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "44258.822020000014"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Lëkurë dhe artikuj prej lëkure" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "1528.5723991300001"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Materiale ndërtimi dhe metale" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "10373"^^xsd:short .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Makineri, pajisje dhe pjesë këmbimi" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2001> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "1499.427649"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Lëkurë dhe artikuj prej lëkure" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1993> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "244.45819999999998"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Prodhime druri dhe letre" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2003> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "7201.090466"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Tekstile dhe këpucë" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "39557.20194481193"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Importi" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "-262191"^^xsd:int .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Tekstile dhe këpucë" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2001> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "28843.02399365"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Makineri, pajisje dhe pjesë këmbimi" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2003> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "1933.73487"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Të tjera" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "1720"^^xsd:short .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Importi" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1993> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "-58336.496699999996"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Materiale ndërtimi dhe metale" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "15385.545772"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Materiale ndërtimi dhe metale" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1997> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "2190.8"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Makineri, pajisje dhe pjesë këmbimi" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "4893.67502135"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Produkte kimike dhe plastike" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2003> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "20812.000688"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Të tjera" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "2888.5491570000004"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Produkte kimike dhe plastike" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1999> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "330.656593"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Prodhime druri dhe letre" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "2075"^^xsd:short .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Të tjera" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1999> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "7709.633956"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Tekstile dhe këpucë" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1999> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "32319.81331199999"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Tekstile dhe këpucë" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1993> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "5525.6175"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Të tjera" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1993> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "643.4"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Materiale ndërtimi dhe metale" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2003> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "29711.1452872"^^xsd:double .
+
+<http://open.data.al/ODA#BilanciTregtar>
+      a       <http://open.data.al/ODA#Indicator> ;
+      rdfs:label "BilanciTregtar" .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Minerale, lëndë djegëse, energji elektrike" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "61990.41967222199"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Lëkurë dhe artikuj prej lëkure" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1995> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "822.759"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Prodhime druri dhe letre" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2001> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "4700.788242"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Të tjera" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2001> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "1499.244238"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Tekstile dhe këpucë" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1993> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "3842.6"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Prodhime druri dhe letre" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "3430.8220278299996"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Makineri, pajisje dhe pjesë këmbimi" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1995> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "15289.767"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Produkte kimike dhe plastike" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "26590"^^xsd:short .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Ushqime, pije, duhan" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1993> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "2374.6"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Makineri, pajisje dhe pjesë këmbimi" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "78773.326396"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Ushqime, pije, duhan" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1997> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "26162.459000000003"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Tekstile dhe këpucë" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1997> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "15078.919"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Prodhime druri dhe letre" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1995> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "1214.3220000000001"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Produkte kimike dhe plastike" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1993> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "6325.8716"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Lëkurë dhe artikuj prej lëkure" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2003> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "1367.359993"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Lëkurë dhe artikuj prej lëkure" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1997> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "2147.9640000000004"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Produkte kimike dhe plastike" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "50970.58913866616"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Ushqime, pije, duhan" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "7497.724157000001"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Ushqime, pije, duhan" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "60895.26907699999"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Tekstile dhe këpucë" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "38102"^^xsd:int .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Produkte kimike dhe plastike" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1995> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "6044.066000000001"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Produkte kimike dhe plastike" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1995> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "244"^^xsd:short .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Ushqime, pije, duhan" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "46055"^^xsd:int .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Ushqime, pije, duhan" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2001> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "36920.243875"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Tekstile dhe këpucë" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "39309.610619"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Prodhime druri dhe letre" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1993> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "681.5471"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Minerale, lëndë djegëse, energji elektrike" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2003> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "26779.25232"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Importi" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1997> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "-95021.605"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Minerale, lëndë djegëse, energji elektrike" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1999> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "11124.808501"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Të tjera" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "14048.697842999998"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Makineri, pajisje dhe pjesë këmbimi" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "98381.04235402212"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Makineri, pajisje dhe pjesë këmbimi" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "2750"^^xsd:short .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Tekstile dhe këpucë" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2003> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "35191.596724"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Ushqime, pije, duhan" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1995> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "2598.1"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Produkte kimike dhe plastike" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1999> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "14131.705799"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Materiale ndërtimi dhe metale" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "66693.45419319907"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Eksporti" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1999> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "48429.56995899999"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Makineri, pajisje dhe pjesë këmbimi" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1993> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "21713.5318"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Makineri, pajisje dhe pjesë këmbimi" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/1997> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "19829.086"^^xsd:double .
+
+<http://open.data.al/BilanciTregtarAlbania#dataset>
+      a       <http://open.data.al/ODA#Dataset> ;
+      dc:creator "Open Data Albania. Source Ministry of Finance" ;
+      dc:date "NOW()" ;
+      dc:publisher "Albanian Ministry of Finance" ;
+      dc:title "BilanciTregtar per year, country, and products" .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Lëkurë dhe artikuj prej lëkure" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2001> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "3947.84852"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Prodhime druri dhe letre" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "8527"^^xsd:short .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Lëkurë dhe artikuj prej lëkure" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "5607"^^xsd:short .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Tekstile dhe këpucë" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2007> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "47069.180047"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Minerale, lëndë djegëse, energji elektrike" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2003> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "1426.701102"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Tekstile dhe këpucë" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "48345.25246605"^^xsd:double .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Produkte kimike dhe plastike" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2005> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "702"^^xsd:short .
+
+[]    a       <http://open.data.al/ODA#DataEntry> ;
+      <http://open.data.al/ODA#country>
+              <http://dbpedia.org/resource/Albania> ;
+      <http://open.data.al/ODA#dataset>
+              <http://open.data.al/BilanciTregtarAlbania#dataset> ;
+      <http://open.data.al/ODA#indicator>
+              <http://open.data.al/ODA#BilanciTregtar> ;
+      <http://open.data.al/ODA#product>
+              "Të tjera" ;
+      <http://open.data.al/ODA#year>
+              <http://dbpedia.org/resource/2009> ;
+      <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+              "14462.53947961429"^^xsd:double .

@@ -1,0 +1,154 @@
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ckan:    <http://ckan.net/ns#> .
+@prefix sdx:     <http://epimorphics.com/vocab/sdx#> .
+@prefix sdmx-measure:  <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix scv:     <http://purl.org/NET/scovo#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix oda:     <http://open.data.al/oda.owl#> .
+
+<http://open.data.al/ElectricitySources_Albania_2008>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/energysources#dataset> ;
+      oda:indicator oda:ElectricitySources ;
+      oda:year <http://dbpedia.org/resource/2008> ;
+      sdmx-measure:obsValue
+              "6608"^^xsd:short .
+
+[]    a       oda:Dataset ;
+      rdfs:label "Dataset" .
+
+<http://open.data.al/ElectricitySources_Albania_2009>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/energysources#dataset> ;
+      oda:indicator oda:ElectricitySources ;
+      oda:year <http://dbpedia.org/resource/2009> ;
+      sdmx-measure:obsValue
+              "7194"^^xsd:short .
+
+[]    rdfs:label "Country" ;
+      rdfs:subClassOf oda:Dimension .
+
+<http://open.data.al/ElectricitySources_Albania_1999>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/energysources#dataset> ;
+      oda:indicator oda:ElectricitySources ;
+      oda:year <http://dbpedia.org/resource/1999> ;
+      sdmx-measure:obsValue
+              "6509"^^xsd:short .
+
+<http://open.data.al/ElectricitySources_Albania_2007>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/energysources#dataset> ;
+      oda:indicator oda:ElectricitySources ;
+      oda:year <http://dbpedia.org/resource/2007> ;
+      sdmx-measure:obsValue
+              "5881"^^xsd:short .
+
+<http://open.data.al/energysources#dataset>
+      a       oda:Dataset ;
+      dc:creator "Open Data Albania (ODA)" ;
+      dc:date "Tue Aug 16 18:10:38 CEST 2011" ;
+      dc:publisher "Bilanci i Energjise, INSTAT" ;
+      dc:title "Total Electricity Sources per year in Albania" .
+
+<http://open.data.al/ElectricitySources_Albania_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/energysources#dataset> ;
+      oda:indicator oda:ElectricitySources ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "6793"^^xsd:short .
+
+<http://open.data.al/ElectricitySources_Albania_1998>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/energysources#dataset> ;
+      oda:indicator oda:ElectricitySources ;
+      oda:year <http://dbpedia.org/resource/1998> ;
+      sdmx-measure:obsValue
+              "6137"^^xsd:short .
+
+<http://open.data.al/ElectricitySources_Albania_2010>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/energysources#dataset> ;
+      oda:indicator oda:ElectricitySources ;
+      oda:year <http://dbpedia.org/resource/2010> ;
+      sdmx-measure:obsValue
+              "8719"^^xsd:short .
+
+oda:ElectricitySources
+      a       oda:Indicator ;
+      rdfs:label "ElectricitySources" .
+
+<http://open.data.al/ElectricitySources_Albania_2002>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/energysources#dataset> ;
+      oda:indicator oda:ElectricitySources ;
+      oda:year <http://dbpedia.org/resource/2002> ;
+      sdmx-measure:obsValue
+              "5458"^^xsd:short .
+
+<http://open.data.al/ElectricitySources_Albania_2001>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/energysources#dataset> ;
+      oda:indicator oda:ElectricitySources ;
+      oda:year <http://dbpedia.org/resource/2001> ;
+      sdmx-measure:obsValue
+              "5511"^^xsd:short .
+
+<http://open.data.al/ElectricitySources_Albania_2003>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/energysources#dataset> ;
+      oda:indicator oda:ElectricitySources ;
+      oda:year <http://dbpedia.org/resource/2003> ;
+      sdmx-measure:obsValue
+              "6145"^^xsd:short .
+
+<http://open.data.al/ElectricitySources_Albania_2000>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/energysources#dataset> ;
+      oda:indicator oda:ElectricitySources ;
+      oda:year <http://dbpedia.org/resource/2000> ;
+      sdmx-measure:obsValue
+              "5962"^^xsd:short .
+
+[]    rdfs:label "Year" ;
+      rdfs:subClassOf oda:Dimension .
+
+<http://open.data.al/ElectricitySources_Albania_2005>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/energysources#dataset> ;
+      oda:indicator oda:ElectricitySources ;
+      oda:year <http://dbpedia.org/resource/2005> ;
+      sdmx-measure:obsValue
+              "6707"^^xsd:short .
+
+<http://open.data.al/ElectricitySources_Albania_2004>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/energysources#dataset> ;
+      oda:indicator oda:ElectricitySources ;
+      oda:year <http://dbpedia.org/resource/2004> ;
+      sdmx-measure:obsValue
+              "6361"^^xsd:short .
+
+[]    rdfs:domain oda:DataEntry ;
+      rdfs:label "Data Entry Value" .
+
+[]    a       oda:Indicator ;
+      rdfs:label "Indicator" .

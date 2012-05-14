@@ -1,0 +1,431 @@
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ckan:    <http://ckan.net/ns#> .
+@prefix sdx:     <http://epimorphics.com/vocab/sdx#> .
+@prefix sdmx-measure:  <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix scv:     <http://purl.org/NET/scovo#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix oda:     <http://open.data.al/oda.owl#> .
+
+<http://open.data.al/HospitalBedsPer1000Inhabitants_Albania_1994>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/bedsx1000inhabitants#dataset> ;
+      oda:indicator oda:HospitalBedsPer1000Inhabitants ;
+      oda:year <http://dbpedia.org/resource/1994> ;
+      sdmx-measure:obsValue
+              "3.0171000957"^^xsd:double .
+
+<http://open.data.al/HospitalBedsPer1000Inhabitants_Albania_1984>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/bedsx1000inhabitants#dataset> ;
+      oda:indicator oda:HospitalBedsPer1000Inhabitants ;
+      oda:year <http://dbpedia.org/resource/1984> ;
+      sdmx-measure:obsValue
+              "4.13899993896484"^^xsd:double .
+
+[]    rdfs:label "Year" ;
+      rdfs:subClassOf oda:Dimension .
+
+oda:HospitalBedsPer1000Inhabitants
+      a       oda:Indicator ;
+      rdfs:label "HospitalBedsPer1000Inhabitants" .
+
+<http://open.data.al/HospitalBedsPer1000Inhabitants_Albania_1980>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/bedsx1000inhabitants#dataset> ;
+      oda:indicator oda:HospitalBedsPer1000Inhabitants ;
+      oda:year <http://dbpedia.org/resource/1980> ;
+      sdmx-measure:obsValue
+              "4.27169990539551"^^xsd:double .
+
+<http://open.data.al/HospitalBedsPer1000Inhabitants_Albania_1998>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/bedsx1000inhabitants#dataset> ;
+      oda:indicator oda:HospitalBedsPer1000Inhabitants ;
+      oda:year <http://dbpedia.org/resource/1998> ;
+      sdmx-measure:obsValue
+              "3.0499999523"^^xsd:double .
+
+<http://open.data.al/HospitalBedsPer1000Inhabitants_Albania_1965>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/bedsx1000inhabitants#dataset> ;
+      oda:indicator oda:HospitalBedsPer1000Inhabitants ;
+      oda:year <http://dbpedia.org/resource/1965> .
+
+<http://open.data.al/HospitalBedsPer1000Inhabitants_Albania_1990>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/bedsx1000inhabitants#dataset> ;
+      oda:indicator oda:HospitalBedsPer1000Inhabitants ;
+      oda:year <http://dbpedia.org/resource/1990> ;
+      sdmx-measure:obsValue
+              "4.0248999596"^^xsd:double .
+
+<http://open.data.al/HospitalBedsPer1000Inhabitants_Albania_1961>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/bedsx1000inhabitants#dataset> ;
+      oda:indicator oda:HospitalBedsPer1000Inhabitants ;
+      oda:year <http://dbpedia.org/resource/1961> .
+
+<http://open.data.al/HospitalBedsPer1000Inhabitants_Albania_2003>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/bedsx1000inhabitants#dataset> ;
+      oda:indicator oda:HospitalBedsPer1000Inhabitants ;
+      oda:year <http://dbpedia.org/resource/2003> ;
+      sdmx-measure:obsValue
+              "3.0999999046"^^xsd:double .
+
+<http://open.data.al/HospitalBedsPer1000Inhabitants_Albania_1979>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/bedsx1000inhabitants#dataset> ;
+      oda:indicator oda:HospitalBedsPer1000Inhabitants ;
+      oda:year <http://dbpedia.org/resource/1979> .
+
+<http://open.data.al/HospitalBedsPer1000Inhabitants_Albania_1970>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/bedsx1000inhabitants#dataset> ;
+      oda:indicator oda:HospitalBedsPer1000Inhabitants ;
+      oda:year <http://dbpedia.org/resource/1970> .
+
+<http://open.data.al/HospitalBedsPer1000Inhabitants_Albania_1985>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/bedsx1000inhabitants#dataset> ;
+      oda:indicator oda:HospitalBedsPer1000Inhabitants ;
+      oda:year <http://dbpedia.org/resource/1985> ;
+      sdmx-measure:obsValue
+              "4.13880014419556"^^xsd:double .
+
+<http://open.data.al/HospitalBedsPer1000Inhabitants_Albania_1969>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/bedsx1000inhabitants#dataset> ;
+      oda:indicator oda:HospitalBedsPer1000Inhabitants ;
+      oda:year <http://dbpedia.org/resource/1969> .
+
+<http://open.data.al/HospitalBedsPer1000Inhabitants_Albania_1975>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/bedsx1000inhabitants#dataset> ;
+      oda:indicator oda:HospitalBedsPer1000Inhabitants ;
+      oda:year <http://dbpedia.org/resource/1975> .
+
+<http://open.data.al/HospitalBedsPer1000Inhabitants_Albania_1960>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/bedsx1000inhabitants#dataset> ;
+      oda:indicator oda:HospitalBedsPer1000Inhabitants ;
+      oda:year <http://dbpedia.org/resource/1960> ;
+      sdmx-measure:obsValue
+              "5.1026759147644"^^xsd:double .
+
+<http://open.data.al/HospitalBedsPer1000Inhabitants_Albania_1989>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/bedsx1000inhabitants#dataset> ;
+      oda:indicator oda:HospitalBedsPer1000Inhabitants ;
+      oda:year <http://dbpedia.org/resource/1989> ;
+      sdmx-measure:obsValue
+              "4.13210010528564"^^xsd:double .
+
+<http://open.data.al/HospitalBedsPer1000Inhabitants_Albania_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/bedsx1000inhabitants#dataset> ;
+      oda:indicator oda:HospitalBedsPer1000Inhabitants ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "2.9692"^^xsd:double .
+
+<http://open.data.al/HospitalBedsPer1000Inhabitants_Albania_1962>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/bedsx1000inhabitants#dataset> ;
+      oda:indicator oda:HospitalBedsPer1000Inhabitants ;
+      oda:year <http://dbpedia.org/resource/1962> .
+
+[]    a       oda:Indicator ;
+      rdfs:label "Indicator" .
+
+<http://open.data.al/HospitalBedsPer1000Inhabitants_Albania_1993>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/bedsx1000inhabitants#dataset> ;
+      oda:indicator oda:HospitalBedsPer1000Inhabitants ;
+      oda:year <http://dbpedia.org/resource/1993> ;
+      sdmx-measure:obsValue
+              "3.8313999176"^^xsd:double .
+
+<http://open.data.al/HospitalBedsPer1000Inhabitants_Albania_1997>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/bedsx1000inhabitants#dataset> ;
+      oda:indicator oda:HospitalBedsPer1000Inhabitants ;
+      oda:year <http://dbpedia.org/resource/1997> ;
+      sdmx-measure:obsValue
+              "3.0499999523"^^xsd:double .
+
+<http://open.data.al/HospitalBedsPer1000Inhabitants_Albania_2002>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/bedsx1000inhabitants#dataset> ;
+      oda:indicator oda:HospitalBedsPer1000Inhabitants ;
+      oda:year <http://dbpedia.org/resource/2002> ;
+      sdmx-measure:obsValue
+              "3.2599999905"^^xsd:double .
+
+<http://open.data.al/HospitalBedsPer1000Inhabitants_Albania_1966>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/bedsx1000inhabitants#dataset> ;
+      oda:indicator oda:HospitalBedsPer1000Inhabitants ;
+      oda:year <http://dbpedia.org/resource/1966> .
+
+<http://open.data.al/HospitalBedsPer1000Inhabitants_Albania_1983>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/bedsx1000inhabitants#dataset> ;
+      oda:indicator oda:HospitalBedsPer1000Inhabitants ;
+      oda:year <http://dbpedia.org/resource/1983> ;
+      sdmx-measure:obsValue
+              "4.08620023727416"^^xsd:double .
+
+<http://open.data.al/HospitalBedsPer1000Inhabitants_Albania_1986>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/bedsx1000inhabitants#dataset> ;
+      oda:indicator oda:HospitalBedsPer1000Inhabitants ;
+      oda:year <http://dbpedia.org/resource/1986> ;
+      sdmx-measure:obsValue
+              "4.06969976425171"^^xsd:double .
+
+<http://open.data.al/HospitalBedsPer1000Inhabitants_Albania_2007>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/bedsx1000inhabitants#dataset> ;
+      oda:indicator oda:HospitalBedsPer1000Inhabitants ;
+      oda:year <http://dbpedia.org/resource/2007> ;
+      sdmx-measure:obsValue
+              "2.9153"^^xsd:double .
+
+<http://open.data.al/HospitalBedsPer1000Inhabitants_Albania_1976>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/bedsx1000inhabitants#dataset> ;
+      oda:indicator oda:HospitalBedsPer1000Inhabitants ;
+      oda:year <http://dbpedia.org/resource/1976> .
+
+[]    rdfs:domain oda:DataEntry ;
+      rdfs:label "Data Entry Value" .
+
+<http://open.data.al/HospitalBedsPer1000Inhabitants_Albania_1963>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/bedsx1000inhabitants#dataset> ;
+      oda:indicator oda:HospitalBedsPer1000Inhabitants ;
+      oda:year <http://dbpedia.org/resource/1963> .
+
+<http://open.data.al/HospitalBedsPer1000Inhabitants_Albania_1982>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/bedsx1000inhabitants#dataset> ;
+      oda:indicator oda:HospitalBedsPer1000Inhabitants ;
+      oda:year <http://dbpedia.org/resource/1982> ;
+      sdmx-measure:obsValue
+              "4.16069984436035"^^xsd:double .
+
+<http://open.data.al/HospitalBedsPer1000Inhabitants_Albania_1967>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/bedsx1000inhabitants#dataset> ;
+      oda:indicator oda:HospitalBedsPer1000Inhabitants ;
+      oda:year <http://dbpedia.org/resource/1967> .
+
+<http://open.data.al/HospitalBedsPer1000Inhabitants_Albania_1996>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/bedsx1000inhabitants#dataset> ;
+      oda:indicator oda:HospitalBedsPer1000Inhabitants ;
+      oda:year <http://dbpedia.org/resource/1996> ;
+      sdmx-measure:obsValue
+              "3.1400001049"^^xsd:double .
+
+[]    a       oda:Dataset ;
+      rdfs:label "Dataset" .
+
+<http://open.data.al/HospitalBedsPer1000Inhabitants_Albania_2001>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/bedsx1000inhabitants#dataset> ;
+      oda:indicator oda:HospitalBedsPer1000Inhabitants ;
+      oda:year <http://dbpedia.org/resource/2001> ;
+      sdmx-measure:obsValue
+              "3.2599999905"^^xsd:double .
+
+<http://open.data.al/HospitalBedsPer1000Inhabitants_Albania_1992>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/bedsx1000inhabitants#dataset> ;
+      oda:indicator oda:HospitalBedsPer1000Inhabitants ;
+      oda:year <http://dbpedia.org/resource/1992> ;
+      sdmx-measure:obsValue
+              "4.0134000778"^^xsd:double .
+
+<http://open.data.al/HospitalBedsPer1000Inhabitants_Albania_1972>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/bedsx1000inhabitants#dataset> ;
+      oda:indicator oda:HospitalBedsPer1000Inhabitants ;
+      oda:year <http://dbpedia.org/resource/1972> .
+
+<http://open.data.al/HospitalBedsPer1000Inhabitants_Albania_1987>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/bedsx1000inhabitants#dataset> ;
+      oda:indicator oda:HospitalBedsPer1000Inhabitants ;
+      oda:year <http://dbpedia.org/resource/1987> ;
+      sdmx-measure:obsValue
+              "3.97000002861023"^^xsd:double .
+
+<http://open.data.al/HospitalBedsPer1000Inhabitants_Albania_2004>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/bedsx1000inhabitants#dataset> ;
+      oda:indicator oda:HospitalBedsPer1000Inhabitants ;
+      oda:year <http://dbpedia.org/resource/2004> ;
+      sdmx-measure:obsValue
+              "3.0999999046"^^xsd:double .
+
+<http://open.data.al/HospitalBedsPer1000Inhabitants_Albania_1977>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/bedsx1000inhabitants#dataset> ;
+      oda:indicator oda:HospitalBedsPer1000Inhabitants ;
+      oda:year <http://dbpedia.org/resource/1977> .
+
+<http://open.data.al/HospitalBedsPer1000Inhabitants_Albania_1973>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/bedsx1000inhabitants#dataset> ;
+      oda:indicator oda:HospitalBedsPer1000Inhabitants ;
+      oda:year <http://dbpedia.org/resource/1973> .
+
+<http://open.data.al/bedsx1000inhabitants#dataset>
+      a       oda:Dataset ;
+      dc:creator "Open Data Albania (ODA)" ;
+      dc:date "Tue Aug 16 19:28:34 CEST 2011" ;
+      dc:publisher "Institute of Public Health, Albania" ;
+      dc:title "Number of hospital beds per 1000 inhabitants and year in Albania" .
+
+<http://open.data.al/HospitalBedsPer1000Inhabitants_Albania_1964>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/bedsx1000inhabitants#dataset> ;
+      oda:indicator oda:HospitalBedsPer1000Inhabitants ;
+      oda:year <http://dbpedia.org/resource/1964> .
+
+<http://open.data.al/HospitalBedsPer1000Inhabitants_Albania_1981>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/bedsx1000inhabitants#dataset> ;
+      oda:indicator oda:HospitalBedsPer1000Inhabitants ;
+      oda:year <http://dbpedia.org/resource/1981> ;
+      sdmx-measure:obsValue
+              "4.18709993362427"^^xsd:double .
+
+<http://open.data.al/HospitalBedsPer1000Inhabitants_Albania_1995>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/bedsx1000inhabitants#dataset> ;
+      oda:indicator oda:HospitalBedsPer1000Inhabitants ;
+      oda:year <http://dbpedia.org/resource/1995> ;
+      sdmx-measure:obsValue
+              "3.1900000572"^^xsd:double .
+
+<http://open.data.al/HospitalBedsPer1000Inhabitants_Albania_1999>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/bedsx1000inhabitants#dataset> ;
+      oda:indicator oda:HospitalBedsPer1000Inhabitants ;
+      oda:year <http://dbpedia.org/resource/1999> ;
+      sdmx-measure:obsValue
+              "3.0299999714"^^xsd:double .
+
+[]    rdfs:label "Country" ;
+      rdfs:subClassOf oda:Dimension .
+
+<http://open.data.al/HospitalBedsPer1000Inhabitants_Albania_1968>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/bedsx1000inhabitants#dataset> ;
+      oda:indicator oda:HospitalBedsPer1000Inhabitants ;
+      oda:year <http://dbpedia.org/resource/1968> .
+
+<http://open.data.al/HospitalBedsPer1000Inhabitants_Albania_1991>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/bedsx1000inhabitants#dataset> ;
+      oda:indicator oda:HospitalBedsPer1000Inhabitants ;
+      oda:year <http://dbpedia.org/resource/1991> ;
+      sdmx-measure:obsValue
+              "3.9986999035"^^xsd:double .
+
+<http://open.data.al/HospitalBedsPer1000Inhabitants_Albania_2000>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/bedsx1000inhabitants#dataset> ;
+      oda:indicator oda:HospitalBedsPer1000Inhabitants ;
+      oda:year <http://dbpedia.org/resource/2000> ;
+      sdmx-measure:obsValue
+              "3.2599999905"^^xsd:double .
+
+<http://open.data.al/HospitalBedsPer1000Inhabitants_Albania_1988>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/bedsx1000inhabitants#dataset> ;
+      oda:indicator oda:HospitalBedsPer1000Inhabitants ;
+      oda:year <http://dbpedia.org/resource/1988> ;
+      sdmx-measure:obsValue
+              "3.93549990653992"^^xsd:double .
+
+<http://open.data.al/HospitalBedsPer1000Inhabitants_Albania_1978>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/bedsx1000inhabitants#dataset> ;
+      oda:indicator oda:HospitalBedsPer1000Inhabitants ;
+      oda:year <http://dbpedia.org/resource/1978> .
+
+<http://open.data.al/HospitalBedsPer1000Inhabitants_Albania_2005>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/bedsx1000inhabitants#dataset> ;
+      oda:indicator oda:HospitalBedsPer1000Inhabitants ;
+      oda:year <http://dbpedia.org/resource/2005> ;
+      sdmx-measure:obsValue
+              "3"^^xsd:byte .
+
+<http://open.data.al/HospitalBedsPer1000Inhabitants_Albania_1971>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/bedsx1000inhabitants#dataset> ;
+      oda:indicator oda:HospitalBedsPer1000Inhabitants ;
+      oda:year <http://dbpedia.org/resource/1971> .
+
+<http://open.data.al/HospitalBedsPer1000Inhabitants_Albania_1974>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/bedsx1000inhabitants#dataset> ;
+      oda:indicator oda:HospitalBedsPer1000Inhabitants ;
+      oda:year <http://dbpedia.org/resource/1974> .

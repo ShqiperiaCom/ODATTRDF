@@ -1,0 +1,520 @@
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ckan:    <http://ckan.net/ns#> .
+@prefix sdx:     <http://epimorphics.com/vocab/sdx#> .
+@prefix sdmx-measure:  <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix scv:     <http://purl.org/NET/scovo#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix oda:     <http://open.data.al/oda.owl#> .
+
+<http://open.data.al/NonlifeInsuranceDamagesPaidAsPercentPrim_Insig_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsurancedamagespaidaspercprim#dataset> ;
+      oda:indicator oda:NonlifeInsuranceDamagesPaidAsPercentPrim ;
+      oda:product "Insig" ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "0.5505920920472096"^^xsd:double .
+
+<http://open.data.al/NonlifeInsuranceDamagesPaidAsPercentPrim_Intersig_2007>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsurancedamagespaidaspercprim#dataset> ;
+      oda:indicator oda:NonlifeInsuranceDamagesPaidAsPercentPrim ;
+      oda:product "Intersig" ;
+      oda:year <http://dbpedia.org/resource/2007> ;
+      sdmx-measure:obsValue
+              "0.12379551672366296"^^xsd:double .
+
+<http://open.data.al/NonlifeInsuranceDamagesPaidAsPercentPrim_Atlantik _2008>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsurancedamagespaidaspercprim#dataset> ;
+      oda:indicator oda:NonlifeInsuranceDamagesPaidAsPercentPrim ;
+      oda:product "Atlantik " ;
+      oda:year <http://dbpedia.org/resource/2008> ;
+      sdmx-measure:obsValue
+              "0.236424770310461"^^xsd:double .
+
+<http://open.data.al/NonlifeInsuranceDamagesPaidAsPercentPrim_Sigal_2009>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsurancedamagespaidaspercprim#dataset> ;
+      oda:indicator oda:NonlifeInsuranceDamagesPaidAsPercentPrim ;
+      oda:product "Sigal" ;
+      oda:year <http://dbpedia.org/resource/2009> ;
+      sdmx-measure:obsValue
+              "0.2637750695228886"^^xsd:double .
+
+<http://open.data.al/NonlifeInsuranceDamagesPaidAsPercentPrim_Intersig_2010>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsurancedamagespaidaspercprim#dataset> ;
+      oda:indicator oda:NonlifeInsuranceDamagesPaidAsPercentPrim ;
+      oda:product "Intersig" ;
+      oda:year <http://dbpedia.org/resource/2010> ;
+      sdmx-measure:obsValue
+              "0.22919549281182894"^^xsd:double .
+
+<http://open.data.al/NonlifeInsuranceDamagesPaidAsPercentPrim_Eurosig_2008>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsurancedamagespaidaspercprim#dataset> ;
+      oda:indicator oda:NonlifeInsuranceDamagesPaidAsPercentPrim ;
+      oda:product "Eurosig" ;
+      oda:year <http://dbpedia.org/resource/2008> ;
+      sdmx-measure:obsValue
+              "0.11213167778884323"^^xsd:double .
+
+<http://open.data.al/NonlifeInsuranceDamagesPaidAsPercentPrim_Sigma_2008>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsurancedamagespaidaspercprim#dataset> ;
+      oda:indicator oda:NonlifeInsuranceDamagesPaidAsPercentPrim ;
+      oda:product "Sigma" ;
+      oda:year <http://dbpedia.org/resource/2008> ;
+      sdmx-measure:obsValue
+              "0.29866996453723005"^^xsd:double .
+
+<http://open.data.al/NonlifeInsuranceDamagesPaidAsPercentPrim_Interalbanian_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsurancedamagespaidaspercprim#dataset> ;
+      oda:indicator oda:NonlifeInsuranceDamagesPaidAsPercentPrim ;
+      oda:product "Interalbanian" ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "0.17033283637109028"^^xsd:double .
+
+<http://open.data.al/NonlifeInsuranceDamagesPaidAsPercentPrim_Sigal_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsurancedamagespaidaspercprim#dataset> ;
+      oda:indicator oda:NonlifeInsuranceDamagesPaidAsPercentPrim ;
+      oda:product "Sigal" ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "0.3644047627366791"^^xsd:double .
+
+<http://open.data.al/NonlifeInsuranceDamagesPaidAsPercentPrim_Interalbanian_2009>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsurancedamagespaidaspercprim#dataset> ;
+      oda:indicator oda:NonlifeInsuranceDamagesPaidAsPercentPrim ;
+      oda:product "Interalbanian" ;
+      oda:year <http://dbpedia.org/resource/2009> ;
+      sdmx-measure:obsValue
+              "0.182361592077828"^^xsd:double .
+
+[]    rdfs:label "Product" ;
+      rdfs:subClassOf oda:Dimension .
+
+<http://open.data.al/NonlifeInsuranceDamagesPaidAsPercentPrim_Albsig_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsurancedamagespaidaspercprim#dataset> ;
+      oda:indicator oda:NonlifeInsuranceDamagesPaidAsPercentPrim ;
+      oda:product "Albsig" ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "0.09166559127002483"^^xsd:double .
+
+<http://open.data.al/NonlifeInsuranceDamagesPaidAsPercentPrim_Insig_2009>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsurancedamagespaidaspercprim#dataset> ;
+      oda:indicator oda:NonlifeInsuranceDamagesPaidAsPercentPrim ;
+      oda:product "Insig" ;
+      oda:year <http://dbpedia.org/resource/2009> ;
+      sdmx-measure:obsValue
+              "0.28312431745924294"^^xsd:double .
+
+<http://open.data.al/NonlifeInsuranceDamagesPaidAsPercentPrim_Insig_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsurancedamagespaidaspercprim#dataset> ;
+      oda:indicator oda:NonlifeInsuranceDamagesPaidAsPercentPrim ;
+      oda:product "Insig" ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "0.29745256816322835"^^xsd:double .
+
+<http://open.data.al/NonlifeInsuranceDamagesPaidAsPercentPrim_Intersig_2008>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsurancedamagespaidaspercprim#dataset> ;
+      oda:indicator oda:NonlifeInsuranceDamagesPaidAsPercentPrim ;
+      oda:product "Intersig" ;
+      oda:year <http://dbpedia.org/resource/2008> ;
+      sdmx-measure:obsValue
+              "0.09976394469367678"^^xsd:double .
+
+<http://open.data.al/NonlifeInsuranceDamagesPaidAsPercentPrim_Atlantik _2007>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsurancedamagespaidaspercprim#dataset> ;
+      oda:indicator oda:NonlifeInsuranceDamagesPaidAsPercentPrim ;
+      oda:product "Atlantik " ;
+      oda:year <http://dbpedia.org/resource/2007> ;
+      sdmx-measure:obsValue
+              "0.14979039338546074"^^xsd:double .
+
+oda:NonlifeInsuranceDamagesPaidAsPercentPrim
+      a       oda:Indicator ;
+      rdfs:label "NonlifeInsuranceDamagesPaidAsPercentPrim" .
+
+<http://open.data.al/NonlifeInsuranceDamagesPaidAsPercentPrim_Eurosig_2007>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsurancedamagespaidaspercprim#dataset> ;
+      oda:indicator oda:NonlifeInsuranceDamagesPaidAsPercentPrim ;
+      oda:product "Eurosig" ;
+      oda:year <http://dbpedia.org/resource/2007> ;
+      sdmx-measure:obsValue
+              "0.1004240828700789"^^xsd:double .
+
+<http://open.data.al/NonlifeInsuranceDamagesPaidAsPercentPrim_Interalbanian_2010>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsurancedamagespaidaspercprim#dataset> ;
+      oda:indicator oda:NonlifeInsuranceDamagesPaidAsPercentPrim ;
+      oda:product "Interalbanian" ;
+      oda:year <http://dbpedia.org/resource/2010> ;
+      sdmx-measure:obsValue
+              "0.35741089530613024"^^xsd:double .
+
+<http://open.data.al/NonlifeInsuranceDamagesPaidAsPercentPrim_Sigma_2009>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsurancedamagespaidaspercprim#dataset> ;
+      oda:indicator oda:NonlifeInsuranceDamagesPaidAsPercentPrim ;
+      oda:product "Sigma" ;
+      oda:year <http://dbpedia.org/resource/2009> ;
+      sdmx-measure:obsValue
+              "0.2970346615656207"^^xsd:double .
+
+[]    rdfs:label "Year" ;
+      rdfs:subClassOf oda:Dimension .
+
+<http://open.data.al/nonlifeinsurancedamagespaidaspercprim#dataset>
+      a       oda:Dataset ;
+      dc:creator "Open Data Albania (ODA)" ;
+      dc:date "Sun Sep 04 19:38:10 CEST 2011" ;
+      dc:publisher "AMF (Autoriteti i Mbikeqyrjes financiare ne Shqiperi)" ;
+      dc:title "Non Life insurance damages paid as percent of prim in Albania" .
+
+<http://open.data.al/NonlifeInsuranceDamagesPaidAsPercentPrim_Interalbanian_2008>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsurancedamagespaidaspercprim#dataset> ;
+      oda:indicator oda:NonlifeInsuranceDamagesPaidAsPercentPrim ;
+      oda:product "Interalbanian" ;
+      oda:year <http://dbpedia.org/resource/2008> ;
+      sdmx-measure:obsValue
+              "0.18706937993009015"^^xsd:double .
+
+<http://open.data.al/NonlifeInsuranceDamagesPaidAsPercentPrim_Albsig_2007>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsurancedamagespaidaspercprim#dataset> ;
+      oda:indicator oda:NonlifeInsuranceDamagesPaidAsPercentPrim ;
+      oda:product "Albsig" ;
+      oda:year <http://dbpedia.org/resource/2007> ;
+      sdmx-measure:obsValue
+              "0.2678839586434824"^^xsd:double .
+
+<http://open.data.al/NonlifeInsuranceDamagesPaidAsPercentPrim_Eurosig_2010>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsurancedamagespaidaspercprim#dataset> ;
+      oda:indicator oda:NonlifeInsuranceDamagesPaidAsPercentPrim ;
+      oda:product "Eurosig" ;
+      oda:year <http://dbpedia.org/resource/2010> ;
+      sdmx-measure:obsValue
+              "0.21092461854347935"^^xsd:double .
+
+<http://open.data.al/NonlifeInsuranceDamagesPaidAsPercentPrim_Sigal_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsurancedamagespaidaspercprim#dataset> ;
+      oda:indicator oda:NonlifeInsuranceDamagesPaidAsPercentPrim ;
+      oda:product "Sigal" ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "0.18114361147145322"^^xsd:double .
+
+<http://open.data.al/NonlifeInsuranceDamagesPaidAsPercentPrim_Intersig_2009>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsurancedamagespaidaspercprim#dataset> ;
+      oda:indicator oda:NonlifeInsuranceDamagesPaidAsPercentPrim ;
+      oda:product "Intersig" ;
+      oda:year <http://dbpedia.org/resource/2009> ;
+      sdmx-measure:obsValue
+              "0.13237874297612917"^^xsd:double .
+
+<http://open.data.al/NonlifeInsuranceDamagesPaidAsPercentPrim_Sigal_2010>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsurancedamagespaidaspercprim#dataset> ;
+      oda:indicator oda:NonlifeInsuranceDamagesPaidAsPercentPrim ;
+      oda:product "Sigal" ;
+      oda:year <http://dbpedia.org/resource/2010> ;
+      sdmx-measure:obsValue
+              "0.28066377824342914"^^xsd:double .
+
+<http://open.data.al/NonlifeInsuranceDamagesPaidAsPercentPrim_Sigma_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsurancedamagespaidaspercprim#dataset> ;
+      oda:indicator oda:NonlifeInsuranceDamagesPaidAsPercentPrim ;
+      oda:product "Sigma" ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "0.23145395054095247"^^xsd:double .
+
+<http://open.data.al/NonlifeInsuranceDamagesPaidAsPercentPrim_Insig_2007>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsurancedamagespaidaspercprim#dataset> ;
+      oda:indicator oda:NonlifeInsuranceDamagesPaidAsPercentPrim ;
+      oda:product "Insig" ;
+      oda:year <http://dbpedia.org/resource/2007> ;
+      sdmx-measure:obsValue
+              "0.4113356799768329"^^xsd:double .
+
+<http://open.data.al/NonlifeInsuranceDamagesPaidAsPercentPrim_Atlantik _2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsurancedamagespaidaspercprim#dataset> ;
+      oda:indicator oda:NonlifeInsuranceDamagesPaidAsPercentPrim ;
+      oda:product "Atlantik " ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "0.29513685910236853"^^xsd:double .
+
+<http://open.data.al/NonlifeInsuranceDamagesPaidAsPercentPrim_Sigal_2007>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsurancedamagespaidaspercprim#dataset> ;
+      oda:indicator oda:NonlifeInsuranceDamagesPaidAsPercentPrim ;
+      oda:product "Sigal" ;
+      oda:year <http://dbpedia.org/resource/2007> ;
+      sdmx-measure:obsValue
+              "0.24231975844509782"^^xsd:double .
+
+<http://open.data.al/NonlifeInsuranceDamagesPaidAsPercentPrim_Sigma_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsurancedamagespaidaspercprim#dataset> ;
+      oda:indicator oda:NonlifeInsuranceDamagesPaidAsPercentPrim ;
+      oda:product "Sigma" ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "0.4345284943523824"^^xsd:double .
+
+<http://open.data.al/NonlifeInsuranceDamagesPaidAsPercentPrim_Eurosig_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsurancedamagespaidaspercprim#dataset> ;
+      oda:indicator oda:NonlifeInsuranceDamagesPaidAsPercentPrim ;
+      oda:product "Eurosig" ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "0.11205929769053036"^^xsd:double .
+
+[]    rdfs:domain oda:DataEntry ;
+      rdfs:label "Data Entry Value" .
+
+<http://open.data.al/NonlifeInsuranceDamagesPaidAsPercentPrim_Atlantik _2010>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsurancedamagespaidaspercprim#dataset> ;
+      oda:indicator oda:NonlifeInsuranceDamagesPaidAsPercentPrim ;
+      oda:product "Atlantik " ;
+      oda:year <http://dbpedia.org/resource/2010> ;
+      sdmx-measure:obsValue
+              "0.3322138221825861"^^xsd:double .
+
+<http://open.data.al/NonlifeInsuranceDamagesPaidAsPercentPrim_Albsig_2008>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsurancedamagespaidaspercprim#dataset> ;
+      oda:indicator oda:NonlifeInsuranceDamagesPaidAsPercentPrim ;
+      oda:product "Albsig" ;
+      oda:year <http://dbpedia.org/resource/2008> ;
+      sdmx-measure:obsValue
+              "0.11667509486023477"^^xsd:double .
+
+<http://open.data.al/NonlifeInsuranceDamagesPaidAsPercentPrim_Intersig_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsurancedamagespaidaspercprim#dataset> ;
+      oda:indicator oda:NonlifeInsuranceDamagesPaidAsPercentPrim ;
+      oda:product "Intersig" ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "0.1319168020699618"^^xsd:double .
+
+<http://open.data.al/NonlifeInsuranceDamagesPaidAsPercentPrim_Albsig_2010>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsurancedamagespaidaspercprim#dataset> ;
+      oda:indicator oda:NonlifeInsuranceDamagesPaidAsPercentPrim ;
+      oda:product "Albsig" ;
+      oda:year <http://dbpedia.org/resource/2010> ;
+      sdmx-measure:obsValue
+              "0.2069395042393013"^^xsd:double .
+
+<http://open.data.al/NonlifeInsuranceDamagesPaidAsPercentPrim_Eurosig_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsurancedamagespaidaspercprim#dataset> ;
+      oda:indicator oda:NonlifeInsuranceDamagesPaidAsPercentPrim ;
+      oda:product "Eurosig" ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "0.16749632037614245"^^xsd:double .
+
+<http://open.data.al/NonlifeInsuranceDamagesPaidAsPercentPrim_Interalbanian_2007>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsurancedamagespaidaspercprim#dataset> ;
+      oda:indicator oda:NonlifeInsuranceDamagesPaidAsPercentPrim ;
+      oda:product "Interalbanian" ;
+      oda:year <http://dbpedia.org/resource/2007> ;
+      sdmx-measure:obsValue
+              "0.17997214448482285"^^xsd:double .
+
+[]    rdfs:label "Country" ;
+      rdfs:subClassOf oda:Dimension .
+
+<http://open.data.al/NonlifeInsuranceDamagesPaidAsPercentPrim_Insig_2008>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsurancedamagespaidaspercprim#dataset> ;
+      oda:indicator oda:NonlifeInsuranceDamagesPaidAsPercentPrim ;
+      oda:product "Insig" ;
+      oda:year <http://dbpedia.org/resource/2008> ;
+      sdmx-measure:obsValue
+              "0.31456987444592377"^^xsd:double .
+
+<http://open.data.al/NonlifeInsuranceDamagesPaidAsPercentPrim_Sigma_2010>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsurancedamagespaidaspercprim#dataset> ;
+      oda:indicator oda:NonlifeInsuranceDamagesPaidAsPercentPrim ;
+      oda:product "Sigma" ;
+      oda:year <http://dbpedia.org/resource/2010> ;
+      sdmx-measure:obsValue
+              "0.34170206548161103"^^xsd:double .
+
+<http://open.data.al/NonlifeInsuranceDamagesPaidAsPercentPrim_Insig_2010>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsurancedamagespaidaspercprim#dataset> ;
+      oda:indicator oda:NonlifeInsuranceDamagesPaidAsPercentPrim ;
+      oda:product "Insig" ;
+      oda:year <http://dbpedia.org/resource/2010> ;
+      sdmx-measure:obsValue
+              "0.3964606808318136"^^xsd:double .
+
+<http://open.data.al/NonlifeInsuranceDamagesPaidAsPercentPrim_Sigma_2007>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsurancedamagespaidaspercprim#dataset> ;
+      oda:indicator oda:NonlifeInsuranceDamagesPaidAsPercentPrim ;
+      oda:product "Sigma" ;
+      oda:year <http://dbpedia.org/resource/2007> ;
+      sdmx-measure:obsValue
+              "0.17604271171269792"^^xsd:double .
+
+<http://open.data.al/NonlifeInsuranceDamagesPaidAsPercentPrim_Sigal_2008>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsurancedamagespaidaspercprim#dataset> ;
+      oda:indicator oda:NonlifeInsuranceDamagesPaidAsPercentPrim ;
+      oda:product "Sigal" ;
+      oda:year <http://dbpedia.org/resource/2008> ;
+      sdmx-measure:obsValue
+              "0.2434973836427645"^^xsd:double .
+
+<http://open.data.al/NonlifeInsuranceDamagesPaidAsPercentPrim_Atlantik _2009>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsurancedamagespaidaspercprim#dataset> ;
+      oda:indicator oda:NonlifeInsuranceDamagesPaidAsPercentPrim ;
+      oda:product "Atlantik " ;
+      oda:year <http://dbpedia.org/resource/2009> ;
+      sdmx-measure:obsValue
+              "0.29889468655594514"^^xsd:double .
+
+<http://open.data.al/NonlifeInsuranceDamagesPaidAsPercentPrim_Interalbanian_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsurancedamagespaidaspercprim#dataset> ;
+      oda:indicator oda:NonlifeInsuranceDamagesPaidAsPercentPrim ;
+      oda:product "Interalbanian" ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "0.2223806458862448"^^xsd:double .
+
+[]    a       oda:Indicator ;
+      rdfs:label "Indicator" .
+
+<http://open.data.al/NonlifeInsuranceDamagesPaidAsPercentPrim_Eurosig_2009>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsurancedamagespaidaspercprim#dataset> ;
+      oda:indicator oda:NonlifeInsuranceDamagesPaidAsPercentPrim ;
+      oda:product "Eurosig" ;
+      oda:year <http://dbpedia.org/resource/2009> ;
+      sdmx-measure:obsValue
+              "0.10546703206926542"^^xsd:double .
+
+<http://open.data.al/NonlifeInsuranceDamagesPaidAsPercentPrim_Atlantik _2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsurancedamagespaidaspercprim#dataset> ;
+      oda:indicator oda:NonlifeInsuranceDamagesPaidAsPercentPrim ;
+      oda:product "Atlantik " ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "0.5877606251013474"^^xsd:double .
+
+<http://open.data.al/NonlifeInsuranceDamagesPaidAsPercentPrim_Albsig_2009>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsurancedamagespaidaspercprim#dataset> ;
+      oda:indicator oda:NonlifeInsuranceDamagesPaidAsPercentPrim ;
+      oda:product "Albsig" ;
+      oda:year <http://dbpedia.org/resource/2009> ;
+      sdmx-measure:obsValue
+              "0.15834886123447953"^^xsd:double .
+
+<http://open.data.al/NonlifeInsuranceDamagesPaidAsPercentPrim_Albsig_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsurancedamagespaidaspercprim#dataset> ;
+      oda:indicator oda:NonlifeInsuranceDamagesPaidAsPercentPrim ;
+      oda:product "Albsig" ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "0.21734039337398284"^^xsd:double .
+
+[]    a       oda:Dataset ;
+      rdfs:label "Dataset" .
+
+<http://open.data.al/NonlifeInsuranceDamagesPaidAsPercentPrim_Intersig_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsurancedamagespaidaspercprim#dataset> ;
+      oda:indicator oda:NonlifeInsuranceDamagesPaidAsPercentPrim ;
+      oda:product "Intersig" ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "0.17615195326804586"^^xsd:double .

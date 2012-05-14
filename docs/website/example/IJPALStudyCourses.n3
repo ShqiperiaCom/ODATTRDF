@@ -1,0 +1,100 @@
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ckan:    <http://ckan.net/ns#> .
+@prefix sdx:     <http://epimorphics.com/vocab/sdx#> .
+@prefix sdmx-measure:  <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix scv:     <http://purl.org/NET/scovo#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix oda:     <http://open.data.al/oda.owl#> .
+
+[]    rdfs:label "Country" ;
+      rdfs:subClassOf oda:Dimension .
+
+<http://open.data.al/IJPALStudyCourses_Kusht_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/studycoursesijpal#dataset> ;
+      oda:indicator oda:IJPALStudyCourses ;
+      oda:product "Kusht" ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "6"^^xsd:byte .
+
+[]    a       oda:Dataset ;
+      rdfs:label "Dataset" .
+
+oda:IJPALStudyCourses
+      a       oda:Indicator ;
+      rdfs:label "IJPALStudyCourses" .
+
+[]    rdfs:label "Year" ;
+      rdfs:subClassOf oda:Dimension .
+
+[]    rdfs:label "Product" ;
+      rdfs:subClassOf oda:Dimension .
+
+[]    a       oda:Indicator ;
+      rdfs:label "Indicator" .
+
+<http://open.data.al/IJPALStudyCourses_Pa akredituar_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/studycoursesijpal#dataset> ;
+      oda:indicator oda:IJPALStudyCourses ;
+      oda:product "Pa akredituar" ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "193"^^xsd:short .
+
+<http://open.data.al/IJPALStudyCourses_Te tjera_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/studycoursesijpal#dataset> ;
+      oda:indicator oda:IJPALStudyCourses ;
+      oda:product "Te tjera" ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "2"^^xsd:byte .
+
+<http://open.data.al/IJPALStudyCourses_Palicencuar-pa akredituar_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/studycoursesijpal#dataset> ;
+      oda:indicator oda:IJPALStudyCourses ;
+      oda:product "Palicencuar-pa akredituar" ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "21"^^xsd:byte .
+
+<http://open.data.al/IJPALStudyCourses_Akredituar_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/studycoursesijpal#dataset> ;
+      oda:indicator oda:IJPALStudyCourses ;
+      oda:product "Akredituar" ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "80"^^xsd:byte .
+
+<http://open.data.al/studycoursesijpal#dataset>
+      a       oda:Dataset ;
+      dc:creator "Open Data Albania (ODA)" ;
+      dc:date "Thu Sep 08 23:12:33 CEST 2011" ;
+      dc:publisher " Ministria e Arsimit dhe Shkencës (MASH)" ;
+      dc:title " Quality of Private University Study Programs in Albania" .
+
+<http://open.data.al/IJPALStudyCourses_Vijim_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/studycoursesijpal#dataset> ;
+      oda:indicator oda:IJPALStudyCourses ;
+      oda:product "Vijim" ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "20"^^xsd:byte .
+
+[]    rdfs:domain oda:DataEntry ;
+      rdfs:label "Data Entry Value" .

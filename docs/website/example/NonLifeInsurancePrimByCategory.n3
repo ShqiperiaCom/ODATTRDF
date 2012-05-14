@@ -1,0 +1,640 @@
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ckan:    <http://ckan.net/ns#> .
+@prefix sdx:     <http://epimorphics.com/vocab/sdx#> .
+@prefix sdmx-measure:  <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix scv:     <http://purl.org/NET/scovo#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix oda:     <http://open.data.al/oda.owl#> .
+
+<http://open.data.al/NonLifeInsurancePrimByCategory_Sigurimi dëmtime të tjera në pronë_2009>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprimbycat#dataset> ;
+      oda:indicator oda:NonLifeInsurancePrimByCategory ;
+      oda:product "Sigurimi dëmtime të tjera në pronë" ;
+      oda:year <http://dbpedia.org/resource/2009> ;
+      sdmx-measure:obsValue
+              "111963.57368075002"^^xsd:double .
+
+[]    rdfs:domain oda:DataEntry ;
+      rdfs:label "Data Entry Value" .
+
+<http://open.data.al/NonLifeInsurancePrimByCategory_Sigurimi i pergjegjesive civile te pergjithshme_2007>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprimbycat#dataset> ;
+      oda:indicator oda:NonLifeInsurancePrimByCategory ;
+      oda:product "Sigurimi i pergjegjesive civile te pergjithshme" ;
+      oda:year <http://dbpedia.org/resource/2007> ;
+      sdmx-measure:obsValue
+              "291444.6089629"^^xsd:double .
+
+<http://open.data.al/NonLifeInsurancePrimByCategory_Sigurimi i aksidenteve_2008>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprimbycat#dataset> ;
+      oda:indicator oda:NonLifeInsurancePrimByCategory ;
+      oda:product "Sigurimi i aksidenteve" ;
+      oda:year <http://dbpedia.org/resource/2008> ;
+      sdmx-measure:obsValue
+              "65551.28669800001"^^xsd:double .
+
+<http://open.data.al/NonLifeInsurancePrimByCategory_Te tjera_2007>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprimbycat#dataset> ;
+      oda:indicator oda:NonLifeInsurancePrimByCategory ;
+      oda:product "Te tjera" ;
+      oda:year <http://dbpedia.org/resource/2007> ;
+      sdmx-measure:obsValue
+              "156076.08138050046"^^xsd:double .
+
+<http://open.data.al/NonLifeInsurancePrimByCategory_Sigurimi dëmtime të tjera në pronë_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprimbycat#dataset> ;
+      oda:indicator oda:NonLifeInsurancePrimByCategory ;
+      oda:product "Sigurimi dëmtime të tjera në pronë" ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "57923.67326238098"^^xsd:double .
+
+<http://open.data.al/NonLifeInsurancePrimByCategory_Sigurimi nga zjarri dhe forcat e natyrës_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprimbycat#dataset> ;
+      oda:indicator oda:NonLifeInsurancePrimByCategory ;
+      oda:product "Sigurimi nga zjarri dhe forcat e natyrës" ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "352947.55994151434"^^xsd:double .
+
+<http://open.data.al/NonLifeInsurancePrimByCategory_Sigurimi mjeteve tokësore_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprimbycat#dataset> ;
+      oda:indicator oda:NonLifeInsurancePrimByCategory ;
+      oda:product "Sigurimi mjeteve tokësore" ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "234361.4499063"^^xsd:double .
+
+[]    a       oda:Dataset ;
+      rdfs:label "Dataset" .
+
+<http://open.data.al/NonLifeInsurancePrimByCategory_Sigurimi mallra në transport_2009>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprimbycat#dataset> ;
+      oda:indicator oda:NonLifeInsurancePrimByCategory ;
+      oda:product "Sigurimi mallra në transport" ;
+      oda:year <http://dbpedia.org/resource/2009> ;
+      sdmx-measure:obsValue
+              "42600.3321739"^^xsd:double .
+
+<http://open.data.al/NonLifeInsurancePrimByCategory_Sigurimi i aksidenteve_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprimbycat#dataset> ;
+      oda:indicator oda:NonLifeInsurancePrimByCategory ;
+      oda:product "Sigurimi i aksidenteve" ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "32461.585083809525"^^xsd:double .
+
+<http://open.data.al/NonLifeInsurancePrimByCategory_Sigurimi i përgjegjësive civile të avionëve_2010>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprimbycat#dataset> ;
+      oda:indicator oda:NonLifeInsurancePrimByCategory ;
+      oda:product "Sigurimi i përgjegjësive civile të avionëve" ;
+      oda:year <http://dbpedia.org/resource/2010> ;
+      sdmx-measure:obsValue
+              "194445.65340999997"^^xsd:double .
+
+<http://open.data.al/NonLifeInsurancePrimByCategory_Përgjegjësi motorrike ndaj palëve të treta_2007>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprimbycat#dataset> ;
+      oda:indicator oda:NonLifeInsurancePrimByCategory ;
+      oda:product "Përgjegjësi motorrike ndaj palëve të treta" ;
+      oda:year <http://dbpedia.org/resource/2007> ;
+      sdmx-measure:obsValue
+              "3552687.71495069"^^xsd:double .
+
+<http://open.data.al/NonLifeInsurancePrimByCategory_Sigurimi i përgjegjësive civile të avionëve_2009>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprimbycat#dataset> ;
+      oda:indicator oda:NonLifeInsurancePrimByCategory ;
+      oda:product "Sigurimi i përgjegjësive civile të avionëve" ;
+      oda:year <http://dbpedia.org/resource/2009> ;
+      sdmx-measure:obsValue
+              "203246.27283"^^xsd:double .
+
+<http://open.data.al/NonLifeInsurancePrimByCategory_Sigurimi i sëmundjeve_2007>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprimbycat#dataset> ;
+      oda:indicator oda:NonLifeInsurancePrimByCategory ;
+      oda:product "Sigurimi i sëmundjeve" ;
+      oda:year <http://dbpedia.org/resource/2007> ;
+      sdmx-measure:obsValue
+              "151792.25148200002"^^xsd:double .
+
+<http://open.data.al/NonLifeInsurancePrimByCategory_Sigurimi nga zjarri dhe forcat e natyrës_2009>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprimbycat#dataset> ;
+      oda:indicator oda:NonLifeInsurancePrimByCategory ;
+      oda:product "Sigurimi nga zjarri dhe forcat e natyrës" ;
+      oda:year <http://dbpedia.org/resource/2009> ;
+      sdmx-measure:obsValue
+              "703171.5085225"^^xsd:double .
+
+<http://open.data.al/NonLifeInsurancePrimByCategory_Sigurimi i pergjegjesive civile te pergjithshme_2010>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprimbycat#dataset> ;
+      oda:indicator oda:NonLifeInsurancePrimByCategory ;
+      oda:product "Sigurimi i pergjegjesive civile te pergjithshme" ;
+      oda:year <http://dbpedia.org/resource/2010> ;
+      sdmx-measure:obsValue
+              "494338.32723940007"^^xsd:double .
+
+<http://open.data.al/NonLifeInsurancePrimByCategory_Sigurimi mjeteve tokësore_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprimbycat#dataset> ;
+      oda:indicator oda:NonLifeInsurancePrimByCategory ;
+      oda:product "Sigurimi mjeteve tokësore" ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "198085.01397648093"^^xsd:double .
+
+oda:NonLifeInsurancePrimByCategory
+      a       oda:Indicator ;
+      rdfs:label "NonLifeInsurancePrimByCategory" .
+
+<http://open.data.al/NonLifeInsurancePrimByCategory_Sigurimi nga zjarri dhe forcat e natyrës_2010>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprimbycat#dataset> ;
+      oda:indicator oda:NonLifeInsurancePrimByCategory ;
+      oda:product "Sigurimi nga zjarri dhe forcat e natyrës" ;
+      oda:year <http://dbpedia.org/resource/2010> ;
+      sdmx-measure:obsValue
+              "927389.7394171"^^xsd:double .
+
+<http://open.data.al/NonLifeInsurancePrimByCategory_Sigurimi i përgjegjësive civile të avionëve_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprimbycat#dataset> ;
+      oda:indicator oda:NonLifeInsurancePrimByCategory ;
+      oda:product "Sigurimi i përgjegjësive civile të avionëve" ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "46798.565829"^^xsd:double .
+
+<http://open.data.al/NonLifeInsurancePrimByCategory_Te tjera_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprimbycat#dataset> ;
+      oda:indicator oda:NonLifeInsurancePrimByCategory ;
+      oda:product "Te tjera" ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "177030.02193079982"^^xsd:double .
+
+<http://open.data.al/NonLifeInsurancePrimByCategory_Sigurimi i aksidenteve_2009>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprimbycat#dataset> ;
+      oda:indicator oda:NonLifeInsurancePrimByCategory ;
+      oda:product "Sigurimi i aksidenteve" ;
+      oda:year <http://dbpedia.org/resource/2009> ;
+      sdmx-measure:obsValue
+              "92144.81333199999"^^xsd:double .
+
+<http://open.data.al/NonLifeInsurancePrimByCategory_Sigurimi i pergjegjesive civile te pergjithshme_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprimbycat#dataset> ;
+      oda:indicator oda:NonLifeInsurancePrimByCategory ;
+      oda:product "Sigurimi i pergjegjesive civile te pergjithshme" ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "80805.46589523616"^^xsd:double .
+
+[]    a       oda:Indicator ;
+      rdfs:label "Indicator" .
+
+<http://open.data.al/NonLifeInsurancePrimByCategory_Sigurimi i sëmundjeve_2010>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprimbycat#dataset> ;
+      oda:indicator oda:NonLifeInsurancePrimByCategory ;
+      oda:product "Sigurimi i sëmundjeve" ;
+      oda:year <http://dbpedia.org/resource/2010> ;
+      sdmx-measure:obsValue
+              "366417.0335681"^^xsd:double .
+
+<http://open.data.al/NonLifeInsurancePrimByCategory_Sigurimi i aksidenteve_2010>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprimbycat#dataset> ;
+      oda:indicator oda:NonLifeInsurancePrimByCategory ;
+      oda:product "Sigurimi i aksidenteve" ;
+      oda:year <http://dbpedia.org/resource/2010> ;
+      sdmx-measure:obsValue
+              "91260.32323"^^xsd:double .
+
+<http://open.data.al/NonLifeInsurancePrimByCategory_Sigurimi i përgjegjësive civile të avionëve_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprimbycat#dataset> ;
+      oda:indicator oda:NonLifeInsurancePrimByCategory ;
+      oda:product "Sigurimi i përgjegjësive civile të avionëve" ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "126412.34398805714"^^xsd:double .
+
+<http://open.data.al/NonLifeInsurancePrimByCategory_Sigurimi mallra në transport_2008>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprimbycat#dataset> ;
+      oda:indicator oda:NonLifeInsurancePrimByCategory ;
+      oda:product "Sigurimi mallra në transport" ;
+      oda:year <http://dbpedia.org/resource/2008> ;
+      sdmx-measure:obsValue
+              "33546.5281545"^^xsd:double .
+
+<http://open.data.al/NonLifeInsurancePrimByCategory_Sigurimi dëmtime të tjera në pronë_2008>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprimbycat#dataset> ;
+      oda:indicator oda:NonLifeInsurancePrimByCategory ;
+      oda:product "Sigurimi dëmtime të tjera në pronë" ;
+      oda:year <http://dbpedia.org/resource/2008> ;
+      sdmx-measure:obsValue
+              "59148.21981"^^xsd:double .
+
+<http://open.data.al/NonLifeInsurancePrimByCategory_Sigurimi mjeteve tokësore_2009>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprimbycat#dataset> ;
+      oda:indicator oda:NonLifeInsurancePrimByCategory ;
+      oda:product "Sigurimi mjeteve tokësore" ;
+      oda:year <http://dbpedia.org/resource/2009> ;
+      sdmx-measure:obsValue
+              "580471.9297381999"^^xsd:double .
+
+<http://open.data.al/NonLifeInsurancePrimByCategory_Sigurimi i sëmundjeve_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprimbycat#dataset> ;
+      oda:indicator oda:NonLifeInsurancePrimByCategory ;
+      oda:product "Sigurimi i sëmundjeve" ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "133459.854862"^^xsd:double .
+
+<http://open.data.al/NonLifeInsurancePrimByCategory_Përgjegjësi motorrike ndaj palëve të treta_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprimbycat#dataset> ;
+      oda:indicator oda:NonLifeInsurancePrimByCategory ;
+      oda:product "Përgjegjësi motorrike ndaj palëve të treta" ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "2614180.149847257"^^xsd:double .
+
+<http://open.data.al/NonLifeInsurancePrimByCategory_Sigurimi nga zjarri dhe forcat e natyrës_2008>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprimbycat#dataset> ;
+      oda:indicator oda:NonLifeInsurancePrimByCategory ;
+      oda:product "Sigurimi nga zjarri dhe forcat e natyrës" ;
+      oda:year <http://dbpedia.org/resource/2008> ;
+      sdmx-measure:obsValue
+              "643127.5607742999"^^xsd:double .
+
+<http://open.data.al/NonLifeInsurancePrimByCategory_Sigurimi i pergjegjesive civile te pergjithshme_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprimbycat#dataset> ;
+      oda:indicator oda:NonLifeInsurancePrimByCategory ;
+      oda:product "Sigurimi i pergjegjesive civile te pergjithshme" ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "151781.63075654765"^^xsd:double .
+
+<http://open.data.al/NonLifeInsurancePrimByCategory_Sigurimi i pergjegjesive civile te pergjithshme_2009>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprimbycat#dataset> ;
+      oda:indicator oda:NonLifeInsurancePrimByCategory ;
+      oda:product "Sigurimi i pergjegjesive civile te pergjithshme" ;
+      oda:year <http://dbpedia.org/resource/2009> ;
+      sdmx-measure:obsValue
+              "625462.4096959999"^^xsd:double .
+
+[]    rdfs:label "Year" ;
+      rdfs:subClassOf oda:Dimension .
+
+<http://open.data.al/NonLifeInsurancePrimByCategory_Te tjera_2009>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprimbycat#dataset> ;
+      oda:indicator oda:NonLifeInsurancePrimByCategory ;
+      oda:product "Te tjera" ;
+      oda:year <http://dbpedia.org/resource/2009> ;
+      sdmx-measure:obsValue
+              "251862.493322148"^^xsd:double .
+
+<http://open.data.al/NonLifeInsurancePrimByCategory_Sigurimi i sëmundjeve_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprimbycat#dataset> ;
+      oda:indicator oda:NonLifeInsurancePrimByCategory ;
+      oda:product "Sigurimi i sëmundjeve" ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "303728.482137038"^^xsd:double .
+
+<http://open.data.al/NonLifeInsurancePrimByCategory_Sigurimi nga zjarri dhe forcat e natyrës_2007>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprimbycat#dataset> ;
+      oda:indicator oda:NonLifeInsurancePrimByCategory ;
+      oda:product "Sigurimi nga zjarri dhe forcat e natyrës" ;
+      oda:year <http://dbpedia.org/resource/2007> ;
+      sdmx-measure:obsValue
+              "441322.89853991"^^xsd:double .
+
+<http://open.data.al/NonLifeInsurancePrimByCategory_Sigurimi i përgjegjësive civile të avionëve_2007>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprimbycat#dataset> ;
+      oda:indicator oda:NonLifeInsurancePrimByCategory ;
+      oda:product "Sigurimi i përgjegjësive civile të avionëve" ;
+      oda:year <http://dbpedia.org/resource/2007> ;
+      sdmx-measure:obsValue
+              "33544.14015"^^xsd:double .
+
+<http://open.data.al/NonLifeInsurancePrimByCategory_Sigurimi dëmtime të tjera në pronë_2007>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprimbycat#dataset> ;
+      oda:indicator oda:NonLifeInsurancePrimByCategory ;
+      oda:product "Sigurimi dëmtime të tjera në pronë" ;
+      oda:year <http://dbpedia.org/resource/2007> ;
+      sdmx-measure:obsValue
+              "48892.7244197"^^xsd:double .
+
+<http://open.data.al/NonLifeInsurancePrimByCategory_Sigurimi mjeteve tokësore_2008>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprimbycat#dataset> ;
+      oda:indicator oda:NonLifeInsurancePrimByCategory ;
+      oda:product "Sigurimi mjeteve tokësore" ;
+      oda:year <http://dbpedia.org/resource/2008> ;
+      sdmx-measure:obsValue
+              "495906.13587389997"^^xsd:double .
+
+<http://open.data.al/NonLifeInsurancePrimByCategory_Përgjegjësi motorrike ndaj palëve të treta_2009>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprimbycat#dataset> ;
+      oda:indicator oda:NonLifeInsurancePrimByCategory ;
+      oda:product "Përgjegjësi motorrike ndaj palëve të treta" ;
+      oda:year <http://dbpedia.org/resource/2009> ;
+      sdmx-measure:obsValue
+              "4188804.1789991497"^^xsd:double .
+
+<http://open.data.al/NonLifeInsurancePrimByCategory_Përgjegjësi motorrike ndaj palëve të treta_2010>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprimbycat#dataset> ;
+      oda:indicator oda:NonLifeInsurancePrimByCategory ;
+      oda:product "Përgjegjësi motorrike ndaj palëve të treta" ;
+      oda:year <http://dbpedia.org/resource/2010> ;
+      sdmx-measure:obsValue
+              "4259222.5152094"^^xsd:double .
+
+<http://open.data.al/NonLifeInsurancePrimByCategory_Sigurimi mallra në transport_2007>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprimbycat#dataset> ;
+      oda:indicator oda:NonLifeInsurancePrimByCategory ;
+      oda:product "Sigurimi mallra në transport" ;
+      oda:year <http://dbpedia.org/resource/2007> ;
+      sdmx-measure:obsValue
+              "20074.4881875"^^xsd:double .
+
+<http://open.data.al/NonLifeInsurancePrimByCategory_Sigurimi mallra në transport_2010>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprimbycat#dataset> ;
+      oda:indicator oda:NonLifeInsurancePrimByCategory ;
+      oda:product "Sigurimi mallra në transport" ;
+      oda:year <http://dbpedia.org/resource/2010> ;
+      sdmx-measure:obsValue
+              "26713.836843"^^xsd:double .
+
+<http://open.data.al/NonLifeInsurancePrimByCategory_Sigurimi i sëmundjeve_2009>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprimbycat#dataset> ;
+      oda:indicator oda:NonLifeInsurancePrimByCategory ;
+      oda:product "Sigurimi i sëmundjeve" ;
+      oda:year <http://dbpedia.org/resource/2009> ;
+      sdmx-measure:obsValue
+              "282824.3925305"^^xsd:double .
+
+<http://open.data.al/NonLifeInsurancePrimByCategory_Te tjera_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprimbycat#dataset> ;
+      oda:indicator oda:NonLifeInsurancePrimByCategory ;
+      oda:product "Te tjera" ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "79425.44215842895"^^xsd:double .
+
+<http://open.data.al/nonlifeinsuranceprimbycat#dataset>
+      a       oda:Dataset ;
+      dc:creator "Open Data Albania (ODA)" ;
+      dc:date "Thu Sep 08 23:13:38 CEST 2011" ;
+      dc:publisher " International Monetary Fund (IMF) " ;
+      dc:title "Primet e Shkruara Bruto te Sigurimit të Jo-Jetës (ne mije lek) sipas kategorise ne Shqiperi" .
+
+<http://open.data.al/NonLifeInsurancePrimByCategory_Sigurimi i aksidenteve_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprimbycat#dataset> ;
+      oda:indicator oda:NonLifeInsurancePrimByCategory ;
+      oda:product "Sigurimi i aksidenteve" ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "20055.28511002"^^xsd:double .
+
+[]    rdfs:label "Product" ;
+      rdfs:subClassOf oda:Dimension .
+
+<http://open.data.al/NonLifeInsurancePrimByCategory_Te tjera_2008>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprimbycat#dataset> ;
+      oda:indicator oda:NonLifeInsurancePrimByCategory ;
+      oda:product "Te tjera" ;
+      oda:year <http://dbpedia.org/resource/2008> ;
+      sdmx-measure:obsValue
+              "242732.73684299923"^^xsd:double .
+
+[]    rdfs:label "Country" ;
+      rdfs:subClassOf oda:Dimension .
+
+<http://open.data.al/NonLifeInsurancePrimByCategory_Sigurimi mallra në transport_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprimbycat#dataset> ;
+      oda:indicator oda:NonLifeInsurancePrimByCategory ;
+      oda:product "Sigurimi mallra në transport" ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "21746.065877"^^xsd:double .
+
+<http://open.data.al/NonLifeInsurancePrimByCategory_Sigurimi i pergjegjesive civile te pergjithshme_2008>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprimbycat#dataset> ;
+      oda:indicator oda:NonLifeInsurancePrimByCategory ;
+      oda:product "Sigurimi i pergjegjesive civile te pergjithshme" ;
+      oda:year <http://dbpedia.org/resource/2008> ;
+      sdmx-measure:obsValue
+              "752029.7048674999"^^xsd:double .
+
+<http://open.data.al/NonLifeInsurancePrimByCategory_Sigurimi dëmtime të tjera në pronë_2010>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprimbycat#dataset> ;
+      oda:indicator oda:NonLifeInsurancePrimByCategory ;
+      oda:product "Sigurimi dëmtime të tjera në pronë" ;
+      oda:year <http://dbpedia.org/resource/2010> ;
+      sdmx-measure:obsValue
+              "130997.4412104"^^xsd:double .
+
+<http://open.data.al/NonLifeInsurancePrimByCategory_Sigurimi nga zjarri dhe forcat e natyrës_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprimbycat#dataset> ;
+      oda:indicator oda:NonLifeInsurancePrimByCategory ;
+      oda:product "Sigurimi nga zjarri dhe forcat e natyrës" ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "318423.40852044"^^xsd:double .
+
+<http://open.data.al/NonLifeInsurancePrimByCategory_Sigurimi mjeteve tokësore_2007>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprimbycat#dataset> ;
+      oda:indicator oda:NonLifeInsurancePrimByCategory ;
+      oda:product "Sigurimi mjeteve tokësore" ;
+      oda:year <http://dbpedia.org/resource/2007> ;
+      sdmx-measure:obsValue
+              "339755.42727565"^^xsd:double .
+
+<http://open.data.al/NonLifeInsurancePrimByCategory_Sigurimi dëmtime të tjera në pronë_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprimbycat#dataset> ;
+      oda:indicator oda:NonLifeInsurancePrimByCategory ;
+      oda:product "Sigurimi dëmtime të tjera në pronë" ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "59514.7449027914"^^xsd:double .
+
+<http://open.data.al/NonLifeInsurancePrimByCategory_Sigurimi i përgjegjësive civile të avionëve_2008>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprimbycat#dataset> ;
+      oda:indicator oda:NonLifeInsurancePrimByCategory ;
+      oda:product "Sigurimi i përgjegjësive civile të avionëve" ;
+      oda:year <http://dbpedia.org/resource/2008> ;
+      sdmx-measure:obsValue
+              "49170.2632"^^xsd:double .
+
+<http://open.data.al/NonLifeInsurancePrimByCategory_Përgjegjësi motorrike ndaj palëve të treta_2008>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprimbycat#dataset> ;
+      oda:indicator oda:NonLifeInsurancePrimByCategory ;
+      oda:product "Përgjegjësi motorrike ndaj palëve të treta" ;
+      oda:year <http://dbpedia.org/resource/2008> ;
+      sdmx-measure:obsValue
+              "3983025.43059616"^^xsd:double .
+
+<http://open.data.al/NonLifeInsurancePrimByCategory_Përgjegjësi motorrike ndaj palëve të treta_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprimbycat#dataset> ;
+      oda:indicator oda:NonLifeInsurancePrimByCategory ;
+      oda:product "Përgjegjësi motorrike ndaj palëve të treta" ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "1273442.6538814714"^^xsd:double .
+
+<http://open.data.al/NonLifeInsurancePrimByCategory_Sigurimi mallra në transport_2011>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprimbycat#dataset> ;
+      oda:indicator oda:NonLifeInsurancePrimByCategory ;
+      oda:product "Sigurimi mallra në transport" ;
+      oda:year <http://dbpedia.org/resource/2011> ;
+      sdmx-measure:obsValue
+              "8833.023981014285"^^xsd:double .
+
+<http://open.data.al/NonLifeInsurancePrimByCategory_Te tjera_2010>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprimbycat#dataset> ;
+      oda:indicator oda:NonLifeInsurancePrimByCategory ;
+      oda:product "Te tjera" ;
+      oda:year <http://dbpedia.org/resource/2010> ;
+      sdmx-measure:obsValue
+              "214517.66281499993"^^xsd:double .
+
+<http://open.data.al/NonLifeInsurancePrimByCategory_Sigurimi mjeteve tokësore_2010>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprimbycat#dataset> ;
+      oda:indicator oda:NonLifeInsurancePrimByCategory ;
+      oda:product "Sigurimi mjeteve tokësore" ;
+      oda:year <http://dbpedia.org/resource/2010> ;
+      sdmx-measure:obsValue
+              "597535.8932982999"^^xsd:double .
+
+<http://open.data.al/NonLifeInsurancePrimByCategory_Sigurimi i sëmundjeve_2008>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprimbycat#dataset> ;
+      oda:indicator oda:NonLifeInsurancePrimByCategory ;
+      oda:product "Sigurimi i sëmundjeve" ;
+      oda:year <http://dbpedia.org/resource/2008> ;
+      sdmx-measure:obsValue
+              "247650.85663"^^xsd:double .
+
+<http://open.data.al/NonLifeInsurancePrimByCategory_Sigurimi i aksidenteve_2007>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/nonlifeinsuranceprimbycat#dataset> ;
+      oda:indicator oda:NonLifeInsurancePrimByCategory ;
+      oda:product "Sigurimi i aksidenteve" ;
+      oda:year <http://dbpedia.org/resource/2007> ;
+      sdmx-measure:obsValue
+              "20680.672629"^^xsd:double .

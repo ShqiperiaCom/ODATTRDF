@@ -1,0 +1,73 @@
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ckan:    <http://ckan.net/ns#> .
+@prefix sdx:     <http://epimorphics.com/vocab/sdx#> .
+@prefix sdmx-measure:  <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix scv:     <http://purl.org/NET/scovo#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix oda:     <http://open.data.al/oda.owl#> .
+
+[]    rdfs:label "Year" ;
+      rdfs:subClassOf oda:Dimension .
+
+<http://open.data.al/VehiclesPer1000ByCountry_Bosnia_and_Herzegovina_2010>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Bosnia_and_Herzegovina> ;
+      oda:dataset <http://open.data.al/vehiclesX1000inhab2010#dataset> ;
+      oda:indicator oda:VehiclesPer1000ByCountry ;
+      oda:year <http://dbpedia.org/resource/2010> ;
+      sdmx-measure:obsValue
+              "135"^^xsd:short .
+
+[]    rdfs:label "Country" ;
+      rdfs:subClassOf oda:Dimension .
+
+<http://open.data.al/vehiclesX1000inhab2010#dataset>
+      a       oda:Dataset ;
+      dc:creator "Open Data Albania (ODA)" ;
+      dc:date "Tue Aug 16 19:53:20 CEST 2011" ;
+      dc:publisher "World Bank" ;
+      dc:title "Number of vehicles per 1000 inhabitants in different Countries in the Balkans Region" .
+
+<http://open.data.al/VehiclesPer1000ByCountry_Albania_2010>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/vehiclesX1000inhab2010#dataset> ;
+      oda:indicator oda:VehiclesPer1000ByCountry ;
+      oda:year <http://dbpedia.org/resource/2010> ;
+      sdmx-measure:obsValue
+              "121"^^xsd:byte .
+
+<http://open.data.al/VehiclesPer1000ByCountry_Serbia_2010>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Serbia> ;
+      oda:dataset <http://open.data.al/vehiclesX1000inhab2010#dataset> ;
+      oda:indicator oda:VehiclesPer1000ByCountry ;
+      oda:year <http://dbpedia.org/resource/2010> ;
+      sdmx-measure:obsValue
+              "227"^^xsd:short .
+
+oda:VehiclesPer1000ByCountry
+      a       oda:Indicator ;
+      rdfs:label "VehiclesPer1000ByCountry" .
+
+<http://open.data.al/VehiclesPer1000ByCountry_Macedonia_2010>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Macedonia> ;
+      oda:dataset <http://open.data.al/vehiclesX1000inhab2010#dataset> ;
+      oda:indicator oda:VehiclesPer1000ByCountry ;
+      oda:year <http://dbpedia.org/resource/2010> ;
+      sdmx-measure:obsValue
+              "144"^^xsd:short .
+
+[]    a       oda:Dataset ;
+      rdfs:label "Dataset" .
+
+[]    rdfs:domain oda:DataEntry ;
+      rdfs:label "Data Entry Value" .
+
+[]    a       oda:Indicator ;
+      rdfs:label "Indicator" .

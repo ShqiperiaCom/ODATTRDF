@@ -1,0 +1,560 @@
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ckan:    <http://ckan.net/ns#> .
+@prefix sdx:     <http://epimorphics.com/vocab/sdx#> .
+@prefix sdmx-measure:  <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix scv:     <http://purl.org/NET/scovo#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix oda:     <http://open.data.al/oda.owl#> .
+
+<http://open.data.al/EmloyeeAvgMonthlySalaryByActivityType_Tregti_2008>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/emloyeeavgaalarybyactivity#dataset> ;
+      oda:indicator oda:EmloyeeAvgMonthlySalaryByActivityType ;
+      oda:product "Tregti" ;
+      oda:year <http://dbpedia.org/resource/2008> ;
+      sdmx-measure:obsValue
+              "32000"^^xsd:short .
+
+<http://open.data.al/EmloyeeAvgMonthlySalaryByActivityType_Tregti_2003>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/emloyeeavgaalarybyactivity#dataset> ;
+      oda:indicator oda:EmloyeeAvgMonthlySalaryByActivityType ;
+      oda:product "Tregti" ;
+      oda:year <http://dbpedia.org/resource/2003> ;
+      sdmx-measure:obsValue
+              "14120"^^xsd:short .
+
+[]    rdfs:label "Country" ;
+      rdfs:subClassOf oda:Dimension .
+
+<http://open.data.al/EmloyeeAvgMonthlySalaryByActivityType_Industri_2004>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/emloyeeavgaalarybyactivity#dataset> ;
+      oda:indicator oda:EmloyeeAvgMonthlySalaryByActivityType ;
+      oda:product "Industri" ;
+      oda:year <http://dbpedia.org/resource/2004> ;
+      sdmx-measure:obsValue
+              "19200"^^xsd:short .
+
+<http://open.data.al/EmloyeeAvgMonthlySalaryByActivityType_Transport e komunikacion_2007>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/emloyeeavgaalarybyactivity#dataset> ;
+      oda:indicator oda:EmloyeeAvgMonthlySalaryByActivityType ;
+      oda:product "Transport e komunikacion" ;
+      oda:year <http://dbpedia.org/resource/2007> ;
+      sdmx-measure:obsValue
+              "32000"^^xsd:short .
+
+<http://open.data.al/EmloyeeAvgMonthlySalaryByActivityType_Transport e komunikacion_2003>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/emloyeeavgaalarybyactivity#dataset> ;
+      oda:indicator oda:EmloyeeAvgMonthlySalaryByActivityType ;
+      oda:product "Transport e komunikacion" ;
+      oda:year <http://dbpedia.org/resource/2003> ;
+      sdmx-measure:obsValue
+              "27030"^^xsd:short .
+
+<http://open.data.al/EmloyeeAvgMonthlySalaryByActivityType_Industri_2008>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/emloyeeavgaalarybyactivity#dataset> ;
+      oda:indicator oda:EmloyeeAvgMonthlySalaryByActivityType ;
+      oda:product "Industri" ;
+      oda:year <http://dbpedia.org/resource/2008> ;
+      sdmx-measure:obsValue
+              "31950"^^xsd:short .
+
+<http://open.data.al/EmloyeeAvgMonthlySalaryByActivityType_Ndërtim_1999>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/emloyeeavgaalarybyactivity#dataset> ;
+      oda:indicator oda:EmloyeeAvgMonthlySalaryByActivityType ;
+      oda:product "Ndërtim" ;
+      oda:year <http://dbpedia.org/resource/1999> ;
+      sdmx-measure:obsValue
+              "10936"^^xsd:short .
+
+<http://open.data.al/EmloyeeAvgMonthlySalaryByActivityType_Ndërtim_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/emloyeeavgaalarybyactivity#dataset> ;
+      oda:indicator oda:EmloyeeAvgMonthlySalaryByActivityType ;
+      oda:product "Ndërtim" ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "22500"^^xsd:short .
+
+<http://open.data.al/EmloyeeAvgMonthlySalaryByActivityType_Tregti_1998>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/emloyeeavgaalarybyactivity#dataset> ;
+      oda:indicator oda:EmloyeeAvgMonthlySalaryByActivityType ;
+      oda:product "Tregti" ;
+      oda:year <http://dbpedia.org/resource/1998> ;
+      sdmx-measure:obsValue
+              "9653"^^xsd:short .
+
+<http://open.data.al/EmloyeeAvgMonthlySalaryByActivityType_Tregti_2007>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/emloyeeavgaalarybyactivity#dataset> ;
+      oda:indicator oda:EmloyeeAvgMonthlySalaryByActivityType ;
+      oda:product "Tregti" ;
+      oda:year <http://dbpedia.org/resource/2007> ;
+      sdmx-measure:obsValue
+              "28250"^^xsd:short .
+
+<http://open.data.al/EmloyeeAvgMonthlySalaryByActivityType_Industri_1997>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/emloyeeavgaalarybyactivity#dataset> ;
+      oda:indicator oda:EmloyeeAvgMonthlySalaryByActivityType ;
+      oda:product "Industri" ;
+      oda:year <http://dbpedia.org/resource/1997> ;
+      sdmx-measure:obsValue
+              "9411"^^xsd:short .
+
+<http://open.data.al/EmloyeeAvgMonthlySalaryByActivityType_Industri_2000>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/emloyeeavgaalarybyactivity#dataset> ;
+      oda:indicator oda:EmloyeeAvgMonthlySalaryByActivityType ;
+      oda:product "Industri" ;
+      oda:year <http://dbpedia.org/resource/2000> ;
+      sdmx-measure:obsValue
+              "13230"^^xsd:short .
+
+[]    rdfs:domain oda:DataEntry ;
+      rdfs:label "Data Entry Value" .
+
+oda:EmloyeeAvgMonthlySalaryByActivityType
+      a       oda:Indicator ;
+      rdfs:label "EmloyeeAvgMonthlySalaryByActivityType" .
+
+<http://open.data.al/EmloyeeAvgMonthlySalaryByActivityType_Ndërtim_2002>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/emloyeeavgaalarybyactivity#dataset> ;
+      oda:indicator oda:EmloyeeAvgMonthlySalaryByActivityType ;
+      oda:product "Ndërtim" ;
+      oda:year <http://dbpedia.org/resource/2002> ;
+      sdmx-measure:obsValue
+              "15014"^^xsd:short .
+
+<http://open.data.al/EmloyeeAvgMonthlySalaryByActivityType_Tregti_2009>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/emloyeeavgaalarybyactivity#dataset> ;
+      oda:indicator oda:EmloyeeAvgMonthlySalaryByActivityType ;
+      oda:product "Tregti" ;
+      oda:year <http://dbpedia.org/resource/2009> ;
+      sdmx-measure:obsValue
+              "37200"^^xsd:int .
+
+<http://open.data.al/EmloyeeAvgMonthlySalaryByActivityType_Tregti_2002>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/emloyeeavgaalarybyactivity#dataset> ;
+      oda:indicator oda:EmloyeeAvgMonthlySalaryByActivityType ;
+      oda:product "Tregti" ;
+      oda:year <http://dbpedia.org/resource/2002> ;
+      sdmx-measure:obsValue
+              "13924"^^xsd:short .
+
+<http://open.data.al/EmloyeeAvgMonthlySalaryByActivityType_Transport e komunikacion_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/emloyeeavgaalarybyactivity#dataset> ;
+      oda:indicator oda:EmloyeeAvgMonthlySalaryByActivityType ;
+      oda:product "Transport e komunikacion" ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "27600"^^xsd:short .
+
+<http://open.data.al/EmloyeeAvgMonthlySalaryByActivityType_Industri_2005>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/emloyeeavgaalarybyactivity#dataset> ;
+      oda:indicator oda:EmloyeeAvgMonthlySalaryByActivityType ;
+      oda:product "Industri" ;
+      oda:year <http://dbpedia.org/resource/2005> ;
+      sdmx-measure:obsValue
+              "20200"^^xsd:short .
+
+[]    a       oda:Dataset ;
+      rdfs:label "Dataset" .
+
+<http://open.data.al/EmloyeeAvgMonthlySalaryByActivityType_Transport e komunikacion_2002>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/emloyeeavgaalarybyactivity#dataset> ;
+      oda:indicator oda:EmloyeeAvgMonthlySalaryByActivityType ;
+      oda:product "Transport e komunikacion" ;
+      oda:year <http://dbpedia.org/resource/2002> ;
+      sdmx-measure:obsValue
+              "23434"^^xsd:short .
+
+<http://open.data.al/EmloyeeAvgMonthlySalaryByActivityType_Industri_2009>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/emloyeeavgaalarybyactivity#dataset> ;
+      oda:indicator oda:EmloyeeAvgMonthlySalaryByActivityType ;
+      oda:product "Industri" ;
+      oda:year <http://dbpedia.org/resource/2009> ;
+      sdmx-measure:obsValue
+              "39433"^^xsd:int .
+
+<http://open.data.al/EmloyeeAvgMonthlySalaryByActivityType_Tregti_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/emloyeeavgaalarybyactivity#dataset> ;
+      oda:indicator oda:EmloyeeAvgMonthlySalaryByActivityType ;
+      oda:product "Tregti" ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "24160"^^xsd:short .
+
+<http://open.data.al/EmloyeeAvgMonthlySalaryByActivityType_Industri_1998>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/emloyeeavgaalarybyactivity#dataset> ;
+      oda:indicator oda:EmloyeeAvgMonthlySalaryByActivityType ;
+      oda:product "Industri" ;
+      oda:year <http://dbpedia.org/resource/1998> ;
+      sdmx-measure:obsValue
+              "10792"^^xsd:short .
+
+<http://open.data.al/EmloyeeAvgMonthlySalaryByActivityType_Tregti_1997>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/emloyeeavgaalarybyactivity#dataset> ;
+      oda:indicator oda:EmloyeeAvgMonthlySalaryByActivityType ;
+      oda:product "Tregti" ;
+      oda:year <http://dbpedia.org/resource/1997> ;
+      sdmx-measure:obsValue
+              "8819"^^xsd:short .
+
+<http://open.data.al/EmloyeeAvgMonthlySalaryByActivityType_Ndërtim_2007>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/emloyeeavgaalarybyactivity#dataset> ;
+      oda:indicator oda:EmloyeeAvgMonthlySalaryByActivityType ;
+      oda:product "Ndërtim" ;
+      oda:year <http://dbpedia.org/resource/2007> ;
+      sdmx-measure:obsValue
+              "26100"^^xsd:short .
+
+<http://open.data.al/EmloyeeAvgMonthlySalaryByActivityType_Industri_2001>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/emloyeeavgaalarybyactivity#dataset> ;
+      oda:indicator oda:EmloyeeAvgMonthlySalaryByActivityType ;
+      oda:product "Industri" ;
+      oda:year <http://dbpedia.org/resource/2001> ;
+      sdmx-measure:obsValue
+              "14839"^^xsd:short .
+
+[]    a       oda:Indicator ;
+      rdfs:label "Indicator" .
+
+<http://open.data.al/EmloyeeAvgMonthlySalaryByActivityType_Ndërtim_2003>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/emloyeeavgaalarybyactivity#dataset> ;
+      oda:indicator oda:EmloyeeAvgMonthlySalaryByActivityType ;
+      oda:product "Ndërtim" ;
+      oda:year <http://dbpedia.org/resource/2003> ;
+      sdmx-measure:obsValue
+              "15017"^^xsd:short .
+
+<http://open.data.al/EmloyeeAvgMonthlySalaryByActivityType_Transport e komunikacion_1999>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/emloyeeavgaalarybyactivity#dataset> ;
+      oda:indicator oda:EmloyeeAvgMonthlySalaryByActivityType ;
+      oda:product "Transport e komunikacion" ;
+      oda:year <http://dbpedia.org/resource/1999> ;
+      sdmx-measure:obsValue
+              "14503"^^xsd:short .
+
+<http://open.data.al/EmloyeeAvgMonthlySalaryByActivityType_Ndërtim_2009>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/emloyeeavgaalarybyactivity#dataset> ;
+      oda:indicator oda:EmloyeeAvgMonthlySalaryByActivityType ;
+      oda:product "Ndërtim" ;
+      oda:year <http://dbpedia.org/resource/2009> ;
+      sdmx-measure:obsValue
+              "36200"^^xsd:int .
+
+<http://open.data.al/EmloyeeAvgMonthlySalaryByActivityType_Transport e komunikacion_2009>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/emloyeeavgaalarybyactivity#dataset> ;
+      oda:indicator oda:EmloyeeAvgMonthlySalaryByActivityType ;
+      oda:product "Transport e komunikacion" ;
+      oda:year <http://dbpedia.org/resource/2009> ;
+      sdmx-measure:obsValue
+              "39800"^^xsd:int .
+
+<http://open.data.al/EmloyeeAvgMonthlySalaryByActivityType_Ndërtim_1997>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/emloyeeavgaalarybyactivity#dataset> ;
+      oda:indicator oda:EmloyeeAvgMonthlySalaryByActivityType ;
+      oda:product "Ndërtim" ;
+      oda:year <http://dbpedia.org/resource/1997> ;
+      sdmx-measure:obsValue
+              "8340"^^xsd:short .
+
+<http://open.data.al/EmloyeeAvgMonthlySalaryByActivityType_Tregti_2001>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/emloyeeavgaalarybyactivity#dataset> ;
+      oda:indicator oda:EmloyeeAvgMonthlySalaryByActivityType ;
+      oda:product "Tregti" ;
+      oda:year <http://dbpedia.org/resource/2001> ;
+      sdmx-measure:obsValue
+              "12856"^^xsd:short .
+
+<http://open.data.al/emloyeeavgaalarybyactivity#dataset>
+      a       oda:Dataset ;
+      dc:creator "Open Data Albania (ODA)" ;
+      dc:date "Thu Sep 08 23:02:35 CEST 2011" ;
+      dc:publisher " INSTAT" ;
+      dc:title "Paga Mesatare Mujore per nje te punesuar ne Shqiperi sipas aktivitetit ekonomik 1997-2009" .
+
+<http://open.data.al/EmloyeeAvgMonthlySalaryByActivityType_Tregti_2005>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/emloyeeavgaalarybyactivity#dataset> ;
+      oda:indicator oda:EmloyeeAvgMonthlySalaryByActivityType ;
+      oda:product "Tregti" ;
+      oda:year <http://dbpedia.org/resource/2005> ;
+      sdmx-measure:obsValue
+              "17561"^^xsd:short .
+
+<http://open.data.al/EmloyeeAvgMonthlySalaryByActivityType_Industri_2006>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/emloyeeavgaalarybyactivity#dataset> ;
+      oda:indicator oda:EmloyeeAvgMonthlySalaryByActivityType ;
+      oda:product "Industri" ;
+      oda:year <http://dbpedia.org/resource/2006> ;
+      sdmx-measure:obsValue
+              "26567"^^xsd:short .
+
+<http://open.data.al/EmloyeeAvgMonthlySalaryByActivityType_Transport e komunikacion_2001>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/emloyeeavgaalarybyactivity#dataset> ;
+      oda:indicator oda:EmloyeeAvgMonthlySalaryByActivityType ;
+      oda:product "Transport e komunikacion" ;
+      oda:year <http://dbpedia.org/resource/2001> ;
+      sdmx-measure:obsValue
+              "18124"^^xsd:short .
+
+<http://open.data.al/EmloyeeAvgMonthlySalaryByActivityType_Transport e komunikacion_2005>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/emloyeeavgaalarybyactivity#dataset> ;
+      oda:indicator oda:EmloyeeAvgMonthlySalaryByActivityType ;
+      oda:product "Transport e komunikacion" ;
+      oda:year <http://dbpedia.org/resource/2005> ;
+      sdmx-measure:obsValue
+              "28144"^^xsd:short .
+
+<http://open.data.al/EmloyeeAvgMonthlySalaryByActivityType_Industri_2002>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/emloyeeavgaalarybyactivity#dataset> ;
+      oda:indicator oda:EmloyeeAvgMonthlySalaryByActivityType ;
+      oda:product "Industri" ;
+      oda:year <http://dbpedia.org/resource/2002> ;
+      sdmx-measure:obsValue
+              "15882"^^xsd:short .
+
+<http://open.data.al/EmloyeeAvgMonthlySalaryByActivityType_Ndërtim_2004>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/emloyeeavgaalarybyactivity#dataset> ;
+      oda:indicator oda:EmloyeeAvgMonthlySalaryByActivityType ;
+      oda:product "Ndërtim" ;
+      oda:year <http://dbpedia.org/resource/2004> ;
+      sdmx-measure:obsValue
+              "16055"^^xsd:short .
+
+<http://open.data.al/EmloyeeAvgMonthlySalaryByActivityType_Industri_1999>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/emloyeeavgaalarybyactivity#dataset> ;
+      oda:indicator oda:EmloyeeAvgMonthlySalaryByActivityType ;
+      oda:product "Industri" ;
+      oda:year <http://dbpedia.org/resource/1999> ;
+      sdmx-measure:obsValue
+              "12203"^^xsd:short .
+
+[]    rdfs:label "Product" ;
+      rdfs:subClassOf oda:Dimension .
+
+<http://open.data.al/EmloyeeAvgMonthlySalaryByActivityType_Transport e komunikacion_1998>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/emloyeeavgaalarybyactivity#dataset> ;
+      oda:indicator oda:EmloyeeAvgMonthlySalaryByActivityType ;
+      oda:product "Transport e komunikacion" ;
+      oda:year <http://dbpedia.org/resource/1998> ;
+      sdmx-measure:obsValue
+              "11744"^^xsd:short .
+
+<http://open.data.al/EmloyeeAvgMonthlySalaryByActivityType_Ndërtim_2000>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/emloyeeavgaalarybyactivity#dataset> ;
+      oda:indicator oda:EmloyeeAvgMonthlySalaryByActivityType ;
+      oda:product "Ndërtim" ;
+      oda:year <http://dbpedia.org/resource/2000> ;
+      sdmx-measure:obsValue
+              "12489"^^xsd:short .
+
+<http://open.data.al/EmloyeeAvgMonthlySalaryByActivityType_Tregti_2000>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/emloyeeavgaalarybyactivity#dataset> ;
+      oda:indicator oda:EmloyeeAvgMonthlySalaryByActivityType ;
+      oda:product "Tregti" ;
+      oda:year <http://dbpedia.org/resource/2000> ;
+      sdmx-measure:obsValue
+              "10889"^^xsd:short .
+
+<http://open.data.al/EmloyeeAvgMonthlySalaryByActivityType_Transport e komunikacion_2008>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/emloyeeavgaalarybyactivity#dataset> ;
+      oda:indicator oda:EmloyeeAvgMonthlySalaryByActivityType ;
+      oda:product "Transport e komunikacion" ;
+      oda:year <http://dbpedia.org/resource/2008> ;
+      sdmx-measure:obsValue
+              "34480"^^xsd:int .
+
+<http://open.data.al/EmloyeeAvgMonthlySalaryByActivityType_Ndërtim_1998>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/emloyeeavgaalarybyactivity#dataset> ;
+      oda:indicator oda:EmloyeeAvgMonthlySalaryByActivityType ;
+      oda:product "Ndërtim" ;
+      oda:year <http://dbpedia.org/resource/1998> ;
+      sdmx-measure:obsValue
+              "10617"^^xsd:short .
+
+<http://open.data.al/EmloyeeAvgMonthlySalaryByActivityType_Ndërtim_2008>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/emloyeeavgaalarybyactivity#dataset> ;
+      oda:indicator oda:EmloyeeAvgMonthlySalaryByActivityType ;
+      oda:product "Ndërtim" ;
+      oda:year <http://dbpedia.org/resource/2008> ;
+      sdmx-measure:obsValue
+              "30040"^^xsd:short .
+
+<http://open.data.al/EmloyeeAvgMonthlySalaryByActivityType_Tregti_2004>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/emloyeeavgaalarybyactivity#dataset> ;
+      oda:indicator oda:EmloyeeAvgMonthlySalaryByActivityType ;
+      oda:product "Tregti" ;
+      oda:year <http://dbpedia.org/resource/2004> ;
+      sdmx-measure:obsValue
+              "15711"^^xsd:short .
+
+<http://open.data.al/EmloyeeAvgMonthlySalaryByActivityType_Transport e komunikacion_2000>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/emloyeeavgaalarybyactivity#dataset> ;
+      oda:indicator oda:EmloyeeAvgMonthlySalaryByActivityType ;
+      oda:product "Transport e komunikacion" ;
+      oda:year <http://dbpedia.org/resource/2000> ;
+      sdmx-measure:obsValue
+              "16225"^^xsd:short .
+
+<http://open.data.al/EmloyeeAvgMonthlySalaryByActivityType_Industri_2007>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/emloyeeavgaalarybyactivity#dataset> ;
+      oda:indicator oda:EmloyeeAvgMonthlySalaryByActivityType ;
+      oda:product "Industri" ;
+      oda:year <http://dbpedia.org/resource/2007> ;
+      sdmx-measure:obsValue
+              "31200"^^xsd:short .
+
+<http://open.data.al/EmloyeeAvgMonthlySalaryByActivityType_Industri_2003>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/emloyeeavgaalarybyactivity#dataset> ;
+      oda:indicator oda:EmloyeeAvgMonthlySalaryByActivityType ;
+      oda:product "Industri" ;
+      oda:year <http://dbpedia.org/resource/2003> ;
+      sdmx-measure:obsValue
+              "18286"^^xsd:short .
+
+<http://open.data.al/EmloyeeAvgMonthlySalaryByActivityType_Transport e komunikacion_2004>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/emloyeeavgaalarybyactivity#dataset> ;
+      oda:indicator oda:EmloyeeAvgMonthlySalaryByActivityType ;
+      oda:product "Transport e komunikacion" ;
+      oda:year <http://dbpedia.org/resource/2004> ;
+      sdmx-measure:obsValue
+              "27439"^^xsd:short .
+
+[]    rdfs:label "Year" ;
+      rdfs:subClassOf oda:Dimension .
+
+<http://open.data.al/EmloyeeAvgMonthlySalaryByActivityType_Ndërtim_2005>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/emloyeeavgaalarybyactivity#dataset> ;
+      oda:indicator oda:EmloyeeAvgMonthlySalaryByActivityType ;
+      oda:product "Ndërtim" ;
+      oda:year <http://dbpedia.org/resource/2005> ;
+      sdmx-measure:obsValue
+              "17361"^^xsd:short .
+
+<http://open.data.al/EmloyeeAvgMonthlySalaryByActivityType_Tregti_1999>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/emloyeeavgaalarybyactivity#dataset> ;
+      oda:indicator oda:EmloyeeAvgMonthlySalaryByActivityType ;
+      oda:product "Tregti" ;
+      oda:year <http://dbpedia.org/resource/1999> ;
+      sdmx-measure:obsValue
+              "10901"^^xsd:short .
+
+<http://open.data.al/EmloyeeAvgMonthlySalaryByActivityType_Ndërtim_2001>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/emloyeeavgaalarybyactivity#dataset> ;
+      oda:indicator oda:EmloyeeAvgMonthlySalaryByActivityType ;
+      oda:product "Ndërtim" ;
+      oda:year <http://dbpedia.org/resource/2001> ;
+      sdmx-measure:obsValue
+              "13416"^^xsd:short .
+
+<http://open.data.al/EmloyeeAvgMonthlySalaryByActivityType_Transport e komunikacion_1997>
+      a       oda:DataEntry ;
+      oda:country <http://dbpedia.org/resource/Albania> ;
+      oda:dataset <http://open.data.al/emloyeeavgaalarybyactivity#dataset> ;
+      oda:indicator oda:EmloyeeAvgMonthlySalaryByActivityType ;
+      oda:product "Transport e komunikacion" ;
+      oda:year <http://dbpedia.org/resource/1997> ;
+      sdmx-measure:obsValue
+              "9350"^^xsd:short .

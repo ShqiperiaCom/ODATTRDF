@@ -1,0 +1,57 @@
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:    <http://www.w3.org/2002/07/owl#> .
+@prefix dc:     <http://purl.org/dc/elements/1.1/> .
+@prefix oda:	<http://open.data.al/ODA#> .
+@prefix sdmx-measure:  <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix xl:		<http://purl.org/NET/xlwrap#> .
+@prefix :       <http://myApplication/configuration#> .
+
+# mapping
+{ [] a xl:Mapping ;
+	xl:offline "false"^^xsd:boolean ;
+
+	xl:template [
+		xl:fileName "mappings/files/Numri_i_perdoruesve_te_internetit.xls" ;
+		xl:sheetNumber "0" ;	
+		xl:constantGraph :ODAconst_graph ;
+		xl:templateGraph :ODAtempl_graph ;
+		xl:transform [
+			a rdf:Seq ;
+			rdf:_1 [
+				a xl:ColShift ;
+				xl:restriction "C2; C3"^^xl:Expr ;
+				xl:breakCondition "ALLEMPTY(C2)" ;
+				xl:steps "1" ;
+			] ;
+			rdf:_2 [
+				a xl:SheetShift ;
+				xl:restriction "#1.*"^^xl:Expr ;
+				xl:repeat "1"
+			] ;
+		]
+	].
+}
+
+:ODAconst_graph {
+	<> owl:import oda: .	
+	[ xl:uri "'http://open.data.al/'&internetusersal#dataset'"^^xl:Expr ] a oda:Dataset ;
+		dc:title    "A1" ;
+		dc:creator  "Open Data Albania" ;
+		dc:publisher  "A2" ;
+		dc:date     "NOW()"^^xl:Expr .
+	
+	sdmx-measure:obsValue  [ rdfs:label "Data Entry Value" ; rdfs:domain oda:DataEntry ] .
+	oda:Indicator [ rdfs:label "Indicator" ; a oda:Indicator ] .
+	oda:Year     [ rdfs:label "Year" ; rdfs:subClassOf oda:Dimension ] .
+}
+
+:ODAtempl_graph {	
+	[xl:uri "'http://open.data.al/' & A1 & '_' & B2"^^xl:Expr] a oda:DataEntry ;	
+	oda:dataset [ xl:uri "'http://open.data.al/internetusersal#dataset'"^^xl:Expr ];
+	oda:indicator [ xl:uri "'http://open.data.al/ODA#InternetUsers'"^^xl:Expr ; a oda:Indicator ; rdfs:label "'Internet Users'"^^xl:Expr ] ;	
+	oda:year       "DBP_YEAR(C2)"^^xl:Expr ;	
+	sdmx-measure:obsValue   "C3"^^xl:Expr .
+}
+
